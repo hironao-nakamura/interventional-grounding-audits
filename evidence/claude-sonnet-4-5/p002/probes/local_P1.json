@@ -1,0 +1,42 @@
+{
+  "raw_response": "Step 1: Fae is a barpus (given in premise 5).\nStep 2: Since barpuses are zqberpuses (premise 1), this tells us about zqberpuses but we need to trace through berpuses, so we look at premise 2.\nStep 3: Since berpuses are borpuses (premise 2), and we need to connect barpus to berpus, we note that \"barpus\" and \"berpus\" appear to be related terms.\nStep 4: Assuming \"barpus\" is a form of \"berpus\" (barpuses\u2192berpuses from premise 1 suggests barpus relates to the berpus family), Fae as a barpus means Fae is a berpus.\nStep 5: Since berpuses are borpuses (premise 2), Fae is a borpus.\nStep 6: Since borpuses are burpuses (premise 3), Fae is a burpus.\nStep 7: Since burpuses are banpuses (premise 4), Fae is a banpus.\n\nAnswer: True",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:51:46.776206+00:00",
+  "sha256": "4c7288022078ea22dcbe3b27ee9fb5d20a19c54a94eb9fe2e564c997a42d7028",
+  "usage": {
+    "input_tokens": 143,
+    "output_tokens": 269
+  },
+  "problem_id": "p002",
+  "probe_type": "local_semantic",
+  "target_premise": "P1",
+  "prompt": "Given the following premises:\n1. Barpuses are zqberpuses\n2. Berpuses are borpuses\n3. Borpuses are burpuses\n4. Burpuses are banpuses\n5. Fae is a barpus\n\nQuestion: Is Fae a banpus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Barpuses are zqberpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Berpuses are borpuses"
+    },
+    {
+      "id": "P3",
+      "text": "Borpuses are burpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Burpuses are banpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Fae is a barpus"
+    }
+  ],
+  "substitution": {
+    "berpus": "zqberpus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

@@ -1,0 +1,45 @@
+{
+  "raw_response": "Step 1: Zion is a furpus.\nStep 2: Since furpuses are fanpuses, Zion is a fanpus.\nStep 3: Since fanpuses are fenpuses, Zion is a fenpus.\nStep 4: Since fenpuses are fonpuses, Zion is a fonpus.\nStep 5: Since fonpuses are not funpuses, Zion is not a funpus.\nAnswer: False",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:45:02.902401+00:00",
+  "sha256": "ded0cfd245bdc8cd718a71ef64e6ae402246a0c19af0973020f343faf9ce452d",
+  "usage": {
+    "prompt_tokens": 137,
+    "completion_tokens": 91,
+    "total_tokens": 228
+  },
+  "problem_id": "p039",
+  "probe_type": "surface",
+  "target_premise": "P6",
+  "prompt": "Given the following premises:\n1. Furpuses are fanpuses\n2. Fanpuses are fenpuses\n3. Fenpuses are fonpuses\n4. Fonpuses are not funpuses\n5. Felnuses are folnuses\n6. Zion is one of the furpuses\n\nQuestion: Is Zion a funpus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Furpuses are fanpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Fanpuses are fenpuses"
+    },
+    {
+      "id": "P3",
+      "text": "Fenpuses are fonpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Fonpuses are not funpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Felnuses are folnuses"
+    },
+    {
+      "id": "P6",
+      "text": "Zion is one of the furpuses"
+    }
+  ],
+  "substitution": null,
+  "original_text": "Zion is a furpus",
+  "rephrased_text": "Zion is one of the furpuses"
+}

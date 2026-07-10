@@ -1,0 +1,51 @@
+{
+  "raw_response": "Step 1: Stella is a bonkus.\nStep 2: Since bonkuses are bunkuses, Stella is a bunkus.\nStep 3: Since bunkuses are bankuses, Stella is a bankus.\nStep 4: Since bankuses are zqbenkuses, Stella is a zqbenkus.\nStep 5: The premises do not provide a direct link from zqbenkuses to benkuses.\nStep 6: Without a link from zqbenkuses to benkuses, we cannot conclude that Stella is a benkus.\nStep 7: Since benkuses are bonduses, and bonduses are binduses, Stella would need to be a benkus to be a bindus.\nStep 8: Without establishing that Stella is a benkus, we cannot conclude that Stella is a bindus.\n\nAnswer: False",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:42:19.422881+00:00",
+  "sha256": "6c1ff74ead9af48ad5ea477951849c8bc2501c1216697fe907c5c85a5ef40b59",
+  "usage": {
+    "prompt_tokens": 137,
+    "completion_tokens": 177,
+    "total_tokens": 314
+  },
+  "problem_id": "p004",
+  "probe_type": "local_semantic",
+  "target_premise": "P3",
+  "prompt": "Given the following premises:\n1. Bonkuses are bunkuses\n2. Bunkuses are bankuses\n3. Bankuses are zqbenkuses\n4. Benkuses are bonduses\n5. Bonduses are binduses\n6. Bunduses are banduses\n7. Stella is a bonkus\n\nQuestion: Is Stella a bindus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Bonkuses are bunkuses"
+    },
+    {
+      "id": "P2",
+      "text": "Bunkuses are bankuses"
+    },
+    {
+      "id": "P3",
+      "text": "Bankuses are zqbenkuses"
+    },
+    {
+      "id": "P4",
+      "text": "Benkuses are bonduses"
+    },
+    {
+      "id": "P5",
+      "text": "Bonduses are binduses"
+    },
+    {
+      "id": "P6",
+      "text": "Bunduses are banduses"
+    },
+    {
+      "id": "P7",
+      "text": "Stella is a bonkus"
+    }
+  ],
+  "substitution": {
+    "benkus": "zqbenkus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

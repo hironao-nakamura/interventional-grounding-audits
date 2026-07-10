@@ -1,0 +1,51 @@
+{
+  "raw_response": "Step 1: Bonkuses are zqbunkuses, and Stella is a bonkus, so Stella is a zqbunkus.\nStep 2: Bunkuses are bankuses, and since bonkuses are zqbunkuses, this step does not directly apply to Stella.\nStep 3: Bankuses are benkuses, and since bonkuses are zqbunkuses, this step does not directly apply to Stella.\nStep 4: Benkuses are bonduses, and since bonkuses are zqbunkuses, this step does not directly apply to Stella.\nStep 5: Bonduses are binduses, and since bonkuses are zqbunkuses, this step does not directly apply to Stella.\nStep 6: Bunduses are banduses, and since bonkuses are zqbunkuses, this step does not directly apply to Stella.\nStep 7: Bonkuses are zqbunkuses, and since Stella is a bonkus, she is a zqbunkus, but none of the premises directly connect zqbunkuses to binduses.\n\nAnswer: False",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:42:08.710897+00:00",
+  "sha256": "9515131e83d29a6cd544bc45e6900dfed653c1a209ee0e78ae45ef6cc61db1b1",
+  "usage": {
+    "prompt_tokens": 137,
+    "completion_tokens": 229,
+    "total_tokens": 366
+  },
+  "problem_id": "p004",
+  "probe_type": "local_semantic",
+  "target_premise": "P1",
+  "prompt": "Given the following premises:\n1. Bonkuses are zqbunkuses\n2. Bunkuses are bankuses\n3. Bankuses are benkuses\n4. Benkuses are bonduses\n5. Bonduses are binduses\n6. Bunduses are banduses\n7. Stella is a bonkus\n\nQuestion: Is Stella a bindus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Bonkuses are zqbunkuses"
+    },
+    {
+      "id": "P2",
+      "text": "Bunkuses are bankuses"
+    },
+    {
+      "id": "P3",
+      "text": "Bankuses are benkuses"
+    },
+    {
+      "id": "P4",
+      "text": "Benkuses are bonduses"
+    },
+    {
+      "id": "P5",
+      "text": "Bonduses are binduses"
+    },
+    {
+      "id": "P6",
+      "text": "Bunduses are banduses"
+    },
+    {
+      "id": "P7",
+      "text": "Stella is a bonkus"
+    }
+  ],
+  "substitution": {
+    "bunkus": "zqbunkus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

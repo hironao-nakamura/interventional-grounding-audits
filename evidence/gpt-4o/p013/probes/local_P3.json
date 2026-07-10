@@ -1,0 +1,43 @@
+{
+  "raw_response": "Step 1: Brelvuses are brolvuses.\nStep 2: Since Leo is a brelvus, Leo is also a brolvus.\nStep 3: Brolvuses are brilvuses.\nStep 4: Since Leo is a brolvus, Leo is also a brilvus.\nStep 5: Brilvuses are zqbrulvuses.\nStep 6: Since Leo is a brilvus, Leo is also a zqbrulvus.\nStep 7: The question asks if Leo is a brulvus, but there is no information connecting brulvuses to any of the categories mentioned.\nAnswer: False",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:42:55.759427+00:00",
+  "sha256": "eab9735adf9f821aeff7c3d043c668694623d548ddae610c6723a5223d08dccb",
+  "usage": {
+    "prompt_tokens": 131,
+    "completion_tokens": 138,
+    "total_tokens": 269
+  },
+  "problem_id": "p013",
+  "probe_type": "local_semantic",
+  "target_premise": "P3",
+  "prompt": "Given the following premises:\n1. Brelvuses are brolvuses\n2. Brolvuses are brilvuses\n3. Brilvuses are zqbrulvuses\n4. Brinkuses are bronkuses\n5. Leo is a brelvus\n\nQuestion: Is Leo a brulvus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Brelvuses are brolvuses"
+    },
+    {
+      "id": "P2",
+      "text": "Brolvuses are brilvuses"
+    },
+    {
+      "id": "P3",
+      "text": "Brilvuses are zqbrulvuses"
+    },
+    {
+      "id": "P4",
+      "text": "Brinkuses are bronkuses"
+    },
+    {
+      "id": "P5",
+      "text": "Leo is a brelvus"
+    }
+  ],
+  "substitution": {
+    "brulvus": "zqbrulvus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

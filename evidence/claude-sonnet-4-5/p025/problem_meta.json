@@ -1,0 +1,53 @@
+{
+  "problem_id": "p025",
+  "premises": [
+    {
+      "id": "P1",
+      "text": "Crulpuses are crarpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Crarpuses are crerpuses"
+    },
+    {
+      "id": "P3",
+      "text": "Crerpuses are not crorpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Crurpuses are cranpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Jade is a crulpus"
+    }
+  ],
+  "question": "Is Jade a crorpus?",
+  "answer": false,
+  "proof_tree": [
+    {
+      "step": 1,
+      "conclusion": "is(jade, crarpus)",
+      "depends_on": [
+        "P5",
+        "P1"
+      ]
+    },
+    {
+      "step": 2,
+      "conclusion": "is(jade, crerpus)",
+      "depends_on": [
+        "S1",
+        "P2"
+      ]
+    },
+    {
+      "step": 3,
+      "conclusion": "not_is(jade, crorpus)",
+      "depends_on": [
+        "S2",
+        "P3"
+      ]
+    }
+  ]
+}

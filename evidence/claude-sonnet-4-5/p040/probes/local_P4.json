@@ -1,0 +1,50 @@
+{
+  "raw_response": "Step 1: Bree is a felvus (given in premise 7).\nStep 2: Since felvuses are folvuses (premise 1), Bree is a folvus.\nStep 3: Since folvuses are filvuses (premise 2), Bree is a filvus.\nStep 4: Since filvuses are fulvuses (premise 3), Bree is a fulvus.\nStep 5: Since fulvuses are zqfinkuses (premise 4), Bree is a zqfinkus.\nStep 6: From premise 5, finkuses are not fonkuses, which means if something is a finkus, it is not a fonkus.\nStep 7: Since Bree is a zqfinkus (which appears to be a type of finkus based on the naming pattern), and finkuses are not fonkuses, Bree is not a fonkus.\n\nAnswer: False",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T05:04:41.610000+00:00",
+  "sha256": "41d327b9c78199b86d2ddc0c96984ecbf982099b2affcdc03057b564acc2474a",
+  "usage": {
+    "input_tokens": 165,
+    "output_tokens": 228
+  },
+  "problem_id": "p040",
+  "probe_type": "local_semantic",
+  "target_premise": "P4",
+  "prompt": "Given the following premises:\n1. Felvuses are folvuses\n2. Folvuses are filvuses\n3. Filvuses are fulvuses\n4. Fulvuses are zqfinkuses\n5. Finkuses are not fonkuses\n6. Funkuses are fankuses\n7. Bree is a felvus\n\nQuestion: Is Bree a fonkus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Felvuses are folvuses"
+    },
+    {
+      "id": "P2",
+      "text": "Folvuses are filvuses"
+    },
+    {
+      "id": "P3",
+      "text": "Filvuses are fulvuses"
+    },
+    {
+      "id": "P4",
+      "text": "Fulvuses are zqfinkuses"
+    },
+    {
+      "id": "P5",
+      "text": "Finkuses are not fonkuses"
+    },
+    {
+      "id": "P6",
+      "text": "Funkuses are fankuses"
+    },
+    {
+      "id": "P7",
+      "text": "Bree is a felvus"
+    }
+  ],
+  "substitution": {
+    "finkus": "zqfinkus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

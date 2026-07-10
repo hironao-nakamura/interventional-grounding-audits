@@ -1,0 +1,41 @@
+{
+  "raw_response": "Step 1: Since blonkuses are blunkuses and Sam is one of the blonkuses, Sam is a blunkus.\nStep 2: Since blunkuses are blankuses and Sam is a blunkus, Sam is a blankus.\nStep 3: Since blankuses are not blenkuses and Sam is a blankus, Sam is not a blenkus.\n\nAnswer: False",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:42:56.375529+00:00",
+  "sha256": "0734d3ef545b0159f7d8938561b11c413f3704407bfdc33ccc35748bee78647d",
+  "usage": {
+    "prompt_tokens": 124,
+    "completion_tokens": 84,
+    "total_tokens": 208
+  },
+  "problem_id": "p009",
+  "probe_type": "surface",
+  "target_premise": "P5",
+  "prompt": "Given the following premises:\n1. Blonkuses are blunkuses\n2. Blunkuses are blankuses\n3. Blankuses are not blenkuses\n4. Blonduses are blinduses\n5. Sam is one of the blonkuses\n\nQuestion: Is Sam a blenkus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Blonkuses are blunkuses"
+    },
+    {
+      "id": "P2",
+      "text": "Blunkuses are blankuses"
+    },
+    {
+      "id": "P3",
+      "text": "Blankuses are not blenkuses"
+    },
+    {
+      "id": "P4",
+      "text": "Blonduses are blinduses"
+    },
+    {
+      "id": "P5",
+      "text": "Sam is one of the blonkuses"
+    }
+  ],
+  "substitution": null,
+  "original_text": "Sam is a blonkus",
+  "rephrased_text": "Sam is one of the blonkuses"
+}

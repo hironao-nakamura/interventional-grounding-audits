@@ -1,0 +1,36 @@
+{
+  "raw_response": "Step 1: Milo is a crandus (given in premise 4).\nStep 2: Since cranduses are crenduses (premise 1), Milo is a crendus.\nStep 3: Since crenduses are creltuses (premise 2), Milo is a creltus.\nStep 4: Since creltuses are croltuses (premise 3), Milo is a croltus.\n\nAnswer: True",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T05:00:29.085506+00:00",
+  "sha256": "272ca14724fadd86a60437e970d7c3d028328733567b244d697baf95beb0ddec",
+  "usage": {
+    "input_tokens": 132,
+    "output_tokens": 107
+  },
+  "problem_id": "p028",
+  "probe_type": "surface",
+  "target_premise": "P4",
+  "prompt": "Given the following premises:\n1. Cranduses are crenduses\n2. Crenduses are creltuses\n3. Creltuses are croltuses\n4. Milo is one of the cranduses\n\nQuestion: Is Milo a croltus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Cranduses are crenduses"
+    },
+    {
+      "id": "P2",
+      "text": "Crenduses are creltuses"
+    },
+    {
+      "id": "P3",
+      "text": "Creltuses are croltuses"
+    },
+    {
+      "id": "P4",
+      "text": "Milo is one of the cranduses"
+    }
+  ],
+  "substitution": null,
+  "original_text": "Milo is a crandus",
+  "rephrased_text": "Milo is one of the cranduses"
+}

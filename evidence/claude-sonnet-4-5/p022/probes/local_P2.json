@@ -1,0 +1,46 @@
+{
+  "raw_response": "Step 1: Gale is a clelvus (given in premise 6).\nStep 2: Since clelvuses are clolvuses (premise 1), Gale is a clolvus.\nStep 3: Since clolvuses are zqclilvuses (premise 2), Gale is a zqclilvus.\nStep 4: We cannot establish that Gale is a clilvus from the given premises.\nStep 5: Without establishing that Gale is a clilvus, we cannot use premise 3 to make Gale a clulvus.\nStep 6: Without establishing that Gale is a clulvus, we cannot use premise 4 to make Gale a clinkus.\n\nAnswer: False",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:58:11.806578+00:00",
+  "sha256": "403afa7a2ed47092c13be67497e889369095429810616e6ab12bd53161a30020",
+  "usage": {
+    "input_tokens": 157,
+    "output_tokens": 176
+  },
+  "problem_id": "p022",
+  "probe_type": "local_semantic",
+  "target_premise": "P2",
+  "prompt": "Given the following premises:\n1. Clelvuses are clolvuses\n2. Clolvuses are zqclilvuses\n3. Clilvuses are clulvuses\n4. Clulvuses are clinkuses\n5. Clonkuses are clunkuses\n6. Gale is a clelvus\n\nQuestion: Is Gale a clinkus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Clelvuses are clolvuses"
+    },
+    {
+      "id": "P2",
+      "text": "Clolvuses are zqclilvuses"
+    },
+    {
+      "id": "P3",
+      "text": "Clilvuses are clulvuses"
+    },
+    {
+      "id": "P4",
+      "text": "Clulvuses are clinkuses"
+    },
+    {
+      "id": "P5",
+      "text": "Clonkuses are clunkuses"
+    },
+    {
+      "id": "P6",
+      "text": "Gale is a clelvus"
+    }
+  ],
+  "substitution": {
+    "clilvus": "zqclilvus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

@@ -1,0 +1,41 @@
+{
+  "raw_response": "Step 1: Frolpuses are frulpuses.\nStep 2: Frulpuses are frarpuses.\nStep 3: Frarpuses are frerpuses.\nStep 4: Frerpuses are frorpuses.\nStep 5: Ink is one of the frolpuses, so Ink is a frulpus.\nStep 6: Since Ink is a frulpus, Ink is a frarpus.\nStep 7: Since Ink is a frarpus, Ink is a frerpus.\nStep 8: Since Ink is a frerpus, Ink is a frorpus.\n\nAnswer: True",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:45:49.874019+00:00",
+  "sha256": "3bf8c80e30019271b9f13419cef17b7c5534fc49be6cf4a3017cf35b0dd4ad9b",
+  "usage": {
+    "prompt_tokens": 128,
+    "completion_tokens": 130,
+    "total_tokens": 258
+  },
+  "problem_id": "p047",
+  "probe_type": "surface",
+  "target_premise": "P5",
+  "prompt": "Given the following premises:\n1. Frolpuses are frulpuses\n2. Frulpuses are frarpuses\n3. Frarpuses are frerpuses\n4. Frerpuses are frorpuses\n5. Ink is one of the frolpuses\n\nQuestion: Is Ink a frorpus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Frolpuses are frulpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Frulpuses are frarpuses"
+    },
+    {
+      "id": "P3",
+      "text": "Frarpuses are frerpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Frerpuses are frorpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Ink is one of the frolpuses"
+    }
+  ],
+  "substitution": null,
+  "original_text": "Ink is a frolpus",
+  "rephrased_text": "Ink is one of the frolpuses"
+}

@@ -1,0 +1,53 @@
+{
+  "raw_response": "Step 1: Since Nyx is a dempus, and all dempuses are dimpuses, Nyx is a dimpus.\nStep 2: Since Nyx is a dimpus, and all dimpuses are dompuses, Nyx is a dompus.\nStep 3: Since Nyx is a dompus, and all dompuses are dumpuses, Nyx is a dumpus.\nStep 4: Since Nyx is a dumpus, and all dumpuses are dalpuses, Nyx is a dalpus.\nStep 5: Since Nyx is a dalpus, and every dalpus is a delpus, Nyx is a delpus.\n\nAnswer: True",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:44:16.531788+00:00",
+  "sha256": "e7dd92b85b686ca4a8412a2ddde3548cccd6be838ea1b271d33cf2d0ffd29bb8",
+  "usage": {
+    "prompt_tokens": 153,
+    "completion_tokens": 145,
+    "total_tokens": 298
+  },
+  "problem_id": "p029",
+  "probe_type": "surface",
+  "target_premise": "P5",
+  "prompt": "Given the following premises:\n1. Dempuses are dimpuses\n2. Dimpuses are dompuses\n3. Dompuses are dumpuses\n4. Dumpuses are dalpuses\n5. Every dalpus is a delpus\n6. Dolpuses are dulpuses\n7. Darpuses are derpuses\n8. Nyx is a dempus\n\nQuestion: Is Nyx a delpus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Dempuses are dimpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Dimpuses are dompuses"
+    },
+    {
+      "id": "P3",
+      "text": "Dompuses are dumpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Dumpuses are dalpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Every dalpus is a delpus"
+    },
+    {
+      "id": "P6",
+      "text": "Dolpuses are dulpuses"
+    },
+    {
+      "id": "P7",
+      "text": "Darpuses are derpuses"
+    },
+    {
+      "id": "P8",
+      "text": "Nyx is a dempus"
+    }
+  ],
+  "substitution": null,
+  "original_text": "Dalpuses are delpuses",
+  "rephrased_text": "Every dalpus is a delpus"
+}

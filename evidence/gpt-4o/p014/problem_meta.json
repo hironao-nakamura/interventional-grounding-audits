@@ -1,0 +1,57 @@
+{
+  "problem_id": "p014",
+  "premises": [
+    {
+      "id": "P1",
+      "text": "Brenkuses are bronduses"
+    },
+    {
+      "id": "P2",
+      "text": "Bronduses are brinduses"
+    },
+    {
+      "id": "P3",
+      "text": "Brinduses are brunduses"
+    },
+    {
+      "id": "P4",
+      "text": "Branduses are brenduses"
+    },
+    {
+      "id": "P5",
+      "text": "Breltuses are broltuses"
+    },
+    {
+      "id": "P6",
+      "text": "Iris is a brenkus"
+    }
+  ],
+  "question": "Is Iris a brundus?",
+  "answer": true,
+  "proof_tree": [
+    {
+      "step": 1,
+      "conclusion": "is(iris, brondus)",
+      "depends_on": [
+        "P6",
+        "P1"
+      ]
+    },
+    {
+      "step": 2,
+      "conclusion": "is(iris, brindus)",
+      "depends_on": [
+        "S1",
+        "P2"
+      ]
+    },
+    {
+      "step": 3,
+      "conclusion": "is(iris, brundus)",
+      "depends_on": [
+        "S2",
+        "P3"
+      ]
+    }
+  ]
+}

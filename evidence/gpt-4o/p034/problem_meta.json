@@ -1,0 +1,77 @@
+{
+  "problem_id": "p034",
+  "premises": [
+    {
+      "id": "P1",
+      "text": "Drurpuses are dranpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Dranpuses are drenpuses"
+    },
+    {
+      "id": "P3",
+      "text": "Drenpuses are dronpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Dronpuses are drunpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Drunpuses are not drelnuses"
+    },
+    {
+      "id": "P6",
+      "text": "Drolnuses are drilnuses"
+    },
+    {
+      "id": "P7",
+      "text": "Tarn is a drurpus"
+    }
+  ],
+  "question": "Is Tarn a drelnus?",
+  "answer": false,
+  "proof_tree": [
+    {
+      "step": 1,
+      "conclusion": "is(tarn, dranpus)",
+      "depends_on": [
+        "P7",
+        "P1"
+      ]
+    },
+    {
+      "step": 2,
+      "conclusion": "is(tarn, drenpus)",
+      "depends_on": [
+        "S1",
+        "P2"
+      ]
+    },
+    {
+      "step": 3,
+      "conclusion": "is(tarn, dronpus)",
+      "depends_on": [
+        "S2",
+        "P3"
+      ]
+    },
+    {
+      "step": 4,
+      "conclusion": "is(tarn, drunpus)",
+      "depends_on": [
+        "S3",
+        "P4"
+      ]
+    },
+    {
+      "step": 5,
+      "conclusion": "not_is(tarn, drelnus)",
+      "depends_on": [
+        "S4",
+        "P5"
+      ]
+    }
+  ]
+}

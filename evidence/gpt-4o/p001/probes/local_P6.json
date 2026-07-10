@@ -1,0 +1,47 @@
+{
+  "raw_response": "Step 1: Bempuses are bimpuses, so if Alex were a bempus, Alex would be a bimpus.\nStep 2: Bimpuses are bompuses, so if Alex were a bimpus, Alex would be a bompus.\nStep 3: Bompuses are bumpuses, so if Alex were a bompus, Alex would be a bumpus.\nStep 4: Bumpuses are balpuses, so if Alex were a bumpus, Alex would be a balpus.\nStep 5: Balpuses are not belpuses, so if Alex were a balpus, Alex would not be a belpus.\nStep 6: Alex is a zqbempus, which is not defined in the premises as being related to bempuses or any other category.\nStep 7: Since there is no information connecting zqbempuses to belpuses or any other category, we cannot conclude that Alex is a belpus.\n\nAnswer: False",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:42:33.597811+00:00",
+  "sha256": "bc709be92cdb49d6af9b05314180f09de1e0d78c68c1addeed19cc81e27c5fea",
+  "usage": {
+    "prompt_tokens": 135,
+    "completion_tokens": 206,
+    "total_tokens": 341
+  },
+  "problem_id": "p001",
+  "probe_type": "local_semantic",
+  "target_premise": "P6",
+  "prompt": "Given the following premises:\n1. Bempuses are bimpuses\n2. Bimpuses are bompuses\n3. Bompuses are bumpuses\n4. Bumpuses are balpuses\n5. Balpuses are not belpuses\n6. Alex is a zqbempus\n\nQuestion: Is Alex a belpus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Bempuses are bimpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Bimpuses are bompuses"
+    },
+    {
+      "id": "P3",
+      "text": "Bompuses are bumpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Bumpuses are balpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Balpuses are not belpuses"
+    },
+    {
+      "id": "P6",
+      "text": "Alex is a zqbempus"
+    }
+  ],
+  "substitution": {
+    "bempus": "zqbempus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

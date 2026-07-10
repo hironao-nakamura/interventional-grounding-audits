@@ -1,0 +1,43 @@
+{
+  "raw_response": "Step 1: Jade is a crulpus, and all crulpuses are crarpuses, so Jade is a crarpus.\nStep 2: All crarpuses are crerpuses, so Jade is a crerpus.\nStep 3: Crerpuses are not zqcrorpuses, so Jade is not a zqcrorpus.\nStep 4: Crulpuses are crarpuses, and crarpuses are crerpuses, so crulpuses are crerpuses.\nStep 5: Crerpuses are not zqcrorpuses, so crulpuses are not zqcrorpuses.\nStep 6: Jade is a crulpus, so Jade is not a zqcrorpus.\nStep 7: Crulpuses are cranpuses, so Jade is a cranpus.\nStep 8: There is no information given about crorpuses in the premises.\n\nAnswer: False",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:43:45.856903+00:00",
+  "sha256": "5ddd5ae7b573528aec4ace56d7627e816c47abf00054edc2a3db71fe48db7a36",
+  "usage": {
+    "prompt_tokens": 127,
+    "completion_tokens": 192,
+    "total_tokens": 319
+  },
+  "problem_id": "p025",
+  "probe_type": "local_semantic",
+  "target_premise": "P3",
+  "prompt": "Given the following premises:\n1. Crulpuses are crarpuses\n2. Crarpuses are crerpuses\n3. Crerpuses are not zqcrorpuses\n4. Crurpuses are cranpuses\n5. Jade is a crulpus\n\nQuestion: Is Jade a crorpus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Crulpuses are crarpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Crarpuses are crerpuses"
+    },
+    {
+      "id": "P3",
+      "text": "Crerpuses are not zqcrorpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Crurpuses are cranpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Jade is a crulpus"
+    }
+  ],
+  "substitution": {
+    "crorpus": "zqcrorpus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

@@ -1,0 +1,42 @@
+{
+  "raw_response": "Step 1: Flelvuses are flolvuses, so if Fox is a flelvus, then Fox is a flolvus.\nStep 2: Flolvuses are flilvuses, so if Fox is a flolvus, then Fox is a flilvus.\nStep 3: Flilvuses are flulvuses, so if Fox is a flilvus, then Fox is a flulvus.\nStep 4: Flulvuses are flinkuses, so if Fox is a flulvus, then Fox is a flinkus.\nAnswer: True",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:45:04.360571+00:00",
+  "sha256": "6238fa353f5b01da8ce46b14714c02cd439f1cb14c49103a034098d76b03b014",
+  "usage": {
+    "prompt_tokens": 137,
+    "completion_tokens": 125,
+    "total_tokens": 262
+  },
+  "problem_id": "p044",
+  "probe_type": "original",
+  "prompt": "Given the following premises:\n1. Flelvuses are flolvuses\n2. Flolvuses are flilvuses\n3. Flilvuses are flulvuses\n4. Flulvuses are flinkuses\n5. Flonkuses are flunkuses\n6. Fox is a flelvus\n\nQuestion: Is Fox a flinkus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "premises": [
+    {
+      "id": "P1",
+      "text": "Flelvuses are flolvuses"
+    },
+    {
+      "id": "P2",
+      "text": "Flolvuses are flilvuses"
+    },
+    {
+      "id": "P3",
+      "text": "Flilvuses are flulvuses"
+    },
+    {
+      "id": "P4",
+      "text": "Flulvuses are flinkuses"
+    },
+    {
+      "id": "P5",
+      "text": "Flonkuses are flunkuses"
+    },
+    {
+      "id": "P6",
+      "text": "Fox is a flelvus"
+    }
+  ],
+  "question": "Is Fox a flinkus?"
+}

@@ -1,0 +1,65 @@
+{
+  "problem_id": "p039",
+  "premises": [
+    {
+      "id": "P1",
+      "text": "Furpuses are fanpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Fanpuses are fenpuses"
+    },
+    {
+      "id": "P3",
+      "text": "Fenpuses are fonpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Fonpuses are not funpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Felnuses are folnuses"
+    },
+    {
+      "id": "P6",
+      "text": "Zion is a furpus"
+    }
+  ],
+  "question": "Is Zion a funpus?",
+  "answer": false,
+  "proof_tree": [
+    {
+      "step": 1,
+      "conclusion": "is(zion, fanpus)",
+      "depends_on": [
+        "P6",
+        "P1"
+      ]
+    },
+    {
+      "step": 2,
+      "conclusion": "is(zion, fenpus)",
+      "depends_on": [
+        "S1",
+        "P2"
+      ]
+    },
+    {
+      "step": 3,
+      "conclusion": "is(zion, fonpus)",
+      "depends_on": [
+        "S2",
+        "P3"
+      ]
+    },
+    {
+      "step": 4,
+      "conclusion": "not_is(zion, funpus)",
+      "depends_on": [
+        "S3",
+        "P4"
+      ]
+    }
+  ]
+}

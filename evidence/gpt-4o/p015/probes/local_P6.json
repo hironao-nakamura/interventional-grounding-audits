@@ -1,0 +1,47 @@
+{
+  "raw_response": "Step 1: Chempuses are chimpuses, so if Ash is a chempus, then Ash is a chimpus.\nStep 2: Chimpuses are chompuses, so if Ash is a chimpus, then Ash is a chompus.\nStep 3: Chompuses are not chumpuses, so if Ash is a chompus, then Ash is not a chumpus.\nStep 4: Since Ash is a zqchempus, and there is no information linking zqchempuses to chempuses, we cannot conclude that Ash is a chempus.\nStep 5: Without establishing that Ash is a chempus, we cannot conclude that Ash is a chompus or a chumpus.\n\nAnswer: False",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:43:19.554835+00:00",
+  "sha256": "25c4ea7639fa4a53d7598f5ad3ae6758b1a8d6e69bbdd2d73a4a703c75326615",
+  "usage": {
+    "prompt_tokens": 137,
+    "completion_tokens": 162,
+    "total_tokens": 299
+  },
+  "problem_id": "p015",
+  "probe_type": "local_semantic",
+  "target_premise": "P6",
+  "prompt": "Given the following premises:\n1. Chempuses are chimpuses\n2. Chimpuses are chompuses\n3. Chompuses are not chumpuses\n4. Chalpuses are chelpuses\n5. Cholpuses are chulpuses\n6. Ash is a zqchempus\n\nQuestion: Is Ash a chumpus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Chempuses are chimpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Chimpuses are chompuses"
+    },
+    {
+      "id": "P3",
+      "text": "Chompuses are not chumpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Chalpuses are chelpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Cholpuses are chulpuses"
+    },
+    {
+      "id": "P6",
+      "text": "Ash is a zqchempus"
+    }
+  ],
+  "substitution": {
+    "chempus": "zqchempus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

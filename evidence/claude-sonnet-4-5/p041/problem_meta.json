@@ -1,0 +1,77 @@
+{
+  "problem_id": "p041",
+  "premises": [
+    {
+      "id": "P1",
+      "text": "Finduses are funduses"
+    },
+    {
+      "id": "P2",
+      "text": "Funduses are fanduses"
+    },
+    {
+      "id": "P3",
+      "text": "Fanduses are fenduses"
+    },
+    {
+      "id": "P4",
+      "text": "Fenduses are feltuses"
+    },
+    {
+      "id": "P5",
+      "text": "Feltuses are foltuses"
+    },
+    {
+      "id": "P6",
+      "text": "Filtuses are fultuses"
+    },
+    {
+      "id": "P7",
+      "text": "Clay is a findus"
+    }
+  ],
+  "question": "Is Clay a foltus?",
+  "answer": true,
+  "proof_tree": [
+    {
+      "step": 1,
+      "conclusion": "is(clay, fundus)",
+      "depends_on": [
+        "P7",
+        "P1"
+      ]
+    },
+    {
+      "step": 2,
+      "conclusion": "is(clay, fandus)",
+      "depends_on": [
+        "S1",
+        "P2"
+      ]
+    },
+    {
+      "step": 3,
+      "conclusion": "is(clay, fendus)",
+      "depends_on": [
+        "S2",
+        "P3"
+      ]
+    },
+    {
+      "step": 4,
+      "conclusion": "is(clay, feltus)",
+      "depends_on": [
+        "S3",
+        "P4"
+      ]
+    },
+    {
+      "step": 5,
+      "conclusion": "is(clay, foltus)",
+      "depends_on": [
+        "S4",
+        "P5"
+      ]
+    }
+  ]
+}

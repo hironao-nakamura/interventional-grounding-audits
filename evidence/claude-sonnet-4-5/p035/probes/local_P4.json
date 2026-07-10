@@ -1,0 +1,38 @@
+{
+  "raw_response": "I need to determine if Uma is a drinkus based on the given premises.\n\nStep 1: From premise 4, Uma is a zqdrolvus, which contains \"drolvus\" as part of the term, but this doesn't establish that Uma is a drolvus.\n\nStep 2: There is no premise that connects \"zqdrolvus\" to \"drolvus\" or any other category in the chain.\n\nStep 3: The chain drolvus \u2192 drilvus \u2192 drulvus \u2192 drinkus exists from premises 1-3, but Uma being a \"zqdrolvus\" is not established to be part of this chain.\n\nStep 4: Without a premise stating that zqdrolvuses are drolvuses (or any connection to the chain), we cannot conclude Uma is a drinkus.\n\nAnswer: False",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T05:02:56.792973+00:00",
+  "sha256": "d9ab11027afdc87ea18282484c6661202a98b58b35ee7b74505ae71cd61dd9df",
+  "usage": {
+    "input_tokens": 130,
+    "output_tokens": 190
+  },
+  "problem_id": "p035",
+  "probe_type": "local_semantic",
+  "target_premise": "P4",
+  "prompt": "Given the following premises:\n1. Drolvuses are drilvuses\n2. Drilvuses are drulvuses\n3. Drulvuses are drinkuses\n4. Uma is a zqdrolvus\n\nQuestion: Is Uma a drinkus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Drolvuses are drilvuses"
+    },
+    {
+      "id": "P2",
+      "text": "Drilvuses are drulvuses"
+    },
+    {
+      "id": "P3",
+      "text": "Drulvuses are drinkuses"
+    },
+    {
+      "id": "P4",
+      "text": "Uma is a zqdrolvus"
+    }
+  ],
+  "substitution": {
+    "drolvus": "zqdrolvus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

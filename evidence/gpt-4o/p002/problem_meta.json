@@ -1,0 +1,61 @@
+{
+  "problem_id": "p002",
+  "premises": [
+    {
+      "id": "P1",
+      "text": "Barpuses are berpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Berpuses are borpuses"
+    },
+    {
+      "id": "P3",
+      "text": "Borpuses are burpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Burpuses are banpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Fae is a barpus"
+    }
+  ],
+  "question": "Is Fae a banpus?",
+  "answer": true,
+  "proof_tree": [
+    {
+      "step": 1,
+      "conclusion": "is(fae, berpus)",
+      "depends_on": [
+        "P5",
+        "P1"
+      ]
+    },
+    {
+      "step": 2,
+      "conclusion": "is(fae, borpus)",
+      "depends_on": [
+        "S1",
+        "P2"
+      ]
+    },
+    {
+      "step": 3,
+      "conclusion": "is(fae, burpus)",
+      "depends_on": [
+        "S2",
+        "P3"
+      ]
+    },
+    {
+      "step": 4,
+      "conclusion": "is(fae, banpus)",
+      "depends_on": [
+        "S3",
+        "P4"
+      ]
+    }
+  ]
+}

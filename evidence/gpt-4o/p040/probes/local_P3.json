@@ -1,0 +1,51 @@
+{
+  "raw_response": "Step 1: Bree is a felvus, and since all felvuses are folvuses, Bree is a folvus.\nStep 2: Since all folvuses are filvuses, Bree is a filvus.\nStep 3: Since all filvuses are zqfulvuses, Bree is a zqfulvus.\nStep 4: There is no direct connection between zqfulvuses and finkuses, so Bree's status as a finkus is undetermined.\nStep 5: Since finkuses are not fonkuses, if Bree were a finkus, Bree would not be a fonkus.\nStep 6: There is no information connecting zqfulvuses to fonkuses, so Bree's status as a fonkus cannot be determined from the given premises.\n\nAnswer: False",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:44:59.177707+00:00",
+  "sha256": "1ce1caa8a6a5b05e1eb031dbd50da9f89c9cde421f6d1085bf39679fd0c5c01c",
+  "usage": {
+    "prompt_tokens": 145,
+    "completion_tokens": 172,
+    "total_tokens": 317
+  },
+  "problem_id": "p040",
+  "probe_type": "local_semantic",
+  "target_premise": "P3",
+  "prompt": "Given the following premises:\n1. Felvuses are folvuses\n2. Folvuses are filvuses\n3. Filvuses are zqfulvuses\n4. Fulvuses are finkuses\n5. Finkuses are not fonkuses\n6. Funkuses are fankuses\n7. Bree is a felvus\n\nQuestion: Is Bree a fonkus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Felvuses are folvuses"
+    },
+    {
+      "id": "P2",
+      "text": "Folvuses are filvuses"
+    },
+    {
+      "id": "P3",
+      "text": "Filvuses are zqfulvuses"
+    },
+    {
+      "id": "P4",
+      "text": "Fulvuses are finkuses"
+    },
+    {
+      "id": "P5",
+      "text": "Finkuses are not fonkuses"
+    },
+    {
+      "id": "P6",
+      "text": "Funkuses are fankuses"
+    },
+    {
+      "id": "P7",
+      "text": "Bree is a felvus"
+    }
+  ],
+  "substitution": {
+    "fulvus": "zqfulvus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

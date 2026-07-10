@@ -1,0 +1,47 @@
+{
+  "raw_response": "Step 1: Ash is a chempus.\nStep 2: Since chempuses are chimpuses, Ash is a chimpus.\nStep 3: Since chimpuses are strivpuses, Ash is a strivpus.\nStep 4: Since strivpuses are not chumpuses, Ash is not a chumpus.\nAnswer: False",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:43:02.821923+00:00",
+  "sha256": "41948736f9f5d1d435cf7a9596cc95fa4d0792e32f2295ea21e9b4ae07491fd7",
+  "usage": {
+    "prompt_tokens": 137,
+    "completion_tokens": 75,
+    "total_tokens": 212
+  },
+  "problem_id": "p015",
+  "probe_type": "semantic",
+  "target_premise": "P2",
+  "prompt": "Given the following premises:\n1. Chempuses are chimpuses\n2. Chimpuses are strivpuses\n3. Strivpuses are not chumpuses\n4. Chalpuses are chelpuses\n5. Cholpuses are chulpuses\n6. Ash is a chempus\n\nQuestion: Is Ash a chumpus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Chempuses are chimpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Chimpuses are strivpuses"
+    },
+    {
+      "id": "P3",
+      "text": "Strivpuses are not chumpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Chalpuses are chelpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Cholpuses are chulpuses"
+    },
+    {
+      "id": "P6",
+      "text": "Ash is a chempus"
+    }
+  ],
+  "substitution": {
+    "chompus": "strivpus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

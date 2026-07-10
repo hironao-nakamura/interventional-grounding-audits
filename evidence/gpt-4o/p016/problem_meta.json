@@ -1,0 +1,49 @@
+{
+  "problem_id": "p016",
+  "premises": [
+    {
+      "id": "P1",
+      "text": "Chorpuses are churpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Churpuses are chanpuses"
+    },
+    {
+      "id": "P3",
+      "text": "Chanpuses are not chenpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Wren is a chorpus"
+    }
+  ],
+  "question": "Is Wren a chenpus?",
+  "answer": false,
+  "proof_tree": [
+    {
+      "step": 1,
+      "conclusion": "is(wren, churpus)",
+      "depends_on": [
+        "P4",
+        "P1"
+      ]
+    },
+    {
+      "step": 2,
+      "conclusion": "is(wren, chanpus)",
+      "depends_on": [
+        "S1",
+        "P2"
+      ]
+    },
+    {
+      "step": 3,
+      "conclusion": "not_is(wren, chenpus)",
+      "depends_on": [
+        "S2",
+        "P3"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "raw_response": "Step 1: Since Blalvuses are Blelvuses and Luna is a Blalvus, Luna is a Blelvus.\nStep 2: Since Blelvuses are Blolvuses and Luna is a Blelvus, Luna is a Blolvus.\nStep 3: Since Blolvuses are Zqblilvuses and Luna is a Blolvus, Luna is a Zqblilvus.\n\nAnswer: False",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:42:39.760227+00:00",
+  "sha256": "d0917f2b39fe286462acd50f9f48baf01f9a5051be5f8979e5dd90f154f5c797",
+  "usage": {
+    "prompt_tokens": 119,
+    "completion_tokens": 90,
+    "total_tokens": 209
+  },
+  "problem_id": "p008",
+  "probe_type": "semantic",
+  "target_premise": "P3",
+  "prompt": "Given the following premises:\n1. Blalvuses are blelvuses\n2. Blelvuses are blolvuses\n3. Blolvuses are zqblilvuses\n4. Luna is a blalvus\n\nQuestion: Is Luna a blilvus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Blalvuses are blelvuses"
+    },
+    {
+      "id": "P2",
+      "text": "Blelvuses are blolvuses"
+    },
+    {
+      "id": "P3",
+      "text": "Blolvuses are zqblilvuses"
+    },
+    {
+      "id": "P4",
+      "text": "Luna is a blalvus"
+    }
+  ],
+  "substitution": {
+    "blilvus": "zqblilvus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

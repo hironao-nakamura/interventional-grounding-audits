@@ -1,0 +1,47 @@
+{
+  "raw_response": "Step 1: Since Dove is a flompus, by premise 1, Dove is also a flumpus.\nStep 2: Since Dove is a flumpus, by premise 2, Dove is also a zqflalpus.\nStep 3: Premises 3 and 4 do not directly relate to zqflalpuses, so we continue with the chain of reasoning.\nStep 4: Since flalpuses are flelpuses (premise 3) and flelpuses are flolpuses (premise 4), any flalpus is also a flolpus.\nStep 5: However, Dove's classification as a zqflalpus does not directly connect to being a flalpus, flelpus, or flolpus.\nStep 6: Premise 5 states that flolpuses are not flulpuses.\nStep 7: Since Dove is a zqflalpus and not directly identified as a flolpus, we cannot conclude Dove is a flulpus.\nStep 8: Therefore, based on the premises, Dove is not a flulpus.\n\nAnswer: False",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:44:59.971432+00:00",
+  "sha256": "60191c622d4fd36361c1b14ce27ff45fac5dbd1652a65fd51e6a76301f1d8087",
+  "usage": {
+    "prompt_tokens": 140,
+    "completion_tokens": 238,
+    "total_tokens": 378
+  },
+  "problem_id": "p042",
+  "probe_type": "local_semantic",
+  "target_premise": "P2",
+  "prompt": "Given the following premises:\n1. Flompuses are flumpuses\n2. Flumpuses are zqflalpuses\n3. Flalpuses are flelpuses\n4. Flelpuses are flolpuses\n5. Flolpuses are not flulpuses\n6. Dove is a flompus\n\nQuestion: Is Dove a flulpus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Flompuses are flumpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Flumpuses are zqflalpuses"
+    },
+    {
+      "id": "P3",
+      "text": "Flalpuses are flelpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Flelpuses are flolpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Flolpuses are not flulpuses"
+    },
+    {
+      "id": "P6",
+      "text": "Dove is a flompus"
+    }
+  ],
+  "substitution": {
+    "flalpus": "zqflalpus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

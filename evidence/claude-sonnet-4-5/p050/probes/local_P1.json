@@ -1,0 +1,42 @@
+{
+  "raw_response": "Step 1: Lynx is a freltus (given in premise 5).\nStep 2: Since freltuses are zqfroltuses (premise 1), Lynx is a zqfroltus.\nStep 3: Since froltuses are friltuses (premise 2), we need to determine if Lynx is a froltus.\nStep 4: Premise 1 states \"Freltuses are zqfroltuses\" but this doesn't establish that freltuses are froltuses.\nStep 5: There is no premise connecting freltuses to froltuses or friltuses directly.\nStep 6: We cannot establish that Lynx is a friltus from the given premises.\nStep 7: Even if Lynx were a friltus, premise 3 states that friltuses are NOT frultuses.\nStep 8: Therefore, if Lynx were a friltus, Lynx would not be a frultus.\n\nAnswer: False",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T05:07:20.218879+00:00",
+  "sha256": "3bb1e0156201b5fd650e336454e1afeb8806c3fdefe9464b861de166e378279d",
+  "usage": {
+    "input_tokens": 144,
+    "output_tokens": 230
+  },
+  "problem_id": "p050",
+  "probe_type": "local_semantic",
+  "target_premise": "P1",
+  "prompt": "Given the following premises:\n1. Freltuses are zqfroltuses\n2. Froltuses are friltuses\n3. Friltuses are not frultuses\n4. Gempuses are gimpuses\n5. Lynx is a freltus\n\nQuestion: Is Lynx a frultus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Freltuses are zqfroltuses"
+    },
+    {
+      "id": "P2",
+      "text": "Froltuses are friltuses"
+    },
+    {
+      "id": "P3",
+      "text": "Friltuses are not frultuses"
+    },
+    {
+      "id": "P4",
+      "text": "Gempuses are gimpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Lynx is a freltus"
+    }
+  ],
+  "substitution": {
+    "froltus": "zqfroltus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

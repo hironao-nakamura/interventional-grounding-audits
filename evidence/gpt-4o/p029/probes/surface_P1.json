@@ -1,0 +1,53 @@
+{
+  "raw_response": "Step 1: Since every dempus is a dimpus and Nyx is a dempus, Nyx is a dimpus.  \nStep 2: Since dimpuses are dompuses and Nyx is a dimpus, Nyx is a dompus.  \nStep 3: Since dompuses are dumpuses and Nyx is a dompus, Nyx is a dumpus.  \nStep 4: Since dumpuses are dalpuses and Nyx is a dumpus, Nyx is a dalpus.  \nStep 5: Since dalpuses are delpuses and Nyx is a dalpus, Nyx is a delpus.  \nAnswer: True",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:43:55.687320+00:00",
+  "sha256": "ec69da78f18394275fe4a3765e2f91d7f2ec9ec8eb88f3ff8cb8d0f6d303678c",
+  "usage": {
+    "prompt_tokens": 153,
+    "completion_tokens": 141,
+    "total_tokens": 294
+  },
+  "problem_id": "p029",
+  "probe_type": "surface",
+  "target_premise": "P1",
+  "prompt": "Given the following premises:\n1. Every dempus is a dimpus\n2. Dimpuses are dompuses\n3. Dompuses are dumpuses\n4. Dumpuses are dalpuses\n5. Dalpuses are delpuses\n6. Dolpuses are dulpuses\n7. Darpuses are derpuses\n8. Nyx is a dempus\n\nQuestion: Is Nyx a delpus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Every dempus is a dimpus"
+    },
+    {
+      "id": "P2",
+      "text": "Dimpuses are dompuses"
+    },
+    {
+      "id": "P3",
+      "text": "Dompuses are dumpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Dumpuses are dalpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Dalpuses are delpuses"
+    },
+    {
+      "id": "P6",
+      "text": "Dolpuses are dulpuses"
+    },
+    {
+      "id": "P7",
+      "text": "Darpuses are derpuses"
+    },
+    {
+      "id": "P8",
+      "text": "Nyx is a dempus"
+    }
+  ],
+  "substitution": null,
+  "original_text": "Dempuses are dimpuses",
+  "rephrased_text": "Every dempus is a dimpus"
+}

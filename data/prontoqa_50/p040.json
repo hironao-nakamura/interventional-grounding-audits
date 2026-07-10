@@ -1,0 +1,77 @@
+{
+  "problem_id": "p040",
+  "premises": [
+    {
+      "id": "P1",
+      "text": "Felvuses are folvuses"
+    },
+    {
+      "id": "P2",
+      "text": "Folvuses are filvuses"
+    },
+    {
+      "id": "P3",
+      "text": "Filvuses are fulvuses"
+    },
+    {
+      "id": "P4",
+      "text": "Fulvuses are finkuses"
+    },
+    {
+      "id": "P5",
+      "text": "Finkuses are not fonkuses"
+    },
+    {
+      "id": "P6",
+      "text": "Funkuses are fankuses"
+    },
+    {
+      "id": "P7",
+      "text": "Bree is a felvus"
+    }
+  ],
+  "question": "Is Bree a fonkus?",
+  "answer": false,
+  "proof_tree": [
+    {
+      "step": 1,
+      "conclusion": "is(bree, folvus)",
+      "depends_on": [
+        "P7",
+        "P1"
+      ]
+    },
+    {
+      "step": 2,
+      "conclusion": "is(bree, filvus)",
+      "depends_on": [
+        "S1",
+        "P2"
+      ]
+    },
+    {
+      "step": 3,
+      "conclusion": "is(bree, fulvus)",
+      "depends_on": [
+        "S2",
+        "P3"
+      ]
+    },
+    {
+      "step": 4,
+      "conclusion": "is(bree, finkus)",
+      "depends_on": [
+        "S3",
+        "P4"
+      ]
+    },
+    {
+      "step": 5,
+      "conclusion": "not_is(bree, fonkus)",
+      "depends_on": [
+        "S4",
+        "P5"
+      ]
+    }
+  ]
+}

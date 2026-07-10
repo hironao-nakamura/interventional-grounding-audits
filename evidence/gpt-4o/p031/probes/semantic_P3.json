@@ -1,0 +1,51 @@
+{
+  "raw_response": "Step 1: Quinn is a dulvus, and since all dulvuses are dinkuses, Quinn is a dinkus.\nStep 2: Since all dinkuses are donkuses, Quinn is a donkus.\nStep 3: Since all donkuses are zqdunkuses, Quinn is a zqdunkus.\nStep 4: Since all zqdunkuses are not dankuses, Quinn is not a dankus.\n\nAnswer: False",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:44:16.800688+00:00",
+  "sha256": "eabff63b3924c0569ee16e8ce0f581edaeb3efc38da2caf957226a1c3f8306ef",
+  "usage": {
+    "prompt_tokens": 143,
+    "completion_tokens": 93,
+    "total_tokens": 236
+  },
+  "problem_id": "p031",
+  "probe_type": "semantic",
+  "target_premise": "P3",
+  "prompt": "Given the following premises:\n1. Dulvuses are dinkuses\n2. Dinkuses are donkuses\n3. Donkuses are zqdunkuses\n4. Zqdunkuses are not dankuses\n5. Denkuses are donduses\n6. Dinduses are dunduses\n7. Quinn is a dulvus\n\nQuestion: Is Quinn a dankus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Dulvuses are dinkuses"
+    },
+    {
+      "id": "P2",
+      "text": "Dinkuses are donkuses"
+    },
+    {
+      "id": "P3",
+      "text": "Donkuses are zqdunkuses"
+    },
+    {
+      "id": "P4",
+      "text": "Zqdunkuses are not dankuses"
+    },
+    {
+      "id": "P5",
+      "text": "Denkuses are donduses"
+    },
+    {
+      "id": "P6",
+      "text": "Dinduses are dunduses"
+    },
+    {
+      "id": "P7",
+      "text": "Quinn is a dulvus"
+    }
+  ],
+  "substitution": {
+    "dunkus": "zqdunkus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

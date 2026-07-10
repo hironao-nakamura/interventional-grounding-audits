@@ -1,0 +1,51 @@
+{
+  "raw_response": "Step 1: Bunpuses are belnuses, so if Rex were a bunpus, he would be a belnuse.\nStep 2: Belnuses are bolnuses, so if Rex were a belnuse, he would be a bolnuse.\nStep 3: Bolnuses are bilnuses, so if Rex were a bolnuse, he would be a bilnuse.\nStep 4: Bilnuses are balvuses, so if Rex were a bilnuse, he would be a balvuse.\nStep 5: Balvuses are belvuses, so if Rex were a balvuse, he would be a belvus.\nStep 6: Rex is a zqbunpus, which is not mentioned in the premises as being related to belvuses.\nAnswer: False",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:42:40.251457+00:00",
+  "sha256": "15cc009cb99abe3c9687242022fd94c53fead054bdd8cf3100f270c394dd5c14",
+  "usage": {
+    "prompt_tokens": 145,
+    "completion_tokens": 173,
+    "total_tokens": 318
+  },
+  "problem_id": "p003",
+  "probe_type": "local_semantic",
+  "target_premise": "P7",
+  "prompt": "Given the following premises:\n1. Bunpuses are belnuses\n2. Belnuses are bolnuses\n3. Bolnuses are bilnuses\n4. Bilnuses are balvuses\n5. Balvuses are belvuses\n6. Bolvuses are bilvuses\n7. Rex is a zqbunpus\n\nQuestion: Is Rex a belvus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Bunpuses are belnuses"
+    },
+    {
+      "id": "P2",
+      "text": "Belnuses are bolnuses"
+    },
+    {
+      "id": "P3",
+      "text": "Bolnuses are bilnuses"
+    },
+    {
+      "id": "P4",
+      "text": "Bilnuses are balvuses"
+    },
+    {
+      "id": "P5",
+      "text": "Balvuses are belvuses"
+    },
+    {
+      "id": "P6",
+      "text": "Bolvuses are bilvuses"
+    },
+    {
+      "id": "P7",
+      "text": "Rex is a zqbunpus"
+    }
+  ],
+  "substitution": {
+    "bunpus": "zqbunpus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

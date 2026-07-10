@@ -1,0 +1,69 @@
+{
+  "problem_id": "p031",
+  "premises": [
+    {
+      "id": "P1",
+      "text": "Dulvuses are dinkuses"
+    },
+    {
+      "id": "P2",
+      "text": "Dinkuses are donkuses"
+    },
+    {
+      "id": "P3",
+      "text": "Donkuses are dunkuses"
+    },
+    {
+      "id": "P4",
+      "text": "Dunkuses are not dankuses"
+    },
+    {
+      "id": "P5",
+      "text": "Denkuses are donduses"
+    },
+    {
+      "id": "P6",
+      "text": "Dinduses are dunduses"
+    },
+    {
+      "id": "P7",
+      "text": "Quinn is a dulvus"
+    }
+  ],
+  "question": "Is Quinn a dankus?",
+  "answer": false,
+  "proof_tree": [
+    {
+      "step": 1,
+      "conclusion": "is(quinn, dinkus)",
+      "depends_on": [
+        "P7",
+        "P1"
+      ]
+    },
+    {
+      "step": 2,
+      "conclusion": "is(quinn, donkus)",
+      "depends_on": [
+        "S1",
+        "P2"
+      ]
+    },
+    {
+      "step": 3,
+      "conclusion": "is(quinn, dunkus)",
+      "depends_on": [
+        "S2",
+        "P3"
+      ]
+    },
+    {
+      "step": 4,
+      "conclusion": "not_is(quinn, dankus)",
+      "depends_on": [
+        "S3",
+        "P4"
+      ]
+    }
+  ]
+}

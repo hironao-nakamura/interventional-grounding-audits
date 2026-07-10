@@ -1,0 +1,43 @@
+{
+  "problem_id": "p011",
+  "model": "gpt-4o-2024-08-06",
+  "n_samples": 5,
+  "temperature": 0.7,
+  "step_verdicts": {
+    "1": {
+      "consistent": true,
+      "agreement": 1.0,
+      "majority_conclusion": "is(kai, brelpus)",
+      "n_valid": 3,
+      "n_unique": 1
+    },
+    "2": {
+      "consistent": false,
+      "agreement": 0.75,
+      "majority_conclusion": "is(kai, brolpus)",
+      "n_valid": 4,
+      "n_unique": 2
+    },
+    "3": {
+      "consistent": false,
+      "agreement": 0.75,
+      "majority_conclusion": "is(kai, brulpus)",
+      "n_valid": 4,
+      "n_unique": 2
+    },
+    "4": {
+      "consistent": false,
+      "agreement": 0.75,
+      "majority_conclusion": "not_is(kai, brarpus)",
+      "n_valid": 4,
+      "n_unique": 2
+    },
+    "5": {
+      "consistent": true,
+      "agreement": 1.0,
+      "majority_conclusion": "not_is(kai, brarpus)",
+      "n_valid": 1,
+      "n_unique": 1
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "problem_id": "p027",
+  "premises": [
+    {
+      "id": "P1",
+      "text": "Crinkuses are cronkuses"
+    },
+    {
+      "id": "P2",
+      "text": "Cronkuses are crunkuses"
+    },
+    {
+      "id": "P3",
+      "text": "Crunkuses are not crankuses"
+    },
+    {
+      "id": "P4",
+      "text": "Crenkuses are cronduses"
+    },
+    {
+      "id": "P5",
+      "text": "Lark is a crinkus"
+    }
+  ],
+  "question": "Is Lark a crankus?",
+  "answer": false,
+  "proof_tree": [
+    {
+      "step": 1,
+      "conclusion": "is(lark, cronkus)",
+      "depends_on": [
+        "P5",
+        "P1"
+      ]
+    },
+    {
+      "step": 2,
+      "conclusion": "is(lark, crunkus)",
+      "depends_on": [
+        "S1",
+        "P2"
+      ]
+    },
+    {
+      "step": 3,
+      "conclusion": "not_is(lark, crankus)",
+      "depends_on": [
+        "S2",
+        "P3"
+      ]
+    }
+  ]
+}

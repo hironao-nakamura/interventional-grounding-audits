@@ -1,0 +1,32 @@
+[
+  {
+    "chain_length": 3,
+    "n_problems": 23,
+    "tp": 58,
+    "fp": 0,
+    "fn": 23,
+    "precision": 1.0,
+    "recall": 0.716,
+    "f1": 0.8345
+  },
+  {
+    "chain_length": 4,
+    "n_problems": 16,
+    "tp": 61,
+    "fp": 0,
+    "fn": 15,
+    "precision": 1.0,
+    "recall": 0.8026,
+    "f1": 0.8905
+  },
+  {
+    "chain_length": 5,
+    "n_problems": 11,
+    "tp": 52,
+    "fp": 0,
+    "fn": 12,
+    "precision": 1.0,
+    "recall": 0.8125,
+    "f1": 0.8966
+  }
+]

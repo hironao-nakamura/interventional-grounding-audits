@@ -1,0 +1,44 @@
+{
+  "raw_response": "Step 1: Knox is a crunpus (given in premise 6).\nStep 2: Since every crunpus is a crelnus, Knox is a crelnus (from premises 1 and 6).\nStep 3: Since crelnuses are crolnuses, Knox is a crolnus (from premise 2 and Step 2).\nStep 4: Since crolnuses are crilnuses, Knox is a crilnus (from premise 3 and Step 3).\nStep 5: Since crilnuses are not cralvuses, Knox is not a cralvus (from premise 4 and Step 4).\n\nAnswer: False",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:59:15.160017+00:00",
+  "sha256": "18a54165fa612b08544efcb584b6f1bedc0567172d31df67d945684438fdd2bf",
+  "usage": {
+    "input_tokens": 158,
+    "output_tokens": 159
+  },
+  "problem_id": "p026",
+  "probe_type": "surface",
+  "target_premise": "P1",
+  "prompt": "Given the following premises:\n1. Every crunpus is a crelnus\n2. Crelnuses are crolnuses\n3. Crolnuses are crilnuses\n4. Crilnuses are not cralvuses\n5. Crelvuses are crolvuses\n6. Knox is a crunpus\n\nQuestion: Is Knox a cralvus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Every crunpus is a crelnus"
+    },
+    {
+      "id": "P2",
+      "text": "Crelnuses are crolnuses"
+    },
+    {
+      "id": "P3",
+      "text": "Crolnuses are crilnuses"
+    },
+    {
+      "id": "P4",
+      "text": "Crilnuses are not cralvuses"
+    },
+    {
+      "id": "P5",
+      "text": "Crelvuses are crolvuses"
+    },
+    {
+      "id": "P6",
+      "text": "Knox is a crunpus"
+    }
+  ],
+  "substitution": null,
+  "original_text": "Crunpuses are crelnuses",
+  "rephrased_text": "Every crunpus is a crelnus"
+}

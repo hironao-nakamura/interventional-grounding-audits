@@ -1,0 +1,73 @@
+{
+  "problem_id": "p042",
+  "premises": [
+    {
+      "id": "P1",
+      "text": "Flompuses are flumpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Flumpuses are flalpuses"
+    },
+    {
+      "id": "P3",
+      "text": "Flalpuses are flelpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Flelpuses are flolpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Flolpuses are not flulpuses"
+    },
+    {
+      "id": "P6",
+      "text": "Dove is a flompus"
+    }
+  ],
+  "question": "Is Dove a flulpus?",
+  "answer": false,
+  "proof_tree": [
+    {
+      "step": 1,
+      "conclusion": "is(dove, flumpus)",
+      "depends_on": [
+        "P6",
+        "P1"
+      ]
+    },
+    {
+      "step": 2,
+      "conclusion": "is(dove, flalpus)",
+      "depends_on": [
+        "S1",
+        "P2"
+      ]
+    },
+    {
+      "step": 3,
+      "conclusion": "is(dove, flelpus)",
+      "depends_on": [
+        "S2",
+        "P3"
+      ]
+    },
+    {
+      "step": 4,
+      "conclusion": "is(dove, flolpus)",
+      "depends_on": [
+        "S3",
+        "P4"
+      ]
+    },
+    {
+      "step": 5,
+      "conclusion": "not_is(dove, flulpus)",
+      "depends_on": [
+        "S4",
+        "P5"
+      ]
+    }
+  ]
+}

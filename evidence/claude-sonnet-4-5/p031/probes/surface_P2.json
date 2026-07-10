@@ -1,0 +1,48 @@
+{
+  "raw_response": "Step 1: Quinn is a dulvus (given in premise 7).\nStep 2: Since dulvuses are dinkuses (premise 1), Quinn is a dinkus.\nStep 3: Since every dinkus is a donkus (premise 2), Quinn is a donkus.\nStep 4: Since donkuses are dunkuses (premise 3), Quinn is a dunkus.\nStep 5: Since dunkuses are not dankuses (premise 4), Quinn is not a dankus.\n\nAnswer: False",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T05:00:50.191227+00:00",
+  "sha256": "06e001bf276badf006ceb90cb1224071e5d269b3878aefff2c6cb64017d64f72",
+  "usage": {
+    "input_tokens": 160,
+    "output_tokens": 128
+  },
+  "problem_id": "p031",
+  "probe_type": "surface",
+  "target_premise": "P2",
+  "prompt": "Given the following premises:\n1. Dulvuses are dinkuses\n2. Every dinkus is a donkus\n3. Donkuses are dunkuses\n4. Dunkuses are not dankuses\n5. Denkuses are donduses\n6. Dinduses are dunduses\n7. Quinn is a dulvus\n\nQuestion: Is Quinn a dankus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Dulvuses are dinkuses"
+    },
+    {
+      "id": "P2",
+      "text": "Every dinkus is a donkus"
+    },
+    {
+      "id": "P3",
+      "text": "Donkuses are dunkuses"
+    },
+    {
+      "id": "P4",
+      "text": "Dunkuses are not dankuses"
+    },
+    {
+      "id": "P5",
+      "text": "Denkuses are donduses"
+    },
+    {
+      "id": "P6",
+      "text": "Dinduses are dunduses"
+    },
+    {
+      "id": "P7",
+      "text": "Quinn is a dulvus"
+    }
+  ],
+  "substitution": null,
+  "original_text": "Dinkuses are donkuses",
+  "rephrased_text": "Every dinkus is a donkus"
+}

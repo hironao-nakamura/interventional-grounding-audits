@@ -1,0 +1,51 @@
+{
+  "raw_response": "Step 1: Ivy is a cloltus, and cloltuses are cliltuses, so Ivy is a cliltus.\nStep 2: Cliltuses are clultuses, so Ivy is a clultus.\nStep 3: Clultuses are crempuses, so Ivy is a crempus.\nStep 4: Crempuses are crimpuses, so Ivy is a crimpus.\nStep 5: Crimpuses are not zqcrompuses, so Ivy is not a zqcrompus.\nStep 6: The premises do not provide any information about crimpuses being or not being crompuses.\nStep 7: Therefore, we cannot conclude whether Ivy is a crompus based on the given premises.\n\nAnswer: False",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:43:57.966783+00:00",
+  "sha256": "4c88c03a44aaa64c0053941a36b6d361ba46a0af1d2e50492ff10b9cabec58bb",
+  "usage": {
+    "prompt_tokens": 147,
+    "completion_tokens": 160,
+    "total_tokens": 307
+  },
+  "problem_id": "p024",
+  "probe_type": "local_semantic",
+  "target_premise": "P5",
+  "prompt": "Given the following premises:\n1. Cloltuses are cliltuses\n2. Cliltuses are clultuses\n3. Clultuses are crempuses\n4. Crempuses are crimpuses\n5. Crimpuses are not zqcrompuses\n6. Crumpuses are cralpuses\n7. Ivy is a cloltus\n\nQuestion: Is Ivy a crompus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Cloltuses are cliltuses"
+    },
+    {
+      "id": "P2",
+      "text": "Cliltuses are clultuses"
+    },
+    {
+      "id": "P3",
+      "text": "Clultuses are crempuses"
+    },
+    {
+      "id": "P4",
+      "text": "Crempuses are crimpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Crimpuses are not zqcrompuses"
+    },
+    {
+      "id": "P6",
+      "text": "Crumpuses are cralpuses"
+    },
+    {
+      "id": "P7",
+      "text": "Ivy is a cloltus"
+    }
+  ],
+  "substitution": {
+    "crompus": "zqcrompus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

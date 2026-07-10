@@ -1,0 +1,45 @@
+{
+  "raw_response": "Step 1: Since every frinkus is a fronkus and Kit is a frinkus, Kit is a fronkus.\nStep 2: Since fronkuses are frunkuses and Kit is a fronkus, Kit is a frunkus.\nStep 3: Since frunkuses are frankuses and Kit is a frunkus, Kit is a frankus.\n\nAnswer: True",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:45:31.573228+00:00",
+  "sha256": "e1bd46e9797b0be85f3c542851ca3a18f438f64aa091fcd066d7750f52a06c5f",
+  "usage": {
+    "prompt_tokens": 135,
+    "completion_tokens": 84,
+    "total_tokens": 219
+  },
+  "problem_id": "p049",
+  "probe_type": "surface",
+  "target_premise": "P1",
+  "prompt": "Given the following premises:\n1. Every frinkus is a fronkus\n2. Fronkuses are frunkuses\n3. Frunkuses are frankuses\n4. Frenkuses are fronduses\n5. Frinduses are frunduses\n6. Kit is a frinkus\n\nQuestion: Is Kit a frankus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Every frinkus is a fronkus"
+    },
+    {
+      "id": "P2",
+      "text": "Fronkuses are frunkuses"
+    },
+    {
+      "id": "P3",
+      "text": "Frunkuses are frankuses"
+    },
+    {
+      "id": "P4",
+      "text": "Frenkuses are fronduses"
+    },
+    {
+      "id": "P5",
+      "text": "Frinduses are frunduses"
+    },
+    {
+      "id": "P6",
+      "text": "Kit is a frinkus"
+    }
+  ],
+  "substitution": null,
+  "original_text": "Frinkuses are fronkuses",
+  "rephrased_text": "Every frinkus is a fronkus"
+}

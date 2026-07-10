@@ -1,0 +1,43 @@
+{
+  "raw_response": "Step 1: Since Pip is a blurpus, and blurpuses are zqblanpuses, Pip is a zqblanpus.\nStep 2: Since Pip is a zqblanpus, and zqblanpuses are not mentioned in the premises as being related to blonpuses, we need to trace further connections.\nStep 3: Since blurpuses are zqblanpuses, and blanpuses are blenpuses, we need to determine if zqblanpuses are related to blanpuses.\nStep 4: The premises do not directly connect zqblanpuses to blanpuses, so we cannot conclude that Pip is a blanpus.\nStep 5: Since blenpuses are not blonpuses, and we cannot establish that Pip is a blenpus, we cannot conclude that Pip is a blonpus.\nStep 6: Therefore, based on the given premises, Pip is not a blonpus.\n\nAnswer: False",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:42:24.991154+00:00",
+  "sha256": "35e8e7e550b07bce057269052ecab48d5e675de6bae9ae5c9e3653933339c2e2",
+  "usage": {
+    "prompt_tokens": 132,
+    "completion_tokens": 217,
+    "total_tokens": 349
+  },
+  "problem_id": "p007",
+  "probe_type": "local_semantic",
+  "target_premise": "P1",
+  "prompt": "Given the following premises:\n1. Blurpuses are zqblanpuses\n2. Blanpuses are blenpuses\n3. Blenpuses are not blonpuses\n4. Blunpuses are blelnuses\n5. Pip is a blurpus\n\nQuestion: Is Pip a blonpus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Blurpuses are zqblanpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Blanpuses are blenpuses"
+    },
+    {
+      "id": "P3",
+      "text": "Blenpuses are not blonpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Blunpuses are blelnuses"
+    },
+    {
+      "id": "P5",
+      "text": "Pip is a blurpus"
+    }
+  ],
+  "substitution": {
+    "blanpus": "zqblanpus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

@@ -1,0 +1,51 @@
+{
+  "raw_response": "Step 1: Bonkuses are bunkuses, so Stella is a bunkus.  \nStep 2: Bunkuses are zqbankuses, so Stella is a zqbankus.  \nStep 3: The premises do not provide a direct link between zqbankuses and bankuses, so we cannot conclude that Stella is a bankus.  \nStep 4: Without establishing that Stella is a bankus, we cannot conclude that she is a benkus, bondus, or bindus.  \n\nAnswer: False",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:42:14.558644+00:00",
+  "sha256": "340c6e407a107e495e14e2e0095c8c5262b8c998a300012584b74c7b4c048995",
+  "usage": {
+    "prompt_tokens": 137,
+    "completion_tokens": 109,
+    "total_tokens": 246
+  },
+  "problem_id": "p004",
+  "probe_type": "local_semantic",
+  "target_premise": "P2",
+  "prompt": "Given the following premises:\n1. Bonkuses are bunkuses\n2. Bunkuses are zqbankuses\n3. Bankuses are benkuses\n4. Benkuses are bonduses\n5. Bonduses are binduses\n6. Bunduses are banduses\n7. Stella is a bonkus\n\nQuestion: Is Stella a bindus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Bonkuses are bunkuses"
+    },
+    {
+      "id": "P2",
+      "text": "Bunkuses are zqbankuses"
+    },
+    {
+      "id": "P3",
+      "text": "Bankuses are benkuses"
+    },
+    {
+      "id": "P4",
+      "text": "Benkuses are bonduses"
+    },
+    {
+      "id": "P5",
+      "text": "Bonduses are binduses"
+    },
+    {
+      "id": "P6",
+      "text": "Bunduses are banduses"
+    },
+    {
+      "id": "P7",
+      "text": "Stella is a bonkus"
+    }
+  ],
+  "substitution": {
+    "bankus": "zqbankus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

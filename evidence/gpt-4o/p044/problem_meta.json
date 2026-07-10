@@ -1,0 +1,65 @@
+{
+  "problem_id": "p044",
+  "premises": [
+    {
+      "id": "P1",
+      "text": "Flelvuses are flolvuses"
+    },
+    {
+      "id": "P2",
+      "text": "Flolvuses are flilvuses"
+    },
+    {
+      "id": "P3",
+      "text": "Flilvuses are flulvuses"
+    },
+    {
+      "id": "P4",
+      "text": "Flulvuses are flinkuses"
+    },
+    {
+      "id": "P5",
+      "text": "Flonkuses are flunkuses"
+    },
+    {
+      "id": "P6",
+      "text": "Fox is a flelvus"
+    }
+  ],
+  "question": "Is Fox a flinkus?",
+  "answer": true,
+  "proof_tree": [
+    {
+      "step": 1,
+      "conclusion": "is(fox, flolvus)",
+      "depends_on": [
+        "P6",
+        "P1"
+      ]
+    },
+    {
+      "step": 2,
+      "conclusion": "is(fox, flilvus)",
+      "depends_on": [
+        "S1",
+        "P2"
+      ]
+    },
+    {
+      "step": 3,
+      "conclusion": "is(fox, flulvus)",
+      "depends_on": [
+        "S2",
+        "P3"
+      ]
+    },
+    {
+      "step": 4,
+      "conclusion": "is(fox, flinkus)",
+      "depends_on": [
+        "S3",
+        "P4"
+      ]
+    }
+  ]
+}

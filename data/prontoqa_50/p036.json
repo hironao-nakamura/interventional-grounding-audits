@@ -1,0 +1,49 @@
+{
+  "problem_id": "p036",
+  "premises": [
+    {
+      "id": "P1",
+      "text": "Drankuses are drenkuses"
+    },
+    {
+      "id": "P2",
+      "text": "Drenkuses are dronduses"
+    },
+    {
+      "id": "P3",
+      "text": "Dronduses are not drinduses"
+    },
+    {
+      "id": "P4",
+      "text": "Vale is a drankus"
+    }
+  ],
+  "question": "Is Vale a drindus?",
+  "answer": false,
+  "proof_tree": [
+    {
+      "step": 1,
+      "conclusion": "is(vale, drenkus)",
+      "depends_on": [
+        "P4",
+        "P1"
+      ]
+    },
+    {
+      "step": 2,
+      "conclusion": "is(vale, drondus)",
+      "depends_on": [
+        "S1",
+        "P2"
+      ]
+    },
+    {
+      "step": 3,
+      "conclusion": "not_is(vale, drindus)",
+      "depends_on": [
+        "S2",
+        "P3"
+      ]
+    }
+  ]
+}

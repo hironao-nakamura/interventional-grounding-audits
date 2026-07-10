@@ -1,0 +1,36 @@
+{
+  "raw_response": "Step 1: Drake is a clolpus (given in premise 4).\nStep 2: Since every clolpus is a clulpus (premise 1), and Drake is a clolpus, Drake is a clulpus.\nStep 3: Since clulpuses are clarpuses (premise 2), and Drake is a clulpus, Drake is a clarpus.\nStep 4: Since clarpuses are clerpuses (premise 3), and Drake is a clarpus, Drake is a clerpus.\n\nAnswer: True",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:57:37.025630+00:00",
+  "sha256": "06dca66479bff5f5eb807431289c8e8860833ac209e259d4ec888f99ca380b06",
+  "usage": {
+    "input_tokens": 131,
+    "output_tokens": 132
+  },
+  "problem_id": "p020",
+  "probe_type": "surface",
+  "target_premise": "P1",
+  "prompt": "Given the following premises:\n1. Every clolpus is a clulpus\n2. Clulpuses are clarpuses\n3. Clarpuses are clerpuses\n4. Drake is a clolpus\n\nQuestion: Is Drake a clerpus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Every clolpus is a clulpus"
+    },
+    {
+      "id": "P2",
+      "text": "Clulpuses are clarpuses"
+    },
+    {
+      "id": "P3",
+      "text": "Clarpuses are clerpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Drake is a clolpus"
+    }
+  ],
+  "substitution": null,
+  "original_text": "Clolpuses are clulpuses",
+  "rephrased_text": "Every clolpus is a clulpus"
+}

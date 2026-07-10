@@ -1,0 +1,46 @@
+{
+  "raw_response": "I need to determine if Max is a blompus, given that Max is a zqboltus.\n\nStep 1: Max is a zqboltus, which is not the same as being a boltus.\n\nStep 2: The premises only establish relationships starting from \"boltuses,\" not \"zqboltuses.\"\n\nStep 3: There is no premise connecting zqboltuses to boltuses or any other category in the chain.\n\nStep 4: Without a connection between zqboltus and the chain (boltus \u2192 biltus \u2192 bultus \u2192 blempus \u2192 blimpus \u2192 blompus), I cannot establish that Max is a blompus.\n\nAnswer: False",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:53:41.256144+00:00",
+  "sha256": "40d6d5b14296d636a7f448b799bae1c041ab673115550f33dbd641e379cc0371",
+  "usage": {
+    "input_tokens": 150,
+    "output_tokens": 161
+  },
+  "problem_id": "p005",
+  "probe_type": "local_semantic",
+  "target_premise": "P6",
+  "prompt": "Given the following premises:\n1. Boltuses are biltuses\n2. Biltuses are bultuses\n3. Bultuses are blempuses\n4. Blempuses are blimpuses\n5. Blimpuses are blompuses\n6. Max is a zqboltus\n\nQuestion: Is Max a blompus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Boltuses are biltuses"
+    },
+    {
+      "id": "P2",
+      "text": "Biltuses are bultuses"
+    },
+    {
+      "id": "P3",
+      "text": "Bultuses are blempuses"
+    },
+    {
+      "id": "P4",
+      "text": "Blempuses are blimpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Blimpuses are blompuses"
+    },
+    {
+      "id": "P6",
+      "text": "Max is a zqboltus"
+    }
+  ],
+  "substitution": {
+    "boltus": "zqboltus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

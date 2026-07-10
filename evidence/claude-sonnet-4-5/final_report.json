@@ -1,0 +1,269 @@
+{
+  "model": "claude-sonnet-4-5",
+  "metric_policy": "aligned_cot_keyed_gt; skip UNPARSEABLE+UNSTABLE; GROUNDED+INPUT-SENSITIVE positive; CASCADE negative",
+  "main": {
+    "self_consistency_full": null,
+    "self_consistency_pred": null,
+    "string_diff_full": {
+      "tp": 173,
+      "fp": 0,
+      "tn": 846,
+      "fn": 50,
+      "precision": 1.0,
+      "recall": 0.7758,
+      "f1": 0.8737
+    },
+    "A_consistent_full": {
+      "precision": 1.0,
+      "recall": 0.7738,
+      "f1": 0.8724,
+      "tp": 171,
+      "fp": 0,
+      "fn": 50,
+      "tn": 839
+    },
+    "A_consistent_pred": {
+      "precision": 0.9942,
+      "recall": 0.9942,
+      "f1": 0.9942,
+      "tp": 170,
+      "fp": 1,
+      "fn": 1,
+      "tn": 888
+    },
+    "A_Ap_combined_full": {
+      "precision": 0.8687,
+      "recall": 0.7783,
+      "f1": 0.821,
+      "tp": 172,
+      "fp": 26,
+      "fn": 49,
+      "tn": 813
+    },
+    "A_Ap_cascade_full": {
+      "precision": 0.9451,
+      "recall": 0.7783,
+      "f1": 0.8536,
+      "tp": 172,
+      "fp": 10,
+      "fn": 49,
+      "tn": 829
+    },
+    "A_Ap_cascade_pred": {
+      "precision": 0.9341,
+      "recall": 0.9942,
+      "f1": 0.9632,
+      "tp": 170,
+      "fp": 12,
+      "fn": 1,
+      "tn": 877
+    },
+    "n_cascaded": 16
+  },
+  "ablation": {
+    "A_consistent_only": {
+      "tp": 171,
+      "fp": 0,
+      "tn": 839,
+      "fn": 50,
+      "precision": 1.0,
+      "recall": 0.7738,
+      "f1": 0.8724
+    },
+    "A'_local_only": {
+      "tp": 155,
+      "fp": 26,
+      "tn": 490,
+      "fn": 23,
+      "precision": 0.8564,
+      "recall": 0.8708,
+      "f1": 0.8635
+    },
+    "A+A'_combined": {
+      "tp": 172,
+      "fp": 26,
+      "tn": 813,
+      "fn": 49,
+      "precision": 0.8687,
+      "recall": 0.7783,
+      "f1": 0.821
+    },
+    "A+A'_no_surface_ctrl": {
+      "tp": 174,
+      "fp": 26,
+      "tn": 820,
+      "fn": 49,
+      "precision": 0.87,
+      "recall": 0.7803,
+      "f1": 0.8227
+    },
+    "string_diff_baseline": {
+      "tp": 173,
+      "fp": 0,
+      "tn": 846,
+      "fn": 50,
+      "precision": 1.0,
+      "recall": 0.7758,
+      "f1": 0.8737
+    },
+    "A+A'_cascade_filter": {
+      "tp": 172,
+      "fp": 10,
+      "fn": 49,
+      "tn": 829,
+      "precision": 0.9451,
+      "recall": 0.7783,
+      "f1": 0.8536,
+      "n_cascaded": 16
+    }
+  },
+  "analysis": {
+    "rawr": {
+      "total_correct": 50,
+      "total_rawr": 49,
+      "rawr_rate": 0.98,
+      "structural_only": 48,
+      "has_predicate_rawr": 1,
+      "total_insensitive_deps": 50,
+      "self_consistency_perfect_cases": 0,
+      "metric_policy": "A_consistent_full_aligned_gt"
+    },
+    "misrepresentation": {
+      "total": 4,
+      "metric_policy": "A_consistent_full_aligned_gt + citation_detected"
+    },
+    "fp": {
+      "n_semantic_delta_candidates": 0,
+      "n_metric_counted_fp": 0,
+      "n_outside_metric_set": 0,
+      "type_counts": {},
+      "metric_counted_type_counts": {}
+    },
+    "step_alignment": {
+      "total_problems": 50,
+      "total_cot_steps": 238,
+      "total_proof_steps": 188,
+      "matched_cot_steps": 188,
+      "unmatched_cot_steps": 50,
+      "unmatched_proof_steps": 0,
+      "ambiguous_steps": 0,
+      "problems_with_unmatched_cot_steps": [
+        "p001",
+        "p002",
+        "p003",
+        "p004",
+        "p005",
+        "p006",
+        "p007",
+        "p008",
+        "p009",
+        "p010",
+        "p011",
+        "p012",
+        "p013",
+        "p014",
+        "p015",
+        "p016",
+        "p017",
+        "p018",
+        "p019",
+        "p020",
+        "p021",
+        "p022",
+        "p023",
+        "p024",
+        "p025",
+        "p026",
+        "p027",
+        "p028",
+        "p029",
+        "p030",
+        "p031",
+        "p032",
+        "p033",
+        "p034",
+        "p035",
+        "p036",
+        "p037",
+        "p038",
+        "p039",
+        "p040",
+        "p041",
+        "p042",
+        "p043",
+        "p044",
+        "p045",
+        "p046",
+        "p047",
+        "p048",
+        "p049",
+        "p050"
+      ],
+      "problems_with_unmatched_proof_steps": [],
+      "problems_with_ambiguous_alignment": [],
+      "primary_metric_excluded_problems": [],
+      "primary_metric_policy": "exclude_unmatched_cot_steps_and_ambiguous_problems",
+      "lower_bound_policy": "treat_unmatched_or_unparseable_gt_dependencies_as_false_negatives",
+      "requires_alignment_disclosure": false,
+      "requires_lower_bound_disclosure": false
+    },
+    "parse_rates_and_coverage": {
+      "n_total_certificates": 1364,
+      "n_evaluable_certificates": 1084,
+      "n_excluded_certificates": 280,
+      "parse_rate_orig": 1.0,
+      "parse_rate_sem": 0.989,
+      "parse_rate_local": 0.6855,
+      "parse_rate_sur": 0.9934,
+      "combined_unparseable": 24,
+      "combined_unparseable_rate": 0.0221,
+      "combined_unstable": 0,
+      "a_consistent_unparseable": 24,
+      "a_consistent_unparseable_rate": 0.0221,
+      "a_consistent_unstable": 0
+    },
+    "lower_bound_A_consistent_full": {
+      "tp": 171,
+      "fp": 0,
+      "fn": 67,
+      "extra_fn_from_unparseable_or_unstable": 17,
+      "extra_fn_from_unscored_proof_dependencies": 0,
+      "precision": 1.0,
+      "recall": 0.7185,
+      "f1": 0.8362,
+      "policy": "treat_unmatched_or_unparseable_gt_dependencies_as_false_negatives"
+    },
+    "chain_length": [
+      {
+        "chain_length": 3,
+        "n_problems": 23,
+        "tp": 58,
+        "fp": 0,
+        "fn": 23,
+        "precision": 1.0,
+        "recall": 0.716,
+        "f1": 0.8345
+      },
+      {
+        "chain_length": 4,
+        "n_problems": 16,
+        "tp": 61,
+        "fp": 0,
+        "fn": 15,
+        "precision": 1.0,
+        "recall": 0.8026,
+        "f1": 0.8905
+      },
+      {
+        "chain_length": 5,
+        "n_problems": 11,
+        "tp": 52,
+        "fp": 0,
+        "fn": 12,
+        "precision": 1.0,
+        "recall": 0.8125,
+        "f1": 0.8966
+      }
+    ]
+  }
+}

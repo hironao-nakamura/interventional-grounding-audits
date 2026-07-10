@@ -1,0 +1,42 @@
+{
+  "raw_response": "Step 1: Hart is a zqflultus, which contains \"flultus\" as part of the term.\n\nStep 2: Since the premises don't establish any relationship between \"zqflultus\" and the chain starting with \"flultuses,\" I need to determine if \"zqflultus\" connects to this chain.\n\nStep 3: The term \"zqflultus\" is not the same as \"flultus\" - it has a prefix \"zq\" that makes it a different category.\n\nStep 4: There is no premise stating that zqflultuses are flultuses or that zqflultuses connect to any part of the given chain.\n\nStep 5: Without a connection between zqflultus and the chain (flultuses \u2192 frempuses \u2192 frimpuses \u2192 frompuses \u2192 frumpuses), I cannot conclude that Hart is a frumpus.\n\nAnswer: False",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T05:07:06.190857+00:00",
+  "sha256": "bb07c64f0ad0fb940ae949175a2e63eb885ea9422834c327c2bf3ed75cfb33f9",
+  "usage": {
+    "input_tokens": 139,
+    "output_tokens": 206
+  },
+  "problem_id": "p046",
+  "probe_type": "local_semantic",
+  "target_premise": "P5",
+  "prompt": "Given the following premises:\n1. Flultuses are frempuses\n2. Frempuses are frimpuses\n3. Frimpuses are frompuses\n4. Frompuses are frumpuses\n5. Hart is a zqflultus\n\nQuestion: Is Hart a frumpus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Flultuses are frempuses"
+    },
+    {
+      "id": "P2",
+      "text": "Frempuses are frimpuses"
+    },
+    {
+      "id": "P3",
+      "text": "Frimpuses are frompuses"
+    },
+    {
+      "id": "P4",
+      "text": "Frompuses are frumpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Hart is a zqflultus"
+    }
+  ],
+  "substitution": {
+    "flultus": "zqflultus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

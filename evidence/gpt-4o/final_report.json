@@ -1,0 +1,254 @@
+{
+  "model": "gpt-4o",
+  "metric_policy": "aligned_cot_keyed_gt; skip UNPARSEABLE+UNSTABLE; GROUNDED+INPUT-SENSITIVE positive; CASCADE negative",
+  "main": {
+    "self_consistency_full": {
+      "precision": 0.226,
+      "recall": 0.715,
+      "f1": 0.3434,
+      "tp": 148,
+      "fp": 507,
+      "fn": 59,
+      "tn": 192
+    },
+    "self_consistency_pred": {
+      "precision": 0.1771,
+      "recall": 0.7342,
+      "f1": 0.2854,
+      "tp": 116,
+      "fp": 539,
+      "fn": 42,
+      "tn": 209
+    },
+    "string_diff_full": {
+      "tp": 161,
+      "fp": 40,
+      "tn": 721,
+      "fn": 47,
+      "precision": 0.801,
+      "recall": 0.774,
+      "f1": 0.7873
+    },
+    "A_consistent_full": {
+      "precision": 0.7937,
+      "recall": 0.8197,
+      "f1": 0.8065,
+      "tp": 150,
+      "fp": 39,
+      "fn": 33,
+      "tn": 674
+    },
+    "A_consistent_pred": {
+      "precision": 0.7937,
+      "recall": 1.0,
+      "f1": 0.885,
+      "tp": 150,
+      "fp": 39,
+      "fn": 0,
+      "tn": 707
+    },
+    "A_Ap_combined_full": {
+      "precision": 0.6035,
+      "recall": 0.9053,
+      "f1": 0.7242,
+      "tp": 172,
+      "fp": 113,
+      "fn": 18,
+      "tn": 612
+    },
+    "A_Ap_cascade_full": {
+      "precision": 0.7556,
+      "recall": 0.8947,
+      "f1": 0.8193,
+      "tp": 170,
+      "fp": 55,
+      "fn": 20,
+      "tn": 670
+    },
+    "A_Ap_cascade_pred": {
+      "precision": 0.6844,
+      "recall": 0.9872,
+      "f1": 0.8084,
+      "tp": 154,
+      "fp": 71,
+      "fn": 2,
+      "tn": 688
+    },
+    "n_cascaded": 60
+  },
+  "ablation": {
+    "A_consistent_only": {
+      "tp": 150,
+      "fp": 39,
+      "tn": 683,
+      "fn": 35,
+      "precision": 0.7937,
+      "recall": 0.8108,
+      "f1": 0.8021
+    },
+    "A'_local_only": {
+      "tp": 150,
+      "fp": 99,
+      "tn": 427,
+      "fn": 17,
+      "precision": 0.6024,
+      "recall": 0.8982,
+      "f1": 0.7212
+    },
+    "A+A'_combined": {
+      "tp": 172,
+      "fp": 113,
+      "tn": 612,
+      "fn": 18,
+      "precision": 0.6035,
+      "recall": 0.9053,
+      "f1": 0.7242
+    },
+    "A+A'_no_surface_ctrl": {
+      "tp": 187,
+      "fp": 116,
+      "tn": 655,
+      "fn": 28,
+      "precision": 0.6172,
+      "recall": 0.8698,
+      "f1": 0.722
+    },
+    "string_diff_baseline": {
+      "tp": 161,
+      "fp": 40,
+      "tn": 721,
+      "fn": 47,
+      "precision": 0.801,
+      "recall": 0.774,
+      "f1": 0.7873
+    },
+    "A+A'_cascade_filter": {
+      "tp": 170,
+      "fp": 55,
+      "fn": 20,
+      "tn": 670,
+      "precision": 0.7556,
+      "recall": 0.8947,
+      "f1": 0.8193,
+      "n_cascaded": 60
+    }
+  },
+  "analysis": {
+    "rawr": {
+      "total_correct": 50,
+      "total_rawr": 33,
+      "rawr_rate": 0.66,
+      "structural_only": 33,
+      "has_predicate_rawr": 0,
+      "total_insensitive_deps": 33,
+      "self_consistency_perfect_cases": 14,
+      "metric_policy": "A_consistent_full_aligned_gt"
+    },
+    "misrepresentation": {
+      "total": 30,
+      "metric_policy": "A_consistent_full_aligned_gt + citation_detected"
+    },
+    "fp": {
+      "n_semantic_delta_candidates": 40,
+      "n_metric_counted_fp": 39,
+      "n_outside_metric_set": 1,
+      "type_counts": {
+        "STOCHASTIC": 37,
+        "EXPECTED_SUBSTITUTION": 3
+      },
+      "metric_counted_type_counts": {
+        "STOCHASTIC": 36,
+        "EXPECTED_SUBSTITUTION": 3
+      }
+    },
+    "step_alignment": {
+      "total_problems": 50,
+      "total_cot_steps": 196,
+      "total_proof_steps": 188,
+      "matched_cot_steps": 179,
+      "unmatched_cot_steps": 17,
+      "unmatched_proof_steps": 9,
+      "ambiguous_steps": 0,
+      "problems_with_unmatched_cot_steps": [
+        "p010",
+        "p015",
+        "p026",
+        "p027",
+        "p034",
+        "p037",
+        "p044",
+        "p047"
+      ],
+      "problems_with_unmatched_proof_steps": [
+        "p015",
+        "p026",
+        "p027",
+        "p044"
+      ],
+      "problems_with_ambiguous_alignment": [],
+      "primary_metric_excluded_problems": [],
+      "primary_metric_policy": "exclude_unmatched_cot_steps_and_ambiguous_problems",
+      "lower_bound_policy": "treat_unmatched_or_unparseable_gt_dependencies_as_false_negatives",
+      "requires_alignment_disclosure": false,
+      "requires_lower_bound_disclosure": true
+    },
+    "parse_rates_and_coverage": {
+      "n_total_certificates": 1127,
+      "n_evaluable_certificates": 1031,
+      "n_excluded_certificates": 96,
+      "parse_rate_orig": 0.953,
+      "parse_rate_sem": 0.929,
+      "parse_rate_local": 0.6921,
+      "parse_rate_sur": 0.9033,
+      "combined_unparseable": 108,
+      "combined_unparseable_rate": 0.1048,
+      "combined_unstable": 8,
+      "a_consistent_unparseable": 124,
+      "a_consistent_unparseable_rate": 0.1203,
+      "a_consistent_unstable": 11
+    },
+    "lower_bound_A_consistent_full": {
+      "tp": 150,
+      "fp": 39,
+      "fn": 88,
+      "extra_fn_from_unparseable_or_unstable": 44,
+      "extra_fn_from_unscored_proof_dependencies": 11,
+      "precision": 0.7937,
+      "recall": 0.6303,
+      "f1": 0.7026,
+      "policy": "treat_unmatched_or_unparseable_gt_dependencies_as_false_negatives"
+    },
+    "chain_length": [
+      {
+        "chain_length": 3,
+        "n_problems": 23,
+        "tp": 48,
+        "fp": 11,
+        "fn": 12,
+        "precision": 0.8136,
+        "recall": 0.8,
+        "f1": 0.8067
+      },
+      {
+        "chain_length": 4,
+        "n_problems": 16,
+        "tp": 50,
+        "fp": 12,
+        "fn": 10,
+        "precision": 0.8065,
+        "recall": 0.8333,
+        "f1": 0.8197
+      },
+      {
+        "chain_length": 5,
+        "n_problems": 11,
+        "tp": 52,
+        "fp": 16,
+        "fn": 11,
+        "precision": 0.7647,
+        "recall": 0.8254,
+        "f1": 0.7939
+      }
+    ]
+  }
+}

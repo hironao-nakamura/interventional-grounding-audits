@@ -1,0 +1,42 @@
+{
+  "raw_response": "Step 1: Sam is a blonkus (given in premise 5).\nStep 2: Since blonkuses are zqblunkuses (premise 1), Sam is a zqblunkus.\nStep 3: There is no rule connecting zqblunkuses to blunkuses, blankuses, or blenkuses.\nStep 4: Premises 2 and 3 tell us about blunkuses and blankuses, but Sam being a blonkus/zqblunkus doesn't connect to these categories.\nStep 5: There is no logical path from Sam being a blonkus to Sam being a blenkus.\nStep 6: In fact, even if we could connect Sam to blankuses, premise 3 states that blankuses are not blenkuses.\nStep 7: We cannot establish that Sam is a blenkus based on the given premises.\n\nAnswer: False",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:53:53.606588+00:00",
+  "sha256": "0dd94249c48bea8de280f136d2bcacd302fe0b45460fb3baf163c45bf5d90c6d",
+  "usage": {
+    "input_tokens": 141,
+    "output_tokens": 211
+  },
+  "problem_id": "p009",
+  "probe_type": "local_semantic",
+  "target_premise": "P1",
+  "prompt": "Given the following premises:\n1. Blonkuses are zqblunkuses\n2. Blunkuses are blankuses\n3. Blankuses are not blenkuses\n4. Blonduses are blinduses\n5. Sam is a blonkus\n\nQuestion: Is Sam a blenkus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Blonkuses are zqblunkuses"
+    },
+    {
+      "id": "P2",
+      "text": "Blunkuses are blankuses"
+    },
+    {
+      "id": "P3",
+      "text": "Blankuses are not blenkuses"
+    },
+    {
+      "id": "P4",
+      "text": "Blonduses are blinduses"
+    },
+    {
+      "id": "P5",
+      "text": "Sam is a blonkus"
+    }
+  ],
+  "substitution": {
+    "blunkus": "zqblunkus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

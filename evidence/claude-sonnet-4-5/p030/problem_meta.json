@@ -1,0 +1,69 @@
+{
+  "problem_id": "p030",
+  "premises": [
+    {
+      "id": "P1",
+      "text": "Danpuses are denpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Denpuses are donpuses"
+    },
+    {
+      "id": "P3",
+      "text": "Donpuses are dunpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Dunpuses are not delnuses"
+    },
+    {
+      "id": "P5",
+      "text": "Dolnuses are dilnuses"
+    },
+    {
+      "id": "P6",
+      "text": "Dalvuses are delvuses"
+    },
+    {
+      "id": "P7",
+      "text": "Opal is a danpus"
+    }
+  ],
+  "question": "Is Opal a delnus?",
+  "answer": false,
+  "proof_tree": [
+    {
+      "step": 1,
+      "conclusion": "is(opal, denpus)",
+      "depends_on": [
+        "P7",
+        "P1"
+      ]
+    },
+    {
+      "step": 2,
+      "conclusion": "is(opal, donpus)",
+      "depends_on": [
+        "S1",
+        "P2"
+      ]
+    },
+    {
+      "step": 3,
+      "conclusion": "is(opal, dunpus)",
+      "depends_on": [
+        "S2",
+        "P3"
+      ]
+    },
+    {
+      "step": 4,
+      "conclusion": "not_is(opal, delnus)",
+      "depends_on": [
+        "S3",
+        "P4"
+      ]
+    }
+  ]
+}

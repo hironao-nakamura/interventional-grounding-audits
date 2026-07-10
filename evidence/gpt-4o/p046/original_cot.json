@@ -1,0 +1,38 @@
+{
+  "raw_response": "Step 1: Since flultuses are frempuses and Hart is a flultus, Hart is a frempus.\nStep 2: Since frempuses are frimpuses and Hart is a frempus, Hart is a frimpus.\nStep 3: Since frimpuses are frompuses and Hart is a frimpus, Hart is a frompus.\nStep 4: Since frompuses are frumpuses and Hart is a frompus, Hart is a frumpus.\n\nAnswer: True",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:45:22.949610+00:00",
+  "sha256": "d740e81e04aa5c81072e8d49c7b0016b0db08d6d45d5567f86ee3005269fd76e",
+  "usage": {
+    "prompt_tokens": 125,
+    "completion_tokens": 107,
+    "total_tokens": 232
+  },
+  "problem_id": "p046",
+  "probe_type": "original",
+  "prompt": "Given the following premises:\n1. Flultuses are frempuses\n2. Frempuses are frimpuses\n3. Frimpuses are frompuses\n4. Frompuses are frumpuses\n5. Hart is a flultus\n\nQuestion: Is Hart a frumpus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "premises": [
+    {
+      "id": "P1",
+      "text": "Flultuses are frempuses"
+    },
+    {
+      "id": "P2",
+      "text": "Frempuses are frimpuses"
+    },
+    {
+      "id": "P3",
+      "text": "Frimpuses are frompuses"
+    },
+    {
+      "id": "P4",
+      "text": "Frompuses are frumpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Hart is a flultus"
+    }
+  ],
+  "question": "Is Hart a frumpus?"
+}

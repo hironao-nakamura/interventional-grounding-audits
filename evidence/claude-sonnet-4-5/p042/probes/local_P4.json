@@ -1,0 +1,46 @@
+{
+  "raw_response": "Step 1: Dove is a flompus (given in premise 6).\nStep 2: Since flompuses are flumpuses (premise 1), Dove is a flumpus.\nStep 3: Since flumpuses are flalpuses (premise 2), Dove is a flalpus.\nStep 4: Since flalpuses are flelpuses (premise 3), Dove is a flelpus.\nStep 5: Since flelpuses are zqflolpuses (premise 4), Dove is a zqflolpus.\nStep 6: Premise 5 states that flolpuses are not flulpuses, but this applies to flolpuses, not zqflolpuses.\nStep 7: There is no chain of reasoning that establishes Dove as a flulpus, and premise 5 suggests flolpuses (which may be related to zqflolpuses) are not flulpuses.\n\nAnswer: False",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T05:05:11.666495+00:00",
+  "sha256": "02ecc4934d54e4dc8f57f939fd319348ae9f7325f86005ad2f145c32d51b3f15",
+  "usage": {
+    "input_tokens": 157,
+    "output_tokens": 228
+  },
+  "problem_id": "p042",
+  "probe_type": "local_semantic",
+  "target_premise": "P4",
+  "prompt": "Given the following premises:\n1. Flompuses are flumpuses\n2. Flumpuses are flalpuses\n3. Flalpuses are flelpuses\n4. Flelpuses are zqflolpuses\n5. Flolpuses are not flulpuses\n6. Dove is a flompus\n\nQuestion: Is Dove a flulpus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Flompuses are flumpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Flumpuses are flalpuses"
+    },
+    {
+      "id": "P3",
+      "text": "Flalpuses are flelpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Flelpuses are zqflolpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Flolpuses are not flulpuses"
+    },
+    {
+      "id": "P6",
+      "text": "Dove is a flompus"
+    }
+  ],
+  "substitution": {
+    "flolpus": "zqflolpus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

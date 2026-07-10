@@ -1,0 +1,61 @@
+{
+  "problem_id": "p011",
+  "premises": [
+    {
+      "id": "P1",
+      "text": "Bralpuses are brelpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Brelpuses are brolpuses"
+    },
+    {
+      "id": "P3",
+      "text": "Brolpuses are brulpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Brulpuses are not brarpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Kai is a bralpus"
+    }
+  ],
+  "question": "Is Kai a brarpus?",
+  "answer": false,
+  "proof_tree": [
+    {
+      "step": 1,
+      "conclusion": "is(kai, brelpus)",
+      "depends_on": [
+        "P5",
+        "P1"
+      ]
+    },
+    {
+      "step": 2,
+      "conclusion": "is(kai, brolpus)",
+      "depends_on": [
+        "S1",
+        "P2"
+      ]
+    },
+    {
+      "step": 3,
+      "conclusion": "is(kai, brulpus)",
+      "depends_on": [
+        "S2",
+        "P3"
+      ]
+    },
+    {
+      "step": 4,
+      "conclusion": "not_is(kai, brarpus)",
+      "depends_on": [
+        "S3",
+        "P4"
+      ]
+    }
+  ]
+}

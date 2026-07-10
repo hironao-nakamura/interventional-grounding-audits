@@ -1,0 +1,49 @@
+{
+  "raw_response": "Step 1: Tarn is a drurpus, and since all drurpuses are dranpuses, Tarn is a dranpus.\nStep 2: Tarn is a dranpus, and since all dranpuses are drenpuses, Tarn is a drenpus.\nStep 3: Tarn is a drenpus, and since all drenpuses are dronpuses, Tarn is a dronpus.\nStep 4: Tarn is a dronpus, and since all dronpuses are drunpuses, Tarn is a drunpus.\nStep 5: Tarn is a drunpus, and since drunpuses are not drelnuses, Tarn is not a drelnus.\n\nAnswer: False",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:44:42.969177+00:00",
+  "sha256": "9486cb1b77daa5947f37550c643b3b93afdc005357cfdf1a4aee9f425b5d3440",
+  "usage": {
+    "prompt_tokens": 152,
+    "completion_tokens": 147,
+    "total_tokens": 299
+  },
+  "problem_id": "p034",
+  "probe_type": "surface",
+  "target_premise": "P6",
+  "prompt": "Given the following premises:\n1. Drurpuses are dranpuses\n2. Dranpuses are drenpuses\n3. Drenpuses are dronpuses\n4. Dronpuses are drunpuses\n5. Drunpuses are not drelnuses\n6. Every drolnus is a drilnus\n7. Tarn is a drurpus\n\nQuestion: Is Tarn a drelnus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Drurpuses are dranpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Dranpuses are drenpuses"
+    },
+    {
+      "id": "P3",
+      "text": "Drenpuses are dronpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Dronpuses are drunpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Drunpuses are not drelnuses"
+    },
+    {
+      "id": "P6",
+      "text": "Every drolnus is a drilnus"
+    },
+    {
+      "id": "P7",
+      "text": "Tarn is a drurpus"
+    }
+  ],
+  "substitution": null,
+  "original_text": "Drolnuses are drilnuses",
+  "rephrased_text": "Every drolnus is a drilnus"
+}

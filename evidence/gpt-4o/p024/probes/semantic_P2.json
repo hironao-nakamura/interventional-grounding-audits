@@ -1,0 +1,51 @@
+{
+  "raw_response": "Step 1: Ivy is a cloltus.\nStep 2: Since cloltuses are cliltuses, Ivy is a cliltus.\nStep 3: Since cliltuses are zqclultuses, Ivy is a zqclultus.\nStep 4: Since zqclultuses are crempuses, Ivy is a crempus.\nStep 5: Since crempuses are crimpuses, Ivy is a crimpus.\nStep 6: Since crimpuses are not crompuses, Ivy is not a crompus.\nAnswer: False",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:43:39.805259+00:00",
+  "sha256": "0e3cccce65c1f63188673792c3b497de10d7a4796fbb18eb1c556827bdd1d84a",
+  "usage": {
+    "prompt_tokens": 149,
+    "completion_tokens": 121,
+    "total_tokens": 270
+  },
+  "problem_id": "p024",
+  "probe_type": "semantic",
+  "target_premise": "P2",
+  "prompt": "Given the following premises:\n1. Cloltuses are cliltuses\n2. Cliltuses are zqclultuses\n3. Zqclultuses are crempuses\n4. Crempuses are crimpuses\n5. Crimpuses are not crompuses\n6. Crumpuses are cralpuses\n7. Ivy is a cloltus\n\nQuestion: Is Ivy a crompus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Cloltuses are cliltuses"
+    },
+    {
+      "id": "P2",
+      "text": "Cliltuses are zqclultuses"
+    },
+    {
+      "id": "P3",
+      "text": "Zqclultuses are crempuses"
+    },
+    {
+      "id": "P4",
+      "text": "Crempuses are crimpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Crimpuses are not crompuses"
+    },
+    {
+      "id": "P6",
+      "text": "Crumpuses are cralpuses"
+    },
+    {
+      "id": "P7",
+      "text": "Ivy is a cloltus"
+    }
+  ],
+  "substitution": {
+    "clultus": "zqclultus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

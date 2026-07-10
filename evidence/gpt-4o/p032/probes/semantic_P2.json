@@ -1,0 +1,47 @@
+{
+  "raw_response": "Step 1: Since Rune is a deltus, by premise 1, Rune is also a doltus.\nStep 2: Since Rune is a doltus, by premise 2, Rune is also a zqdiltus.\nStep 3: Since Rune is a zqdiltus, by premise 3, Rune is also a dultus.\nStep 4: Since Rune is a dultus, by premise 4, Rune is not a drempus.\n\nAnswer: False",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:44:12.045102+00:00",
+  "sha256": "ab05b7431dcaeafb244b09187a640244c91d83b50486380cd8e184194a90752b",
+  "usage": {
+    "prompt_tokens": 139,
+    "completion_tokens": 104,
+    "total_tokens": 243
+  },
+  "problem_id": "p032",
+  "probe_type": "semantic",
+  "target_premise": "P2",
+  "prompt": "Given the following premises:\n1. Deltuses are doltuses\n2. Doltuses are zqdiltuses\n3. Zqdiltuses are dultuses\n4. Dultuses are not drempuses\n5. Drimpuses are drompuses\n6. Rune is a deltus\n\nQuestion: Is Rune a drempus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Deltuses are doltuses"
+    },
+    {
+      "id": "P2",
+      "text": "Doltuses are zqdiltuses"
+    },
+    {
+      "id": "P3",
+      "text": "Zqdiltuses are dultuses"
+    },
+    {
+      "id": "P4",
+      "text": "Dultuses are not drempuses"
+    },
+    {
+      "id": "P5",
+      "text": "Drimpuses are drompuses"
+    },
+    {
+      "id": "P6",
+      "text": "Rune is a deltus"
+    }
+  ],
+  "substitution": {
+    "diltus": "zqdiltus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

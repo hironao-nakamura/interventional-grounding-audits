@@ -1,0 +1,48 @@
+{
+  "raw_response": "Step 1: Jet is a frenpus (given in premise 7).\nStep 2: Since Jet is a frenpus and frenpuses are fronpuses (premise 1), Jet is a fronpus.\nStep 3: Since Jet is a fronpus and fronpuses are frunpuses (premise 2), Jet is a frunpus.\nStep 4: Since Jet is a frunpus and frunpuses are frelnuses (premise 3), Jet is a frelnus.\nStep 5: Since Jet is a frelnus and frelnuses are frolnuses (premise 4), Jet is a frolnus.\n\nAnswer: True",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T05:07:52.252371+00:00",
+  "sha256": "c51d7f630c32af387ed97f5aae0eda6e1f5eb438854476278308e7321dd18502",
+  "usage": {
+    "input_tokens": 168,
+    "output_tokens": 166
+  },
+  "problem_id": "p048",
+  "probe_type": "surface",
+  "target_premise": "P7",
+  "prompt": "Given the following premises:\n1. Frenpuses are fronpuses\n2. Fronpuses are frunpuses\n3. Frunpuses are frelnuses\n4. Frelnuses are frolnuses\n5. Frilnuses are fralvuses\n6. Frelvuses are frolvuses\n7. Jet is one of the frenpuses\n\nQuestion: Is Jet a frolnus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Frenpuses are fronpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Fronpuses are frunpuses"
+    },
+    {
+      "id": "P3",
+      "text": "Frunpuses are frelnuses"
+    },
+    {
+      "id": "P4",
+      "text": "Frelnuses are frolnuses"
+    },
+    {
+      "id": "P5",
+      "text": "Frilnuses are fralvuses"
+    },
+    {
+      "id": "P6",
+      "text": "Frelvuses are frolvuses"
+    },
+    {
+      "id": "P7",
+      "text": "Jet is one of the frenpuses"
+    }
+  ],
+  "substitution": null,
+  "original_text": "Jet is a frenpus",
+  "rephrased_text": "Jet is one of the frenpuses"
+}

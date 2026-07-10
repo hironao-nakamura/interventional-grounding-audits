@@ -1,0 +1,9 @@
+Validating evidence pack at .
+  [OK] 50 problems in data/prontoqa_50
+
+--- Validating model: gpt-4o ---
+
+--- Validating model: claude-sonnet-4-5 ---
+
+Errors: 0  Warnings: 0
+RESULT: PASS

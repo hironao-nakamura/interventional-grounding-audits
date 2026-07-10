@@ -1,0 +1,49 @@
+{
+  "problem_id": "p020",
+  "premises": [
+    {
+      "id": "P1",
+      "text": "Clolpuses are clulpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Clulpuses are clarpuses"
+    },
+    {
+      "id": "P3",
+      "text": "Clarpuses are clerpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Drake is a clolpus"
+    }
+  ],
+  "question": "Is Drake a clerpus?",
+  "answer": true,
+  "proof_tree": [
+    {
+      "step": 1,
+      "conclusion": "is(drake, clulpus)",
+      "depends_on": [
+        "P4",
+        "P1"
+      ]
+    },
+    {
+      "step": 2,
+      "conclusion": "is(drake, clarpus)",
+      "depends_on": [
+        "S1",
+        "P2"
+      ]
+    },
+    {
+      "step": 3,
+      "conclusion": "is(drake, clerpus)",
+      "depends_on": [
+        "S2",
+        "P3"
+      ]
+    }
+  ]
+}

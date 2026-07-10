@@ -1,0 +1,53 @@
+{
+  "raw_response": "Step 1: Nyx is a dempus, and since all dempuses are dimpuses, Nyx is a dimpus.\nStep 2: Since Nyx is a dimpus and every dimpus is a dompus, Nyx is a dompus.\nStep 3: Since Nyx is a dompus and dompuses are dumpuses, Nyx is a dumpus.\nStep 4: Since Nyx is a dumpus and dumpuses are dalpuses, Nyx is a dalpus.\nStep 5: Since Nyx is a dalpus and dalpuses are delpuses, Nyx is a delpus.\n\nAnswer: True",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:44:02.567043+00:00",
+  "sha256": "b64dce10050822496fe62d2a5c40287c3681afd5a30af789926bcd39d5230cab",
+  "usage": {
+    "prompt_tokens": 153,
+    "completion_tokens": 138,
+    "total_tokens": 291
+  },
+  "problem_id": "p029",
+  "probe_type": "surface",
+  "target_premise": "P2",
+  "prompt": "Given the following premises:\n1. Dempuses are dimpuses\n2. Every dimpus is a dompus\n3. Dompuses are dumpuses\n4. Dumpuses are dalpuses\n5. Dalpuses are delpuses\n6. Dolpuses are dulpuses\n7. Darpuses are derpuses\n8. Nyx is a dempus\n\nQuestion: Is Nyx a delpus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Dempuses are dimpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Every dimpus is a dompus"
+    },
+    {
+      "id": "P3",
+      "text": "Dompuses are dumpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Dumpuses are dalpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Dalpuses are delpuses"
+    },
+    {
+      "id": "P6",
+      "text": "Dolpuses are dulpuses"
+    },
+    {
+      "id": "P7",
+      "text": "Darpuses are derpuses"
+    },
+    {
+      "id": "P8",
+      "text": "Nyx is a dempus"
+    }
+  ],
+  "substitution": null,
+  "original_text": "Dimpuses are dompuses",
+  "rephrased_text": "Every dimpus is a dompus"
+}

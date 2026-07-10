@@ -1,0 +1,39 @@
+{
+  "raw_response": "Step 1: Since Vale is a drankus, and drankuses are drenkuses, Vale is a drenkus.\nStep 2: Since Vale is a drenkus, and drenkuses are zqdronduses, Vale is a zqdrondus.\nStep 3: Since zqdronduses are not drinduses, and Vale is a zqdrondus, Vale is not a drindus.\n\nAnswer: False",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:44:34.515633+00:00",
+  "sha256": "855fdcb18f550f662d14485d40dac9ab6330ccab04901fb9d7f311b0b8bae717",
+  "usage": {
+    "prompt_tokens": 120,
+    "completion_tokens": 95,
+    "total_tokens": 215
+  },
+  "problem_id": "p036",
+  "probe_type": "semantic",
+  "target_premise": "P2",
+  "prompt": "Given the following premises:\n1. Drankuses are drenkuses\n2. Drenkuses are zqdronduses\n3. Zqdronduses are not drinduses\n4. Vale is a drankus\n\nQuestion: Is Vale a drindus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Drankuses are drenkuses"
+    },
+    {
+      "id": "P2",
+      "text": "Drenkuses are zqdronduses"
+    },
+    {
+      "id": "P3",
+      "text": "Zqdronduses are not drinduses"
+    },
+    {
+      "id": "P4",
+      "text": "Vale is a drankus"
+    }
+  ],
+  "substitution": {
+    "drondus": "zqdrondus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

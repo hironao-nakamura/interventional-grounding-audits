@@ -1,0 +1,45 @@
+{
+  "raw_response": "Step 1: Since Brurpuses are Branpuses and Nova is a Brurpus, Nova is a Branpus.\nStep 2: Since Branpuses are Brenpuses and Nova is a Branpus, Nova is a Brenpuse.\nStep 3: Since Brenpuses are Bronpuses and Nova is a Brenpuse, Nova is a Bronpuse.\nStep 4: Since Bronpuses are Brunpuses and Nova is a Bronpuse, Nova is a Brunpus.\n\nAnswer: True",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:43:05.808923+00:00",
+  "sha256": "40bdf7c7c14634997450b726c836424d24acb19752e699adb16548b5c3a8a625",
+  "usage": {
+    "prompt_tokens": 137,
+    "completion_tokens": 108,
+    "total_tokens": 245
+  },
+  "problem_id": "p012",
+  "probe_type": "surface",
+  "target_premise": "P5",
+  "prompt": "Given the following premises:\n1. Brurpuses are branpuses\n2. Branpuses are brenpuses\n3. Brenpuses are bronpuses\n4. Bronpuses are brunpuses\n5. Every brelnus is a brolnus\n6. Nova is a brurpus\n\nQuestion: Is Nova a brunpus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Brurpuses are branpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Branpuses are brenpuses"
+    },
+    {
+      "id": "P3",
+      "text": "Brenpuses are bronpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Bronpuses are brunpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Every brelnus is a brolnus"
+    },
+    {
+      "id": "P6",
+      "text": "Nova is a brurpus"
+    }
+  ],
+  "substitution": null,
+  "original_text": "Brelnuses are brolnuses",
+  "rephrased_text": "Every brelnus is a brolnus"
+}

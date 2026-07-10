@@ -1,0 +1,46 @@
+{
+  "raw_response": "Step 1: Juno is a chelnus (given in premise 6).\nStep 2: Since chelnuses are cholnuses (premise 1), Juno is a cholnus.\nStep 3: Since cholnuses are chilnuses (premise 2), Juno is a chilnus.\nStep 4: Since chilnuses are zqchalvuses (premise 3), Juno is a zqchalvus.\n\nAt this point, I need to check if there's a connection from zqchalvus to chelvus. Looking at the remaining premises:\n- Premise 4: Chalvuses are chelvuses\n- Premise 5: Cholvuses are chilvuses\n\nThere is no premise that connects zqchalvuses to chalvuses, cholvuses, or any other term that would lead to chelvus.\n\nAnswer: False",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:56:53.468678+00:00",
+  "sha256": "0510fb5bf14f5597bce6321c180d89417d6b165124e89f59a2dd61bccdd4d822",
+  "usage": {
+    "input_tokens": 154,
+    "output_tokens": 206
+  },
+  "problem_id": "p017",
+  "probe_type": "local_semantic",
+  "target_premise": "P3",
+  "prompt": "Given the following premises:\n1. Chelnuses are cholnuses\n2. Cholnuses are chilnuses\n3. Chilnuses are zqchalvuses\n4. Chalvuses are chelvuses\n5. Cholvuses are chilvuses\n6. Juno is a chelnus\n\nQuestion: Is Juno a chelvus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Chelnuses are cholnuses"
+    },
+    {
+      "id": "P2",
+      "text": "Cholnuses are chilnuses"
+    },
+    {
+      "id": "P3",
+      "text": "Chilnuses are zqchalvuses"
+    },
+    {
+      "id": "P4",
+      "text": "Chalvuses are chelvuses"
+    },
+    {
+      "id": "P5",
+      "text": "Cholvuses are chilvuses"
+    },
+    {
+      "id": "P6",
+      "text": "Juno is a chelnus"
+    }
+  ],
+  "substitution": {
+    "chalvus": "zqchalvus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

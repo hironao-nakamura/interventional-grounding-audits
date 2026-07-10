@@ -1,0 +1,50 @@
+{
+  "raw_response": "I need to determine if Ivy is a crompus by following the logical chain from what Ivy is.\n\nStep 1: Ivy is a zqcloltus, which appears to be a variant or type related to cloltuses, so I'll treat Ivy as a cloltus.\n\nStep 2: From premise 1, since cloltuses are cliltuses, Ivy is a cliltus.\n\nStep 3: From premise 2, since cliltuses are clultuses, Ivy is a clultus.\n\nStep 4: From premise 3, since clultuses are crempuses, Ivy is a crempus.\n\nStep 5: From premise 4, since crempuses are crimpuses, Ivy is a crimpus.\n\nStep 6: From premise 5, since crimpuses are not crompuses, Ivy is not a crompus.\n\nAnswer: False",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:59:43.734746+00:00",
+  "sha256": "5e87e885fbbfecfc13a17e488f7dfe14cbbc9c817dd8702ccebd8b0ae8243947",
+  "usage": {
+    "input_tokens": 164,
+    "output_tokens": 208
+  },
+  "problem_id": "p024",
+  "probe_type": "local_semantic",
+  "target_premise": "P7",
+  "prompt": "Given the following premises:\n1. Cloltuses are cliltuses\n2. Cliltuses are clultuses\n3. Clultuses are crempuses\n4. Crempuses are crimpuses\n5. Crimpuses are not crompuses\n6. Crumpuses are cralpuses\n7. Ivy is a zqcloltus\n\nQuestion: Is Ivy a crompus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Cloltuses are cliltuses"
+    },
+    {
+      "id": "P2",
+      "text": "Cliltuses are clultuses"
+    },
+    {
+      "id": "P3",
+      "text": "Clultuses are crempuses"
+    },
+    {
+      "id": "P4",
+      "text": "Crempuses are crimpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Crimpuses are not crompuses"
+    },
+    {
+      "id": "P6",
+      "text": "Crumpuses are cralpuses"
+    },
+    {
+      "id": "P7",
+      "text": "Ivy is a zqcloltus"
+    }
+  ],
+  "substitution": {
+    "cloltus": "zqcloltus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

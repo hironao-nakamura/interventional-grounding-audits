@@ -1,0 +1,51 @@
+{
+  "raw_response": "Step 1: Ivy is a cloltus, and cloltuses are zqcliltuses, so Ivy is a zqcliltus.\nStep 2: Zqcliltuses are not directly related to the other categories, so we continue with cloltuses.\nStep 3: Cloltuses are zqcliltuses, but we need to follow the chain from cloltuses to determine if Ivy is a crompus.\nStep 4: Cloltuses are zqcliltuses, and cliltuses are clultuses, so Ivy is a cliltus.\nStep 5: Cliltuses are clultuses, so Ivy is a clultus.\nStep 6: Clultuses are crempuses, so Ivy is a crempus.\nStep 7: Crempuses are crimpuses, so Ivy is a crimpus.\nStep 8: Crimpuses are not crompuses, so Ivy is not a crompus.\n\nAnswer: False",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:43:37.196375+00:00",
+  "sha256": "45512c9bb581419815d15a45e894475c9da6b51ff59267564da9d00f4482edb7",
+  "usage": {
+    "prompt_tokens": 147,
+    "completion_tokens": 207,
+    "total_tokens": 354
+  },
+  "problem_id": "p024",
+  "probe_type": "local_semantic",
+  "target_premise": "P1",
+  "prompt": "Given the following premises:\n1. Cloltuses are zqcliltuses\n2. Cliltuses are clultuses\n3. Clultuses are crempuses\n4. Crempuses are crimpuses\n5. Crimpuses are not crompuses\n6. Crumpuses are cralpuses\n7. Ivy is a cloltus\n\nQuestion: Is Ivy a crompus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Cloltuses are zqcliltuses"
+    },
+    {
+      "id": "P2",
+      "text": "Cliltuses are clultuses"
+    },
+    {
+      "id": "P3",
+      "text": "Clultuses are crempuses"
+    },
+    {
+      "id": "P4",
+      "text": "Crempuses are crimpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Crimpuses are not crompuses"
+    },
+    {
+      "id": "P6",
+      "text": "Crumpuses are cralpuses"
+    },
+    {
+      "id": "P7",
+      "text": "Ivy is a cloltus"
+    }
+  ],
+  "substitution": {
+    "cliltus": "zqcliltus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

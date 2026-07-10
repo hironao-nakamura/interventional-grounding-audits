@@ -1,0 +1,42 @@
+{
+  "raw_response": "Step 1: Pip is a zqblurpus (given in premise 5).\nStep 2: Since zqblurpuses are blanpuses (premise 1), Pip is a blanpus.\nStep 3: Since blanpuses are blenpuses (premise 2), Pip is a blenpus.\nStep 4: Since blenpuses are not blonpuses (premise 3), Pip is not a blonpus.\n\nAnswer: False",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:54:27.936604+00:00",
+  "sha256": "4424abff7cd7fd4e06265c8d6e3f137425472f4e8080724ccc41b141ee511923",
+  "usage": {
+    "input_tokens": 149,
+    "output_tokens": 113
+  },
+  "problem_id": "p007",
+  "probe_type": "semantic",
+  "target_premise": "P5",
+  "prompt": "Given the following premises:\n1. Zqblurpuses are blanpuses\n2. Blanpuses are blenpuses\n3. Blenpuses are not blonpuses\n4. Blunpuses are blelnuses\n5. Pip is a zqblurpus\n\nQuestion: Is Pip a blonpus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Zqblurpuses are blanpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Blanpuses are blenpuses"
+    },
+    {
+      "id": "P3",
+      "text": "Blenpuses are not blonpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Blunpuses are blelnuses"
+    },
+    {
+      "id": "P5",
+      "text": "Pip is a zqblurpus"
+    }
+  ],
+  "substitution": {
+    "blurpus": "zqblurpus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

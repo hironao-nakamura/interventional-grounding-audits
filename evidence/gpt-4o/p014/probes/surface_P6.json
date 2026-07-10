@@ -1,0 +1,45 @@
+{
+  "raw_response": "Step 1: Brenkuses are bronduses.\nStep 2: Bronduses are brinduses.\nStep 3: Brinduses are brunduses.\nStep 4: Therefore, Brenkuses are brunduses (by transitive property from Steps 1, 2, and 3).\nStep 5: Iris is one of the brenkuses.\nStep 6: Therefore, Iris is a brundus (by Step 4 and Step 5).\n\nAnswer: True",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:43:10.702340+00:00",
+  "sha256": "f62c046bf782b3446194b8e27b95731fa56f8b5c4bcfac798b461592693f9859",
+  "usage": {
+    "prompt_tokens": 136,
+    "completion_tokens": 103,
+    "total_tokens": 239
+  },
+  "problem_id": "p014",
+  "probe_type": "surface",
+  "target_premise": "P6",
+  "prompt": "Given the following premises:\n1. Brenkuses are bronduses\n2. Bronduses are brinduses\n3. Brinduses are brunduses\n4. Branduses are brenduses\n5. Breltuses are broltuses\n6. Iris is one of the brenkuses\n\nQuestion: Is Iris a brundus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Brenkuses are bronduses"
+    },
+    {
+      "id": "P2",
+      "text": "Bronduses are brinduses"
+    },
+    {
+      "id": "P3",
+      "text": "Brinduses are brunduses"
+    },
+    {
+      "id": "P4",
+      "text": "Branduses are brenduses"
+    },
+    {
+      "id": "P5",
+      "text": "Breltuses are broltuses"
+    },
+    {
+      "id": "P6",
+      "text": "Iris is one of the brenkuses"
+    }
+  ],
+  "substitution": null,
+  "original_text": "Iris is a brenkus",
+  "rephrased_text": "Iris is one of the brenkuses"
+}

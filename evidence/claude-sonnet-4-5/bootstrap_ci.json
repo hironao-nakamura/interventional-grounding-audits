@@ -1,0 +1,122 @@
+{
+  "A_consistent_full": {
+    "point": {
+      "precision": 1.0,
+      "recall": 0.7738,
+      "f1": 0.8724,
+      "tp": 171,
+      "fp": 0,
+      "fn": 50
+    },
+    "ci": {
+      "precision": {
+        "mean": 1.0,
+        "std": 0.0,
+        "ci_lower": 1.0,
+        "ci_upper": 1.0
+      },
+      "recall": {
+        "mean": 0.7736,
+        "std": 0.0087,
+        "ci_lower": 0.7561,
+        "ci_upper": 0.7904
+      },
+      "f1": {
+        "mean": 0.8723,
+        "std": 0.0055,
+        "ci_lower": 0.8611,
+        "ci_upper": 0.8829
+      }
+    }
+  },
+  "A_consistent_pred": {
+    "point": {
+      "precision": 0.9942,
+      "recall": 0.9942,
+      "f1": 0.9942,
+      "tp": 170,
+      "fp": 1,
+      "fn": 1
+    },
+    "ci": {
+      "precision": {
+        "mean": 0.9942,
+        "std": 0.0058,
+        "ci_lower": 0.9818,
+        "ci_upper": 1.0
+      },
+      "recall": {
+        "mean": 0.9942,
+        "std": 0.0056,
+        "ci_lower": 0.982,
+        "ci_upper": 1.0
+      },
+      "f1": {
+        "mean": 0.9942,
+        "std": 0.004,
+        "ci_lower": 0.9853,
+        "ci_upper": 1.0
+      }
+    }
+  },
+  "A_Ap_combined_full": {
+    "point": {
+      "precision": 0.8687,
+      "recall": 0.7783,
+      "f1": 0.821,
+      "tp": 172,
+      "fp": 26,
+      "fn": 49
+    },
+    "ci": {
+      "precision": {
+        "mean": 0.8696,
+        "std": 0.0292,
+        "ci_lower": 0.8113,
+        "ci_upper": 0.9257
+      },
+      "recall": {
+        "mean": 0.7781,
+        "std": 0.0094,
+        "ci_lower": 0.7596,
+        "ci_upper": 0.7965
+      },
+      "f1": {
+        "mean": 0.821,
+        "std": 0.0142,
+        "ci_lower": 0.7918,
+        "ci_upper": 0.8475
+      }
+    }
+  },
+  "A_Ap_cascade_full": {
+    "point": {
+      "precision": 0.9451,
+      "recall": 0.7783,
+      "f1": 0.8536,
+      "tp": 172,
+      "fp": 10,
+      "fn": 49
+    },
+    "ci": {
+      "precision": {
+        "mean": 0.9454,
+        "std": 0.0175,
+        "ci_lower": 0.91,
+        "ci_upper": 0.9774
+      },
+      "recall": {
+        "mean": 0.7781,
+        "std": 0.0094,
+        "ci_lower": 0.7596,
+        "ci_upper": 0.7965
+      },
+      "f1": {
+        "mean": 0.8535,
+        "std": 0.008,
+        "ci_lower": 0.8376,
+        "ci_upper": 0.8689
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "raw_response": "Step 1: Alex is a bempus (given in premise 6).\nStep 2: Since every bempus is a bimpus (premise 1), Alex is a bimpus.\nStep 3: Since bimpuses are bompuses (premise 2), Alex is a bompus.\nStep 4: Since bompuses are bumpuses (premise 3), Alex is a bumpus.\nStep 5: Since bumpuses are balpuses (premise 4), Alex is a balpus.\nStep 6: Since balpuses are not belpuses (premise 5), Alex is not a belpus.\n\nAnswer: False",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:51:48.051051+00:00",
+  "sha256": "1925cca55aa089f822b9f4297f4a00b34734c26332824c693c1fd79217c64d35",
+  "usage": {
+    "input_tokens": 150,
+    "output_tokens": 153
+  },
+  "problem_id": "p001",
+  "probe_type": "surface",
+  "target_premise": "P1",
+  "prompt": "Given the following premises:\n1. Every bempus is a bimpus\n2. Bimpuses are bompuses\n3. Bompuses are bumpuses\n4. Bumpuses are balpuses\n5. Balpuses are not belpuses\n6. Alex is a bempus\n\nQuestion: Is Alex a belpus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Every bempus is a bimpus"
+    },
+    {
+      "id": "P2",
+      "text": "Bimpuses are bompuses"
+    },
+    {
+      "id": "P3",
+      "text": "Bompuses are bumpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Bumpuses are balpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Balpuses are not belpuses"
+    },
+    {
+      "id": "P6",
+      "text": "Alex is a bempus"
+    }
+  ],
+  "substitution": null,
+  "original_text": "Bempuses are bimpuses",
+  "rephrased_text": "Every bempus is a bimpus"
+}

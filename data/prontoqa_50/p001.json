@@ -1,0 +1,73 @@
+{
+  "problem_id": "p001",
+  "premises": [
+    {
+      "id": "P1",
+      "text": "Bempuses are bimpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Bimpuses are bompuses"
+    },
+    {
+      "id": "P3",
+      "text": "Bompuses are bumpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Bumpuses are balpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Balpuses are not belpuses"
+    },
+    {
+      "id": "P6",
+      "text": "Alex is a bempus"
+    }
+  ],
+  "question": "Is Alex a belpus?",
+  "answer": false,
+  "proof_tree": [
+    {
+      "step": 1,
+      "conclusion": "is(alex, bimpus)",
+      "depends_on": [
+        "P6",
+        "P1"
+      ]
+    },
+    {
+      "step": 2,
+      "conclusion": "is(alex, bompus)",
+      "depends_on": [
+        "S1",
+        "P2"
+      ]
+    },
+    {
+      "step": 3,
+      "conclusion": "is(alex, bumpus)",
+      "depends_on": [
+        "S2",
+        "P3"
+      ]
+    },
+    {
+      "step": 4,
+      "conclusion": "is(alex, balpus)",
+      "depends_on": [
+        "S3",
+        "P4"
+      ]
+    },
+    {
+      "step": 5,
+      "conclusion": "not_is(alex, belpus)",
+      "depends_on": [
+        "S4",
+        "P5"
+      ]
+    }
+  ]
+}

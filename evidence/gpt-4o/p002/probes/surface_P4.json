@@ -1,0 +1,41 @@
+{
+  "raw_response": "Step 1: Since Fae is a barpus, and all barpuses are berpuses, Fae is a berpus.\nStep 2: Since Fae is a berpus, and all berpuses are borpuses, Fae is a borpus.\nStep 3: Since Fae is a borpus, and all borpuses are burpuses, Fae is a burpus.\nStep 4: Since Fae is a burpus, and every burpus is a banpus, Fae is a banpus.\n\nAnswer: True",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:42:22.091372+00:00",
+  "sha256": "aa8092d6cab7db4fff3f7fa7f55059e3f0c185e8ac0632b1390881ee9d06a044",
+  "usage": {
+    "prompt_tokens": 124,
+    "completion_tokens": 116,
+    "total_tokens": 240
+  },
+  "problem_id": "p002",
+  "probe_type": "surface",
+  "target_premise": "P4",
+  "prompt": "Given the following premises:\n1. Barpuses are berpuses\n2. Berpuses are borpuses\n3. Borpuses are burpuses\n4. Every burpus is a banpus\n5. Fae is a barpus\n\nQuestion: Is Fae a banpus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Barpuses are berpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Berpuses are borpuses"
+    },
+    {
+      "id": "P3",
+      "text": "Borpuses are burpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Every burpus is a banpus"
+    },
+    {
+      "id": "P5",
+      "text": "Fae is a barpus"
+    }
+  ],
+  "substitution": null,
+  "original_text": "Burpuses are banpuses",
+  "rephrased_text": "Every burpus is a banpus"
+}

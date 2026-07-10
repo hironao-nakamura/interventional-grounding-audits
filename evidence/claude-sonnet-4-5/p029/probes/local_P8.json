@@ -1,0 +1,54 @@
+{
+  "raw_response": "I need to determine if Nyx is a delpus, given that Nyx is a zqdempus.\n\nStep 1: Nyx is a zqdempus, which is not the same as being a dempus (it's a \"zqdempus\", not a \"dempus\").\n\nStep 2: The chain of implications starts with \"Dempuses are dimpuses,\" but this only applies to dempuses, not zqdempuses.\n\nStep 3: There is no premise that connects zqdempuses to any category in the given chain (dempuses \u2192 dimpuses \u2192 dompuses \u2192 dumpuses \u2192 dalpuses \u2192 delpuses).\n\nStep 4: Without a connection between zqdempus and the chain starting with dempus, I cannot conclude that Nyx is a delpus.\n\nAnswer: False",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T05:01:30.049028+00:00",
+  "sha256": "c578ec52af16657b9103bf38c6311c2516e084bdd05cfb97d94eeadf4de2f946",
+  "usage": {
+    "input_tokens": 175,
+    "output_tokens": 194
+  },
+  "problem_id": "p029",
+  "probe_type": "local_semantic",
+  "target_premise": "P8",
+  "prompt": "Given the following premises:\n1. Dempuses are dimpuses\n2. Dimpuses are dompuses\n3. Dompuses are dumpuses\n4. Dumpuses are dalpuses\n5. Dalpuses are delpuses\n6. Dolpuses are dulpuses\n7. Darpuses are derpuses\n8. Nyx is a zqdempus\n\nQuestion: Is Nyx a delpus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Dempuses are dimpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Dimpuses are dompuses"
+    },
+    {
+      "id": "P3",
+      "text": "Dompuses are dumpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Dumpuses are dalpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Dalpuses are delpuses"
+    },
+    {
+      "id": "P6",
+      "text": "Dolpuses are dulpuses"
+    },
+    {
+      "id": "P7",
+      "text": "Darpuses are derpuses"
+    },
+    {
+      "id": "P8",
+      "text": "Nyx is a zqdempus"
+    }
+  ],
+  "substitution": {
+    "dempus": "zqdempus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

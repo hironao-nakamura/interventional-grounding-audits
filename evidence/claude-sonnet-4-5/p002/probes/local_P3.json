@@ -1,0 +1,42 @@
+{
+  "raw_response": "Step 1: Fae is a barpus (given in premise 5).\nStep 2: Since barpuses are berpuses (premise 1), Fae is a berpus.\nStep 3: Since berpuses are borpuses (premise 2), Fae is a borpus.\nStep 4: Since borpuses are zqburpuses (premise 3), Fae is a zqburpus.\n\nAt this point, I need to check if there's a connection from zqburpus to banpus. Premise 4 states that burpuses are banpuses, but Fae is a zqburpus, not a burpus. There is no premise connecting zqburpuses to burpuses or to banpuses.\n\nAnswer: False",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:52:05.348395+00:00",
+  "sha256": "7aea28db57fc4571b108427231e6a5f93056e2f54ff8b576bf6e057e1f041d73",
+  "usage": {
+    "input_tokens": 143,
+    "output_tokens": 189
+  },
+  "problem_id": "p002",
+  "probe_type": "local_semantic",
+  "target_premise": "P3",
+  "prompt": "Given the following premises:\n1. Barpuses are berpuses\n2. Berpuses are borpuses\n3. Borpuses are zqburpuses\n4. Burpuses are banpuses\n5. Fae is a barpus\n\nQuestion: Is Fae a banpus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Barpuses are berpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Berpuses are borpuses"
+    },
+    {
+      "id": "P3",
+      "text": "Borpuses are zqburpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Burpuses are banpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Fae is a barpus"
+    }
+  ],
+  "substitution": {
+    "burpus": "zqburpus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

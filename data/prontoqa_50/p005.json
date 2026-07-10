@@ -1,0 +1,73 @@
+{
+  "problem_id": "p005",
+  "premises": [
+    {
+      "id": "P1",
+      "text": "Boltuses are biltuses"
+    },
+    {
+      "id": "P2",
+      "text": "Biltuses are bultuses"
+    },
+    {
+      "id": "P3",
+      "text": "Bultuses are blempuses"
+    },
+    {
+      "id": "P4",
+      "text": "Blempuses are blimpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Blimpuses are blompuses"
+    },
+    {
+      "id": "P6",
+      "text": "Max is a boltus"
+    }
+  ],
+  "question": "Is Max a blompus?",
+  "answer": true,
+  "proof_tree": [
+    {
+      "step": 1,
+      "conclusion": "is(max, biltus)",
+      "depends_on": [
+        "P6",
+        "P1"
+      ]
+    },
+    {
+      "step": 2,
+      "conclusion": "is(max, bultus)",
+      "depends_on": [
+        "S1",
+        "P2"
+      ]
+    },
+    {
+      "step": 3,
+      "conclusion": "is(max, blempus)",
+      "depends_on": [
+        "S2",
+        "P3"
+      ]
+    },
+    {
+      "step": 4,
+      "conclusion": "is(max, blimpus)",
+      "depends_on": [
+        "S3",
+        "P4"
+      ]
+    },
+    {
+      "step": 5,
+      "conclusion": "is(max, blompus)",
+      "depends_on": [
+        "S4",
+        "P5"
+      ]
+    }
+  ]
+}

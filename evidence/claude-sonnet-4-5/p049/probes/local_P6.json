@@ -1,0 +1,46 @@
+{
+  "raw_response": "I need to determine if Kit is a frankus, given that Kit is a zqfrinkus.\n\nStep 1: Kit is a zqfrinkus, which is not the same as being a frinkus.\n\nStep 2: The premises only tell us about frinkuses, fronkuses, frunkuses, frankuses, frenkuses, fronduses, frinduses, and frunduses, but nothing about zqfrinkuses.\n\nStep 3: There is no premise that connects zqfrinkuses to any category in the chain (frinkuses \u2192 fronkuses \u2192 frunkuses \u2192 frankuses).\n\nStep 4: Without a connection between zqfrinkus and frinkus (or any other category in the chain), we cannot conclude that Kit is a frankus.\n\nAnswer: False",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T05:08:07.424983+00:00",
+  "sha256": "6701b1dbbaeb798aaf9b529d532136025b6ff63c7e9e0ca986adb2379670fe84",
+  "usage": {
+    "input_tokens": 148,
+    "output_tokens": 182
+  },
+  "problem_id": "p049",
+  "probe_type": "local_semantic",
+  "target_premise": "P6",
+  "prompt": "Given the following premises:\n1. Frinkuses are fronkuses\n2. Fronkuses are frunkuses\n3. Frunkuses are frankuses\n4. Frenkuses are fronduses\n5. Frinduses are frunduses\n6. Kit is a zqfrinkus\n\nQuestion: Is Kit a frankus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Frinkuses are fronkuses"
+    },
+    {
+      "id": "P2",
+      "text": "Fronkuses are frunkuses"
+    },
+    {
+      "id": "P3",
+      "text": "Frunkuses are frankuses"
+    },
+    {
+      "id": "P4",
+      "text": "Frenkuses are fronduses"
+    },
+    {
+      "id": "P5",
+      "text": "Frinduses are frunduses"
+    },
+    {
+      "id": "P6",
+      "text": "Kit is a zqfrinkus"
+    }
+  ],
+  "substitution": {
+    "frinkus": "zqfrinkus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

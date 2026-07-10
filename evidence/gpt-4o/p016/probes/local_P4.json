@@ -1,0 +1,39 @@
+{
+  "raw_response": "Step 1: Chorpuses are churpuses, so if something is a chorpus, it is also a churpus.\nStep 2: Churpuses are chanpuses, so if something is a churpus, it is also a chanpus.\nStep 3: Chanpuses are not chenpuses, so if something is a chanpus, it cannot be a chenpus.\nStep 4: Wren is a zqchorpus, but there is no information connecting zqchorpus to chorpus, churpus, chanpus, or chenpus.\n\nAnswer: False",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:43:17.768110+00:00",
+  "sha256": "525495da434d040502d7cabec1af69ced057e97095d982e7f73b38577f44e9e5",
+  "usage": {
+    "prompt_tokens": 118,
+    "completion_tokens": 122,
+    "total_tokens": 240
+  },
+  "problem_id": "p016",
+  "probe_type": "local_semantic",
+  "target_premise": "P4",
+  "prompt": "Given the following premises:\n1. Chorpuses are churpuses\n2. Churpuses are chanpuses\n3. Chanpuses are not chenpuses\n4. Wren is a zqchorpus\n\nQuestion: Is Wren a chenpus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Chorpuses are churpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Churpuses are chanpuses"
+    },
+    {
+      "id": "P3",
+      "text": "Chanpuses are not chenpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Wren is a zqchorpus"
+    }
+  ],
+  "substitution": {
+    "chorpus": "zqchorpus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

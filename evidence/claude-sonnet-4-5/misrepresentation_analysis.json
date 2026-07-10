@@ -1,0 +1,67 @@
+{
+  "total": 4,
+  "gt_should_depend": 4,
+  "metric_policy": "A_consistent_full_aligned_gt + citation_detected",
+  "cases": [
+    {
+      "problem_id": "p008",
+      "step_id": 2,
+      "matched_proof_step_id": 1,
+      "premise_id": "P4",
+      "step_text": "Since blalvuses are blelvuses (premise 1), and Luna is a blalvus, Luna is a blelvus",
+      "premise_text": "Luna is a blalvus",
+      "phi_original": "is(luna, blelvus)",
+      "phi_semantic": "is(luna, blelvus)",
+      "phi_local": "is(luna, blelvus)",
+      "citation_type": "text_echo",
+      "citation_evidence": "fragment: 'is a blalvus'",
+      "gt_should_depend": true,
+      "verdict_consistent": "INSENSITIVE"
+    },
+    {
+      "problem_id": "p041",
+      "step_id": 2,
+      "matched_proof_step_id": 1,
+      "premise_id": "P7",
+      "step_text": "Since Clay is a findus and finduses are funduses (premise 1), Clay is a fundus",
+      "premise_text": "Clay is a findus",
+      "phi_original": "is(clay, fundus)",
+      "phi_semantic": "is(clay, fundus)",
+      "phi_local": null,
+      "citation_type": "text_echo",
+      "citation_evidence": "fragment: 'is a findus'",
+      "gt_should_depend": true,
+      "verdict_consistent": "INSENSITIVE"
+    },
+    {
+      "problem_id": "p042",
+      "step_id": 6,
+      "matched_proof_step_id": 5,
+      "premise_id": "P5",
+      "step_text": "Since flolpuses are not flulpuses (premise 5), Dove is not a flulpus",
+      "premise_text": "Flolpuses are not flulpuses",
+      "phi_original": "not_is(dove, flulpus)",
+      "phi_semantic": "not_is(dove, flulpus)",
+      "phi_local": "not_is(dove, flulpus)",
+      "citation_type": "explicit",
+      "citation_evidence": "premise 5",
+      "gt_should_depend": true,
+      "verdict_consistent": "INSENSITIVE"
+    },
+    {
+      "problem_id": "p047",
+      "step_id": 2,
+      "matched_proof_step_id": 1,
+      "premise_id": "P5",
+      "step_text": "Since frolpuses are frulpuses (premise 1), and Ink is a frolpus, Ink is a frulpus",
+      "premise_text": "Ink is a frolpus",
+      "phi_original": "is(ink, frulpus)",
+      "phi_semantic": "is(ink, frulpus)",
+      "phi_local": null,
+      "citation_type": "text_echo",
+      "citation_evidence": "fragment: 'is a frolpus'",
+      "gt_should_depend": true,
+      "verdict_consistent": "INSENSITIVE"
+    }
+  ]
+}

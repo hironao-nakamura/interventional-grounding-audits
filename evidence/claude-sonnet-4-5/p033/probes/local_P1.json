@@ -1,0 +1,38 @@
+{
+  "raw_response": "Step 1: Sage is a drelpus (given in premise 4).\nStep 2: Since drelpuses are zqdrolpuses (premise 1), Sage is a zqdrolpus.\nStep 3: Since drolpuses are drulpuses (premise 2), any drolpus is a drulpus.\nStep 4: Since drulpuses are not drarpuses (premise 3), no drulpus can be a drarpus.\nStep 5: From premise 1, drelpuses are zqdrolpuses, but this doesn't establish a connection to drolpuses or drulpuses.\nStep 6: There is no chain of reasoning that connects Sage being a drelpus to being a drulpus.\nStep 7: Without establishing that Sage is a drulpus, we cannot use premise 3 to determine if Sage is or isn't a drarpus.\nStep 8: The premises do not provide sufficient information to determine whether Sage is a drarpus.\n\nWait, let me reconsider premise 1 more carefully - \"Drelpuses are zqdrolpuses\" might be a typo for \"Drelpuses are drolpuses.\"\n\nStep 1: Sage is a drelpus (given in premise 4).\nStep 2: Assuming premise 1 means \"Drelpuses are drolpuses,\" Sage is a drolpus.\nStep 3: Since drolpuses are drulpuses (premise 2), Sage is a drulpus.\nStep 4: Since drulpuses are not drarpuses (premise 3), Sage is not a drarpus.\n\nAnswer: False",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T05:01:48.825940+00:00",
+  "sha256": "3bfccc58124de4785715d7d93e8df9173588e38c503fdc713403e10006d00a93",
+  "usage": {
+    "input_tokens": 134,
+    "output_tokens": 399
+  },
+  "problem_id": "p033",
+  "probe_type": "local_semantic",
+  "target_premise": "P1",
+  "prompt": "Given the following premises:\n1. Drelpuses are zqdrolpuses\n2. Drolpuses are drulpuses\n3. Drulpuses are not drarpuses\n4. Sage is a drelpus\n\nQuestion: Is Sage a drarpus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Drelpuses are zqdrolpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Drolpuses are drulpuses"
+    },
+    {
+      "id": "P3",
+      "text": "Drulpuses are not drarpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Sage is a drelpus"
+    }
+  ],
+  "substitution": {
+    "drolpus": "zqdrolpus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

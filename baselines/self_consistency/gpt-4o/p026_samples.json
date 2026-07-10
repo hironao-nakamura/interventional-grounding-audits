@@ -1,0 +1,43 @@
+{
+  "problem_id": "p026",
+  "model": "gpt-4o-2024-08-06",
+  "n_samples": 5,
+  "temperature": 0.7,
+  "step_verdicts": {
+    "1": {
+      "consistent": false,
+      "agreement": 0.6,
+      "majority_conclusion": "is(knox, crelnus)",
+      "n_valid": 5,
+      "n_unique": 2
+    },
+    "2": {
+      "consistent": false,
+      "agreement": 0.6,
+      "majority_conclusion": "is(knox, crolnus)",
+      "n_valid": 5,
+      "n_unique": 2
+    },
+    "3": {
+      "consistent": false,
+      "agreement": 0.6,
+      "majority_conclusion": "is(knox, crilnus)",
+      "n_valid": 5,
+      "n_unique": 2
+    },
+    "4": {
+      "consistent": false,
+      "agreement": 0.6,
+      "majority_conclusion": "not_is(knox, cralvus)",
+      "n_valid": 5,
+      "n_unique": 2
+    },
+    "5": {
+      "consistent": true,
+      "agreement": 1.0,
+      "majority_conclusion": "not_is(knox, cralvus)",
+      "n_valid": 2,
+      "n_unique": 1
+    }
+  }
+}

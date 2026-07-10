@@ -1,0 +1,46 @@
+{
+  "raw_response": "Step 1: Yuki is a fumpus (given in premise 6).\nStep 2: Since fumpuses are zqfalpuses (premise 1), Yuki is a zqfalpus.\nStep 3: Since zqfalpuses are felpuses (premise 2), Yuki is a felpus.\nStep 4: Since felpuses are folpuses (premise 3), Yuki is a folpus.\nStep 5: Since folpuses are fulpuses (premise 4), Yuki is a fulpus.\nStep 6: Since fulpuses are farpuses (premise 5), Yuki is a farpus.\n\nAnswer: True",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T05:03:08.876574+00:00",
+  "sha256": "7e31a232886ac1fb1087306d0a5a2d497c25c3cc9982b60454e2f0bb215daf13",
+  "usage": {
+    "input_tokens": 156,
+    "output_tokens": 167
+  },
+  "problem_id": "p038",
+  "probe_type": "semantic",
+  "target_premise": "P1",
+  "prompt": "Given the following premises:\n1. Fumpuses are zqfalpuses\n2. Zqfalpuses are felpuses\n3. Felpuses are folpuses\n4. Folpuses are fulpuses\n5. Fulpuses are farpuses\n6. Yuki is a fumpus\n\nQuestion: Is Yuki a farpus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Fumpuses are zqfalpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Zqfalpuses are felpuses"
+    },
+    {
+      "id": "P3",
+      "text": "Felpuses are folpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Folpuses are fulpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Fulpuses are farpuses"
+    },
+    {
+      "id": "P6",
+      "text": "Yuki is a fumpus"
+    }
+  ],
+  "substitution": {
+    "falpus": "zqfalpus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

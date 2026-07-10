@@ -1,0 +1,38 @@
+{
+  "raw_response": "Step 1: Wren is a chorpus (given in premise 4).\nStep 2: Since chorpuses are zqchurpuses (premise 1), Wren is a zqchurpus.\nStep 3: Since churpuses are chanpuses (premise 2), we know there's a relationship between churpuses and chanpuses, but this doesn't directly apply to Wren yet.\nStep 4: Chanpuses are not chenpuses (premise 3), which means if something is a chanpus, it cannot be a chenpus.\nStep 5: We need to determine if Wren is a chanpus - but premise 1 states chorpuses are zqchurpuses, not churpuses, so we cannot use premise 2.\nStep 6: We have no information connecting chorpuses (or zqchurpuses) to chanpuses or chenpuses.\nStep 7: Since we cannot establish that Wren is a chanpus, and we have no other path to determine if Wren is a chenpus, we cannot conclude that Wren is a chenpus.\n\nAnswer: False",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:56:22.379158+00:00",
+  "sha256": "25a68c293522e1ac67731c26979cde3c0801d23ed2a9c3211a45f538a4324a68",
+  "usage": {
+    "input_tokens": 134,
+    "output_tokens": 271
+  },
+  "problem_id": "p016",
+  "probe_type": "local_semantic",
+  "target_premise": "P1",
+  "prompt": "Given the following premises:\n1. Chorpuses are zqchurpuses\n2. Churpuses are chanpuses\n3. Chanpuses are not chenpuses\n4. Wren is a chorpus\n\nQuestion: Is Wren a chenpus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Chorpuses are zqchurpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Churpuses are chanpuses"
+    },
+    {
+      "id": "P3",
+      "text": "Chanpuses are not chenpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Wren is a chorpus"
+    }
+  ],
+  "substitution": {
+    "churpus": "zqchurpus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

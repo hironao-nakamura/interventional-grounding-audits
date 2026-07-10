@@ -1,0 +1,49 @@
+{
+  "problem_id": "p008",
+  "premises": [
+    {
+      "id": "P1",
+      "text": "Blalvuses are blelvuses"
+    },
+    {
+      "id": "P2",
+      "text": "Blelvuses are blolvuses"
+    },
+    {
+      "id": "P3",
+      "text": "Blolvuses are blilvuses"
+    },
+    {
+      "id": "P4",
+      "text": "Luna is a blalvus"
+    }
+  ],
+  "question": "Is Luna a blilvus?",
+  "answer": true,
+  "proof_tree": [
+    {
+      "step": 1,
+      "conclusion": "is(luna, blelvus)",
+      "depends_on": [
+        "P4",
+        "P1"
+      ]
+    },
+    {
+      "step": 2,
+      "conclusion": "is(luna, blolvus)",
+      "depends_on": [
+        "S1",
+        "P2"
+      ]
+    },
+    {
+      "step": 3,
+      "conclusion": "is(luna, blilvus)",
+      "depends_on": [
+        "S2",
+        "P3"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "raw_response": "Step 1: Flompuses are flumpuses.\nStep 2: Flumpuses are flalpuses.\nStep 3: Flalpuses are flelpuses.\nStep 4: Flelpuses are flolpuses.\nStep 5: Flolpuses are not flulpuses.\nStep 6: The premises do not mention zqflompuses, so Dove being a zqflompus does not affect the chain of reasoning about flulpuses.\nStep 7: Since flolpuses are not flulpuses, anything that is a flolpus cannot be a flulpus.\nStep 8: The chain of reasoning from flompuses to flolpuses does not include zqflompuses, so Dove's status as a zqflompus does not make Dove a flulpus.\n\nAnswer: False",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:45:21.597932+00:00",
+  "sha256": "05b6c1cf1fef8679373c253b053aff749a120a1fe25ebd43933c022cb7ff2294",
+  "usage": {
+    "prompt_tokens": 140,
+    "completion_tokens": 178,
+    "total_tokens": 318
+  },
+  "problem_id": "p042",
+  "probe_type": "local_semantic",
+  "target_premise": "P6",
+  "prompt": "Given the following premises:\n1. Flompuses are flumpuses\n2. Flumpuses are flalpuses\n3. Flalpuses are flelpuses\n4. Flelpuses are flolpuses\n5. Flolpuses are not flulpuses\n6. Dove is a zqflompus\n\nQuestion: Is Dove a flulpus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Flompuses are flumpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Flumpuses are flalpuses"
+    },
+    {
+      "id": "P3",
+      "text": "Flalpuses are flelpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Flelpuses are flolpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Flolpuses are not flulpuses"
+    },
+    {
+      "id": "P6",
+      "text": "Dove is a zqflompus"
+    }
+  ],
+  "substitution": {
+    "flompus": "zqflompus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

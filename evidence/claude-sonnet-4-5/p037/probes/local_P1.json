@@ -1,0 +1,42 @@
+{
+  "raw_response": "Step 1: Xara is a drendus (given in premise 5).\nStep 2: Since drenduses are zqdreltuses (premise 1), Xara is a zqdreltus.\nStep 3: Since dreltuses are droltuses (premise 2), any dreltus is a droltus.\nStep 4: Since droltuses are not driltuses (premise 3), any droltus is not a driltus.\nStep 5: From premise 1, drenduses are zqdreltuses, but this doesn't establish that drenduses are dreltuses.\nStep 6: There is no chain of reasoning that connects Xara being a drendus to being a dreltus or droltus.\nStep 7: Therefore, we cannot establish whether Xara is a driltus based on the given premises alone.\n\nWait, let me reconsider. Looking at premise 1 more carefully: \"Drenduses are zqdreltuses\" - this appears to contain \"dreltuses\" within \"zqdreltuses\".\n\nStep 1: Xara is a drendus (given in premise 5).\nStep 2: Since drenduses are zqdreltuses (premise 1), and this likely means drenduses are dreltuses, Xara is a dreltus.\nStep 3: Since dreltuses are droltuses (premise 2), Xara is a droltus.\nStep 4: Since droltuses are not driltuses (premise 3), Xara is not a driltus.\n\nAnswer: False",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T05:03:11.666477+00:00",
+  "sha256": "9c087e883f4cefb4926e937b82037f9e1f195aefa5c3dccc7f1d40410c91b904",
+  "usage": {
+    "input_tokens": 144,
+    "output_tokens": 372
+  },
+  "problem_id": "p037",
+  "probe_type": "local_semantic",
+  "target_premise": "P1",
+  "prompt": "Given the following premises:\n1. Drenduses are zqdreltuses\n2. Dreltuses are droltuses\n3. Droltuses are not driltuses\n4. Drultuses are fempuses\n5. Xara is a drendus\n\nQuestion: Is Xara a driltus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Drenduses are zqdreltuses"
+    },
+    {
+      "id": "P2",
+      "text": "Dreltuses are droltuses"
+    },
+    {
+      "id": "P3",
+      "text": "Droltuses are not driltuses"
+    },
+    {
+      "id": "P4",
+      "text": "Drultuses are fempuses"
+    },
+    {
+      "id": "P5",
+      "text": "Xara is a drendus"
+    }
+  ],
+  "substitution": {
+    "dreltus": "zqdreltus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

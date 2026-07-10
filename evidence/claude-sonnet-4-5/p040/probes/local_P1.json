@@ -1,0 +1,50 @@
+{
+  "raw_response": "Step 1: Bree is a felvus (given in premise 7).\nStep 2: Since felvuses are zqfolvuses (premise 1), Bree is a zqfolvus.\nStep 3: Since folvuses are filvuses (premise 2), and Bree is a felvus (which contains \"folvus\"), we need to check if felvuses are folvuses.\nStep 4: Actually, premise 1 states felvuses are zqfolvuses, not that felvuses are folvuses, so we cannot use premise 2 directly.\nStep 5: Looking at the chain: we have no premise connecting felvuses or zqfolvuses to folvuses, filvuses, fulvuses, or finkuses.\nStep 6: Without a connection from felvus to the chain (folvuses \u2192 filvuses \u2192 fulvuses \u2192 finkuses), we cannot determine if Bree is a finkus.\nStep 7: Since we cannot establish that Bree is a finkus, and premise 5 states that finkuses are not fonkuses, we cannot use this premise.\nStep 8: There is no chain of reasoning that connects Bree (a felvus) to being a fonkus.\nStep 9: We have no information suggesting Bree is a fonkus, and the only relevant negative statement (premise 5) doesn't apply since we can't establish Bree is a finkus.\n\nAnswer: False",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T05:04:07.508841+00:00",
+  "sha256": "7bcc7fd493d276db6005e8a407b4676576960802bb9493db65ce19b851e92a7a",
+  "usage": {
+    "input_tokens": 165,
+    "output_tokens": 351
+  },
+  "problem_id": "p040",
+  "probe_type": "local_semantic",
+  "target_premise": "P1",
+  "prompt": "Given the following premises:\n1. Felvuses are zqfolvuses\n2. Folvuses are filvuses\n3. Filvuses are fulvuses\n4. Fulvuses are finkuses\n5. Finkuses are not fonkuses\n6. Funkuses are fankuses\n7. Bree is a felvus\n\nQuestion: Is Bree a fonkus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Felvuses are zqfolvuses"
+    },
+    {
+      "id": "P2",
+      "text": "Folvuses are filvuses"
+    },
+    {
+      "id": "P3",
+      "text": "Filvuses are fulvuses"
+    },
+    {
+      "id": "P4",
+      "text": "Fulvuses are finkuses"
+    },
+    {
+      "id": "P5",
+      "text": "Finkuses are not fonkuses"
+    },
+    {
+      "id": "P6",
+      "text": "Funkuses are fankuses"
+    },
+    {
+      "id": "P7",
+      "text": "Bree is a felvus"
+    }
+  ],
+  "substitution": {
+    "folvus": "zqfolvus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

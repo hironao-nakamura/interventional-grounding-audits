@@ -1,0 +1,38 @@
+{
+  "raw_response": "Step 1: From premise 4, Wren is a zqchorpus (which contains \"chorpus\" as part of the word).\n\nStep 2: However, premise 1 states \"Chorpuses are churpuses,\" which applies to chorpuses, not zqchorpuses.\n\nStep 3: Since Wren is a zqchorpus and not a chorpus, we cannot apply premise 1 to Wren.\n\nStep 4: Without being able to establish that Wren is a chorpus, we cannot follow the chain of reasoning through premises 1, 2, and 3.\n\nStep 5: Therefore, we cannot determine from the given premises whether Wren is a chenpus or not.\n\nStep 6: Since the premises do not provide sufficient information to conclude that Wren is a chenpus, the answer is False.\n\nAnswer: False",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:56:51.623196+00:00",
+  "sha256": "fd0db613132aeb1f55c6f268994b1c496438866c2fddca27af0531bdbdfc6349",
+  "usage": {
+    "input_tokens": 134,
+    "output_tokens": 209
+  },
+  "problem_id": "p016",
+  "probe_type": "local_semantic",
+  "target_premise": "P4",
+  "prompt": "Given the following premises:\n1. Chorpuses are churpuses\n2. Churpuses are chanpuses\n3. Chanpuses are not chenpuses\n4. Wren is a zqchorpus\n\nQuestion: Is Wren a chenpus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Chorpuses are churpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Churpuses are chanpuses"
+    },
+    {
+      "id": "P3",
+      "text": "Chanpuses are not chenpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Wren is a zqchorpus"
+    }
+  ],
+  "substitution": {
+    "chorpus": "zqchorpus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

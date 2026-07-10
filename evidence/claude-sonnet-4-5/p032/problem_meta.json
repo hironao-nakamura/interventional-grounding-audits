@@ -1,0 +1,65 @@
+{
+  "problem_id": "p032",
+  "premises": [
+    {
+      "id": "P1",
+      "text": "Deltuses are doltuses"
+    },
+    {
+      "id": "P2",
+      "text": "Doltuses are diltuses"
+    },
+    {
+      "id": "P3",
+      "text": "Diltuses are dultuses"
+    },
+    {
+      "id": "P4",
+      "text": "Dultuses are not drempuses"
+    },
+    {
+      "id": "P5",
+      "text": "Drimpuses are drompuses"
+    },
+    {
+      "id": "P6",
+      "text": "Rune is a deltus"
+    }
+  ],
+  "question": "Is Rune a drempus?",
+  "answer": false,
+  "proof_tree": [
+    {
+      "step": 1,
+      "conclusion": "is(rune, doltus)",
+      "depends_on": [
+        "P6",
+        "P1"
+      ]
+    },
+    {
+      "step": 2,
+      "conclusion": "is(rune, diltus)",
+      "depends_on": [
+        "S1",
+        "P2"
+      ]
+    },
+    {
+      "step": 3,
+      "conclusion": "is(rune, dultus)",
+      "depends_on": [
+        "S2",
+        "P3"
+      ]
+    },
+    {
+      "step": 4,
+      "conclusion": "not_is(rune, drempus)",
+      "depends_on": [
+        "S3",
+        "P4"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "raw_response": "Step 1: Sam is a blonkus.\nStep 2: Since blonkuses are blunkuses, Sam is a blunkus.\nStep 3: Since blunkuses are blankuses, Sam is a blankus.\nStep 4: Since blankuses are not blenkuses, Sam is not a blenkus.\nAnswer: False",
+  "model": "gpt-4o",
+  "temperature": 0,
+  "timestamp": "2026-02-15T09:42:52.064926+00:00",
+  "sha256": "89b6072221bbb2f05338b85db95189d15f8eabad24bf4dc0803295d2ca713a94",
+  "usage": {
+    "prompt_tokens": 122,
+    "completion_tokens": 73,
+    "total_tokens": 195
+  },
+  "problem_id": "p009",
+  "probe_type": "original"
+}

@@ -1,0 +1,47 @@
+{
+  "raw_response": "Step 1: Since brurpuses are branpuses and Nova is a brurpus, Nova is a branpus.\nStep 2: Since branpuses are brenpuses and Nova is a branpus, Nova is a brenpus.\nStep 3: Since brenpuses are bronpuses and Nova is a brenpus, Nova is a bronpuse.\nStep 4: Since bronpuses are zqbrunpuses and Nova is a bronpuse, Nova is a zqbrunpuse.\n\nAnswer: False",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:42:59.842570+00:00",
+  "sha256": "1199a0d9bfcb11106720dab54c3c7170492258b3a32bc4a61b0f55725cd87648",
+  "usage": {
+    "prompt_tokens": 138,
+    "completion_tokens": 115,
+    "total_tokens": 253
+  },
+  "problem_id": "p012",
+  "probe_type": "local_semantic",
+  "target_premise": "P4",
+  "prompt": "Given the following premises:\n1. Brurpuses are branpuses\n2. Branpuses are brenpuses\n3. Brenpuses are bronpuses\n4. Bronpuses are zqbrunpuses\n5. Brelnuses are brolnuses\n6. Nova is a brurpus\n\nQuestion: Is Nova a brunpus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Brurpuses are branpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Branpuses are brenpuses"
+    },
+    {
+      "id": "P3",
+      "text": "Brenpuses are bronpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Bronpuses are zqbrunpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Brelnuses are brolnuses"
+    },
+    {
+      "id": "P6",
+      "text": "Nova is a brurpus"
+    }
+  ],
+  "substitution": {
+    "brunpus": "zqbrunpus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

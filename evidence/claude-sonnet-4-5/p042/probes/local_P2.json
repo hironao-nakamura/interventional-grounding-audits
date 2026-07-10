@@ -1,0 +1,46 @@
+{
+  "raw_response": "Step 1: Dove is a flompus (given in premise 6).\nStep 2: Since flompuses are flumpuses (premise 1), Dove is a flumpus.\nStep 3: Since flumpuses are zqflalpuses (premise 2), Dove is a zqflalpus.\nStep 4: There is no connection established between zqflalpuses and any other category that would lead to flulpuses.\nStep 5: The chain from flalpuses \u2192 flelpuses \u2192 flolpuses \u2192 not flulpuses (premises 3, 4, 5) does not connect to Dove's categories.\nStep 6: Since Dove's category chain (flompus \u2192 flumpus \u2192 zqflalpus) does not connect to the flolpus category, and only flolpuses are stated to not be flulpuses, we cannot determine from the given premises whether Dove is or is not a flulpus.\n\nHowever, reviewing the premises more carefully: there is no stated connection that would make Dove a flulpus, and the only mention of flulpuses is that flolpuses are NOT flulpuses. Since Dove is not established to be a flolpus (the chains don't connect), and there's no positive statement making Dove a flulpus, we cannot conclude Dove is a flulpus.\n\nAnswer: False",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T05:04:45.689248+00:00",
+  "sha256": "e5807d4ead6d5ee62a187669c09c4031f48b76e1c8146943863b9a38342a1bad",
+  "usage": {
+    "input_tokens": 157,
+    "output_tokens": 323
+  },
+  "problem_id": "p042",
+  "probe_type": "local_semantic",
+  "target_premise": "P2",
+  "prompt": "Given the following premises:\n1. Flompuses are flumpuses\n2. Flumpuses are zqflalpuses\n3. Flalpuses are flelpuses\n4. Flelpuses are flolpuses\n5. Flolpuses are not flulpuses\n6. Dove is a flompus\n\nQuestion: Is Dove a flulpus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Flompuses are flumpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Flumpuses are zqflalpuses"
+    },
+    {
+      "id": "P3",
+      "text": "Flalpuses are flelpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Flelpuses are flolpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Flolpuses are not flulpuses"
+    },
+    {
+      "id": "P6",
+      "text": "Dove is a flompus"
+    }
+  ],
+  "substitution": {
+    "flalpus": "zqflalpus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

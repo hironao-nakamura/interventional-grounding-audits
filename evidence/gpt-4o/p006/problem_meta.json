@@ -1,0 +1,49 @@
+{
+  "problem_id": "p006",
+  "premises": [
+    {
+      "id": "P1",
+      "text": "Blelpuses are blolpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Blolpuses are blulpuses"
+    },
+    {
+      "id": "P3",
+      "text": "Blulpuses are not blarpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Zara is a blelpus"
+    }
+  ],
+  "question": "Is Zara a blarpus?",
+  "answer": false,
+  "proof_tree": [
+    {
+      "step": 1,
+      "conclusion": "is(zara, blolpus)",
+      "depends_on": [
+        "P4",
+        "P1"
+      ]
+    },
+    {
+      "step": 2,
+      "conclusion": "is(zara, blulpus)",
+      "depends_on": [
+        "S1",
+        "P2"
+      ]
+    },
+    {
+      "step": 3,
+      "conclusion": "not_is(zara, blarpus)",
+      "depends_on": [
+        "S2",
+        "P3"
+      ]
+    }
+  ]
+}

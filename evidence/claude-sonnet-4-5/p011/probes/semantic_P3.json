@@ -1,0 +1,42 @@
+{
+  "raw_response": "Step 1: Kai is a bralpus (given in premise 5).\nStep 2: Since bralpuses are brelpuses (premise 1), Kai is a brelpus.\nStep 3: Since brelpuses are brolpuses (premise 2), Kai is a brolpus.\nStep 4: Since brolpuses are zqbrulpuses (premise 3), Kai is a zqbrulpus.\nStep 5: Since zqbrulpuses are not brarpuses (premise 4), Kai is not a brarpus.\n\nAnswer: False",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:54:59.200611+00:00",
+  "sha256": "0dcba9d8fae8b1cf85b278f4334f324599800636e499305c52db1a9df39e475c",
+  "usage": {
+    "input_tokens": 148,
+    "output_tokens": 143
+  },
+  "problem_id": "p011",
+  "probe_type": "semantic",
+  "target_premise": "P3",
+  "prompt": "Given the following premises:\n1. Bralpuses are brelpuses\n2. Brelpuses are brolpuses\n3. Brolpuses are zqbrulpuses\n4. Zqbrulpuses are not brarpuses\n5. Kai is a bralpus\n\nQuestion: Is Kai a brarpus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Bralpuses are brelpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Brelpuses are brolpuses"
+    },
+    {
+      "id": "P3",
+      "text": "Brolpuses are zqbrulpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Zqbrulpuses are not brarpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Kai is a bralpus"
+    }
+  ],
+  "substitution": {
+    "brulpus": "zqbrulpus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

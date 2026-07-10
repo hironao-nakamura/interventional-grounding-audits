@@ -1,0 +1,45 @@
+{
+  "raw_response": "Step 1: Since Clelvuses are clolvuses and Gale is a clelvus, Gale is a clolvus.\nStep 2: Since Clolvuses are clilvuses and Gale is a clolvus, Gale is a clilvus.\nStep 3: Since every clilvus is a clulvus and Gale is a clilvus, Gale is a clulvus.\nStep 4: Since Clulvuses are clinkuses and Gale is a clulvus, Gale is a clinkus.\nAnswer: True",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:43:35.415846+00:00",
+  "sha256": "cf0caf87025733162e75f1802e02b1420a03c88e819a8215423585ee0d7b18a3",
+  "usage": {
+    "prompt_tokens": 139,
+    "completion_tokens": 115,
+    "total_tokens": 254
+  },
+  "problem_id": "p022",
+  "probe_type": "surface",
+  "target_premise": "P3",
+  "prompt": "Given the following premises:\n1. Clelvuses are clolvuses\n2. Clolvuses are clilvuses\n3. Every clilvus is a clulvus\n4. Clulvuses are clinkuses\n5. Clonkuses are clunkuses\n6. Gale is a clelvus\n\nQuestion: Is Gale a clinkus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Clelvuses are clolvuses"
+    },
+    {
+      "id": "P2",
+      "text": "Clolvuses are clilvuses"
+    },
+    {
+      "id": "P3",
+      "text": "Every clilvus is a clulvus"
+    },
+    {
+      "id": "P4",
+      "text": "Clulvuses are clinkuses"
+    },
+    {
+      "id": "P5",
+      "text": "Clonkuses are clunkuses"
+    },
+    {
+      "id": "P6",
+      "text": "Gale is a clelvus"
+    }
+  ],
+  "substitution": null,
+  "original_text": "Clilvuses are clulvuses",
+  "rephrased_text": "Every clilvus is a clulvus"
+}

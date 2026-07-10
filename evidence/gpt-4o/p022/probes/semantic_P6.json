@@ -1,0 +1,47 @@
+{
+  "raw_response": "Step 1: Since Gale is a zqclelvus, and zqclelvuses are clolvuses, Gale is a clolvus.\nStep 2: Since Gale is a clolvus, and clolvuses are clilvuses, Gale is a clilvus.\nStep 3: Since Gale is a clilvus, and clilvuses are clulvuses, Gale is a clulvus.\nStep 4: Since Gale is a clulvus, and clulvuses are clinkuses, Gale is a clinkus.\n\nAnswer: True",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:43:45.494888+00:00",
+  "sha256": "c5fd65e4722732f27c53140fd3fc108e0f4f2c433baec1080f98f60125de6344",
+  "usage": {
+    "prompt_tokens": 143,
+    "completion_tokens": 123,
+    "total_tokens": 266
+  },
+  "problem_id": "p022",
+  "probe_type": "semantic",
+  "target_premise": "P6",
+  "prompt": "Given the following premises:\n1. Zqclelvuses are clolvuses\n2. Clolvuses are clilvuses\n3. Clilvuses are clulvuses\n4. Clulvuses are clinkuses\n5. Clonkuses are clunkuses\n6. Gale is a zqclelvus\n\nQuestion: Is Gale a clinkus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Zqclelvuses are clolvuses"
+    },
+    {
+      "id": "P2",
+      "text": "Clolvuses are clilvuses"
+    },
+    {
+      "id": "P3",
+      "text": "Clilvuses are clulvuses"
+    },
+    {
+      "id": "P4",
+      "text": "Clulvuses are clinkuses"
+    },
+    {
+      "id": "P5",
+      "text": "Clonkuses are clunkuses"
+    },
+    {
+      "id": "P6",
+      "text": "Gale is a zqclelvus"
+    }
+  ],
+  "substitution": {
+    "clelvus": "zqclelvus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

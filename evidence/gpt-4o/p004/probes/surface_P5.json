@@ -1,0 +1,49 @@
+{
+  "raw_response": "Step 1: Stella is a bonkus, and all bonkuses are bunkuses, so Stella is a bunkus.  \nStep 2: All bunkuses are bankuses, so Stella is a bankus.  \nStep 3: All bankuses are benkuses, so Stella is a benkus.  \nStep 4: All benkuses are bonduses, so Stella is a bondus.  \nStep 5: Every bondus is a bindus, so Stella is a bindus.  \nAnswer: True",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:42:29.466484+00:00",
+  "sha256": "f35243e5238381959db04346bc3ecac97a3492790e133f80b0ae9e540c4d8573",
+  "usage": {
+    "prompt_tokens": 137,
+    "completion_tokens": 109,
+    "total_tokens": 246
+  },
+  "problem_id": "p004",
+  "probe_type": "surface",
+  "target_premise": "P5",
+  "prompt": "Given the following premises:\n1. Bonkuses are bunkuses\n2. Bunkuses are bankuses\n3. Bankuses are benkuses\n4. Benkuses are bonduses\n5. Every bondus is a bindus\n6. Bunduses are banduses\n7. Stella is a bonkus\n\nQuestion: Is Stella a bindus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Bonkuses are bunkuses"
+    },
+    {
+      "id": "P2",
+      "text": "Bunkuses are bankuses"
+    },
+    {
+      "id": "P3",
+      "text": "Bankuses are benkuses"
+    },
+    {
+      "id": "P4",
+      "text": "Benkuses are bonduses"
+    },
+    {
+      "id": "P5",
+      "text": "Every bondus is a bindus"
+    },
+    {
+      "id": "P6",
+      "text": "Bunduses are banduses"
+    },
+    {
+      "id": "P7",
+      "text": "Stella is a bonkus"
+    }
+  ],
+  "substitution": null,
+  "original_text": "Bonduses are binduses",
+  "rephrased_text": "Every bondus is a bindus"
+}

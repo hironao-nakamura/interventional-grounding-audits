@@ -1,0 +1,57 @@
+{
+  "problem_id": "p015",
+  "premises": [
+    {
+      "id": "P1",
+      "text": "Chempuses are chimpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Chimpuses are chompuses"
+    },
+    {
+      "id": "P3",
+      "text": "Chompuses are not chumpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Chalpuses are chelpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Cholpuses are chulpuses"
+    },
+    {
+      "id": "P6",
+      "text": "Ash is a chempus"
+    }
+  ],
+  "question": "Is Ash a chumpus?",
+  "answer": false,
+  "proof_tree": [
+    {
+      "step": 1,
+      "conclusion": "is(ash, chimpus)",
+      "depends_on": [
+        "P6",
+        "P1"
+      ]
+    },
+    {
+      "step": 2,
+      "conclusion": "is(ash, chompus)",
+      "depends_on": [
+        "S1",
+        "P2"
+      ]
+    },
+    {
+      "step": 3,
+      "conclusion": "not_is(ash, chumpus)",
+      "depends_on": [
+        "S2",
+        "P3"
+      ]
+    }
+  ]
+}

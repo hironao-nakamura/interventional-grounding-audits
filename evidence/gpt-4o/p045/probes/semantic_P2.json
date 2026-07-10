@@ -1,0 +1,43 @@
+{
+  "raw_response": "Step 1: Since Flonduses are flinduses and Glen is a flondus, Glen is a flindus.\nStep 2: Since Flinduses are zqflunduses and Glen is a flindus, Glen is a zqflundus.\nStep 3: Since Zqflunduses are flanduses and Glen is a zqflundus, Glen is a flandus.\n\nAnswer: True",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:45:18.392451+00:00",
+  "sha256": "f5cb9deab4eded0f5f3d43fdb4c85d1a631f4be8fb01c422feb8b00ce027d35f",
+  "usage": {
+    "prompt_tokens": 128,
+    "completion_tokens": 91,
+    "total_tokens": 219
+  },
+  "problem_id": "p045",
+  "probe_type": "semantic",
+  "target_premise": "P2",
+  "prompt": "Given the following premises:\n1. Flonduses are flinduses\n2. Flinduses are zqflunduses\n3. Zqflunduses are flanduses\n4. Flenduses are fleltuses\n5. Glen is a flondus\n\nQuestion: Is Glen a flandus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Flonduses are flinduses"
+    },
+    {
+      "id": "P2",
+      "text": "Flinduses are zqflunduses"
+    },
+    {
+      "id": "P3",
+      "text": "Zqflunduses are flanduses"
+    },
+    {
+      "id": "P4",
+      "text": "Flenduses are fleltuses"
+    },
+    {
+      "id": "P5",
+      "text": "Glen is a flondus"
+    }
+  ],
+  "substitution": {
+    "flundus": "zqflundus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

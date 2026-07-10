@@ -1,0 +1,49 @@
+{
+  "raw_response": "Step 1: Jet is a frenpus, and since frenpuses are fronpuses, Jet is a fronpus.\nStep 2: Since fronpuses are frunpuses, Jet is a frunpus.\nStep 3: Every frunpus is a frelnus, so Jet is a frelnus.\nStep 4: Frelnuses are frolnuses, so Jet is a frolnus.\n\nAnswer: True",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:45:39.556996+00:00",
+  "sha256": "f0f6aa6b93da2b0f6f2a8ce0d1c48bc7b802e8f1663a7521e55fd1bc7977368c",
+  "usage": {
+    "prompt_tokens": 152,
+    "completion_tokens": 92,
+    "total_tokens": 244
+  },
+  "problem_id": "p048",
+  "probe_type": "surface",
+  "target_premise": "P3",
+  "prompt": "Given the following premises:\n1. Frenpuses are fronpuses\n2. Fronpuses are frunpuses\n3. Every frunpus is a frelnus\n4. Frelnuses are frolnuses\n5. Frilnuses are fralvuses\n6. Frelvuses are frolvuses\n7. Jet is a frenpus\n\nQuestion: Is Jet a frolnus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Frenpuses are fronpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Fronpuses are frunpuses"
+    },
+    {
+      "id": "P3",
+      "text": "Every frunpus is a frelnus"
+    },
+    {
+      "id": "P4",
+      "text": "Frelnuses are frolnuses"
+    },
+    {
+      "id": "P5",
+      "text": "Frilnuses are fralvuses"
+    },
+    {
+      "id": "P6",
+      "text": "Frelvuses are frolvuses"
+    },
+    {
+      "id": "P7",
+      "text": "Jet is a frenpus"
+    }
+  ],
+  "substitution": null,
+  "original_text": "Frunpuses are frelnuses",
+  "rephrased_text": "Every frunpus is a frelnus"
+}

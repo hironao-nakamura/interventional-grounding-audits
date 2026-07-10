@@ -1,0 +1,38 @@
+{
+  "raw_response": "Step 1: Since freltuses are froltuses and Lynx is a freltus, Lynx is a froltus.\nStep 2: Since froltuses are friltuses and Lynx is a froltus, Lynx is a friltus.\nStep 3: Since friltuses are not frultuses and Lynx is a friltus, Lynx is not a frultus.\nAnswer: False",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:45:32.844376+00:00",
+  "sha256": "2ebdc4d29b13ac62ab30371ba4e75c057b98da77a8a5ff6d6dc594d5ebfd9f24",
+  "usage": {
+    "prompt_tokens": 130,
+    "completion_tokens": 96,
+    "total_tokens": 226
+  },
+  "problem_id": "p050",
+  "probe_type": "original",
+  "prompt": "Given the following premises:\n1. Freltuses are froltuses\n2. Froltuses are friltuses\n3. Friltuses are not frultuses\n4. Gempuses are gimpuses\n5. Lynx is a freltus\n\nQuestion: Is Lynx a frultus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "premises": [
+    {
+      "id": "P1",
+      "text": "Freltuses are froltuses"
+    },
+    {
+      "id": "P2",
+      "text": "Froltuses are friltuses"
+    },
+    {
+      "id": "P3",
+      "text": "Friltuses are not frultuses"
+    },
+    {
+      "id": "P4",
+      "text": "Gempuses are gimpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Lynx is a freltus"
+    }
+  ],
+  "question": "Is Lynx a frultus?"
+}

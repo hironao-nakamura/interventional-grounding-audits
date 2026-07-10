@@ -1,0 +1,38 @@
+{
+  "raw_response": "Step 1: Haze is a clondus (given in premise 4).\nStep 2: Since clonduses are clinduses (premise 1), Haze is a clindus.\nStep 3: Since clinduses are clunduses (premise 2), Haze is a clundus.\nStep 4: The premises tell us about clonduses, clinduses, clunduses, and zqclanduses, but there is no information connecting any of these to \"clandus.\"\nStep 5: Without any premise establishing a relationship between what Haze is (clondus/clindus/clundus) and \"clandus,\" we cannot determine if Haze is a clandus.\n\nAnswer: False",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:58:32.347772+00:00",
+  "sha256": "8a1e5d0da94577a0bb71e8c7f37996dc2845a9bc8592768d857596614a29706d",
+  "usage": {
+    "input_tokens": 133,
+    "output_tokens": 173
+  },
+  "problem_id": "p023",
+  "probe_type": "local_semantic",
+  "target_premise": "P3",
+  "prompt": "Given the following premises:\n1. Clonduses are clinduses\n2. Clinduses are clunduses\n3. Clunduses are not zqclanduses\n4. Haze is a clondus\n\nQuestion: Is Haze a clandus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Clonduses are clinduses"
+    },
+    {
+      "id": "P2",
+      "text": "Clinduses are clunduses"
+    },
+    {
+      "id": "P3",
+      "text": "Clunduses are not zqclanduses"
+    },
+    {
+      "id": "P4",
+      "text": "Haze is a clondus"
+    }
+  ],
+  "substitution": {
+    "clandus": "zqclandus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

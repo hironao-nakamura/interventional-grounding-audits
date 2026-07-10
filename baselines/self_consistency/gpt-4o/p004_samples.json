@@ -1,0 +1,78 @@
+{
+  "problem_id": "p004",
+  "model": "gpt-4o-2024-08-06",
+  "n_samples": 5,
+  "temperature": 0.7,
+  "step_verdicts": {
+    "1": {
+      "consistent": false,
+      "agreement": 0.667,
+      "majority_conclusion": "subtype(bonkus, bunkus)",
+      "n_valid": 3,
+      "n_unique": 2
+    },
+    "2": {
+      "consistent": false,
+      "agreement": 0.667,
+      "majority_conclusion": "is(stella, bunkus)",
+      "n_valid": 3,
+      "n_unique": 2
+    },
+    "3": {
+      "consistent": false,
+      "agreement": 0.667,
+      "majority_conclusion": "subtype(bunkus, bankus)",
+      "n_valid": 3,
+      "n_unique": 2
+    },
+    "4": {
+      "consistent": false,
+      "agreement": 0.667,
+      "majority_conclusion": "is(stella, bankus)",
+      "n_valid": 3,
+      "n_unique": 2
+    },
+    "5": {
+      "consistent": false,
+      "agreement": 0.667,
+      "majority_conclusion": "subtype(bankus, benkus)",
+      "n_valid": 3,
+      "n_unique": 2
+    },
+    "6": {
+      "consistent": true,
+      "agreement": 1.0,
+      "majority_conclusion": "is(stella, benkus)",
+      "n_valid": 2,
+      "n_unique": 1
+    },
+    "7": {
+      "consistent": true,
+      "agreement": 1.0,
+      "majority_conclusion": "subtype(benkus, bondus)",
+      "n_valid": 2,
+      "n_unique": 1
+    },
+    "8": {
+      "consistent": true,
+      "agreement": 1.0,
+      "majority_conclusion": "is(stella, bondus)",
+      "n_valid": 2,
+      "n_unique": 1
+    },
+    "9": {
+      "consistent": true,
+      "agreement": 1.0,
+      "majority_conclusion": "subtype(bondus, bindus)",
+      "n_valid": 2,
+      "n_unique": 1
+    },
+    "10": {
+      "consistent": true,
+      "agreement": 1.0,
+      "majority_conclusion": "is(stella, bindus)",
+      "n_valid": 2,
+      "n_unique": 1
+    }
+  }
+}

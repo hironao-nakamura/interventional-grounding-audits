@@ -1,0 +1,65 @@
+{
+  "problem_id": "p026",
+  "premises": [
+    {
+      "id": "P1",
+      "text": "Crunpuses are crelnuses"
+    },
+    {
+      "id": "P2",
+      "text": "Crelnuses are crolnuses"
+    },
+    {
+      "id": "P3",
+      "text": "Crolnuses are crilnuses"
+    },
+    {
+      "id": "P4",
+      "text": "Crilnuses are not cralvuses"
+    },
+    {
+      "id": "P5",
+      "text": "Crelvuses are crolvuses"
+    },
+    {
+      "id": "P6",
+      "text": "Knox is a crunpus"
+    }
+  ],
+  "question": "Is Knox a cralvus?",
+  "answer": false,
+  "proof_tree": [
+    {
+      "step": 1,
+      "conclusion": "is(knox, crelnus)",
+      "depends_on": [
+        "P6",
+        "P1"
+      ]
+    },
+    {
+      "step": 2,
+      "conclusion": "is(knox, crolnus)",
+      "depends_on": [
+        "S1",
+        "P2"
+      ]
+    },
+    {
+      "step": 3,
+      "conclusion": "is(knox, crilnus)",
+      "depends_on": [
+        "S2",
+        "P3"
+      ]
+    },
+    {
+      "step": 4,
+      "conclusion": "not_is(knox, cralvus)",
+      "depends_on": [
+        "S3",
+        "P4"
+      ]
+    }
+  ]
+}

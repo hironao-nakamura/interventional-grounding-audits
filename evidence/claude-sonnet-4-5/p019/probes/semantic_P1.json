@@ -1,0 +1,42 @@
+{
+  "raw_response": "Step 1: Cleo is a chiltus (given in premise 5).\nStep 2: Since chiltuses are zqchultuses (premise 1), Cleo is a zqchultus.\nStep 3: Since zqchultuses are clempuses (premise 2), Cleo is a clempus.\nStep 4: Since clempuses are not climpuses (premise 3), Cleo is not a climpus.\n\nAnswer: False",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:56:59.174520+00:00",
+  "sha256": "2a4a782e6050229d78c2d0f5f6ec8f53f2ab934e11fdef859da8c71b5bfa260f",
+  "usage": {
+    "input_tokens": 146,
+    "output_tokens": 115
+  },
+  "problem_id": "p019",
+  "probe_type": "semantic",
+  "target_premise": "P1",
+  "prompt": "Given the following premises:\n1. Chiltuses are zqchultuses\n2. Zqchultuses are clempuses\n3. Clempuses are not climpuses\n4. Clompuses are clumpuses\n5. Cleo is a chiltus\n\nQuestion: Is Cleo a climpus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Chiltuses are zqchultuses"
+    },
+    {
+      "id": "P2",
+      "text": "Zqchultuses are clempuses"
+    },
+    {
+      "id": "P3",
+      "text": "Clempuses are not climpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Clompuses are clumpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Cleo is a chiltus"
+    }
+  ],
+  "substitution": {
+    "chultus": "zqchultus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

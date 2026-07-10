@@ -1,0 +1,50 @@
+{
+  "raw_response": "Step 1: Rex is a bunpus (given in premise 7).\nStep 2: Since bunpuses are zqbelnuses (premise 1), Rex is a zqbelnus.\nStep 3: Since belnuses are bolnuses (premise 2), we need to determine if Rex is a belnus.\nStep 4: The term \"zqbelnus\" from premise 1 appears to be a typo for \"belnus\", so Rex is a belnus.\nStep 5: Since belnuses are bolnuses (premise 2), Rex is a bolnus.\nStep 6: Since bolnuses are bilnuses (premise 3), Rex is a bilnus.\nStep 7: Since bilnuses are balvuses (premise 4), Rex is a balvus.\nStep 8: Since balvuses are belvuses (premise 5), Rex is a belvus.\n\nAnswer: True",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:51:45.042502+00:00",
+  "sha256": "ab815355744559e7954e51dfe6385a3632efbce5b7b50c87986465b84a66dc27",
+  "usage": {
+    "input_tokens": 161,
+    "output_tokens": 215
+  },
+  "problem_id": "p003",
+  "probe_type": "local_semantic",
+  "target_premise": "P1",
+  "prompt": "Given the following premises:\n1. Bunpuses are zqbelnuses\n2. Belnuses are bolnuses\n3. Bolnuses are bilnuses\n4. Bilnuses are balvuses\n5. Balvuses are belvuses\n6. Bolvuses are bilvuses\n7. Rex is a bunpus\n\nQuestion: Is Rex a belvus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Bunpuses are zqbelnuses"
+    },
+    {
+      "id": "P2",
+      "text": "Belnuses are bolnuses"
+    },
+    {
+      "id": "P3",
+      "text": "Bolnuses are bilnuses"
+    },
+    {
+      "id": "P4",
+      "text": "Bilnuses are balvuses"
+    },
+    {
+      "id": "P5",
+      "text": "Balvuses are belvuses"
+    },
+    {
+      "id": "P6",
+      "text": "Bolvuses are bilvuses"
+    },
+    {
+      "id": "P7",
+      "text": "Rex is a bunpus"
+    }
+  ],
+  "substitution": {
+    "belnus": "zqbelnus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

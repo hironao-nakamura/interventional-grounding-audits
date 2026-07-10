@@ -1,0 +1,38 @@
+{
+  "raw_response": "Step 1: Haze is a clondus (given in premise 4).\nStep 2: Since clonduses are zqclinduses (premise 1), Haze is a zqclindus.\nStep 3: Since clinduses are clunduses (premise 2), we need to determine if Haze is a clindus.\nStep 4: There is no stated connection between clonduses (or zqclinduses) and clinduses, so we cannot establish that Haze is a clindus.\nStep 5: However, we need to check if Haze is a clundus through any path.\nStep 6: There is no premise connecting clonduses or zqclinduses to clunduses.\nStep 7: Since we cannot establish that Haze is a clundus, and clunduses are not clanduses (premise 3), we need to determine if Haze could be a clandus through another path.\nStep 8: There is no premise stating that clonduses are clanduses or that zqclinduses are clanduses.\nStep 9: There is no information establishing that Haze is a clandus.\n\nAnswer: False",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:58:13.479399+00:00",
+  "sha256": "cdaf4940570664ca68d69c9f3e65e228173edd7d0c71ae2e30fc816675456e26",
+  "usage": {
+    "input_tokens": 133,
+    "output_tokens": 279
+  },
+  "problem_id": "p023",
+  "probe_type": "local_semantic",
+  "target_premise": "P1",
+  "prompt": "Given the following premises:\n1. Clonduses are zqclinduses\n2. Clinduses are clunduses\n3. Clunduses are not clanduses\n4. Haze is a clondus\n\nQuestion: Is Haze a clandus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Clonduses are zqclinduses"
+    },
+    {
+      "id": "P2",
+      "text": "Clinduses are clunduses"
+    },
+    {
+      "id": "P3",
+      "text": "Clunduses are not clanduses"
+    },
+    {
+      "id": "P4",
+      "text": "Haze is a clondus"
+    }
+  ],
+  "substitution": {
+    "clindus": "zqclindus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

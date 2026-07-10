@@ -1,0 +1,47 @@
+{
+  "raw_response": "Step 1: Since Zqblenduses are bleltuses and Eve is a zqblendus, Eve is a bleltus.  \nStep 2: Since bleltuses are bloltuses and Eve is a bleltus, Eve is a bloltus.  \nStep 3: Since bloltuses are bliltuses and Eve is a bloltus, Eve is a bliltus.  \nStep 4: Since bliltuses are blultuses and Eve is a bliltus, Eve is a blultus.  \nAnswer: True",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:42:58.729757+00:00",
+  "sha256": "9144ca43d603ee8afe796b84270b7e94f23efbb0ab0971288a1c1d3e43d95e10",
+  "usage": {
+    "prompt_tokens": 137,
+    "completion_tokens": 117,
+    "total_tokens": 254
+  },
+  "problem_id": "p010",
+  "probe_type": "semantic",
+  "target_premise": "P6",
+  "prompt": "Given the following premises:\n1. Zqblenduses are bleltuses\n2. Bleltuses are bloltuses\n3. Bloltuses are bliltuses\n4. Bliltuses are blultuses\n5. Brempuses are brimpuses\n6. Eve is a zqblendus\n\nQuestion: Is Eve a blultus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Zqblenduses are bleltuses"
+    },
+    {
+      "id": "P2",
+      "text": "Bleltuses are bloltuses"
+    },
+    {
+      "id": "P3",
+      "text": "Bloltuses are bliltuses"
+    },
+    {
+      "id": "P4",
+      "text": "Bliltuses are blultuses"
+    },
+    {
+      "id": "P5",
+      "text": "Brempuses are brimpuses"
+    },
+    {
+      "id": "P6",
+      "text": "Eve is a zqblendus"
+    }
+  ],
+  "substitution": {
+    "blendus": "zqblendus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

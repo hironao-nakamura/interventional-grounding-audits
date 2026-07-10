@@ -1,0 +1,34 @@
+{
+  "raw_response": "Step 1: Since Drelpuses are drolpuses and Sage is a drelpus, Sage is a drolpus.\nStep 2: Since Drolpuses are drulpuses and Sage is a drolpus, Sage is a drulpus.\nStep 3: Since Drulpuses are not drarpuses and Sage is a drulpus, Sage is not a drarpus.\nAnswer: False",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:44:07.490753+00:00",
+  "sha256": "a4dc84a5a6d1a37f853c6784b7b4e1226a0d694cc1f3c111c4f6b756ad692a0c",
+  "usage": {
+    "prompt_tokens": 119,
+    "completion_tokens": 89,
+    "total_tokens": 208
+  },
+  "problem_id": "p033",
+  "probe_type": "original",
+  "prompt": "Given the following premises:\n1. Drelpuses are drolpuses\n2. Drolpuses are drulpuses\n3. Drulpuses are not drarpuses\n4. Sage is a drelpus\n\nQuestion: Is Sage a drarpus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "premises": [
+    {
+      "id": "P1",
+      "text": "Drelpuses are drolpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Drolpuses are drulpuses"
+    },
+    {
+      "id": "P3",
+      "text": "Drulpuses are not drarpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Sage is a drelpus"
+    }
+  ],
+  "question": "Is Sage a drarpus?"
+}

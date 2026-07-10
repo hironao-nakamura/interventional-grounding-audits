@@ -1,0 +1,69 @@
+{
+  "problem_id": "p018",
+  "premises": [
+    {
+      "id": "P1",
+      "text": "Chonkuses are chunkuses"
+    },
+    {
+      "id": "P2",
+      "text": "Chunkuses are chankuses"
+    },
+    {
+      "id": "P3",
+      "text": "Chankuses are chenkuses"
+    },
+    {
+      "id": "P4",
+      "text": "Chenkuses are chonduses"
+    },
+    {
+      "id": "P5",
+      "text": "Chinduses are chunduses"
+    },
+    {
+      "id": "P6",
+      "text": "Chanduses are chenduses"
+    },
+    {
+      "id": "P7",
+      "text": "Bolt is a chonkus"
+    }
+  ],
+  "question": "Is Bolt a chondus?",
+  "answer": true,
+  "proof_tree": [
+    {
+      "step": 1,
+      "conclusion": "is(bolt, chunkus)",
+      "depends_on": [
+        "P7",
+        "P1"
+      ]
+    },
+    {
+      "step": 2,
+      "conclusion": "is(bolt, chankus)",
+      "depends_on": [
+        "S1",
+        "P2"
+      ]
+    },
+    {
+      "step": 3,
+      "conclusion": "is(bolt, chenkus)",
+      "depends_on": [
+        "S2",
+        "P3"
+      ]
+    },
+    {
+      "step": 4,
+      "conclusion": "is(bolt, chondus)",
+      "depends_on": [
+        "S3",
+        "P4"
+      ]
+    }
+  ]
+}

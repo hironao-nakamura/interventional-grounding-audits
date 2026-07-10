@@ -1,0 +1,38 @@
+{
+  "raw_response": "Step 1: Luna is a blalvus (given in premise 4).\n\nStep 2: Since blalvuses are zqblelvuses (premise 1), and Luna is a blalvus, Luna is a zqblelvus.\n\nWait, let me reconsider. I notice premise 1 says \"Blalvuses are zqblelvuses\" but this doesn't connect to the chain leading to blilvuses. Let me check if there's a typo and if \"zqblelvuses\" might mean \"blelvuses\".\n\nStep 1: Luna is a blalvus (given in premise 4).\n\nStep 2: Assuming \"zqblelvuses\" in premise 1 is meant to be \"blelvuses\", then blalvuses are blelvuses, so Luna is a blelvus.\n\nStep 3: Since blelvuses are blolvuses (premise 2), and Luna is a blelvus, Luna is a blolvus.\n\nStep 4: Since blolvuses are blilvuses (premise 3), and Luna is a blolvus, Luna is a blilvus.\n\nAnswer: True",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:53:53.760992+00:00",
+  "sha256": "49860f65eac6818ea4e02b75ceab123a01e4b9215b41da408d03f6a420cd16cd",
+  "usage": {
+    "input_tokens": 130,
+    "output_tokens": 263
+  },
+  "problem_id": "p008",
+  "probe_type": "local_semantic",
+  "target_premise": "P1",
+  "prompt": "Given the following premises:\n1. Blalvuses are zqblelvuses\n2. Blelvuses are blolvuses\n3. Blolvuses are blilvuses\n4. Luna is a blalvus\n\nQuestion: Is Luna a blilvus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Blalvuses are zqblelvuses"
+    },
+    {
+      "id": "P2",
+      "text": "Blelvuses are blolvuses"
+    },
+    {
+      "id": "P3",
+      "text": "Blolvuses are blilvuses"
+    },
+    {
+      "id": "P4",
+      "text": "Luna is a blalvus"
+    }
+  ],
+  "substitution": {
+    "blelvus": "zqblelvus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

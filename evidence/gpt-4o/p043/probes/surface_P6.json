@@ -1,0 +1,45 @@
+{
+  "raw_response": "Step 1: Florpuses are flurpuses, and Elm is one of the florpuses, so Elm is a flurpus.\nStep 2: Flurpuses are flanpuses, and Elm is a flurpus, so Elm is a flanpus.\nStep 3: Flanpuses are flenpuses, and Elm is a flanpus, so Elm is a flenpus.\n\nAnswer: True",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:45:23.223263+00:00",
+  "sha256": "84e0a64aad79f1b89348f71b42f8698217637f550fb2635c900c9e05a2db3569",
+  "usage": {
+    "prompt_tokens": 142,
+    "completion_tokens": 92,
+    "total_tokens": 234
+  },
+  "problem_id": "p043",
+  "probe_type": "surface",
+  "target_premise": "P6",
+  "prompt": "Given the following premises:\n1. Florpuses are flurpuses\n2. Flurpuses are flanpuses\n3. Flanpuses are flenpuses\n4. Flonpuses are flunpuses\n5. Flelnuses are flolnuses\n6. Elm is one of the florpuses\n\nQuestion: Is Elm a flenpus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Florpuses are flurpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Flurpuses are flanpuses"
+    },
+    {
+      "id": "P3",
+      "text": "Flanpuses are flenpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Flonpuses are flunpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Flelnuses are flolnuses"
+    },
+    {
+      "id": "P6",
+      "text": "Elm is one of the florpuses"
+    }
+  ],
+  "substitution": null,
+  "original_text": "Elm is a florpus",
+  "rephrased_text": "Elm is one of the florpuses"
+}

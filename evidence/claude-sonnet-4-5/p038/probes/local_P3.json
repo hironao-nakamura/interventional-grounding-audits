@@ -1,0 +1,46 @@
+{
+  "raw_response": "Step 1: Yuki is a fumpus (given in premise 6).\nStep 2: Since fumpuses are falpuses (premise 1), Yuki is a falpus.\nStep 3: Since falpuses are felpuses (premise 2), Yuki is a felpus.\nStep 4: Since felpuses are zqfolpuses (premise 3), Yuki is a zqfolpus.\n\nAt this point, I need to check if there's a connection from zqfolpus to farpus. Premise 4 states \"Folpuses are fulpuses\" and premise 5 states \"Fulpuses are farpuses,\" but premise 3 says felpuses are \"zqfolpuses\" not \"folpuses.\" There is no stated relationship between zqfolpuses and folpuses, so I cannot establish that Yuki is a folpus, and therefore cannot establish that Yuki is a farpus.\n\nAnswer: False",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T05:03:39.129784+00:00",
+  "sha256": "103046d422cc7d836791f9fc5c67459c90380c00e286f23626b737072e874d0e",
+  "usage": {
+    "input_tokens": 154,
+    "output_tokens": 235
+  },
+  "problem_id": "p038",
+  "probe_type": "local_semantic",
+  "target_premise": "P3",
+  "prompt": "Given the following premises:\n1. Fumpuses are falpuses\n2. Falpuses are felpuses\n3. Felpuses are zqfolpuses\n4. Folpuses are fulpuses\n5. Fulpuses are farpuses\n6. Yuki is a fumpus\n\nQuestion: Is Yuki a farpus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Fumpuses are falpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Falpuses are felpuses"
+    },
+    {
+      "id": "P3",
+      "text": "Felpuses are zqfolpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Folpuses are fulpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Fulpuses are farpuses"
+    },
+    {
+      "id": "P6",
+      "text": "Yuki is a fumpus"
+    }
+  ],
+  "substitution": {
+    "folpus": "zqfolpus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

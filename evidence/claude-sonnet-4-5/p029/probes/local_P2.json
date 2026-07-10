@@ -1,0 +1,54 @@
+{
+  "raw_response": "Step 1: Nyx is a dempus (given in premise 8).\nStep 2: Since dempuses are dimpuses (premise 1), Nyx is a dimpus.\nStep 3: Since dimpuses are zqdompuses (premise 2), Nyx is a zqdompus.\n\nNow I need to check if there's a path from zqdompus to delpus. Looking at the remaining premises:\n- Premise 3: Dompuses are dumpuses\n- Premise 4: Dumpuses are dalpuses\n- Premise 5: Dalpuses are delpuses\n\nThe chain in premises 3-5 starts with \"dompuses\" (not \"zqdompuses\"), so there's no connection between zqdompus and the domp-dump-dalp-delp chain.\n\nPremises 6 and 7 involve different categories (dolpuses and darpuses) that are also not connected to zqdompuses.\n\nAnswer: False",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T05:00:30.563118+00:00",
+  "sha256": "9944fce65bb7b55d0ee1c9801686acc58887b8c598748520ecf1c067d96f54b3",
+  "usage": {
+    "input_tokens": 175,
+    "output_tokens": 236
+  },
+  "problem_id": "p029",
+  "probe_type": "local_semantic",
+  "target_premise": "P2",
+  "prompt": "Given the following premises:\n1. Dempuses are dimpuses\n2. Dimpuses are zqdompuses\n3. Dompuses are dumpuses\n4. Dumpuses are dalpuses\n5. Dalpuses are delpuses\n6. Dolpuses are dulpuses\n7. Darpuses are derpuses\n8. Nyx is a dempus\n\nQuestion: Is Nyx a delpus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Dempuses are dimpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Dimpuses are zqdompuses"
+    },
+    {
+      "id": "P3",
+      "text": "Dompuses are dumpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Dumpuses are dalpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Dalpuses are delpuses"
+    },
+    {
+      "id": "P6",
+      "text": "Dolpuses are dulpuses"
+    },
+    {
+      "id": "P7",
+      "text": "Darpuses are derpuses"
+    },
+    {
+      "id": "P8",
+      "text": "Nyx is a dempus"
+    }
+  ],
+  "substitution": {
+    "dompus": "zqdompus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

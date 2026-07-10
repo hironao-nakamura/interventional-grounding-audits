@@ -1,0 +1,39 @@
+{
+  "raw_response": "Step 1: Clonduses are clinduses, so if something is a clondus, it is also a clindus.\nStep 2: Clinduses are clunduses, so if something is a clindus, it is also a clundus.\nStep 3: Clonduses are clunduses by transitive property from Steps 1 and 2.\nStep 4: Clunduses are not clanduses, so if something is a clundus, it cannot be a clandus.\nStep 5: Haze is a zqclondus, but the premises do not define the relationship between zqclonduses and clonduses.\nStep 6: Without a defined relationship between zqclonduses and clonduses, we cannot conclude that Haze is a clondus.\nStep 7: Since we cannot conclude that Haze is a clondus, we cannot conclude that Haze is a clundus or a clandus.\n\nAnswer: False",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:43:45.622441+00:00",
+  "sha256": "91ebee7fa525d563d50c64c43f411c60b7a8b993cfdc6c946311fe81be742502",
+  "usage": {
+    "prompt_tokens": 119,
+    "completion_tokens": 210,
+    "total_tokens": 329
+  },
+  "problem_id": "p023",
+  "probe_type": "local_semantic",
+  "target_premise": "P4",
+  "prompt": "Given the following premises:\n1. Clonduses are clinduses\n2. Clinduses are clunduses\n3. Clunduses are not clanduses\n4. Haze is a zqclondus\n\nQuestion: Is Haze a clandus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Clonduses are clinduses"
+    },
+    {
+      "id": "P2",
+      "text": "Clinduses are clunduses"
+    },
+    {
+      "id": "P3",
+      "text": "Clunduses are not clanduses"
+    },
+    {
+      "id": "P4",
+      "text": "Haze is a zqclondus"
+    }
+  ],
+  "substitution": {
+    "clondus": "zqclondus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

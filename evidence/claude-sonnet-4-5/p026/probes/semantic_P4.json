@@ -1,0 +1,46 @@
+{
+  "raw_response": "Step 1: Knox is a crunpus (given in premise 6).\nStep 2: Since crunpuses are crelnuses (premise 1), Knox is a crelnus.\nStep 3: Since crelnuses are crolnuses (premise 2), Knox is a crolnus.\nStep 4: Since crolnuses are crilnuses (premise 3), Knox is a crilnus.\nStep 5: Since crilnuses are not zqcralvuses (premise 4), Knox is not a zqcralvus.\nStep 6: There is no logical connection established between what Knox is (crunpus/creln\u0443\u0441/crolnus/crilnus) and being a cralvus.\nStep 7: Premises 5 about crelvuses and crolvuses does not connect to Knox's chain of categories.\nStep 8: We cannot conclude that Knox is a cralvus based on the given premises.\n\nAnswer: False",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:59:38.134373+00:00",
+  "sha256": "b68dc92e7470fdc33c3fab5d9b3ebd038eaf2e2b130a3bb17669a4be69ae4aeb",
+  "usage": {
+    "input_tokens": 159,
+    "output_tokens": 229
+  },
+  "problem_id": "p026",
+  "probe_type": "semantic",
+  "target_premise": "P4",
+  "prompt": "Given the following premises:\n1. Crunpuses are crelnuses\n2. Crelnuses are crolnuses\n3. Crolnuses are crilnuses\n4. Crilnuses are not zqcralvuses\n5. Crelvuses are crolvuses\n6. Knox is a crunpus\n\nQuestion: Is Knox a cralvus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Crunpuses are crelnuses"
+    },
+    {
+      "id": "P2",
+      "text": "Crelnuses are crolnuses"
+    },
+    {
+      "id": "P3",
+      "text": "Crolnuses are crilnuses"
+    },
+    {
+      "id": "P4",
+      "text": "Crilnuses are not zqcralvuses"
+    },
+    {
+      "id": "P5",
+      "text": "Crelvuses are crolvuses"
+    },
+    {
+      "id": "P6",
+      "text": "Knox is a crunpus"
+    }
+  ],
+  "substitution": {
+    "cralvus": "zqcralvus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

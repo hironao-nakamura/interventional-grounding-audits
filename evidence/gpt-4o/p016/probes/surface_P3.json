@@ -1,0 +1,37 @@
+{
+  "raw_response": "Step 1: Since Chorpuses are Churpuses, Wren, being a Chorpus, is also a Churpus.\nStep 2: Since Churpuses are Chanpuses, Wren, being a Churpus, is also a Chanpus.\nStep 3: No Chanpus is a Chenpus, so Wren, being a Chanpus, cannot be a Chenpus.\n\nAnswer: False",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:43:14.884989+00:00",
+  "sha256": "45e2105ba7693a2c16ef96190d91f1961cdc7f579de0c1b6589f16e970c1b7c6",
+  "usage": {
+    "prompt_tokens": 115,
+    "completion_tokens": 86,
+    "total_tokens": 201
+  },
+  "problem_id": "p016",
+  "probe_type": "surface",
+  "target_premise": "P3",
+  "prompt": "Given the following premises:\n1. Chorpuses are churpuses\n2. Churpuses are chanpuses\n3. No chanpus is a chenpus\n4. Wren is a chorpus\n\nQuestion: Is Wren a chenpus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Chorpuses are churpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Churpuses are chanpuses"
+    },
+    {
+      "id": "P3",
+      "text": "No chanpus is a chenpus"
+    },
+    {
+      "id": "P4",
+      "text": "Wren is a chorpus"
+    }
+  ],
+  "substitution": null,
+  "original_text": "Chanpuses are not chenpuses",
+  "rephrased_text": "No chanpus is a chenpus"
+}

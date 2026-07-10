@@ -1,0 +1,42 @@
+{
+  "raw_response": "Step 1: Glen is a flondus (given in premise 5).\nStep 2: Since flonduses are zqflinduses (premise 1), this doesn't directly help us determine if Glen is a flandus.\nStep 3: We need to check if there's a path from flondus to flandus through the given premises.\nStep 4: Looking at premise 2, flinduses are flunduses, but we need to know if Glen is a flindus first.\nStep 5: Premise 1 states flonduses are zqflinduses, not flinduses, so we cannot use premise 2.\nStep 6: There is no premise connecting zqflinduses to any other category that leads to flanduses.\nStep 7: Therefore, we cannot establish that Glen is a flandus based on the given premises.\n\nAnswer: False",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T05:05:43.279746+00:00",
+  "sha256": "6e2898a0cee3f22d888760325a2136326ac689b4bde6a91e8a77d016de548e6d",
+  "usage": {
+    "input_tokens": 139,
+    "output_tokens": 202
+  },
+  "problem_id": "p045",
+  "probe_type": "local_semantic",
+  "target_premise": "P1",
+  "prompt": "Given the following premises:\n1. Flonduses are zqflinduses\n2. Flinduses are flunduses\n3. Flunduses are flanduses\n4. Flenduses are fleltuses\n5. Glen is a flondus\n\nQuestion: Is Glen a flandus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Flonduses are zqflinduses"
+    },
+    {
+      "id": "P2",
+      "text": "Flinduses are flunduses"
+    },
+    {
+      "id": "P3",
+      "text": "Flunduses are flanduses"
+    },
+    {
+      "id": "P4",
+      "text": "Flenduses are fleltuses"
+    },
+    {
+      "id": "P5",
+      "text": "Glen is a flondus"
+    }
+  ],
+  "substitution": {
+    "flindus": "zqflindus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

@@ -1,0 +1,38 @@
+{
+  "raw_response": "Step 1: Since bralpuses are brelpuses and Kai is a bralpus, Kai is a brelpus.\nStep 2: Since brelpuses are brolpuses and Kai is a brelpus, Kai is a brolpus.\nStep 3: Since brolpuses are brulpuses and Kai is a brolpus, Kai is a brulpus.\nStep 4: Since brulpuses are not brarpuses and Kai is a brulpus, Kai is not a brarpus.\nAnswer: False",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:42:38.601308+00:00",
+  "sha256": "fcf32d0ea74e5453c2130e5fd246ace4749f522ad7450dc4ce2b65c5962ffacb",
+  "usage": {
+    "prompt_tokens": 129,
+    "completion_tokens": 115,
+    "total_tokens": 244
+  },
+  "problem_id": "p011",
+  "probe_type": "original",
+  "prompt": "Given the following premises:\n1. Bralpuses are brelpuses\n2. Brelpuses are brolpuses\n3. Brolpuses are brulpuses\n4. Brulpuses are not brarpuses\n5. Kai is a bralpus\n\nQuestion: Is Kai a brarpus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "premises": [
+    {
+      "id": "P1",
+      "text": "Bralpuses are brelpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Brelpuses are brolpuses"
+    },
+    {
+      "id": "P3",
+      "text": "Brolpuses are brulpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Brulpuses are not brarpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Kai is a bralpus"
+    }
+  ],
+  "question": "Is Kai a brarpus?"
+}

@@ -1,0 +1,42 @@
+{
+  "raw_response": "Step 1: Finn is a clanpus (given in premise 5).\nStep 2: Since clanpuses are clenpuses (premise 1), Finn is a clenpus.\nStep 3: Since clenpuses are zqclonpuses (premise 2), Finn is a zqclonpus.\nStep 4: The premises do not establish any relationship between zqclonpuses and clunpuses.\nStep 5: Premise 3 states that clonpuses are not clunpuses, but this doesn't apply to Finn since we only know Finn is a zqclonpus, not a clonpus.\nStep 6: There is no chain of reasoning from the given premises that would make Finn a clunpus.\n\nAnswer: False",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:58:03.301695+00:00",
+  "sha256": "43137bd9df2a338775fd0ac862c8ee1c1c9f42420e8508b9cb6420a4b19f4834",
+  "usage": {
+    "input_tokens": 149,
+    "output_tokens": 189
+  },
+  "problem_id": "p021",
+  "probe_type": "local_semantic",
+  "target_premise": "P2",
+  "prompt": "Given the following premises:\n1. Clanpuses are clenpuses\n2. Clenpuses are zqclonpuses\n3. Clonpuses are not clunpuses\n4. Clelnuses are clolnuses\n5. Finn is a clanpus\n\nQuestion: Is Finn a clunpus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Clanpuses are clenpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Clenpuses are zqclonpuses"
+    },
+    {
+      "id": "P3",
+      "text": "Clonpuses are not clunpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Clelnuses are clolnuses"
+    },
+    {
+      "id": "P5",
+      "text": "Finn is a clanpus"
+    }
+  ],
+  "substitution": {
+    "clonpus": "zqclonpus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

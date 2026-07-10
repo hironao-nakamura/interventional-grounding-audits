@@ -1,0 +1,57 @@
+{
+  "A_consistent_only": {
+    "tp": 171,
+    "fp": 0,
+    "tn": 839,
+    "fn": 50,
+    "precision": 1.0,
+    "recall": 0.7738,
+    "f1": 0.8724
+  },
+  "A'_local_only": {
+    "tp": 155,
+    "fp": 26,
+    "tn": 490,
+    "fn": 23,
+    "precision": 0.8564,
+    "recall": 0.8708,
+    "f1": 0.8635
+  },
+  "A+A'_combined": {
+    "tp": 172,
+    "fp": 26,
+    "tn": 813,
+    "fn": 49,
+    "precision": 0.8687,
+    "recall": 0.7783,
+    "f1": 0.821
+  },
+  "A+A'_no_surface_ctrl": {
+    "tp": 174,
+    "fp": 26,
+    "tn": 820,
+    "fn": 49,
+    "precision": 0.87,
+    "recall": 0.7803,
+    "f1": 0.8227
+  },
+  "string_diff_baseline": {
+    "tp": 173,
+    "fp": 0,
+    "tn": 846,
+    "fn": 50,
+    "precision": 1.0,
+    "recall": 0.7758,
+    "f1": 0.8737
+  },
+  "A+A'_cascade_filter": {
+    "tp": 172,
+    "fp": 10,
+    "fn": 49,
+    "tn": 829,
+    "precision": 0.9451,
+    "recall": 0.7783,
+    "f1": 0.8536,
+    "n_cascaded": 16
+  }
+}

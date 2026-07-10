@@ -1,0 +1,38 @@
+{
+  "raw_response": "Step 1: From premise 4, Sage is a klompus, not a drelpus.\nStep 2: From premise 1, only drelpuses are stated to be drolpuses, and Sage is not a drelpus.\nStep 3: Since Sage is not a drelpus, we cannot establish that Sage is a drolpus.\nStep 4: Since we cannot establish that Sage is a drolpus, we cannot use premise 2 to establish that Sage is a drulpus.\nStep 5: Since we cannot establish that Sage is a drulpus, premise 3 (which tells us drulpuses are not drarpuses) does not apply to Sage.\nStep 6: There is no information connecting klompuses to drarpuses in any of the premises.\nStep 7: We cannot determine from the given premises whether Sage is a drarpus or not.\n\nAnswer: False",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T05:02:15.643316+00:00",
+  "sha256": "072623156f5e7da1d0f649629c1fd074c7516f1e9567ebbea590755648c4d1ec",
+  "usage": {
+    "input_tokens": 133,
+    "output_tokens": 219
+  },
+  "problem_id": "p033",
+  "probe_type": "local_semantic",
+  "target_premise": "P4",
+  "prompt": "Given the following premises:\n1. Drelpuses are drolpuses\n2. Drolpuses are drulpuses\n3. Drulpuses are not drarpuses\n4. Sage is a klompus\n\nQuestion: Is Sage a drarpus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Drelpuses are drolpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Drolpuses are drulpuses"
+    },
+    {
+      "id": "P3",
+      "text": "Drulpuses are not drarpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Sage is a klompus"
+    }
+  ],
+  "substitution": {
+    "drelpus": "klompus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

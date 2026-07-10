@@ -1,0 +1,40 @@
+{
+  "raw_response": "Step 1: Glen is a flondus (given in premise 5).\nStep 2: Since flonduses are flinduses (premise 1), Glen is a flindus.\nStep 3: Since flinduses are flunduses (premise 2), Glen is a flundus.\nStep 4: Since flunduses are flanduses (premise 3), Glen is a flandus.\n\nAnswer: True",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T05:06:19.931553+00:00",
+  "sha256": "2320636cb850e5dee2ba0f2529439520d5c04707d1783f3f4fc69b14cd74afe9",
+  "usage": {
+    "input_tokens": 139,
+    "output_tokens": 99
+  },
+  "problem_id": "p045",
+  "probe_type": "surface",
+  "target_premise": "P5",
+  "prompt": "Given the following premises:\n1. Flonduses are flinduses\n2. Flinduses are flunduses\n3. Flunduses are flanduses\n4. Flenduses are fleltuses\n5. Glen is one of the flonduses\n\nQuestion: Is Glen a flandus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Flonduses are flinduses"
+    },
+    {
+      "id": "P2",
+      "text": "Flinduses are flunduses"
+    },
+    {
+      "id": "P3",
+      "text": "Flunduses are flanduses"
+    },
+    {
+      "id": "P4",
+      "text": "Flenduses are fleltuses"
+    },
+    {
+      "id": "P5",
+      "text": "Glen is one of the flonduses"
+    }
+  ],
+  "substitution": null,
+  "original_text": "Glen is a flondus",
+  "rephrased_text": "Glen is one of the flonduses"
+}

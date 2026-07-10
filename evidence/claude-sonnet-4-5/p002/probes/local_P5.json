@@ -1,0 +1,42 @@
+{
+  "raw_response": "Step 1: Fae is a zqbarpus, which means Fae has the property of being a barpus (since zqbarpus contains \"barpus\").\nStep 2: Since barpuses are berpuses (premise 1), and Fae is a barpus, Fae is a berpus.\nStep 3: Since berpuses are borpuses (premise 2), and Fae is a berpus, Fae is a borpus.\nStep 4: Since borpuses are burpuses (premise 3), and Fae is a borpus, Fae is a burpus.\nStep 5: Since burpuses are banpuses (premise 4), and Fae is a burpus, Fae is a banpus.\n\nAnswer: True",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:52:28.246882+00:00",
+  "sha256": "b16ffc27f086fbbfe55f710777b70927284f5b3acdacbafbb0e0a9f94a91bde7",
+  "usage": {
+    "input_tokens": 143,
+    "output_tokens": 197
+  },
+  "problem_id": "p002",
+  "probe_type": "local_semantic",
+  "target_premise": "P5",
+  "prompt": "Given the following premises:\n1. Barpuses are berpuses\n2. Berpuses are borpuses\n3. Borpuses are burpuses\n4. Burpuses are banpuses\n5. Fae is a zqbarpus\n\nQuestion: Is Fae a banpus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Barpuses are berpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Berpuses are borpuses"
+    },
+    {
+      "id": "P3",
+      "text": "Borpuses are burpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Burpuses are banpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Fae is a zqbarpus"
+    }
+  ],
+  "substitution": {
+    "barpus": "zqbarpus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

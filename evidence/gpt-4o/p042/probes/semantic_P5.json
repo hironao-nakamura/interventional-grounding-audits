@@ -1,0 +1,47 @@
+{
+  "raw_response": "Step 1: Flompuses are flumpuses.\nStep 2: Flumpuses are flalpuses.\nStep 3: Flalpuses are flelpuses.\nStep 4: Flelpuses are flolpuses.\nStep 5: Flolpuses are not zqflulpuses.\nStep 6: Dove is a flompus.\nStep 7: Since Dove is a flompus, Dove is a flumpus.\nStep 8: Since Dove is a flumpus, Dove is a flalpus.\nStep 9: Since Dove is a flalpus, Dove is a flelpus.\nStep 10: Since Dove is a flelpus, Dove is a flolpus.\nStep 11: The premises do not mention flulpuses, so there is no information to conclude if Dove is a flulpus.\n\nAnswer: False",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:45:13.896916+00:00",
+  "sha256": "eedef1470ba752df9d6b0192f4569eb62ccfb3bce350e64cfd16359b2ed3edd3",
+  "usage": {
+    "prompt_tokens": 140,
+    "completion_tokens": 184,
+    "total_tokens": 324
+  },
+  "problem_id": "p042",
+  "probe_type": "semantic",
+  "target_premise": "P5",
+  "prompt": "Given the following premises:\n1. Flompuses are flumpuses\n2. Flumpuses are flalpuses\n3. Flalpuses are flelpuses\n4. Flelpuses are flolpuses\n5. Flolpuses are not zqflulpuses\n6. Dove is a flompus\n\nQuestion: Is Dove a flulpus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Flompuses are flumpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Flumpuses are flalpuses"
+    },
+    {
+      "id": "P3",
+      "text": "Flalpuses are flelpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Flelpuses are flolpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Flolpuses are not zqflulpuses"
+    },
+    {
+      "id": "P6",
+      "text": "Dove is a flompus"
+    }
+  ],
+  "substitution": {
+    "flulpus": "zqflulpus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

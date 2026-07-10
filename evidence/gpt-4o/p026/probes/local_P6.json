@@ -1,0 +1,47 @@
+{
+  "raw_response": "Step 1: Crunpuses are crelnuses, so if something is a crunpuse, it is also a crelnuse.\nStep 2: Crelnuses are crolnuses, so if something is a crelnuse, it is also a crolnuse.\nStep 3: Crolnuses are crilnuses, so if something is a crolnuse, it is also a crilnuse.\nStep 4: Crilnuses are not cralvuses, so if something is a crilnuse, it cannot be a cralvus.\nStep 5: Knox is a zqcrunpus, but there is no information connecting zqcrunpuses to crunpuses or any other category.\nStep 6: Without a connection between zqcrunpuses and crunpuses, we cannot conclude that Knox is a crunpuse or any related category.\n\nAnswer: False",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:44:05.023435+00:00",
+  "sha256": "e735f62b6e8dda8d9b3b455811d43d4406b8671b3a2db4edfd80032c8d7fdaec",
+  "usage": {
+    "prompt_tokens": 145,
+    "completion_tokens": 195,
+    "total_tokens": 340
+  },
+  "problem_id": "p026",
+  "probe_type": "local_semantic",
+  "target_premise": "P6",
+  "prompt": "Given the following premises:\n1. Crunpuses are crelnuses\n2. Crelnuses are crolnuses\n3. Crolnuses are crilnuses\n4. Crilnuses are not cralvuses\n5. Crelvuses are crolvuses\n6. Knox is a zqcrunpus\n\nQuestion: Is Knox a cralvus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Crunpuses are crelnuses"
+    },
+    {
+      "id": "P2",
+      "text": "Crelnuses are crolnuses"
+    },
+    {
+      "id": "P3",
+      "text": "Crolnuses are crilnuses"
+    },
+    {
+      "id": "P4",
+      "text": "Crilnuses are not cralvuses"
+    },
+    {
+      "id": "P5",
+      "text": "Crelvuses are crolvuses"
+    },
+    {
+      "id": "P6",
+      "text": "Knox is a zqcrunpus"
+    }
+  ],
+  "substitution": {
+    "crunpus": "zqcrunpus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

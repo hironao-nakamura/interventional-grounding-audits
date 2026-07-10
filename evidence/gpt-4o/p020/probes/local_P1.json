@@ -1,0 +1,39 @@
+{
+  "raw_response": "Step 1: Since clolpuses are zqclulpuses, Drake, being a clolpus, is also a zqclulpus.\nStep 2: Since clulpuses are clarpuses, and clolpuses are zqclulpuses, we need to establish a connection between zqclulpuses and clarpuses.\nStep 3: The premises do not provide a direct connection between zqclulpuses and clarpuses, so we cannot conclude that Drake is a clarpus.\nStep 4: Since clarpuses are clerpuses, we need Drake to be a clarpus to conclude he is a clerpus.\nStep 5: Without establishing that Drake is a clarpus, we cannot conclude he is a clerpus.\n\nAnswer: False",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:43:14.483267+00:00",
+  "sha256": "cf7b6b60e09b347a345a18e15ae298946f661affcfe099ce5472f0f4f81a5c7e",
+  "usage": {
+    "prompt_tokens": 117,
+    "completion_tokens": 166,
+    "total_tokens": 283
+  },
+  "problem_id": "p020",
+  "probe_type": "local_semantic",
+  "target_premise": "P1",
+  "prompt": "Given the following premises:\n1. Clolpuses are zqclulpuses\n2. Clulpuses are clarpuses\n3. Clarpuses are clerpuses\n4. Drake is a clolpus\n\nQuestion: Is Drake a clerpus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Clolpuses are zqclulpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Clulpuses are clarpuses"
+    },
+    {
+      "id": "P3",
+      "text": "Clarpuses are clerpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Drake is a clolpus"
+    }
+  ],
+  "substitution": {
+    "clulpus": "zqclulpus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

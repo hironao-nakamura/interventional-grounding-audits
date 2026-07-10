@@ -1,0 +1,51 @@
+{
+  "raw_response": "Step 1: Dulvuses are dinkuses, so if Quinn is a dulvus, then Quinn is a dinkus.\nStep 2: Dinkuses are donkuses, so if Quinn is a dinkus, then Quinn is a donkus.\nStep 3: Donkuses are dunkuses, so if Quinn is a donkus, then Quinn is a dunkus.\nStep 4: Dunkuses are not dankuses, so if Quinn is a dunkus, then Quinn is not a dankus.\nStep 5: Since Quinn is a zqdulvus, and dulvuses are dinkuses, Quinn is a dinkus.\nStep 6: Since Quinn is a dinkus, and dinkuses are donkuses, Quinn is a donkus.\nStep 7: Since Quinn is a donkus, and donkuses are dunkuses, Quinn is a dunkus.\nStep 8: Since Quinn is a dunkus, and dunkuses are not dankuses, Quinn is not a dankus.\n\nAnswer: False",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:44:35.512848+00:00",
+  "sha256": "dc791a85e97cae79c8aa7c6affb93ea805ec1ddf129c313da1684c70cf3a72a5",
+  "usage": {
+    "prompt_tokens": 141,
+    "completion_tokens": 212,
+    "total_tokens": 353
+  },
+  "problem_id": "p031",
+  "probe_type": "local_semantic",
+  "target_premise": "P7",
+  "prompt": "Given the following premises:\n1. Dulvuses are dinkuses\n2. Dinkuses are donkuses\n3. Donkuses are dunkuses\n4. Dunkuses are not dankuses\n5. Denkuses are donduses\n6. Dinduses are dunduses\n7. Quinn is a zqdulvus\n\nQuestion: Is Quinn a dankus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Dulvuses are dinkuses"
+    },
+    {
+      "id": "P2",
+      "text": "Dinkuses are donkuses"
+    },
+    {
+      "id": "P3",
+      "text": "Donkuses are dunkuses"
+    },
+    {
+      "id": "P4",
+      "text": "Dunkuses are not dankuses"
+    },
+    {
+      "id": "P5",
+      "text": "Denkuses are donduses"
+    },
+    {
+      "id": "P6",
+      "text": "Dinduses are dunduses"
+    },
+    {
+      "id": "P7",
+      "text": "Quinn is a zqdulvus"
+    }
+  ],
+  "substitution": {
+    "dulvus": "zqdulvus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

@@ -1,0 +1,55 @@
+{
+  "raw_response": "Step 1: Since Zqdempuses are dimpuses and Nyx is a zqdempus, Nyx is a dimpus.  \nStep 2: Since Dimpuses are dompuses and Nyx is a dimpus, Nyx is a dompus.  \nStep 3: Since Dompuses are dumpuses and Nyx is a dompus, Nyx is a dumpus.  \nStep 4: Since Dumpuses are dalpuses and Nyx is a dumpus, Nyx is a dalpus.  \nStep 5: Since Dalpuses are delpuses and Nyx is a dalpus, Nyx is a delpus.  \nAnswer: True",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:44:28.773183+00:00",
+  "sha256": "e1e222fd95f251fc16f7209a8f3152b660ce2b42833f64ec8f0e630849d972ec",
+  "usage": {
+    "prompt_tokens": 156,
+    "completion_tokens": 144,
+    "total_tokens": 300
+  },
+  "problem_id": "p029",
+  "probe_type": "semantic",
+  "target_premise": "P8",
+  "prompt": "Given the following premises:\n1. Zqdempuses are dimpuses\n2. Dimpuses are dompuses\n3. Dompuses are dumpuses\n4. Dumpuses are dalpuses\n5. Dalpuses are delpuses\n6. Dolpuses are dulpuses\n7. Darpuses are derpuses\n8. Nyx is a zqdempus\n\nQuestion: Is Nyx a delpus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Zqdempuses are dimpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Dimpuses are dompuses"
+    },
+    {
+      "id": "P3",
+      "text": "Dompuses are dumpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Dumpuses are dalpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Dalpuses are delpuses"
+    },
+    {
+      "id": "P6",
+      "text": "Dolpuses are dulpuses"
+    },
+    {
+      "id": "P7",
+      "text": "Darpuses are derpuses"
+    },
+    {
+      "id": "P8",
+      "text": "Nyx is a zqdempus"
+    }
+  ],
+  "substitution": {
+    "dempus": "zqdempus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

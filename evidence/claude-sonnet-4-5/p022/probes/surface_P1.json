@@ -1,0 +1,44 @@
+{
+  "raw_response": "Step 1: Gale is a clelvus (given in premise 6).\nStep 2: Since every clelvus is a clolvus (premise 1), Gale is a clolvus.\nStep 3: Since clolvuses are clilvuses (premise 2), Gale is a clilvus.\nStep 4: Since clilvuses are clulvuses (premise 3), Gale is a clulvus.\nStep 5: Since clulvuses are clinkuses (premise 4), Gale is a clinkus.\n\nAnswer: True",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:58:05.304633+00:00",
+  "sha256": "f71675e6cdcbbd16ce5883559c22d41155316b02a26bbaa32c2fec8341075fa0",
+  "usage": {
+    "input_tokens": 156,
+    "output_tokens": 139
+  },
+  "problem_id": "p022",
+  "probe_type": "surface",
+  "target_premise": "P1",
+  "prompt": "Given the following premises:\n1. Every clelvus is a clolvus\n2. Clolvuses are clilvuses\n3. Clilvuses are clulvuses\n4. Clulvuses are clinkuses\n5. Clonkuses are clunkuses\n6. Gale is a clelvus\n\nQuestion: Is Gale a clinkus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Every clelvus is a clolvus"
+    },
+    {
+      "id": "P2",
+      "text": "Clolvuses are clilvuses"
+    },
+    {
+      "id": "P3",
+      "text": "Clilvuses are clulvuses"
+    },
+    {
+      "id": "P4",
+      "text": "Clulvuses are clinkuses"
+    },
+    {
+      "id": "P5",
+      "text": "Clonkuses are clunkuses"
+    },
+    {
+      "id": "P6",
+      "text": "Gale is a clelvus"
+    }
+  ],
+  "substitution": null,
+  "original_text": "Clelvuses are clolvuses",
+  "rephrased_text": "Every clelvus is a clolvus"
+}

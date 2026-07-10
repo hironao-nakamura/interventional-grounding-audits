@@ -1,0 +1,49 @@
+{
+  "raw_response": "Step 1: Opal is a danpus, and since all danpuses are denpuses, Opal is a denpus.\nStep 2: Since all denpuses are donpuses, Opal is a donpus.\nStep 3: Since every donpus is a dunpus, Opal is a dunpus.\nStep 4: Since dunpuses are not delnuses, Opal is not a delnus.\nAnswer: False",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:44:10.335719+00:00",
+  "sha256": "87a87e77dc0f3a63affd68fa7fc46bc5abb7f1b73402ab2514ef884d2d9e92f5",
+  "usage": {
+    "prompt_tokens": 146,
+    "completion_tokens": 95,
+    "total_tokens": 241
+  },
+  "problem_id": "p030",
+  "probe_type": "surface",
+  "target_premise": "P3",
+  "prompt": "Given the following premises:\n1. Danpuses are denpuses\n2. Denpuses are donpuses\n3. Every donpus is a dunpus\n4. Dunpuses are not delnuses\n5. Dolnuses are dilnuses\n6. Dalvuses are delvuses\n7. Opal is a danpus\n\nQuestion: Is Opal a delnus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Danpuses are denpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Denpuses are donpuses"
+    },
+    {
+      "id": "P3",
+      "text": "Every donpus is a dunpus"
+    },
+    {
+      "id": "P4",
+      "text": "Dunpuses are not delnuses"
+    },
+    {
+      "id": "P5",
+      "text": "Dolnuses are dilnuses"
+    },
+    {
+      "id": "P6",
+      "text": "Dalvuses are delvuses"
+    },
+    {
+      "id": "P7",
+      "text": "Opal is a danpus"
+    }
+  ],
+  "substitution": null,
+  "original_text": "Donpuses are dunpuses",
+  "rephrased_text": "Every donpus is a dunpus"
+}

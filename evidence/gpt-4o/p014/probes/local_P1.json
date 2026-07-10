@@ -1,0 +1,47 @@
+{
+  "raw_response": "Step 1: Iris is a brenkus.\nStep 2: Brenkuses are zqbronduses.\nStep 3: Therefore, Iris is a zqbrondus.\nStep 4: Bronduses are brinduses.\nStep 5: Brinduses are brunduses.\nStep 6: Brenkuses are zqbronduses, but there is no direct link between zqbronduses and brunduses.\nStep 7: Therefore, we cannot conclude that Iris is a brundus based on the given premises.\n\nAnswer: False",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:42:50.127092+00:00",
+  "sha256": "f50f1c98a6df9f19d01c8fc202c247e333949b3247730230b23ac4186ba87243",
+  "usage": {
+    "prompt_tokens": 136,
+    "completion_tokens": 119,
+    "total_tokens": 255
+  },
+  "problem_id": "p014",
+  "probe_type": "local_semantic",
+  "target_premise": "P1",
+  "prompt": "Given the following premises:\n1. Brenkuses are zqbronduses\n2. Bronduses are brinduses\n3. Brinduses are brunduses\n4. Branduses are brenduses\n5. Breltuses are broltuses\n6. Iris is a brenkus\n\nQuestion: Is Iris a brundus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Brenkuses are zqbronduses"
+    },
+    {
+      "id": "P2",
+      "text": "Bronduses are brinduses"
+    },
+    {
+      "id": "P3",
+      "text": "Brinduses are brunduses"
+    },
+    {
+      "id": "P4",
+      "text": "Branduses are brenduses"
+    },
+    {
+      "id": "P5",
+      "text": "Breltuses are broltuses"
+    },
+    {
+      "id": "P6",
+      "text": "Iris is a brenkus"
+    }
+  ],
+  "substitution": {
+    "brondus": "zqbrondus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

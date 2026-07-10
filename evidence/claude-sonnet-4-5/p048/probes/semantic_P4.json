@@ -1,0 +1,50 @@
+{
+  "raw_response": "Step 1: Jet is a frenpus (given in premise 7).\nStep 2: Since frenpuses are fronpuses (premise 1), Jet is a fronpus.\nStep 3: Since fronpuses are frunpuses (premise 2), Jet is a frunpus.\nStep 4: Since frunpuses are frelnuses (premise 3), Jet is a frelnus.\nStep 5: Since frelnuses are zqfrolnuses (premise 4), Jet is a zqfrolnus.\n\nThe question asks if Jet is a frolnus, but the chain of reasoning shows Jet is a zqfrolnus, not a frolnus. The premises about frilnuses, fralvuses, frelvuses, and frolvuses (premises 5 and 6) are not connected to the chain starting from frenpus.\n\nAnswer: False",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T05:07:15.668865+00:00",
+  "sha256": "35da92d6bcd1fcdafa6d15faa296014643e28a86c4c1f0ad00fe0b153ea5d54e",
+  "usage": {
+    "input_tokens": 168,
+    "output_tokens": 214
+  },
+  "problem_id": "p048",
+  "probe_type": "semantic",
+  "target_premise": "P4",
+  "prompt": "Given the following premises:\n1. Frenpuses are fronpuses\n2. Fronpuses are frunpuses\n3. Frunpuses are frelnuses\n4. Frelnuses are zqfrolnuses\n5. Frilnuses are fralvuses\n6. Frelvuses are frolvuses\n7. Jet is a frenpus\n\nQuestion: Is Jet a frolnus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Frenpuses are fronpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Fronpuses are frunpuses"
+    },
+    {
+      "id": "P3",
+      "text": "Frunpuses are frelnuses"
+    },
+    {
+      "id": "P4",
+      "text": "Frelnuses are zqfrolnuses"
+    },
+    {
+      "id": "P5",
+      "text": "Frilnuses are fralvuses"
+    },
+    {
+      "id": "P6",
+      "text": "Frelvuses are frolvuses"
+    },
+    {
+      "id": "P7",
+      "text": "Jet is a frenpus"
+    }
+  ],
+  "substitution": {
+    "frolnus": "zqfrolnus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

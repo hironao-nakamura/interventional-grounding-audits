@@ -1,0 +1,48 @@
+{
+  "raw_response": "Step 1: Bree is a felvus (given in premise 7).\nStep 2: Since every felvus is a folvus (premise 1), Bree is a folvus.\nStep 3: Since folvuses are filvuses (premise 2), Bree is a filvus.\nStep 4: Since filvuses are fulvuses (premise 3), Bree is a fulvus.\nStep 5: Since fulvuses are finkuses (premise 4), Bree is a finkus.\nStep 6: Since finkuses are not fonkuses (premise 5), Bree is not a fonkus.\n\nAnswer: False",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T05:04:10.523110+00:00",
+  "sha256": "f82e630b43a079d33f0d5656c3062bd558c3c73576fee7ac5152404e6725b946",
+  "usage": {
+    "input_tokens": 164,
+    "output_tokens": 165
+  },
+  "problem_id": "p040",
+  "probe_type": "surface",
+  "target_premise": "P1",
+  "prompt": "Given the following premises:\n1. Every felvus is a folvus\n2. Folvuses are filvuses\n3. Filvuses are fulvuses\n4. Fulvuses are finkuses\n5. Finkuses are not fonkuses\n6. Funkuses are fankuses\n7. Bree is a felvus\n\nQuestion: Is Bree a fonkus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Every felvus is a folvus"
+    },
+    {
+      "id": "P2",
+      "text": "Folvuses are filvuses"
+    },
+    {
+      "id": "P3",
+      "text": "Filvuses are fulvuses"
+    },
+    {
+      "id": "P4",
+      "text": "Fulvuses are finkuses"
+    },
+    {
+      "id": "P5",
+      "text": "Finkuses are not fonkuses"
+    },
+    {
+      "id": "P6",
+      "text": "Funkuses are fankuses"
+    },
+    {
+      "id": "P7",
+      "text": "Bree is a felvus"
+    }
+  ],
+  "substitution": null,
+  "original_text": "Felvuses are folvuses",
+  "rephrased_text": "Every felvus is a folvus"
+}

@@ -1,0 +1,39 @@
+{
+  "raw_response": "Step 1: Since Sage is a drelpus, and all drelpuses are drolpuses, Sage is a drolpus.\nStep 2: Since Sage is a drolpus, and all drolpuses are zqdrulpuses, Sage is a zqdrulpus.\nStep 3: Since Sage is a zqdrulpus, and zqdrulpuses are not drarpuses, Sage is not a drarpus.\nAnswer: False",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:44:12.708524+00:00",
+  "sha256": "645f5c3901c3cfa3df46372f6b35ecb58657e506fc1be889063452c4001643a0",
+  "usage": {
+    "prompt_tokens": 123,
+    "completion_tokens": 102,
+    "total_tokens": 225
+  },
+  "problem_id": "p033",
+  "probe_type": "semantic",
+  "target_premise": "P2",
+  "prompt": "Given the following premises:\n1. Drelpuses are drolpuses\n2. Drolpuses are zqdrulpuses\n3. Zqdrulpuses are not drarpuses\n4. Sage is a drelpus\n\nQuestion: Is Sage a drarpus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Drelpuses are drolpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Drolpuses are zqdrulpuses"
+    },
+    {
+      "id": "P3",
+      "text": "Zqdrulpuses are not drarpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Sage is a drelpus"
+    }
+  ],
+  "substitution": {
+    "drulpus": "zqdrulpus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

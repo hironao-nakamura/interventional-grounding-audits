@@ -1,0 +1,52 @@
+{
+  "raw_response": "Step 1: Nyx is a dempus (given in premise 8).\nStep 2: Since dempuses are dimpuses (premise 1), Nyx is a dimpus.\nStep 3: Since dimpuses are dompuses (premise 2), Nyx is a dompus.\nStep 4: Since dompuses are dumpuses (premise 3), Nyx is a dumpus.\nStep 5: Since dumpuses are dalpuses (premise 4), Nyx is a dalpus.\nStep 6: Since every dalpus is a delpus (premise 5), Nyx is a delpus.\n\nAnswer: True",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T05:01:02.806789+00:00",
+  "sha256": "e4207bf4090dfd1ea0a4983f8be91c72a99b122b5f1781b9071e7572526f2b97",
+  "usage": {
+    "input_tokens": 175,
+    "output_tokens": 163
+  },
+  "problem_id": "p029",
+  "probe_type": "surface",
+  "target_premise": "P5",
+  "prompt": "Given the following premises:\n1. Dempuses are dimpuses\n2. Dimpuses are dompuses\n3. Dompuses are dumpuses\n4. Dumpuses are dalpuses\n5. Every dalpus is a delpus\n6. Dolpuses are dulpuses\n7. Darpuses are derpuses\n8. Nyx is a dempus\n\nQuestion: Is Nyx a delpus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Dempuses are dimpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Dimpuses are dompuses"
+    },
+    {
+      "id": "P3",
+      "text": "Dompuses are dumpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Dumpuses are dalpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Every dalpus is a delpus"
+    },
+    {
+      "id": "P6",
+      "text": "Dolpuses are dulpuses"
+    },
+    {
+      "id": "P7",
+      "text": "Darpuses are derpuses"
+    },
+    {
+      "id": "P8",
+      "text": "Nyx is a dempus"
+    }
+  ],
+  "substitution": null,
+  "original_text": "Dalpuses are delpuses",
+  "rephrased_text": "Every dalpus is a delpus"
+}

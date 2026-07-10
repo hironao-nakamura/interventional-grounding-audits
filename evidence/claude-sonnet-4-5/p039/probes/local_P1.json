@@ -1,0 +1,46 @@
+{
+  "raw_response": "Step 1: Zion is a furpus (given in premise 6).\nStep 2: Since furpuses are zqfanpuses (premise 1), Zion is a zqfanpus.\nStep 3: Since fanpuses are fenpuses (premise 2), we need to determine if Zion is a fanpus, but we only know Zion is a furpus and zqfanpus.\nStep 4: Following the chain from premise 1, furpuses are zqfanpuses, but this doesn't directly connect to fanpuses.\nStep 5: From premise 2, fanpuses are fenpuses, and from premise 3, fenpuses are fonpuses.\nStep 6: From premise 4, fonpuses are not funpuses.\nStep 7: Since we cannot establish that Zion is a fonpus through the given premises (furpus \u2192 zqfanpus does not connect to the fanpus \u2192 fenpus \u2192 fonpus chain), we cannot use premise 4.\nStep 8: There is no chain of reasoning that connects furpus to funpus in the given premises.\nStep 9: We cannot determine from the given premises that Zion is a fonpus.\nStep 10: Therefore, we cannot conclude that Zion is a funpus, and given that fonpuses (if Zion were one) are explicitly not funpuses, the answer is False.\n\nAnswer: False",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T05:03:30.364989+00:00",
+  "sha256": "8dd13fa0e0b4ef7d8cc921eee7690a9a05cf1953ca876ef074baf3459b3ed640",
+  "usage": {
+    "input_tokens": 156,
+    "output_tokens": 348
+  },
+  "problem_id": "p039",
+  "probe_type": "local_semantic",
+  "target_premise": "P1",
+  "prompt": "Given the following premises:\n1. Furpuses are zqfanpuses\n2. Fanpuses are fenpuses\n3. Fenpuses are fonpuses\n4. Fonpuses are not funpuses\n5. Felnuses are folnuses\n6. Zion is a furpus\n\nQuestion: Is Zion a funpus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Furpuses are zqfanpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Fanpuses are fenpuses"
+    },
+    {
+      "id": "P3",
+      "text": "Fenpuses are fonpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Fonpuses are not funpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Felnuses are folnuses"
+    },
+    {
+      "id": "P6",
+      "text": "Zion is a furpus"
+    }
+  ],
+  "substitution": {
+    "fanpus": "zqfanpus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

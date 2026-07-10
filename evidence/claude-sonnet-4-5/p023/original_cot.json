@@ -1,0 +1,33 @@
+{
+  "raw_response": "Step 1: Haze is a clondus (given in premise 4).\nStep 2: Since clonduses are clinduses (premise 1), Haze is a clindus.\nStep 3: Since clinduses are clunduses (premise 2), Haze is a clundus.\nStep 4: Since clunduses are not clanduses (premise 3), Haze is not a clandus.\n\nAnswer: False",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:58:05.647184+00:00",
+  "sha256": "977822490f122bdcff7f585249c5dbfb107c8b54b7368ede022ad1225472c03b",
+  "usage": {
+    "input_tokens": 131,
+    "output_tokens": 109
+  },
+  "problem_id": "p023",
+  "probe_type": "original",
+  "prompt": "Given the following premises:\n1. Clonduses are clinduses\n2. Clinduses are clunduses\n3. Clunduses are not clanduses\n4. Haze is a clondus\n\nQuestion: Is Haze a clandus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "premises": [
+    {
+      "id": "P1",
+      "text": "Clonduses are clinduses"
+    },
+    {
+      "id": "P2",
+      "text": "Clinduses are clunduses"
+    },
+    {
+      "id": "P3",
+      "text": "Clunduses are not clanduses"
+    },
+    {
+      "id": "P4",
+      "text": "Haze is a clondus"
+    }
+  ],
+  "question": "Is Haze a clandus?"
+}

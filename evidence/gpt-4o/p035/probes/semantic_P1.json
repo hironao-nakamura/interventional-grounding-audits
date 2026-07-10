@@ -1,0 +1,39 @@
+{
+  "raw_response": "Step 1: Since Drolvuses are zqdrilvuses and Uma is a drolvus, Uma is a zqdrilvus.\nStep 2: Since Zqdrilvuses are drulvuses and Uma is a zqdrilvus, Uma is a drulvus.\nStep 3: Since Drulvuses are drinkuses and Uma is a drulvus, Uma is a drinkus.\n\nAnswer: True",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:44:28.385350+00:00",
+  "sha256": "9bc4e61db09eef5ba76a927a4c2eacd0e2d419f95ad4d606f4a6c799d6693c65",
+  "usage": {
+    "prompt_tokens": 122,
+    "completion_tokens": 95,
+    "total_tokens": 217
+  },
+  "problem_id": "p035",
+  "probe_type": "semantic",
+  "target_premise": "P1",
+  "prompt": "Given the following premises:\n1. Drolvuses are zqdrilvuses\n2. Zqdrilvuses are drulvuses\n3. Drulvuses are drinkuses\n4. Uma is a drolvus\n\nQuestion: Is Uma a drinkus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Drolvuses are zqdrilvuses"
+    },
+    {
+      "id": "P2",
+      "text": "Zqdrilvuses are drulvuses"
+    },
+    {
+      "id": "P3",
+      "text": "Drulvuses are drinkuses"
+    },
+    {
+      "id": "P4",
+      "text": "Uma is a drolvus"
+    }
+  ],
+  "substitution": {
+    "drilvus": "zqdrilvus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

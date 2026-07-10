@@ -1,0 +1,46 @@
+{
+  "raw_response": "I need to determine if Juno is a chelvus based on the given premises.\n\nStep 1: Juno is a zqchelnus (given in premise 6).\nStep 2: There is no premise connecting zqchelnuses to any other category.\nStep 3: The chain of relationships (chelnuses \u2192 cholnuses \u2192 chilnuses \u2192 chalvuses \u2192 chelvuses) does not include zqchelnuses.\nStep 4: Premise 5 about cholvuses is also not connected to zqchelnuses or to the main chain.\nStep 5: Since zqchelnus is not mentioned in any premise that would connect it to chelvus, we cannot establish that Juno is a chelvus.\n\nAnswer: False",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:57:22.796222+00:00",
+  "sha256": "058e61bdffe5314ad4dbb78fbc297e4db250993d1f4033415051c785857cd3e9",
+  "usage": {
+    "input_tokens": 154,
+    "output_tokens": 176
+  },
+  "problem_id": "p017",
+  "probe_type": "local_semantic",
+  "target_premise": "P6",
+  "prompt": "Given the following premises:\n1. Chelnuses are cholnuses\n2. Cholnuses are chilnuses\n3. Chilnuses are chalvuses\n4. Chalvuses are chelvuses\n5. Cholvuses are chilvuses\n6. Juno is a zqchelnus\n\nQuestion: Is Juno a chelvus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Chelnuses are cholnuses"
+    },
+    {
+      "id": "P2",
+      "text": "Cholnuses are chilnuses"
+    },
+    {
+      "id": "P3",
+      "text": "Chilnuses are chalvuses"
+    },
+    {
+      "id": "P4",
+      "text": "Chalvuses are chelvuses"
+    },
+    {
+      "id": "P5",
+      "text": "Cholvuses are chilvuses"
+    },
+    {
+      "id": "P6",
+      "text": "Juno is a zqchelnus"
+    }
+  ],
+  "substitution": {
+    "chelnus": "zqchelnus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

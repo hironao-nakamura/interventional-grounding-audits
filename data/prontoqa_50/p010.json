@@ -1,0 +1,65 @@
+{
+  "problem_id": "p010",
+  "premises": [
+    {
+      "id": "P1",
+      "text": "Blenduses are bleltuses"
+    },
+    {
+      "id": "P2",
+      "text": "Bleltuses are bloltuses"
+    },
+    {
+      "id": "P3",
+      "text": "Bloltuses are bliltuses"
+    },
+    {
+      "id": "P4",
+      "text": "Bliltuses are blultuses"
+    },
+    {
+      "id": "P5",
+      "text": "Brempuses are brimpuses"
+    },
+    {
+      "id": "P6",
+      "text": "Eve is a blendus"
+    }
+  ],
+  "question": "Is Eve a blultus?",
+  "answer": true,
+  "proof_tree": [
+    {
+      "step": 1,
+      "conclusion": "is(eve, bleltus)",
+      "depends_on": [
+        "P6",
+        "P1"
+      ]
+    },
+    {
+      "step": 2,
+      "conclusion": "is(eve, bloltus)",
+      "depends_on": [
+        "S1",
+        "P2"
+      ]
+    },
+    {
+      "step": 3,
+      "conclusion": "is(eve, bliltus)",
+      "depends_on": [
+        "S2",
+        "P3"
+      ]
+    },
+    {
+      "step": 4,
+      "conclusion": "is(eve, blultus)",
+      "depends_on": [
+        "S3",
+        "P4"
+      ]
+    }
+  ]
+}

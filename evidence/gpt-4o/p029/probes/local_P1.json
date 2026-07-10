@@ -1,0 +1,55 @@
+{
+  "raw_response": "Step 1: Since Dempuses are zqdimpuses and Nyx is a dempus, Nyx is a zqdimpus.\nStep 2: Since Dimpuses are dompuses and zqdimpuses are not mentioned to be dimpuses, we cannot conclude Nyx is a dimpus.\nStep 3: Since we cannot conclude Nyx is a dimpus, we cannot conclude Nyx is a dompus.\nStep 4: Since we cannot conclude Nyx is a dompus, we cannot conclude Nyx is a dumpus.\nStep 5: Since we cannot conclude Nyx is a dumpus, we cannot conclude Nyx is a dalpus.\nStep 6: Since we cannot conclude Nyx is a dalpus, we cannot conclude Nyx is a delpus.\n\nAnswer: False",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:43:54.267292+00:00",
+  "sha256": "55dad2c0023d0f844dc2dbe267600c060dbf530e808b36f2e0f5eb811f6523c0",
+  "usage": {
+    "prompt_tokens": 154,
+    "completion_tokens": 169,
+    "total_tokens": 323
+  },
+  "problem_id": "p029",
+  "probe_type": "local_semantic",
+  "target_premise": "P1",
+  "prompt": "Given the following premises:\n1. Dempuses are zqdimpuses\n2. Dimpuses are dompuses\n3. Dompuses are dumpuses\n4. Dumpuses are dalpuses\n5. Dalpuses are delpuses\n6. Dolpuses are dulpuses\n7. Darpuses are derpuses\n8. Nyx is a dempus\n\nQuestion: Is Nyx a delpus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Dempuses are zqdimpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Dimpuses are dompuses"
+    },
+    {
+      "id": "P3",
+      "text": "Dompuses are dumpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Dumpuses are dalpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Dalpuses are delpuses"
+    },
+    {
+      "id": "P6",
+      "text": "Dolpuses are dulpuses"
+    },
+    {
+      "id": "P7",
+      "text": "Darpuses are derpuses"
+    },
+    {
+      "id": "P8",
+      "text": "Nyx is a dempus"
+    }
+  ],
+  "substitution": {
+    "dimpus": "zqdimpus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

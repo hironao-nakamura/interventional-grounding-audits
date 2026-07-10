@@ -1,0 +1,50 @@
+{
+  "problem_id": "p024",
+  "model": "gpt-4o-2024-08-06",
+  "n_samples": 5,
+  "temperature": 0.7,
+  "step_verdicts": {
+    "1": {
+      "consistent": true,
+      "agreement": 0.8,
+      "majority_conclusion": "is(ivy, cliltus)",
+      "n_valid": 5,
+      "n_unique": 2
+    },
+    "2": {
+      "consistent": true,
+      "agreement": 0.8,
+      "majority_conclusion": "is(ivy, clultus)",
+      "n_valid": 5,
+      "n_unique": 2
+    },
+    "3": {
+      "consistent": true,
+      "agreement": 0.8,
+      "majority_conclusion": "is(ivy, crempus)",
+      "n_valid": 5,
+      "n_unique": 2
+    },
+    "4": {
+      "consistent": true,
+      "agreement": 0.8,
+      "majority_conclusion": "is(ivy, crimpus)",
+      "n_valid": 5,
+      "n_unique": 2
+    },
+    "5": {
+      "consistent": true,
+      "agreement": 0.8,
+      "majority_conclusion": "not_is(ivy, crompus)",
+      "n_valid": 5,
+      "n_unique": 2
+    },
+    "6": {
+      "consistent": true,
+      "agreement": 1.0,
+      "majority_conclusion": "not_is(ivy, crompus)",
+      "n_valid": 1,
+      "n_unique": 1
+    }
+  }
+}

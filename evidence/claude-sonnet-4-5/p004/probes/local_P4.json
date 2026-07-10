@@ -1,0 +1,50 @@
+{
+  "raw_response": "Step 1: Stella is a bonkus (given in premise 7).\nStep 2: Since bonkuses are bunkuses (premise 1), Stella is a bunkus.\nStep 3: Since bunkuses are bankuses (premise 2), Stella is a bankus.\nStep 4: Since bankuses are benkuses (premise 3), Stella is a benkus.\nStep 5: Since benkuses are zqbonduses (premise 4), Stella is a zqbondus.\nStep 6: There is no premise connecting zqbonduses to bonduses or any path to binduses.\nStep 7: Premise 5 states bonduses are binduses, but Stella is a zqbondus, not a bondus.\n\nAnswer: False",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:53:12.774217+00:00",
+  "sha256": "e19007328539f3a3628f2fe4082800f36440fe63c32a32f5385499c60a8d4c31",
+  "usage": {
+    "input_tokens": 156,
+    "output_tokens": 188
+  },
+  "problem_id": "p004",
+  "probe_type": "local_semantic",
+  "target_premise": "P4",
+  "prompt": "Given the following premises:\n1. Bonkuses are bunkuses\n2. Bunkuses are bankuses\n3. Bankuses are benkuses\n4. Benkuses are zqbonduses\n5. Bonduses are binduses\n6. Bunduses are banduses\n7. Stella is a bonkus\n\nQuestion: Is Stella a bindus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Bonkuses are bunkuses"
+    },
+    {
+      "id": "P2",
+      "text": "Bunkuses are bankuses"
+    },
+    {
+      "id": "P3",
+      "text": "Bankuses are benkuses"
+    },
+    {
+      "id": "P4",
+      "text": "Benkuses are zqbonduses"
+    },
+    {
+      "id": "P5",
+      "text": "Bonduses are binduses"
+    },
+    {
+      "id": "P6",
+      "text": "Bunduses are banduses"
+    },
+    {
+      "id": "P7",
+      "text": "Stella is a bonkus"
+    }
+  ],
+  "substitution": {
+    "bondus": "zqbondus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

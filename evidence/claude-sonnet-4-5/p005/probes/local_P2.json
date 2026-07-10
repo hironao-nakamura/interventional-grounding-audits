@@ -1,0 +1,46 @@
+{
+  "raw_response": "Step 1: Max is a boltus (given in premise 6).\nStep 2: Since boltuses are biltuses (premise 1), Max is a biltus.\nStep 3: Since biltuses are zqbultuses (premise 2), Max is a zqbultus.\n\nNow I need to check if there's a path from what Max is to being a blompus.\n\nLooking at the remaining premises:\n- Premise 3: Bultuses are blempuses\n- Premise 4: Blempuses are blimpuses\n- Premise 5: Blimpuses are blompuses\n\nMax is a boltus/biltus/zqbultus, but none of these connect to bultuses, blempuses, blimpuses, or blompuses.\n\nThere is no logical path from boltus \u2192 biltus \u2192 zqbultus to bultus \u2192 blempus \u2192 blimpus \u2192 blompus.\n\nAnswer: False",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:53:00.933421+00:00",
+  "sha256": "a871ff248144842ff456db818da3741c92f8c0cc019e27a5f64938344ebb64ae",
+  "usage": {
+    "input_tokens": 150,
+    "output_tokens": 230
+  },
+  "problem_id": "p005",
+  "probe_type": "local_semantic",
+  "target_premise": "P2",
+  "prompt": "Given the following premises:\n1. Boltuses are biltuses\n2. Biltuses are zqbultuses\n3. Bultuses are blempuses\n4. Blempuses are blimpuses\n5. Blimpuses are blompuses\n6. Max is a boltus\n\nQuestion: Is Max a blompus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Boltuses are biltuses"
+    },
+    {
+      "id": "P2",
+      "text": "Biltuses are zqbultuses"
+    },
+    {
+      "id": "P3",
+      "text": "Bultuses are blempuses"
+    },
+    {
+      "id": "P4",
+      "text": "Blempuses are blimpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Blimpuses are blompuses"
+    },
+    {
+      "id": "P6",
+      "text": "Max is a boltus"
+    }
+  ],
+  "substitution": {
+    "bultus": "zqbultus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

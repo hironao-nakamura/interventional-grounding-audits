@@ -1,0 +1,53 @@
+{
+  "problem_id": "p013",
+  "premises": [
+    {
+      "id": "P1",
+      "text": "Brelvuses are brolvuses"
+    },
+    {
+      "id": "P2",
+      "text": "Brolvuses are brilvuses"
+    },
+    {
+      "id": "P3",
+      "text": "Brilvuses are brulvuses"
+    },
+    {
+      "id": "P4",
+      "text": "Brinkuses are bronkuses"
+    },
+    {
+      "id": "P5",
+      "text": "Leo is a brelvus"
+    }
+  ],
+  "question": "Is Leo a brulvus?",
+  "answer": true,
+  "proof_tree": [
+    {
+      "step": 1,
+      "conclusion": "is(leo, brolvus)",
+      "depends_on": [
+        "P5",
+        "P1"
+      ]
+    },
+    {
+      "step": 2,
+      "conclusion": "is(leo, brilvus)",
+      "depends_on": [
+        "S1",
+        "P2"
+      ]
+    },
+    {
+      "step": 3,
+      "conclusion": "is(leo, brulvus)",
+      "depends_on": [
+        "S2",
+        "P3"
+      ]
+    }
+  ]
+}

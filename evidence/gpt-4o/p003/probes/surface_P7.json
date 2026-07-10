@@ -1,0 +1,49 @@
+{
+  "raw_response": "Step 1: Since bunpuses are belnuses and Rex is one of the bunpuses, Rex is a belnuse.\nStep 2: Since belnuses are bolnuses and Rex is a belnuse, Rex is a bolnuse.\nStep 3: Since bolnuses are bilnuses and Rex is a bolnuse, Rex is a bilnuse.\nStep 4: Since bilnuses are balvuses and Rex is a bilnuse, Rex is a balvuse.\nStep 5: Since balvuses are belvuses and Rex is a balvuse, Rex is a belvus.\n\nAnswer: True",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:42:41.757008+00:00",
+  "sha256": "407f71f15af91cbfe3542aba82c1d0c9e9c41a1f945c7d9536da1bb50ccc12bd",
+  "usage": {
+    "prompt_tokens": 146,
+    "completion_tokens": 139,
+    "total_tokens": 285
+  },
+  "problem_id": "p003",
+  "probe_type": "surface",
+  "target_premise": "P7",
+  "prompt": "Given the following premises:\n1. Bunpuses are belnuses\n2. Belnuses are bolnuses\n3. Bolnuses are bilnuses\n4. Bilnuses are balvuses\n5. Balvuses are belvuses\n6. Bolvuses are bilvuses\n7. Rex is one of the bunpuses\n\nQuestion: Is Rex a belvus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Bunpuses are belnuses"
+    },
+    {
+      "id": "P2",
+      "text": "Belnuses are bolnuses"
+    },
+    {
+      "id": "P3",
+      "text": "Bolnuses are bilnuses"
+    },
+    {
+      "id": "P4",
+      "text": "Bilnuses are balvuses"
+    },
+    {
+      "id": "P5",
+      "text": "Balvuses are belvuses"
+    },
+    {
+      "id": "P6",
+      "text": "Bolvuses are bilvuses"
+    },
+    {
+      "id": "P7",
+      "text": "Rex is one of the bunpuses"
+    }
+  ],
+  "substitution": null,
+  "original_text": "Rex is a bunpus",
+  "rephrased_text": "Rex is one of the bunpuses"
+}

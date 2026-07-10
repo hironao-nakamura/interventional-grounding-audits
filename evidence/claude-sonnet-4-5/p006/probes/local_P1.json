@@ -1,0 +1,38 @@
+{
+  "raw_response": "Step 1: Zara is a blelpus (given in premise 4).\nStep 2: Since blelpuses are zqblolpuses (premise 1), Zara is a zqblolpus.\nStep 3: Since blolpuses are blulpuses (premise 2), and zqblolpuses appears to be a variant of blolpuses, Zara is a blulpus.\nStep 4: Since blulpuses are not blarpuses (premise 3), Zara is not a blarpus.\n\nAnswer: False",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:53:03.283933+00:00",
+  "sha256": "463572b484f4bc90bc2013096f822dbecaeb74857ee00b216d629aa1292c2802",
+  "usage": {
+    "input_tokens": 137,
+    "output_tokens": 137
+  },
+  "problem_id": "p006",
+  "probe_type": "local_semantic",
+  "target_premise": "P1",
+  "prompt": "Given the following premises:\n1. Blelpuses are zqblolpuses\n2. Blolpuses are blulpuses\n3. Blulpuses are not blarpuses\n4. Zara is a blelpus\n\nQuestion: Is Zara a blarpus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Blelpuses are zqblolpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Blolpuses are blulpuses"
+    },
+    {
+      "id": "P3",
+      "text": "Blulpuses are not blarpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Zara is a blelpus"
+    }
+  ],
+  "substitution": {
+    "blolpus": "zqblolpus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

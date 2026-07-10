@@ -1,0 +1,9 @@
+{
+  "config": "A_consistent semantic-delta candidates, aligned GT",
+  "n_semantic_delta_candidates": 0,
+  "n_metric_counted_fp": 0,
+  "n_outside_metric_set": 0,
+  "type_counts": {},
+  "metric_counted_type_counts": {},
+  "classifications": []
+}

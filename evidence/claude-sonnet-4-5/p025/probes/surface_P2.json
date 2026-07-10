@@ -1,0 +1,40 @@
+{
+  "raw_response": "Step 1: Jade is a crulpus (given in premise 5).\nStep 2: Since crulpuses are crarpuses (premise 1), Jade is a crarpus.\nStep 3: Since every crarpus is a crerpus (premise 2), Jade is a crerpus.\nStep 4: Since crerpuses are not crorpuses (premise 3), Jade is not a crorpus.\n\nAnswer: False",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:59:07.610713+00:00",
+  "sha256": "7b5c4cfd7afca99dab01caf3a6fe550592fc3d6fb5781defe6faa6ad5766f7f6",
+  "usage": {
+    "input_tokens": 146,
+    "output_tokens": 111
+  },
+  "problem_id": "p025",
+  "probe_type": "surface",
+  "target_premise": "P2",
+  "prompt": "Given the following premises:\n1. Crulpuses are crarpuses\n2. Every crarpus is a crerpus\n3. Crerpuses are not crorpuses\n4. Crurpuses are cranpuses\n5. Jade is a crulpus\n\nQuestion: Is Jade a crorpus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Crulpuses are crarpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Every crarpus is a crerpus"
+    },
+    {
+      "id": "P3",
+      "text": "Crerpuses are not crorpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Crurpuses are cranpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Jade is a crulpus"
+    }
+  ],
+  "substitution": null,
+  "original_text": "Crarpuses are crerpuses",
+  "rephrased_text": "Every crarpus is a crerpus"
+}

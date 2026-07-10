@@ -1,0 +1,43 @@
+{
+  "raw_response": "Step 1: Finn is a clanpus, and according to premise 1, clanpuses are clenpuses.\nStep 2: Since Finn is a clanpus, Finn is also a clenpus.\nStep 3: According to premise 2, clenpuses are zqclonpuses.\nStep 4: Since Finn is a clenpus, Finn is also a zqclonpus.\nStep 5: According to premise 3, zqclonpuses are not clunpuses.\nStep 6: Since Finn is a zqclonpus, Finn is not a clunpus.\n\nAnswer: False",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:43:25.549764+00:00",
+  "sha256": "d71c50298975802ff1248ff3bd4f20df0e8b1d8aa38dbbbdee0354c986339ecc",
+  "usage": {
+    "prompt_tokens": 133,
+    "completion_tokens": 132,
+    "total_tokens": 265
+  },
+  "problem_id": "p021",
+  "probe_type": "semantic",
+  "target_premise": "P2",
+  "prompt": "Given the following premises:\n1. Clanpuses are clenpuses\n2. Clenpuses are zqclonpuses\n3. Zqclonpuses are not clunpuses\n4. Clelnuses are clolnuses\n5. Finn is a clanpus\n\nQuestion: Is Finn a clunpus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Clanpuses are clenpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Clenpuses are zqclonpuses"
+    },
+    {
+      "id": "P3",
+      "text": "Zqclonpuses are not clunpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Clelnuses are clolnuses"
+    },
+    {
+      "id": "P5",
+      "text": "Finn is a clanpus"
+    }
+  ],
+  "substitution": {
+    "clonpus": "zqclonpus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

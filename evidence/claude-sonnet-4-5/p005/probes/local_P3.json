@@ -1,0 +1,46 @@
+{
+  "raw_response": "Step 1: Max is a boltus (given in premise 6).\nStep 2: Since boltuses are biltuses (premise 1), Max is a biltus.\nStep 3: Since biltuses are bultuses (premise 2), Max is a bultus.\nStep 4: Since bultuses are zqblempuses (premise 3), Max is a zqblempus.\n\nAt this point, I need to check if zqblempuses connect to blempuses. Premise 3 states \"Bultuses are zqblempuses\" but there is no premise connecting zqblempuses to blempuses. Premise 4 starts with \"Blempuses are blimpuses\" but doesn't tell us that zqblempuses are blempuses.\n\nSince there is no logical connection from zqblempus to blempus (or to blimpus or blompus), I cannot conclude that Max is a blompus.\n\nAnswer: False",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:53:10.953141+00:00",
+  "sha256": "31bd23891cbdca9bd6babb003642f04339f2570e491b29bd6210604fd0664625",
+  "usage": {
+    "input_tokens": 150,
+    "output_tokens": 230
+  },
+  "problem_id": "p005",
+  "probe_type": "local_semantic",
+  "target_premise": "P3",
+  "prompt": "Given the following premises:\n1. Boltuses are biltuses\n2. Biltuses are bultuses\n3. Bultuses are zqblempuses\n4. Blempuses are blimpuses\n5. Blimpuses are blompuses\n6. Max is a boltus\n\nQuestion: Is Max a blompus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Boltuses are biltuses"
+    },
+    {
+      "id": "P2",
+      "text": "Biltuses are bultuses"
+    },
+    {
+      "id": "P3",
+      "text": "Bultuses are zqblempuses"
+    },
+    {
+      "id": "P4",
+      "text": "Blempuses are blimpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Blimpuses are blompuses"
+    },
+    {
+      "id": "P6",
+      "text": "Max is a boltus"
+    }
+  ],
+  "substitution": {
+    "blempus": "zqblempus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

@@ -1,0 +1,46 @@
+{
+  "raw_response": "Step 1: Alex is a bempus (given in premise 6).\nStep 2: Since bempuses are bimpuses (premise 1), Alex is a bimpus.\nStep 3: Since bimpuses are zqbompuses (premise 2), Alex is a zqbompus.\nStep 4: We cannot derive any further conclusions because there are no premises connecting zqbompuses to any other category.\nStep 5: The chain from premises 3-5 (bompuses \u2192 bumpuses \u2192 balpuses \u2192 not belpuses) does not connect to Alex's category chain.\nStep 6: There is no logical path that establishes whether Alex is or is not a belpus based on the given premises.\n\nHowever, examining the premises more carefully:\n- Alex is established to be a bempus \u2192 bimpus \u2192 zqbompus\n- The only information about belpuses is that balpuses are not belpuses\n- There is no connection established between Alex's categories and balpuses or belpuses\n\nSince there is no logical connection proving Alex is a belpus, and the question asks definitively if Alex is a belpus:\n\nAnswer: False",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:51:56.733316+00:00",
+  "sha256": "e3e2fb329dab9202033f3be88cd953013fea43a5a8222801dcacfd0b3d0318d9",
+  "usage": {
+    "input_tokens": 151,
+    "output_tokens": 272
+  },
+  "problem_id": "p001",
+  "probe_type": "local_semantic",
+  "target_premise": "P2",
+  "prompt": "Given the following premises:\n1. Bempuses are bimpuses\n2. Bimpuses are zqbompuses\n3. Bompuses are bumpuses\n4. Bumpuses are balpuses\n5. Balpuses are not belpuses\n6. Alex is a bempus\n\nQuestion: Is Alex a belpus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Bempuses are bimpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Bimpuses are zqbompuses"
+    },
+    {
+      "id": "P3",
+      "text": "Bompuses are bumpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Bumpuses are balpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Balpuses are not belpuses"
+    },
+    {
+      "id": "P6",
+      "text": "Alex is a bempus"
+    }
+  ],
+  "substitution": {
+    "bompus": "zqbompus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

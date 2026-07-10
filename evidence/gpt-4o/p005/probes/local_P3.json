@@ -1,0 +1,47 @@
+{
+  "raw_response": "Step 1: Since boltuses are biltuses and Max is a boltus, Max is a biltus.\nStep 2: Since biltuses are bultuses and Max is a biltus, Max is a bultus.\nStep 3: Since bultuses are zqblempuses and Max is a bultus, Max is a zqblempus.\nStep 4: There is no direct connection between zqblempuses and blompuses in the given premises.\nAnswer: False",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:42:18.249772+00:00",
+  "sha256": "07d25bec7187e930a75408d80c3f64c16b5610850c5f49651ce364f2963632c5",
+  "usage": {
+    "prompt_tokens": 135,
+    "completion_tokens": 110,
+    "total_tokens": 245
+  },
+  "problem_id": "p005",
+  "probe_type": "local_semantic",
+  "target_premise": "P3",
+  "prompt": "Given the following premises:\n1. Boltuses are biltuses\n2. Biltuses are bultuses\n3. Bultuses are zqblempuses\n4. Blempuses are blimpuses\n5. Blimpuses are blompuses\n6. Max is a boltus\n\nQuestion: Is Max a blompus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Boltuses are biltuses"
+    },
+    {
+      "id": "P2",
+      "text": "Biltuses are bultuses"
+    },
+    {
+      "id": "P3",
+      "text": "Bultuses are zqblempuses"
+    },
+    {
+      "id": "P4",
+      "text": "Blempuses are blimpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Blimpuses are blompuses"
+    },
+    {
+      "id": "P6",
+      "text": "Max is a boltus"
+    }
+  ],
+  "substitution": {
+    "blempus": "zqblempus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

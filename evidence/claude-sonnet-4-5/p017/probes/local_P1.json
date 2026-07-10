@@ -1,0 +1,46 @@
+{
+  "raw_response": "I need to trace through the logical chain from \"Juno is a chelnus\" to determine if \"Juno is a chelvus.\"\n\nStep 1: Juno is a chelnus (given in premise 6).\nStep 2: Since chelnuses are zqcholnuses (premise 1), Juno is a zqcholnus.\nStep 3: I cannot proceed further because there is no premise connecting zqcholnuses to any other category.\n\nLet me reconsider. I notice premise 1 says \"Chelnuses are zqcholnuses\" which seems unusual. Let me check if this might be \"cholnuses\" instead.\n\nActually, looking at the premises as written:\n- Premise 2 connects cholnuses to chilnuses\n- Premise 3 connects chilnuses to chalvuses  \n- Premise 4 connects chalvuses to chelvuses\n\nBut premise 1 connects chelnuses to \"zqcholnuses\" (not \"cholnuses\"), and there's no connection from zqcholnuses to anything else in the chain.\n\nFollowing the premises exactly as written:\n\nStep 1: Juno is a chelnus (given in premise 6).\nStep 2: Since chelnuses are zqcholnuses (premise 1), Juno is a zqcholnus.\nStep 3: There is no premise that connects zqcholnuses to chelvuses through any chain of reasoning.\n\nAnswer: False",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:56:33.846123+00:00",
+  "sha256": "748831f41d46bcfbaaa00bc7fce83f5d06277b0800de5ad73304ae47c2e2c52d",
+  "usage": {
+    "input_tokens": 154,
+    "output_tokens": 347
+  },
+  "problem_id": "p017",
+  "probe_type": "local_semantic",
+  "target_premise": "P1",
+  "prompt": "Given the following premises:\n1. Chelnuses are zqcholnuses\n2. Cholnuses are chilnuses\n3. Chilnuses are chalvuses\n4. Chalvuses are chelvuses\n5. Cholvuses are chilvuses\n6. Juno is a chelnus\n\nQuestion: Is Juno a chelvus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Chelnuses are zqcholnuses"
+    },
+    {
+      "id": "P2",
+      "text": "Cholnuses are chilnuses"
+    },
+    {
+      "id": "P3",
+      "text": "Chilnuses are chalvuses"
+    },
+    {
+      "id": "P4",
+      "text": "Chalvuses are chelvuses"
+    },
+    {
+      "id": "P5",
+      "text": "Cholvuses are chilvuses"
+    },
+    {
+      "id": "P6",
+      "text": "Juno is a chelnus"
+    }
+  ],
+  "substitution": {
+    "cholnus": "zqcholnus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

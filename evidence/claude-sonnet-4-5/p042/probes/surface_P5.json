@@ -1,0 +1,44 @@
+{
+  "raw_response": "Step 1: Dove is a flompus (given in premise 6).\nStep 2: Since flompuses are flumpuses (premise 1), Dove is a flumpus.\nStep 3: Since flumpuses are flalpuses (premise 2), Dove is a flalpus.\nStep 4: Since flalpuses are flelpuses (premise 3), Dove is a flelpus.\nStep 5: Since flelpuses are flolpuses (premise 4), Dove is a flolpus.\nStep 6: Since no flolpus is a flulpus (premise 5), and Dove is a flolpus, Dove is not a flulpus.\n\nAnswer: False",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T05:05:24.311114+00:00",
+  "sha256": "e9f8a276d8f5fb2f72e350a0daeea7c6ccee51b452243ee67103ee47f97fe4ee",
+  "usage": {
+    "input_tokens": 155,
+    "output_tokens": 173
+  },
+  "problem_id": "p042",
+  "probe_type": "surface",
+  "target_premise": "P5",
+  "prompt": "Given the following premises:\n1. Flompuses are flumpuses\n2. Flumpuses are flalpuses\n3. Flalpuses are flelpuses\n4. Flelpuses are flolpuses\n5. No flolpus is a flulpus\n6. Dove is a flompus\n\nQuestion: Is Dove a flulpus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Flompuses are flumpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Flumpuses are flalpuses"
+    },
+    {
+      "id": "P3",
+      "text": "Flalpuses are flelpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Flelpuses are flolpuses"
+    },
+    {
+      "id": "P5",
+      "text": "No flolpus is a flulpus"
+    },
+    {
+      "id": "P6",
+      "text": "Dove is a flompus"
+    }
+  ],
+  "substitution": null,
+  "original_text": "Flolpuses are not flulpuses",
+  "rephrased_text": "No flolpus is a flulpus"
+}

@@ -1,0 +1,50 @@
+{
+  "raw_response": "Step 1: Tarn is a drurpus (given in premise 7).\nStep 2: Since drurpuses are dranpuses (premise 1), Tarn is a dranpus.\nStep 3: Since dranpuses are zqdrenpuses (premise 2), Tarn is a zqdrenpus.\nStep 4: I cannot derive further conclusions about whether Tarn is a drelnus from the given premises.\nStep 5: Premise 5 states that drunpuses are not drelnuses, but I have not established that Tarn is a drunpus.\nStep 6: The chain from drurpus leads to dranpus to zqdrenpus, but there is no connection established between these and drenpuses, dronpuses, or drunpuses.\nStep 7: There is no logical path from the premises that establishes Tarn as a drelnus.\nStep 8: There is also no logical path that establishes Tarn as NOT a drelnus, since the \"not drelnus\" statement only applies to drunpuses, which Tarn has not been shown to be.\n\nAnswer: False",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T05:02:07.652530+00:00",
+  "sha256": "047e7d66d3b0624cdaa1512afc861630cca24ac5b0e8fe94107e0329b0ee3f7a",
+  "usage": {
+    "input_tokens": 176,
+    "output_tokens": 278
+  },
+  "problem_id": "p034",
+  "probe_type": "local_semantic",
+  "target_premise": "P2",
+  "prompt": "Given the following premises:\n1. Drurpuses are dranpuses\n2. Dranpuses are zqdrenpuses\n3. Drenpuses are dronpuses\n4. Dronpuses are drunpuses\n5. Drunpuses are not drelnuses\n6. Drolnuses are drilnuses\n7. Tarn is a drurpus\n\nQuestion: Is Tarn a drelnus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Drurpuses are dranpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Dranpuses are zqdrenpuses"
+    },
+    {
+      "id": "P3",
+      "text": "Drenpuses are dronpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Dronpuses are drunpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Drunpuses are not drelnuses"
+    },
+    {
+      "id": "P6",
+      "text": "Drolnuses are drilnuses"
+    },
+    {
+      "id": "P7",
+      "text": "Tarn is a drurpus"
+    }
+  ],
+  "substitution": {
+    "drenpus": "zqdrenpus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

@@ -1,0 +1,80 @@
+
+#################################################################
+  Running: scripts/reproduce_table1.py
+#################################################################
+
+=================================================================
+  Reproducing Table 1: Main Results (GPT-4o, ProntoQA 50)
+=================================================================
+  Loaded 50 problems, 1127 certificates
+
+  Table 1: Main Results
+  Method                               P       R      F1
+  ---------------------------------------------------
+  Self-Consistency                 0.226   0.715   0.343
+  String-diff                      0.801   0.774   0.787
+  A consistent (full)              0.794   0.820   0.806
+  A+A'+cascade (full)              0.756   0.895   0.819
+  A consistent (pred)              0.794   1.000   0.885
+
+  --- Verification against evidence/gpt-4o/final_report.json ---
+    Self-Consistency F1: 0.3434 (report 0.3434) [OK]
+    A consistent (full) F1: 0.8065 (report 0.8065) [OK]
+    A consistent (pred) F1: 0.8850 (report 0.8850) [OK]
+    A+A'+cascade F1: 0.8193 (report 0.8193) [OK]
+
+  [DONE] Table 1 rows match the canonical report.
+
+#################################################################
+  Running: scripts/reproduce_table2.py
+#################################################################
+
+=================================================================
+  Reproducing Table 2: Ablation (GPT-4o, ProntoQA 50)
+=================================================================
+  Loaded 50 problems, 1127 certificates
+
+  Configuration                      P       R      F1
+  ---------------------------------------------------
+  A consistent only              0.794   0.811   0.802
+  A' local only                  0.602   0.898   0.721
+  A + A' combined                0.604   0.905   0.724
+  A + A' + cascade filter        0.756   0.895   0.819
+  A + A' w/o surface ctrl        0.617   0.870   0.722
+  String-diff baseline           0.801   0.774   0.787
+
+  --- Verification against evidence/gpt-4o/final_report.json ---
+    A consistent only F1: 0.8021 (report 0.8021) [OK]
+    A' local only F1: 0.7212 (report 0.7212) [OK]
+    A + A' combined F1: 0.7242 (report 0.7242) [OK]
+    A + A' + cascade filter F1: 0.8193 (report 0.8193) [OK]
+    A + A' w/o surface ctrl F1: 0.7220 (report 0.7220) [OK]
+    String-diff baseline F1: 0.7873 (report 0.7873) [OK]
+
+  [DONE] Table 2 rows match the canonical report.
+
+#################################################################
+  Recomputing all analysis reports and comparing to shipped JSONs
+#################################################################
+
+  [OK] evidence/gpt-4o/final_report.json
+  [OK] evidence/gpt-4o/ablation.json
+  [OK] evidence/gpt-4o/bootstrap_ci.json
+  [OK] evidence/gpt-4o/step_alignment_summary.json
+  [OK] evidence/gpt-4o/rawr_analysis.json
+  [OK] evidence/gpt-4o/misrepresentation_analysis.json
+  [OK] evidence/gpt-4o/fp_analysis.json
+  [OK] evidence/gpt-4o/chain_length_analysis.json
+  [OK] baselines/self_consistency/gpt-4o/baseline_report.json
+  [OK] evidence/claude-sonnet-4-5/final_report.json
+  [OK] evidence/claude-sonnet-4-5/ablation.json
+  [OK] evidence/claude-sonnet-4-5/bootstrap_ci.json
+  [OK] evidence/claude-sonnet-4-5/step_alignment_summary.json
+  [OK] evidence/claude-sonnet-4-5/rawr_analysis.json
+  [OK] evidence/claude-sonnet-4-5/misrepresentation_analysis.json
+  [OK] evidence/claude-sonnet-4-5/fp_analysis.json
+  [OK] evidence/claude-sonnet-4-5/chain_length_analysis.json
+
+=================================================================
+  ALL REPRODUCTIONS COMPLETE (tables + analysis reports verified)
+=================================================================

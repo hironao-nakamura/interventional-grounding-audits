@@ -1,0 +1,42 @@
+{
+  "raw_response": "Step 1: Cleo is a chiltus (given in premise 5).\nStep 2: Since chiltuses are chultuses (premise 1), Cleo is a chultus.\nStep 3: Since chultuses are fronduses (premise 2), Cleo is a frondus.\nStep 4: From the given premises, there is no information connecting fronduses to climpuses.\nStep 5: Premises 3 and 4 discuss clempuses, climpuses, clompuses, and clumpuses, but none of these are connected to chiltuses, chultuses, or fronduses.\nStep 6: There is no logical path from Cleo being a chiltus to Cleo being a climpus.\n\nAnswer: False",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:57:14.004714+00:00",
+  "sha256": "ab906445ac55fdafc2a6479e94830a2c8867f65f86032eb6585b3b13066ab4a6",
+  "usage": {
+    "input_tokens": 142,
+    "output_tokens": 184
+  },
+  "problem_id": "p019",
+  "probe_type": "local_semantic",
+  "target_premise": "P2",
+  "prompt": "Given the following premises:\n1. Chiltuses are chultuses\n2. Chultuses are fronduses\n3. Clempuses are not climpuses\n4. Clompuses are clumpuses\n5. Cleo is a chiltus\n\nQuestion: Is Cleo a climpus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Chiltuses are chultuses"
+    },
+    {
+      "id": "P2",
+      "text": "Chultuses are fronduses"
+    },
+    {
+      "id": "P3",
+      "text": "Clempuses are not climpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Clompuses are clumpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Cleo is a chiltus"
+    }
+  ],
+  "substitution": {
+    "clempus": "frondus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

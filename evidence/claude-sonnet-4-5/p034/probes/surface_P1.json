@@ -1,0 +1,48 @@
+{
+  "raw_response": "Step 1: Tarn is a drurpus (given in premise 7).\nStep 2: Since every drurpus is a dranpus, Tarn is a dranpus (from premises 1 and 7).\nStep 3: Since dranpuses are drenpuses, Tarn is a drenpus (from premise 2 and Step 2).\nStep 4: Since drenpuses are dronpuses, Tarn is a dronpus (from premise 3 and Step 3).\nStep 5: Since dronpuses are drunpuses, Tarn is a drunpus (from premise 4 and Step 4).\nStep 6: Since drunpuses are not drelnuses, Tarn is not a drelnus (from premise 5 and Step 5).\n\nAnswer: False",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T05:01:59.026819+00:00",
+  "sha256": "8b7fa201847f5474c4d51a0b708b0f6125c626848b60dcb0b915204ec95eb5e0",
+  "usage": {
+    "input_tokens": 175,
+    "output_tokens": 205
+  },
+  "problem_id": "p034",
+  "probe_type": "surface",
+  "target_premise": "P1",
+  "prompt": "Given the following premises:\n1. Every drurpus is a dranpus\n2. Dranpuses are drenpuses\n3. Drenpuses are dronpuses\n4. Dronpuses are drunpuses\n5. Drunpuses are not drelnuses\n6. Drolnuses are drilnuses\n7. Tarn is a drurpus\n\nQuestion: Is Tarn a drelnus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Every drurpus is a dranpus"
+    },
+    {
+      "id": "P2",
+      "text": "Dranpuses are drenpuses"
+    },
+    {
+      "id": "P3",
+      "text": "Drenpuses are dronpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Dronpuses are drunpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Drunpuses are not drelnuses"
+    },
+    {
+      "id": "P6",
+      "text": "Drolnuses are drilnuses"
+    },
+    {
+      "id": "P7",
+      "text": "Tarn is a drurpus"
+    }
+  ],
+  "substitution": null,
+  "original_text": "Drurpuses are dranpuses",
+  "rephrased_text": "Every drurpus is a dranpus"
+}

@@ -1,0 +1,33 @@
+{
+  "raw_response": "Step 1: Luna is a blalvus (given in premise 4).\nStep 2: Since blalvuses are blelvuses (premise 1), and Luna is a blalvus, Luna is a blelvus.\nStep 3: Since blelvuses are blolvuses (premise 2), and Luna is a blelvus, Luna is a blolvus.\nStep 4: Since blolvuses are blilvuses (premise 3), and Luna is a blolvus, Luna is a blilvus.\n\nAnswer: True",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:53:46.607178+00:00",
+  "sha256": "0a9641a40bdf944bf1c7250cb0071cbf14401362add6b056e9bd0741d6bdbd0b",
+  "usage": {
+    "input_tokens": 128,
+    "output_tokens": 126
+  },
+  "problem_id": "p008",
+  "probe_type": "original",
+  "prompt": "Given the following premises:\n1. Blalvuses are blelvuses\n2. Blelvuses are blolvuses\n3. Blolvuses are blilvuses\n4. Luna is a blalvus\n\nQuestion: Is Luna a blilvus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "premises": [
+    {
+      "id": "P1",
+      "text": "Blalvuses are blelvuses"
+    },
+    {
+      "id": "P2",
+      "text": "Blelvuses are blolvuses"
+    },
+    {
+      "id": "P3",
+      "text": "Blolvuses are blilvuses"
+    },
+    {
+      "id": "P4",
+      "text": "Luna is a blalvus"
+    }
+  ],
+  "question": "Is Luna a blilvus?"
+}

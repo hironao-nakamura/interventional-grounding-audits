@@ -1,0 +1,50 @@
+{
+  "raw_response": "Step 1: Quinn is a dulvus (given in premise 7).\nStep 2: Since dulvuses are dinkuses (premise 1), Quinn is a dinkus.\nStep 3: Since dinkuses are donkuses (premise 2), Quinn is a donkus.\nStep 4: Since donkuses are dunkuses (premise 3), Quinn is a dunkus.\nStep 5: The premises tell us that dunkuses are not zqdankuses (premise 4), but there is no information connecting dunkuses to dankuses.\nStep 6: There is no premise that establishes any relationship between what Quinn is (a dunkus) and being a dankus.\n\nAnswer: False",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T05:01:06.489710+00:00",
+  "sha256": "15e8ede09e128708634ce4fce747da4d61bd4340378c017e2311ae08abf7f803",
+  "usage": {
+    "input_tokens": 160,
+    "output_tokens": 168
+  },
+  "problem_id": "p031",
+  "probe_type": "local_semantic",
+  "target_premise": "P4",
+  "prompt": "Given the following premises:\n1. Dulvuses are dinkuses\n2. Dinkuses are donkuses\n3. Donkuses are dunkuses\n4. Dunkuses are not zqdankuses\n5. Denkuses are donduses\n6. Dinduses are dunduses\n7. Quinn is a dulvus\n\nQuestion: Is Quinn a dankus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Dulvuses are dinkuses"
+    },
+    {
+      "id": "P2",
+      "text": "Dinkuses are donkuses"
+    },
+    {
+      "id": "P3",
+      "text": "Donkuses are dunkuses"
+    },
+    {
+      "id": "P4",
+      "text": "Dunkuses are not zqdankuses"
+    },
+    {
+      "id": "P5",
+      "text": "Denkuses are donduses"
+    },
+    {
+      "id": "P6",
+      "text": "Dinduses are dunduses"
+    },
+    {
+      "id": "P7",
+      "text": "Quinn is a dulvus"
+    }
+  ],
+  "substitution": {
+    "dankus": "zqdankus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

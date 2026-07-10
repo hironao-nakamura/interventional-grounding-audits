@@ -1,0 +1,50 @@
+{
+  "raw_response": "Step 1: Stella is a bonkus (given in premise 7).\nStep 2: Since bonkuses are zqbunkuses (premise 1), Stella is a zqbunkus.\nStep 3: I need to trace if there's a path from bonkus to bindus through the given premises.\nStep 4: Looking at the premises, I see premise 1 connects bonkuses to zqbunkuses, but there's no premise connecting zqbunkuses to anything else.\nStep 5: Premises 2-5 form a chain: bunkuses \u2192 bankuses \u2192 benkuses \u2192 bonduses \u2192 binduses, but this chain starts with \"bunkuses\" not \"bonkuses\" or \"zqbunkuses\".\nStep 6: There is no connection established between bonkuses (or zqbunkuses) and bunkuses.\nStep 7: Therefore, I cannot establish that Stella is a bindus.\n\nAnswer: False",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:52:44.831384+00:00",
+  "sha256": "697d7d7a04030e8ce662e5f5f639029d43cb393999456a41d00e2a714872af65",
+  "usage": {
+    "input_tokens": 155,
+    "output_tokens": 225
+  },
+  "problem_id": "p004",
+  "probe_type": "local_semantic",
+  "target_premise": "P1",
+  "prompt": "Given the following premises:\n1. Bonkuses are zqbunkuses\n2. Bunkuses are bankuses\n3. Bankuses are benkuses\n4. Benkuses are bonduses\n5. Bonduses are binduses\n6. Bunduses are banduses\n7. Stella is a bonkus\n\nQuestion: Is Stella a bindus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Bonkuses are zqbunkuses"
+    },
+    {
+      "id": "P2",
+      "text": "Bunkuses are bankuses"
+    },
+    {
+      "id": "P3",
+      "text": "Bankuses are benkuses"
+    },
+    {
+      "id": "P4",
+      "text": "Benkuses are bonduses"
+    },
+    {
+      "id": "P5",
+      "text": "Bonduses are binduses"
+    },
+    {
+      "id": "P6",
+      "text": "Bunduses are banduses"
+    },
+    {
+      "id": "P7",
+      "text": "Stella is a bonkus"
+    }
+  ],
+  "substitution": {
+    "bunkus": "zqbunkus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

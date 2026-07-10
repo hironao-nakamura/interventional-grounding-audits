@@ -1,0 +1,45 @@
+{
+  "raw_response": "Step 1: Blenduses are bleltuses.\nStep 2: Since Eve is one of the blenduses, Eve is a bleltus.\nStep 3: Bleltuses are bloltuses.\nStep 4: Since Eve is a bleltus, Eve is a bloltus.\nStep 5: Bloltuses are bliltuses.\nStep 6: Since Eve is a bloltus, Eve is a bliltus.\nStep 7: Bliltuses are blultuses.\nStep 8: Since Eve is a bliltus, Eve is a blultus.\nAnswer: True",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:43:02.369688+00:00",
+  "sha256": "294149df1d29a110deba6719d35eb9bd6a86feed23d56185651805238b2ff8f1",
+  "usage": {
+    "prompt_tokens": 135,
+    "completion_tokens": 127,
+    "total_tokens": 262
+  },
+  "problem_id": "p010",
+  "probe_type": "surface",
+  "target_premise": "P6",
+  "prompt": "Given the following premises:\n1. Blenduses are bleltuses\n2. Bleltuses are bloltuses\n3. Bloltuses are bliltuses\n4. Bliltuses are blultuses\n5. Brempuses are brimpuses\n6. Eve is one of the blenduses\n\nQuestion: Is Eve a blultus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Blenduses are bleltuses"
+    },
+    {
+      "id": "P2",
+      "text": "Bleltuses are bloltuses"
+    },
+    {
+      "id": "P3",
+      "text": "Bloltuses are bliltuses"
+    },
+    {
+      "id": "P4",
+      "text": "Bliltuses are blultuses"
+    },
+    {
+      "id": "P5",
+      "text": "Brempuses are brimpuses"
+    },
+    {
+      "id": "P6",
+      "text": "Eve is one of the blenduses"
+    }
+  ],
+  "substitution": null,
+  "original_text": "Eve is a blendus",
+  "rephrased_text": "Eve is one of the blenduses"
+}

@@ -1,0 +1,51 @@
+{
+  "raw_response": "Step 1: Bree is a felvus, and since all felvuses are folvuses, Bree is a folvus.\nStep 2: Since all folvuses are zqfilvuses, Bree is a zqfilvus.\nStep 3: The premises do not provide a direct connection between zqfilvuses and filvuses, so we cannot conclude Bree is a filvus.\nStep 4: Without being a filvus, Bree cannot be a fulvus, finkus, or any subsequent category.\nStep 5: Since Bree cannot be a finkus, and finkuses are not fonkuses, we cannot conclude Bree is a fonkus.\n\nAnswer: False",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:44:54.327129+00:00",
+  "sha256": "64fcde255f3c88d61149f9fcb488ef9a973921fbbe6eeecc0de59ee275215ab9",
+  "usage": {
+    "prompt_tokens": 145,
+    "completion_tokens": 145,
+    "total_tokens": 290
+  },
+  "problem_id": "p040",
+  "probe_type": "local_semantic",
+  "target_premise": "P2",
+  "prompt": "Given the following premises:\n1. Felvuses are folvuses\n2. Folvuses are zqfilvuses\n3. Filvuses are fulvuses\n4. Fulvuses are finkuses\n5. Finkuses are not fonkuses\n6. Funkuses are fankuses\n7. Bree is a felvus\n\nQuestion: Is Bree a fonkus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Felvuses are folvuses"
+    },
+    {
+      "id": "P2",
+      "text": "Folvuses are zqfilvuses"
+    },
+    {
+      "id": "P3",
+      "text": "Filvuses are fulvuses"
+    },
+    {
+      "id": "P4",
+      "text": "Fulvuses are finkuses"
+    },
+    {
+      "id": "P5",
+      "text": "Finkuses are not fonkuses"
+    },
+    {
+      "id": "P6",
+      "text": "Funkuses are fankuses"
+    },
+    {
+      "id": "P7",
+      "text": "Bree is a felvus"
+    }
+  ],
+  "substitution": {
+    "filvus": "zqfilvus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

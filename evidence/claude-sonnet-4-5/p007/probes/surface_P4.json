@@ -1,0 +1,40 @@
+{
+  "raw_response": "Step 1: Pip is a blurpus (given in premise 5).\nStep 2: Since blurpuses are blanpuses (premise 1), Pip is a blanpus.\nStep 3: Since blanpuses are blenpuses (premise 2), Pip is a blenpus.\nStep 4: Since blenpuses are not blonpuses (premise 3), Pip is not a blonpus.\n\nAnswer: False",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:54:25.420792+00:00",
+  "sha256": "83a4d27e4640cc4b51bd8c8f40fcf5e82be72abfedcfd0e2736db71c21dc976b",
+  "usage": {
+    "input_tokens": 146,
+    "output_tokens": 109
+  },
+  "problem_id": "p007",
+  "probe_type": "surface",
+  "target_premise": "P4",
+  "prompt": "Given the following premises:\n1. Blurpuses are blanpuses\n2. Blanpuses are blenpuses\n3. Blenpuses are not blonpuses\n4. Every blunpus is a blelnus\n5. Pip is a blurpus\n\nQuestion: Is Pip a blonpus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Blurpuses are blanpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Blanpuses are blenpuses"
+    },
+    {
+      "id": "P3",
+      "text": "Blenpuses are not blonpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Every blunpus is a blelnus"
+    },
+    {
+      "id": "P5",
+      "text": "Pip is a blurpus"
+    }
+  ],
+  "substitution": null,
+  "original_text": "Blunpuses are blelnuses",
+  "rephrased_text": "Every blunpus is a blelnus"
+}

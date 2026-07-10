@@ -1,0 +1,42 @@
+{
+  "raw_response": "Step 1: Flompuses are flumpuses, so Dove is a flumpus.\nStep 2: Flumpuses are flalpuses, so Dove is a flalpus.\nStep 3: Flalpuses are flelpuses, so Dove is a flelpus.\nStep 4: Flelpses are flolpuses, so Dove is a flolpus.\nStep 5: Flolpuses are not flulpuses, so Dove is not a flulpus.\nAnswer: False",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:44:48.760562+00:00",
+  "sha256": "7399f1bf7c62bb0f61f0a0a34efd0f9af4b4d3aa16a60f30027fbe130a2f9831",
+  "usage": {
+    "prompt_tokens": 138,
+    "completion_tokens": 108,
+    "total_tokens": 246
+  },
+  "problem_id": "p042",
+  "probe_type": "original",
+  "prompt": "Given the following premises:\n1. Flompuses are flumpuses\n2. Flumpuses are flalpuses\n3. Flalpuses are flelpuses\n4. Flelpuses are flolpuses\n5. Flolpuses are not flulpuses\n6. Dove is a flompus\n\nQuestion: Is Dove a flulpus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "premises": [
+    {
+      "id": "P1",
+      "text": "Flompuses are flumpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Flumpuses are flalpuses"
+    },
+    {
+      "id": "P3",
+      "text": "Flalpuses are flelpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Flelpuses are flolpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Flolpuses are not flulpuses"
+    },
+    {
+      "id": "P6",
+      "text": "Dove is a flompus"
+    }
+  ],
+  "question": "Is Dove a flulpus?"
+}

@@ -1,0 +1,46 @@
+{
+  "raw_response": "Step 1: Elm is a florpus (given in premise 6).\nStep 2: Since florpuses are zqflurpuses (premise 1), Elm is a zqflurpus.\nStep 3: Since zqflurpuses are flanpuses (premise 2), Elm is a flanpus.\nStep 4: Since flanpuses are flenpuses (premise 3), Elm is a flenpus.\n\nAnswer: True",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T05:05:24.879723+00:00",
+  "sha256": "72f81086b3d417f0ac83214e444c2187cfabf8d257f7bd68205acdb938936027",
+  "usage": {
+    "input_tokens": 159,
+    "output_tokens": 112
+  },
+  "problem_id": "p043",
+  "probe_type": "semantic",
+  "target_premise": "P1",
+  "prompt": "Given the following premises:\n1. Florpuses are zqflurpuses\n2. Zqflurpuses are flanpuses\n3. Flanpuses are flenpuses\n4. Flonpuses are flunpuses\n5. Flelnuses are flolnuses\n6. Elm is a florpus\n\nQuestion: Is Elm a flenpus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Florpuses are zqflurpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Zqflurpuses are flanpuses"
+    },
+    {
+      "id": "P3",
+      "text": "Flanpuses are flenpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Flonpuses are flunpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Flelnuses are flolnuses"
+    },
+    {
+      "id": "P6",
+      "text": "Elm is a florpus"
+    }
+  ],
+  "substitution": {
+    "flurpus": "zqflurpus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

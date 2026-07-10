@@ -1,0 +1,46 @@
+{
+  "raw_response": "Step 1: Fox is a flelvus (given in premise 6).\nStep 2: Since flelvuses are flolvuses (premise 1), Fox is a flolvus.\nStep 3: Since flolvuses are zqflilvuses (premise 2), Fox is a zqflilvus.\nStep 4: Since zqflilvuses are flulvuses (premise 3), Fox is a flulvus.\nStep 5: Since flulvuses are flinkuses (premise 4), Fox is a flinkus.\n\nAnswer: True",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T05:05:45.186922+00:00",
+  "sha256": "b62124dbbb08358205b7cbe7c9bb5652b36e1df68a3945e424c19789b3c455da",
+  "usage": {
+    "input_tokens": 155,
+    "output_tokens": 133
+  },
+  "problem_id": "p044",
+  "probe_type": "semantic",
+  "target_premise": "P2",
+  "prompt": "Given the following premises:\n1. Flelvuses are flolvuses\n2. Flolvuses are zqflilvuses\n3. Zqflilvuses are flulvuses\n4. Flulvuses are flinkuses\n5. Flonkuses are flunkuses\n6. Fox is a flelvus\n\nQuestion: Is Fox a flinkus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Flelvuses are flolvuses"
+    },
+    {
+      "id": "P2",
+      "text": "Flolvuses are zqflilvuses"
+    },
+    {
+      "id": "P3",
+      "text": "Zqflilvuses are flulvuses"
+    },
+    {
+      "id": "P4",
+      "text": "Flulvuses are flinkuses"
+    },
+    {
+      "id": "P5",
+      "text": "Flonkuses are flunkuses"
+    },
+    {
+      "id": "P6",
+      "text": "Fox is a flelvus"
+    }
+  ],
+  "substitution": {
+    "flilvus": "zqflilvus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

@@ -1,0 +1,50 @@
+{
+  "raw_response": "Step 1: Opal is a danpus (given in premise 7).\nStep 2: Since danpuses are denpuses (premise 1), Opal is a denpus.\nStep 3: Since denpuses are donpuses (premise 2), Opal is a donpus.\nStep 4: Since donpuses are dunpuses (premise 3), Opal is a dunpus.\nStep 5: Since dunpuses are not zqdelnuses (premise 4), Opal is not a zqdelnus.\nStep 6: There is no chain of reasoning connecting danpuses (or any related category) to delnuses in the given premises.\nStep 7: Premises 5 and 6 discuss dolnuses and dalvuses respectively, which have no established connection to danpuses or Opal.\nStep 8: Therefore, we cannot determine that Opal is a delnus based on the given premises.\n\nAnswer: False",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T05:01:07.282492+00:00",
+  "sha256": "dfeb746e7e307b1f13e6e323fbbf98cf7899cf2f0bf41a7480d4a6c913e3749b",
+  "usage": {
+    "input_tokens": 164,
+    "output_tokens": 230
+  },
+  "problem_id": "p030",
+  "probe_type": "semantic",
+  "target_premise": "P4",
+  "prompt": "Given the following premises:\n1. Danpuses are denpuses\n2. Denpuses are donpuses\n3. Donpuses are dunpuses\n4. Dunpuses are not zqdelnuses\n5. Dolnuses are dilnuses\n6. Dalvuses are delvuses\n7. Opal is a danpus\n\nQuestion: Is Opal a delnus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Danpuses are denpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Denpuses are donpuses"
+    },
+    {
+      "id": "P3",
+      "text": "Donpuses are dunpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Dunpuses are not zqdelnuses"
+    },
+    {
+      "id": "P5",
+      "text": "Dolnuses are dilnuses"
+    },
+    {
+      "id": "P6",
+      "text": "Dalvuses are delvuses"
+    },
+    {
+      "id": "P7",
+      "text": "Opal is a danpus"
+    }
+  ],
+  "substitution": {
+    "delnus": "zqdelnus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

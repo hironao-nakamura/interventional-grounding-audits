@@ -1,0 +1,14 @@
+{
+  "raw_response": "Step 1: Knox is a crunpus.\nStep 2: Since crunpuses are crelnuses, Knox is a crelnus.\nStep 3: Since crelnuses are crolnuses, Knox is a crolnus.\nStep 4: Since crolnuses are crilnuses, Knox is a crilnus.\nStep 5: Since crilnuses are not cralvuses, Knox is not a cralvus.\nAnswer: False",
+  "model": "gpt-4o",
+  "temperature": 0,
+  "timestamp": "2026-02-15T09:43:25.346094+00:00",
+  "sha256": "cf636d6069a9231fe303b0bf9932d6a695d40fe7f79e03ce383fb9b7c9478e81",
+  "usage": {
+    "prompt_tokens": 143,
+    "completion_tokens": 101,
+    "total_tokens": 244
+  },
+  "problem_id": "p026",
+  "probe_type": "original"
+}

@@ -1,0 +1,51 @@
+{
+  "raw_response": "Step 1: Since Opal is a danpus and danpuses are denpuses, Opal is a denpus.\nStep 2: Since Opal is a denpus and denpuses are donpuses, Opal is a donpus.\nStep 3: Since Opal is a donpus and donpuses are dunpuses, Opal is a dunpus.\nStep 4: Since Opal is a dunpus and dunpuses are not zqdelnuses, Opal is not a zqdelnus.\nStep 5: There is no information connecting dunpuses or danpuses to delnuses.\nAnswer: False",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:44:12.815820+00:00",
+  "sha256": "5924c1cd73f2f26687c474a7ddf539bd3817c1159089214cdd63313c71122f58",
+  "usage": {
+    "prompt_tokens": 148,
+    "completion_tokens": 138,
+    "total_tokens": 286
+  },
+  "problem_id": "p030",
+  "probe_type": "semantic",
+  "target_premise": "P4",
+  "prompt": "Given the following premises:\n1. Danpuses are denpuses\n2. Denpuses are donpuses\n3. Donpuses are dunpuses\n4. Dunpuses are not zqdelnuses\n5. Dolnuses are dilnuses\n6. Dalvuses are delvuses\n7. Opal is a danpus\n\nQuestion: Is Opal a delnus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Danpuses are denpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Denpuses are donpuses"
+    },
+    {
+      "id": "P3",
+      "text": "Donpuses are dunpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Dunpuses are not zqdelnuses"
+    },
+    {
+      "id": "P5",
+      "text": "Dolnuses are dilnuses"
+    },
+    {
+      "id": "P6",
+      "text": "Dalvuses are delvuses"
+    },
+    {
+      "id": "P7",
+      "text": "Opal is a danpus"
+    }
+  ],
+  "substitution": {
+    "delnus": "zqdelnus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

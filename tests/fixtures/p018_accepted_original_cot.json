@@ -1,0 +1,14 @@
+{
+  "raw_response": "Step 1: Bolt is a chonkus.\nStep 2: Since chonkuses are chunkuses, Bolt is a chunkus.\nStep 3: Since chunkuses are chankuses, Bolt is a chankus.\nStep 4: Since chankuses are chenkuses, Bolt is a chenkus.\nStep 5: Since chenkuses are chonduses, Bolt is a chondus.\nAnswer: True",
+  "model": "gpt-4o",
+  "temperature": 0,
+  "timestamp": "2026-02-15T09:43:09.469003+00:00",
+  "sha256": "947411975beba78a9ff576f7dd99c1eab989cc7d325fbc4d4a51e0ec45612832",
+  "usage": {
+    "prompt_tokens": 142,
+    "completion_tokens": 91,
+    "total_tokens": 233
+  },
+  "problem_id": "p018",
+  "probe_type": "original"
+}

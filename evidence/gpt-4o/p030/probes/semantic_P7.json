@@ -1,0 +1,51 @@
+{
+  "raw_response": "Step 1: Opal is a zqdanpus, and since all zqdanpuses are denpuses, Opal is a denpus.\nStep 2: Since all denpuses are donpuses, Opal is a donpus.\nStep 3: Since all donpuses are dunpuses, Opal is a dunpus.\nStep 4: Since all dunpuses are not delnuses, Opal is not a delnus.\n\nAnswer: False",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:44:25.258127+00:00",
+  "sha256": "f3970dbbf5654a226dfd60da1723781c5846b1a39a858ae7089640aee3f83ceb",
+  "usage": {
+    "prompt_tokens": 150,
+    "completion_tokens": 101,
+    "total_tokens": 251
+  },
+  "problem_id": "p030",
+  "probe_type": "semantic",
+  "target_premise": "P7",
+  "prompt": "Given the following premises:\n1. Zqdanpuses are denpuses\n2. Denpuses are donpuses\n3. Donpuses are dunpuses\n4. Dunpuses are not delnuses\n5. Dolnuses are dilnuses\n6. Dalvuses are delvuses\n7. Opal is a zqdanpus\n\nQuestion: Is Opal a delnus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Zqdanpuses are denpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Denpuses are donpuses"
+    },
+    {
+      "id": "P3",
+      "text": "Donpuses are dunpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Dunpuses are not delnuses"
+    },
+    {
+      "id": "P5",
+      "text": "Dolnuses are dilnuses"
+    },
+    {
+      "id": "P6",
+      "text": "Dalvuses are delvuses"
+    },
+    {
+      "id": "P7",
+      "text": "Opal is a zqdanpus"
+    }
+  ],
+  "substitution": {
+    "danpus": "zqdanpus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

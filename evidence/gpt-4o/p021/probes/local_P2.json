@@ -1,0 +1,43 @@
+{
+  "raw_response": "Step 1: According to premise 1, clanpuses are clenpuses, so Finn, being a clanpus, is also a clenpus.\nStep 2: According to premise 2, clenpuses are zqclonpuses, so Finn, being a clenpus, is also a zqclonpus.\nStep 3: There is no direct information connecting zqclonpuses to clunpuses.\nStep 4: Premise 3 states that clonpuses are not clunpuses, but there is no information connecting zqclonpuses to clonpuses or clunpuses.\nStep 5: Premise 4 and 5 do not provide any additional information about clunpuses.\n\nAnswer: False",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:43:27.114028+00:00",
+  "sha256": "755825e0045c7eb0bb2cc696c7d43b53a507d1063e45dde5b1a4be5465fd8dbb",
+  "usage": {
+    "prompt_tokens": 131,
+    "completion_tokens": 156,
+    "total_tokens": 287
+  },
+  "problem_id": "p021",
+  "probe_type": "local_semantic",
+  "target_premise": "P2",
+  "prompt": "Given the following premises:\n1. Clanpuses are clenpuses\n2. Clenpuses are zqclonpuses\n3. Clonpuses are not clunpuses\n4. Clelnuses are clolnuses\n5. Finn is a clanpus\n\nQuestion: Is Finn a clunpus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Clanpuses are clenpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Clenpuses are zqclonpuses"
+    },
+    {
+      "id": "P3",
+      "text": "Clonpuses are not clunpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Clelnuses are clolnuses"
+    },
+    {
+      "id": "P5",
+      "text": "Finn is a clanpus"
+    }
+  ],
+  "substitution": {
+    "clonpus": "zqclonpus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

@@ -1,0 +1,55 @@
+{
+  "raw_response": "Step 1: Since Dempuses are Dimpuses and Nyx is a Dempus, Nyx is a Dimpus.\nStep 2: Since Dimpuses are Dompuses and Nyx is a Dimpus, Nyx is a Dompus.\nStep 3: Since Dompuses are Dumpuses and Nyx is a Dompus, Nyx is a Dumpus.\nStep 4: Since Dumpuses are Zqdalpuses and Nyx is a Dumpus, Nyx is a Zqdalpus.\nStep 5: There is no direct connection between Zqdalpuses and Delpuses in the premises.\nAnswer: False",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:44:10.335484+00:00",
+  "sha256": "4767ef65fe7f5a737cc4768ba333e50b27bbda016ff17eabe031d400af3b09e3",
+  "usage": {
+    "prompt_tokens": 155,
+    "completion_tokens": 139,
+    "total_tokens": 294
+  },
+  "problem_id": "p029",
+  "probe_type": "local_semantic",
+  "target_premise": "P4",
+  "prompt": "Given the following premises:\n1. Dempuses are dimpuses\n2. Dimpuses are dompuses\n3. Dompuses are dumpuses\n4. Dumpuses are zqdalpuses\n5. Dalpuses are delpuses\n6. Dolpuses are dulpuses\n7. Darpuses are derpuses\n8. Nyx is a dempus\n\nQuestion: Is Nyx a delpus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Dempuses are dimpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Dimpuses are dompuses"
+    },
+    {
+      "id": "P3",
+      "text": "Dompuses are dumpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Dumpuses are zqdalpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Dalpuses are delpuses"
+    },
+    {
+      "id": "P6",
+      "text": "Dolpuses are dulpuses"
+    },
+    {
+      "id": "P7",
+      "text": "Darpuses are derpuses"
+    },
+    {
+      "id": "P8",
+      "text": "Nyx is a dempus"
+    }
+  ],
+  "substitution": {
+    "dalpus": "zqdalpus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

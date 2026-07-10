@@ -1,0 +1,45 @@
+{
+  "raw_response": "Step 1: Rex is a bunpus (given in premise 7).\nStep 2: Since bunpuses are belnuses (premise 1), Rex is a belnus.\nStep 3: Since belnuses are bolnuses (premise 2), Rex is a bolnus.\nStep 4: Since bolnuses are bilnuses (premise 3), Rex is a bilnus.\nStep 5: Since bilnuses are balvuses (premise 4), Rex is a balvus.\nStep 6: Since balvuses are belvuses (premise 5), Rex is a belvus.\n\nAnswer: True",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:51:38.597399+00:00",
+  "sha256": "35ca9976257e2c2c06af5567733359909a49f2381b4909d595d287132c0dc1c9",
+  "usage": {
+    "input_tokens": 159,
+    "output_tokens": 146
+  },
+  "problem_id": "p003",
+  "probe_type": "original",
+  "prompt": "Given the following premises:\n1. Bunpuses are belnuses\n2. Belnuses are bolnuses\n3. Bolnuses are bilnuses\n4. Bilnuses are balvuses\n5. Balvuses are belvuses\n6. Bolvuses are bilvuses\n7. Rex is a bunpus\n\nQuestion: Is Rex a belvus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "premises": [
+    {
+      "id": "P1",
+      "text": "Bunpuses are belnuses"
+    },
+    {
+      "id": "P2",
+      "text": "Belnuses are bolnuses"
+    },
+    {
+      "id": "P3",
+      "text": "Bolnuses are bilnuses"
+    },
+    {
+      "id": "P4",
+      "text": "Bilnuses are balvuses"
+    },
+    {
+      "id": "P5",
+      "text": "Balvuses are belvuses"
+    },
+    {
+      "id": "P6",
+      "text": "Bolvuses are bilvuses"
+    },
+    {
+      "id": "P7",
+      "text": "Rex is a bunpus"
+    }
+  ],
+  "question": "Is Rex a belvus?"
+}

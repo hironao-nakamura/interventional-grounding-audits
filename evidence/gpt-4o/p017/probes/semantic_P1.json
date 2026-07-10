@@ -1,0 +1,47 @@
+{
+  "raw_response": "Step 1: Since Juno is a chelnus, and chelnuses are zqcholnuses, Juno is a zqcholnus.\nStep 2: Since Juno is a zqcholnus, and zqcholnuses are chilnuses, Juno is a chilnus.\nStep 3: Since Juno is a chilnus, and chilnuses are chalvuses, Juno is a chalvus.\nStep 4: Since Juno is a chalvus, and chalvuses are chelvuses, Juno is a chelvus.\n\nAnswer: True",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:43:05.262713+00:00",
+  "sha256": "e57213ce0be5f4b4a2780ad450daef2518d047e2d77e020406b9022db498edc0",
+  "usage": {
+    "prompt_tokens": 141,
+    "completion_tokens": 125,
+    "total_tokens": 266
+  },
+  "problem_id": "p017",
+  "probe_type": "semantic",
+  "target_premise": "P1",
+  "prompt": "Given the following premises:\n1. Chelnuses are zqcholnuses\n2. Zqcholnuses are chilnuses\n3. Chilnuses are chalvuses\n4. Chalvuses are chelvuses\n5. Cholvuses are chilvuses\n6. Juno is a chelnus\n\nQuestion: Is Juno a chelvus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Chelnuses are zqcholnuses"
+    },
+    {
+      "id": "P2",
+      "text": "Zqcholnuses are chilnuses"
+    },
+    {
+      "id": "P3",
+      "text": "Chilnuses are chalvuses"
+    },
+    {
+      "id": "P4",
+      "text": "Chalvuses are chelvuses"
+    },
+    {
+      "id": "P5",
+      "text": "Cholvuses are chilvuses"
+    },
+    {
+      "id": "P6",
+      "text": "Juno is a chelnus"
+    }
+  ],
+  "substitution": {
+    "cholnus": "zqcholnus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

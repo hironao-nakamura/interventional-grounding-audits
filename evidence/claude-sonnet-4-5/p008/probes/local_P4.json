@@ -1,0 +1,38 @@
+{
+  "raw_response": "I need to determine if Luna is a blilvus, given that Luna is a zqblalvus.\n\nStep 1: Luna is a zqblalvus, which means Luna is a blalvus (removing the prefix \"zq\").\n\nStep 2: Since blalvuses are blelvuses (premise 1), and Luna is a blalvus, Luna is a blelvus.\n\nStep 3: Since blelvuses are blolvuses (premise 2), and Luna is a blelvus, Luna is a blolvus.\n\nStep 4: Since blolvuses are blilvuses (premise 3), and Luna is a blolvus, Luna is a blilvus.\n\nAnswer: True",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:54:16.979335+00:00",
+  "sha256": "7e556742e4e1412baa48a4983307fcb648c65e50e5e8c0be4680c493250270e8",
+  "usage": {
+    "input_tokens": 130,
+    "output_tokens": 164
+  },
+  "problem_id": "p008",
+  "probe_type": "local_semantic",
+  "target_premise": "P4",
+  "prompt": "Given the following premises:\n1. Blalvuses are blelvuses\n2. Blelvuses are blolvuses\n3. Blolvuses are blilvuses\n4. Luna is a zqblalvus\n\nQuestion: Is Luna a blilvus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Blalvuses are blelvuses"
+    },
+    {
+      "id": "P2",
+      "text": "Blelvuses are blolvuses"
+    },
+    {
+      "id": "P3",
+      "text": "Blolvuses are blilvuses"
+    },
+    {
+      "id": "P4",
+      "text": "Luna is a zqblalvus"
+    }
+  ],
+  "substitution": {
+    "blalvus": "zqblalvus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

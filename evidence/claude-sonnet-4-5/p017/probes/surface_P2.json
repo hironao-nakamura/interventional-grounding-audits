@@ -1,0 +1,44 @@
+{
+  "raw_response": "Step 1: Juno is a chelnus (given in premise 6).\nStep 2: Since chelnuses are cholnuses (premise 1), Juno is a cholnus.\nStep 3: Since every cholnus is a chilnus (premise 2), Juno is a chilnus.\nStep 4: Since chilnuses are chalvuses (premise 3), Juno is a chalvus.\nStep 5: Since chalvuses are chelvuses (premise 4), Juno is a chelvus.\n\nAnswer: True",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:56:46.774927+00:00",
+  "sha256": "1584c90bafc5409c14ffa2b91bb356eecd011b2f92e20736ecb0d90465b4cd9f",
+  "usage": {
+    "input_tokens": 150,
+    "output_tokens": 131
+  },
+  "problem_id": "p017",
+  "probe_type": "surface",
+  "target_premise": "P2",
+  "prompt": "Given the following premises:\n1. Chelnuses are cholnuses\n2. Every cholnus is a chilnus\n3. Chilnuses are chalvuses\n4. Chalvuses are chelvuses\n5. Cholvuses are chilvuses\n6. Juno is a chelnus\n\nQuestion: Is Juno a chelvus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Chelnuses are cholnuses"
+    },
+    {
+      "id": "P2",
+      "text": "Every cholnus is a chilnus"
+    },
+    {
+      "id": "P3",
+      "text": "Chilnuses are chalvuses"
+    },
+    {
+      "id": "P4",
+      "text": "Chalvuses are chelvuses"
+    },
+    {
+      "id": "P5",
+      "text": "Cholvuses are chilvuses"
+    },
+    {
+      "id": "P6",
+      "text": "Juno is a chelnus"
+    }
+  ],
+  "substitution": null,
+  "original_text": "Cholnuses are chilnuses",
+  "rephrased_text": "Every cholnus is a chilnus"
+}

@@ -1,0 +1,36 @@
+{
+  "problem_id": "p021",
+  "model": "gpt-4o-2024-08-06",
+  "n_samples": 5,
+  "temperature": 0.7,
+  "step_verdicts": {
+    "1": {
+      "consistent": true,
+      "agreement": 0.8,
+      "majority_conclusion": "is(finn, clenpus)",
+      "n_valid": 5,
+      "n_unique": 2
+    },
+    "2": {
+      "consistent": true,
+      "agreement": 0.8,
+      "majority_conclusion": "is(finn, clonpus)",
+      "n_valid": 5,
+      "n_unique": 2
+    },
+    "3": {
+      "consistent": false,
+      "agreement": 0.5,
+      "majority_conclusion": "not_is(finn, clunpus)",
+      "n_valid": 4,
+      "n_unique": 3
+    },
+    "4": {
+      "consistent": true,
+      "agreement": 1.0,
+      "majority_conclusion": "not_is(finn, clunpus)",
+      "n_valid": 2,
+      "n_unique": 1
+    }
+  }
+}

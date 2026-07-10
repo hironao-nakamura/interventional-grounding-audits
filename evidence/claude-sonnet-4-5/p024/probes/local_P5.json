@@ -1,0 +1,50 @@
+{
+  "raw_response": "Step 1: Ivy is a cloltus (given in premise 7).\nStep 2: Since cloltuses are cliltuses (premise 1), Ivy is a cliltus.\nStep 3: Since cliltuses are clultuses (premise 2), Ivy is a clultus.\nStep 4: Since clultuses are crempuses (premise 3), Ivy is a crempus.\nStep 5: Since crempuses are crimpuses (premise 4), Ivy is a crimpus.\nStep 6: Since crimpuses are not zqcrompuses (premise 5), Ivy is not a zqcrompus.\nStep 7: There is no chain of reasoning from the premises that establishes Ivy as a crompus.\n\nAnswer: False",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:59:25.974635+00:00",
+  "sha256": "11415757008d4a7a6ce9da2d41d6b71fc67bb28e70886a351b3bccef1a707640",
+  "usage": {
+    "input_tokens": 164,
+    "output_tokens": 186
+  },
+  "problem_id": "p024",
+  "probe_type": "local_semantic",
+  "target_premise": "P5",
+  "prompt": "Given the following premises:\n1. Cloltuses are cliltuses\n2. Cliltuses are clultuses\n3. Clultuses are crempuses\n4. Crempuses are crimpuses\n5. Crimpuses are not zqcrompuses\n6. Crumpuses are cralpuses\n7. Ivy is a cloltus\n\nQuestion: Is Ivy a crompus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Cloltuses are cliltuses"
+    },
+    {
+      "id": "P2",
+      "text": "Cliltuses are clultuses"
+    },
+    {
+      "id": "P3",
+      "text": "Clultuses are crempuses"
+    },
+    {
+      "id": "P4",
+      "text": "Crempuses are crimpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Crimpuses are not zqcrompuses"
+    },
+    {
+      "id": "P6",
+      "text": "Crumpuses are cralpuses"
+    },
+    {
+      "id": "P7",
+      "text": "Ivy is a cloltus"
+    }
+  ],
+  "substitution": {
+    "crompus": "zqcrompus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

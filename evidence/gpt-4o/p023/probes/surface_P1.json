@@ -1,0 +1,37 @@
+{
+  "raw_response": "Step 1: Since every clondus is a clindus and Haze is a clondus, Haze is a clindus.\nStep 2: Since clinduses are clunduses and Haze is a clindus, Haze is a clundus.\nStep 3: Since clunduses are not clanduses and Haze is a clundus, Haze is not a clandus.\n\nAnswer: False",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:43:33.372146+00:00",
+  "sha256": "4d9a8248196d4c02f37f036d00b337c3b64f6d725e184efa3a7577b75ed883f7",
+  "usage": {
+    "prompt_tokens": 119,
+    "completion_tokens": 93,
+    "total_tokens": 212
+  },
+  "problem_id": "p023",
+  "probe_type": "surface",
+  "target_premise": "P1",
+  "prompt": "Given the following premises:\n1. Every clondus is a clindus\n2. Clinduses are clunduses\n3. Clunduses are not clanduses\n4. Haze is a clondus\n\nQuestion: Is Haze a clandus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Every clondus is a clindus"
+    },
+    {
+      "id": "P2",
+      "text": "Clinduses are clunduses"
+    },
+    {
+      "id": "P3",
+      "text": "Clunduses are not clanduses"
+    },
+    {
+      "id": "P4",
+      "text": "Haze is a clondus"
+    }
+  ],
+  "substitution": null,
+  "original_text": "Clonduses are clinduses",
+  "rephrased_text": "Every clondus is a clindus"
+}

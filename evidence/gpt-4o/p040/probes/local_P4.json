@@ -1,0 +1,51 @@
+{
+  "raw_response": "Step 1: Bree is a felvus, and since felvuses are folvuses, Bree is a folvus.\nStep 2: Since folvuses are filvuses, Bree is a filvus.\nStep 3: Since filvuses are fulvuses, Bree is a fulvus.\nStep 4: Since fulvuses are zqfinkuses, Bree is a zqfinkus.\nStep 5: There is no direct information connecting zqfinkuses to finkuses, fonkuses, funkuses, or fankuses.\nStep 6: Finkuses are not fonkuses, but Bree's status as a finkus or fonkus is not established.\nStep 7: Funkuses are fankuses, but this does not relate to Bree's status as a fonkus.\nStep 8: There is no information that directly or indirectly connects Bree to being a fonkus.\n\nAnswer: False",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:45:04.032566+00:00",
+  "sha256": "b65b05b467034839c476e0a784698f1e49788ec33d227a0919978d122abf1a52",
+  "usage": {
+    "prompt_tokens": 145,
+    "completion_tokens": 197,
+    "total_tokens": 342
+  },
+  "problem_id": "p040",
+  "probe_type": "local_semantic",
+  "target_premise": "P4",
+  "prompt": "Given the following premises:\n1. Felvuses are folvuses\n2. Folvuses are filvuses\n3. Filvuses are fulvuses\n4. Fulvuses are zqfinkuses\n5. Finkuses are not fonkuses\n6. Funkuses are fankuses\n7. Bree is a felvus\n\nQuestion: Is Bree a fonkus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Felvuses are folvuses"
+    },
+    {
+      "id": "P2",
+      "text": "Folvuses are filvuses"
+    },
+    {
+      "id": "P3",
+      "text": "Filvuses are fulvuses"
+    },
+    {
+      "id": "P4",
+      "text": "Fulvuses are zqfinkuses"
+    },
+    {
+      "id": "P5",
+      "text": "Finkuses are not fonkuses"
+    },
+    {
+      "id": "P6",
+      "text": "Funkuses are fankuses"
+    },
+    {
+      "id": "P7",
+      "text": "Bree is a felvus"
+    }
+  ],
+  "substitution": {
+    "finkus": "zqfinkus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

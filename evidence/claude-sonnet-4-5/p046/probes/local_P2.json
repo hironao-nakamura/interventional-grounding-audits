@@ -1,0 +1,42 @@
+{
+  "raw_response": "Step 1: Hart is a flultus (given in premise 5).\nStep 2: Since flultuses are frempuses (premise 1), Hart is a frempus.\nStep 3: Since frempuses are zqfrimpuses (premise 2), Hart is a zqfrimpus.\nStep 4: Since we need to determine if Hart is a frumpus, we need to check if zqfrimpuses lead to frumpuses through the given premises.\nStep 5: Premise 3 states frimpuses are frompuses, but we have zqfrimpuses, not frimpuses - these appear to be different categories.\nStep 6: Premise 4 states frompuses are frumpuses, but we cannot reach frompuses from zqfrimpuses based on the given premises.\nStep 7: There is no chain of logic connecting zqfrimpuses to frumpuses through the given premises.\n\nAnswer: False",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T05:06:34.898771+00:00",
+  "sha256": "25edda6fef497ab806872fc8b0d36cc8c970d4f1e279e5299619108855b1ca1b",
+  "usage": {
+    "input_tokens": 139,
+    "output_tokens": 220
+  },
+  "problem_id": "p046",
+  "probe_type": "local_semantic",
+  "target_premise": "P2",
+  "prompt": "Given the following premises:\n1. Flultuses are frempuses\n2. Frempuses are zqfrimpuses\n3. Frimpuses are frompuses\n4. Frompuses are frumpuses\n5. Hart is a flultus\n\nQuestion: Is Hart a frumpus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Flultuses are frempuses"
+    },
+    {
+      "id": "P2",
+      "text": "Frempuses are zqfrimpuses"
+    },
+    {
+      "id": "P3",
+      "text": "Frimpuses are frompuses"
+    },
+    {
+      "id": "P4",
+      "text": "Frompuses are frumpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Hart is a flultus"
+    }
+  ],
+  "substitution": {
+    "frimpus": "zqfrimpus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

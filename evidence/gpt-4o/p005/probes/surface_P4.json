@@ -1,0 +1,45 @@
+{
+  "raw_response": "Step 1: Since Boltuses are biltuses and Max is a boltus, Max is a biltus.\nStep 2: Since Biltuses are bultuses and Max is a biltus, Max is a bultus.\nStep 3: Since Bultuses are blempuses and Max is a bultus, Max is a blempus.\nStep 4: Since every blempus is a blimpus and Max is a blempus, Max is a blimpus.\nStep 5: Since Blimpuses are blompuses and Max is a blimpus, Max is a blompus.\n\nAnswer: True",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:42:24.337219+00:00",
+  "sha256": "ab8e112d817dd8f8347bc3a8527bdad569878f452ec4f36f5f0cd06b244d8644",
+  "usage": {
+    "prompt_tokens": 135,
+    "completion_tokens": 138,
+    "total_tokens": 273
+  },
+  "problem_id": "p005",
+  "probe_type": "surface",
+  "target_premise": "P4",
+  "prompt": "Given the following premises:\n1. Boltuses are biltuses\n2. Biltuses are bultuses\n3. Bultuses are blempuses\n4. Every blempus is a blimpus\n5. Blimpuses are blompuses\n6. Max is a boltus\n\nQuestion: Is Max a blompus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Boltuses are biltuses"
+    },
+    {
+      "id": "P2",
+      "text": "Biltuses are bultuses"
+    },
+    {
+      "id": "P3",
+      "text": "Bultuses are blempuses"
+    },
+    {
+      "id": "P4",
+      "text": "Every blempus is a blimpus"
+    },
+    {
+      "id": "P5",
+      "text": "Blimpuses are blompuses"
+    },
+    {
+      "id": "P6",
+      "text": "Max is a boltus"
+    }
+  ],
+  "substitution": null,
+  "original_text": "Blempuses are blimpuses",
+  "rephrased_text": "Every blempus is a blimpus"
+}

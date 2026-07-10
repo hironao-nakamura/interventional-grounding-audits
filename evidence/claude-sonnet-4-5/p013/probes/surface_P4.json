@@ -1,0 +1,40 @@
+{
+  "raw_response": "Step 1: Leo is a brelvus (given in premise 5).\nStep 2: Since brelvuses are brolvuses (premise 1), Leo is a brolvus.\nStep 3: Since brolvuses are brilvuses (premise 2), Leo is a brilvus.\nStep 4: Since brilvuses are brulvuses (premise 3), Leo is a brulvus.\n\nAnswer: True",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:56:00.828821+00:00",
+  "sha256": "7a02f747fb7f88cc8cf1d7bc6ac37547847e155a770187aeede9e3a5ab3d3b3e",
+  "usage": {
+    "input_tokens": 140,
+    "output_tokens": 101
+  },
+  "problem_id": "p013",
+  "probe_type": "surface",
+  "target_premise": "P4",
+  "prompt": "Given the following premises:\n1. Brelvuses are brolvuses\n2. Brolvuses are brilvuses\n3. Brilvuses are brulvuses\n4. Every brinkus is a bronkus\n5. Leo is a brelvus\n\nQuestion: Is Leo a brulvus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Brelvuses are brolvuses"
+    },
+    {
+      "id": "P2",
+      "text": "Brolvuses are brilvuses"
+    },
+    {
+      "id": "P3",
+      "text": "Brilvuses are brulvuses"
+    },
+    {
+      "id": "P4",
+      "text": "Every brinkus is a bronkus"
+    },
+    {
+      "id": "P5",
+      "text": "Leo is a brelvus"
+    }
+  ],
+  "substitution": null,
+  "original_text": "Brinkuses are bronkuses",
+  "rephrased_text": "Every brinkus is a bronkus"
+}

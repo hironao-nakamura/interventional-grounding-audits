@@ -1,0 +1,50 @@
+{
+  "raw_response": "I'll work through this step-by-step, following the logical chain from what we know about Ivy.\n\nStep 1: Ivy is a cloltus (given in premise 7).\nStep 2: Since cloltuses are zqcliltuses (premise 1), Ivy is a zqcliltus.\nStep 3: Looking at the premises, there is no connection from cloltus to cliltus, so I need to check if there's another path.\nStep 4: Actually, premise 1 states \"Cloltuses are zqcliltuses\" which doesn't lead to the cliltus-clultus-crempus chain.\nStep 5: There is no premise connecting cloltus (or zqcliltus) to cliltus, clultus, crempus, or crimpus.\nStep 6: The chain cliltus\u2192clultus\u2192crempus\u2192crimpus (from premises 2, 3, 4) is separate from what we know about Ivy.\nStep 7: Premise 5 states that crimpuses are not crompuses, but we haven't established that Ivy is a crimpus.\nStep 8: Since there is no logical path connecting cloltus to crimpus, we cannot determine if Ivy is a crimpus.\nStep 9: Since we cannot establish that Ivy is a crimpus, and only crimpuses have a stated relationship with crompuses (they are NOT crompuses), we cannot conclude anything about whether Ivy is a crompus from the given premises.\nStep 10: However, the question asks definitively if Ivy is a crompus, and there is no chain of reasoning that would make Ivy a crompus.\n\nAnswer: False",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:58:45.305256+00:00",
+  "sha256": "09fe86beec91b047f69ab36564202ce9efd388c94061f7d92cd32c14226cd29f",
+  "usage": {
+    "input_tokens": 164,
+    "output_tokens": 401
+  },
+  "problem_id": "p024",
+  "probe_type": "local_semantic",
+  "target_premise": "P1",
+  "prompt": "Given the following premises:\n1. Cloltuses are zqcliltuses\n2. Cliltuses are clultuses\n3. Clultuses are crempuses\n4. Crempuses are crimpuses\n5. Crimpuses are not crompuses\n6. Crumpuses are cralpuses\n7. Ivy is a cloltus\n\nQuestion: Is Ivy a crompus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Cloltuses are zqcliltuses"
+    },
+    {
+      "id": "P2",
+      "text": "Cliltuses are clultuses"
+    },
+    {
+      "id": "P3",
+      "text": "Clultuses are crempuses"
+    },
+    {
+      "id": "P4",
+      "text": "Crempuses are crimpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Crimpuses are not crompuses"
+    },
+    {
+      "id": "P6",
+      "text": "Crumpuses are cralpuses"
+    },
+    {
+      "id": "P7",
+      "text": "Ivy is a cloltus"
+    }
+  ],
+  "substitution": {
+    "cliltus": "zqcliltus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

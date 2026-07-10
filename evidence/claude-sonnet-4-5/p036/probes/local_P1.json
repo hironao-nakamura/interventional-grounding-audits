@@ -1,0 +1,38 @@
+{
+  "raw_response": "Step 1: Vale is a drankus (given in premise 4).\nStep 2: Since drankuses are zqdrenkuses (premise 1), Vale is a zqdrenkus.\nStep 3: Since drenkuses are dronduses (premise 2), we need to determine if Vale is a drenkus.\nStep 4: The premises don't establish that Vale is a drenkus (premise 1 says drankuses are zqdrenkuses, not drenkuses).\nStep 5: We cannot establish from the given premises that Vale is a drondus.\nStep 6: Even if we could establish Vale as a drondus, premise 3 states that dronduses are not drinduses.\nStep 7: Since we cannot definitively connect Vale to being a drondus through the given logical chain, and dronduses are explicitly not drinduses, Vale is not a drindus.\n\nAnswer: False",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T05:02:47.819005+00:00",
+  "sha256": "a60cbc557c8a05b0857d5e37b9c6549deac5541cd2cd75ee4f3a0bbf9538df25",
+  "usage": {
+    "input_tokens": 129,
+    "output_tokens": 216
+  },
+  "problem_id": "p036",
+  "probe_type": "local_semantic",
+  "target_premise": "P1",
+  "prompt": "Given the following premises:\n1. Drankuses are zqdrenkuses\n2. Drenkuses are dronduses\n3. Dronduses are not drinduses\n4. Vale is a drankus\n\nQuestion: Is Vale a drindus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Drankuses are zqdrenkuses"
+    },
+    {
+      "id": "P2",
+      "text": "Drenkuses are dronduses"
+    },
+    {
+      "id": "P3",
+      "text": "Dronduses are not drinduses"
+    },
+    {
+      "id": "P4",
+      "text": "Vale is a drankus"
+    }
+  ],
+  "substitution": {
+    "drenkus": "zqdrenkus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

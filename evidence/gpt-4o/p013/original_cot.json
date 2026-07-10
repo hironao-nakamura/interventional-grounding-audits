@@ -1,0 +1,38 @@
+{
+  "raw_response": "Step 1: Since Brelvuses are brolvuses and Leo is a brelvus, Leo is a brolvus.\nStep 2: Since Brolvuses are brilvuses and Leo is a brolvus, Leo is a brilvus.\nStep 3: Since Brilvuses are brulvuses and Leo is a brilvus, Leo is a brulvus.\nAnswer: True",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:42:44.779608+00:00",
+  "sha256": "26d5c9e779a6730476b1c55aca9dba4aa1dff22862727704a8cf1be87d933ab1",
+  "usage": {
+    "prompt_tokens": 129,
+    "completion_tokens": 87,
+    "total_tokens": 216
+  },
+  "problem_id": "p013",
+  "probe_type": "original",
+  "prompt": "Given the following premises:\n1. Brelvuses are brolvuses\n2. Brolvuses are brilvuses\n3. Brilvuses are brulvuses\n4. Brinkuses are bronkuses\n5. Leo is a brelvus\n\nQuestion: Is Leo a brulvus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "premises": [
+    {
+      "id": "P1",
+      "text": "Brelvuses are brolvuses"
+    },
+    {
+      "id": "P2",
+      "text": "Brolvuses are brilvuses"
+    },
+    {
+      "id": "P3",
+      "text": "Brilvuses are brulvuses"
+    },
+    {
+      "id": "P4",
+      "text": "Brinkuses are bronkuses"
+    },
+    {
+      "id": "P5",
+      "text": "Leo is a brelvus"
+    }
+  ],
+  "question": "Is Leo a brulvus?"
+}

@@ -1,0 +1,50 @@
+{
+  "raw_response": "Step 1: Rex is a bunpus (given in premise 7).\nStep 2: Since bunpuses are belnuses (premise 1), Rex is a belnus.\nStep 3: Since belnuses are bolnuses (premise 2), Rex is a bolnus.\nStep 4: Since bolnuses are zqbilnuses (premise 3), Rex is a zqbilnus.\n\nAt this point, I need to check if there's a path from zqbilnus to belvus. Looking at the remaining premises:\n- Premise 4: Bilnuses are balvuses\n- Premise 5: Balvuses are belvuses\n- Premise 6: Bolvuses are bilvuses\n\nThere is no premise that connects zqbilnuses to any other category. The chain stops at zqbilnus, and there's no way to reach belvus from zqbilnus.\n\nAnswer: False",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:52:06.043764+00:00",
+  "sha256": "98ea92e4bd952f95bb60c075a0e9ba754ec850cf01ca2f74378d25ab08301de4",
+  "usage": {
+    "input_tokens": 162,
+    "output_tokens": 223
+  },
+  "problem_id": "p003",
+  "probe_type": "local_semantic",
+  "target_premise": "P3",
+  "prompt": "Given the following premises:\n1. Bunpuses are belnuses\n2. Belnuses are bolnuses\n3. Bolnuses are zqbilnuses\n4. Bilnuses are balvuses\n5. Balvuses are belvuses\n6. Bolvuses are bilvuses\n7. Rex is a bunpus\n\nQuestion: Is Rex a belvus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Bunpuses are belnuses"
+    },
+    {
+      "id": "P2",
+      "text": "Belnuses are bolnuses"
+    },
+    {
+      "id": "P3",
+      "text": "Bolnuses are zqbilnuses"
+    },
+    {
+      "id": "P4",
+      "text": "Bilnuses are balvuses"
+    },
+    {
+      "id": "P5",
+      "text": "Balvuses are belvuses"
+    },
+    {
+      "id": "P6",
+      "text": "Bolvuses are bilvuses"
+    },
+    {
+      "id": "P7",
+      "text": "Rex is a bunpus"
+    }
+  ],
+  "substitution": {
+    "bilnus": "zqbilnus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

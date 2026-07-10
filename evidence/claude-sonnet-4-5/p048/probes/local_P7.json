@@ -1,0 +1,50 @@
+{
+  "raw_response": "I need to determine if Jet is a frolnus based on the given premises.\n\nStep 1: Jet is a zqfrenpus (given in premise 7).\nStep 2: There is no premise connecting zqfrenpuses to frenpuses or any other category in the chain.\nStep 3: The chain from premises 1-4 goes: Frenpuses \u2192 Fronpuses \u2192 Frunpuses \u2192 Frelnuses \u2192 Frolnuses.\nStep 4: Premises 5-6 describe a different chain: Frilnuses \u2192 Fralvuses and Frelvuses \u2192 Frolvuses, which are not connected to the first chain.\nStep 5: Since Jet is a zqfrenpus and there is no premise stating that zqfrenpuses are frenpuses (or any other category in the chains), we cannot establish that Jet is a frolnus.\n\nAnswer: False",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T05:07:48.942371+00:00",
+  "sha256": "d385dc64a974c80e1238b0d4843252235f866c8538a7de32146e448d2ea24e2a",
+  "usage": {
+    "input_tokens": 168,
+    "output_tokens": 216
+  },
+  "problem_id": "p048",
+  "probe_type": "local_semantic",
+  "target_premise": "P7",
+  "prompt": "Given the following premises:\n1. Frenpuses are fronpuses\n2. Fronpuses are frunpuses\n3. Frunpuses are frelnuses\n4. Frelnuses are frolnuses\n5. Frilnuses are fralvuses\n6. Frelvuses are frolvuses\n7. Jet is a zqfrenpus\n\nQuestion: Is Jet a frolnus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Frenpuses are fronpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Fronpuses are frunpuses"
+    },
+    {
+      "id": "P3",
+      "text": "Frunpuses are frelnuses"
+    },
+    {
+      "id": "P4",
+      "text": "Frelnuses are frolnuses"
+    },
+    {
+      "id": "P5",
+      "text": "Frilnuses are fralvuses"
+    },
+    {
+      "id": "P6",
+      "text": "Frelvuses are frolvuses"
+    },
+    {
+      "id": "P7",
+      "text": "Jet is a zqfrenpus"
+    }
+  ],
+  "substitution": {
+    "frenpus": "zqfrenpus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

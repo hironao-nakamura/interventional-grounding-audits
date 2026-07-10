@@ -1,0 +1,771 @@
+{
+  "total_correct": 50,
+  "total_rawr": 33,
+  "rawr_rate": 0.66,
+  "structural_only": 33,
+  "has_predicate_rawr": 0,
+  "total_insensitive_deps": 33,
+  "self_consistency_perfect_cases": 14,
+  "metric_policy": "A_consistent_full_aligned_gt",
+  "cases": [
+    {
+      "problem_id": "p001",
+      "gt_answer": false,
+      "model_answer": false,
+      "answer_correct": true,
+      "n_insensitive_deps": 1,
+      "n_structural": 1,
+      "n_predicate": 0,
+      "self_consistency_perfect": false,
+      "insensitive_dependencies": [
+        {
+          "step_id": 1,
+          "matched_proof_step_id": 1,
+          "premise_id": "P6",
+          "premise_text": "Alex is a bempus",
+          "premise_type": "structural",
+          "phi_original": "is(alex, bimpus)",
+          "phi_semantic": "is(alex, bimpus)",
+          "phi_local": null,
+          "verdict_consistent": "INSENSITIVE"
+        }
+      ]
+    },
+    {
+      "problem_id": "p002",
+      "gt_answer": true,
+      "model_answer": true,
+      "answer_correct": true,
+      "n_insensitive_deps": 1,
+      "n_structural": 1,
+      "n_predicate": 0,
+      "self_consistency_perfect": true,
+      "insensitive_dependencies": [
+        {
+          "step_id": 1,
+          "matched_proof_step_id": 1,
+          "premise_id": "P5",
+          "premise_text": "Fae is a barpus",
+          "premise_type": "structural",
+          "phi_original": "is(fae, berpus)",
+          "phi_semantic": "is(fae, berpus)",
+          "phi_local": "subtype(barpus, berpus)",
+          "verdict_consistent": "INSENSITIVE"
+        }
+      ]
+    },
+    {
+      "problem_id": "p003",
+      "gt_answer": true,
+      "model_answer": true,
+      "answer_correct": true,
+      "n_insensitive_deps": 1,
+      "n_structural": 1,
+      "n_predicate": 0,
+      "self_consistency_perfect": true,
+      "insensitive_dependencies": [
+        {
+          "step_id": 1,
+          "matched_proof_step_id": 1,
+          "premise_id": "P7",
+          "premise_text": "Rex is a bunpus",
+          "premise_type": "structural",
+          "phi_original": "is(rex, belnus)",
+          "phi_semantic": "is(rex, belnus)",
+          "phi_local": null,
+          "verdict_consistent": "INSENSITIVE"
+        }
+      ]
+    },
+    {
+      "problem_id": "p004",
+      "gt_answer": true,
+      "model_answer": true,
+      "answer_correct": true,
+      "n_insensitive_deps": 1,
+      "n_structural": 1,
+      "n_predicate": 0,
+      "self_consistency_perfect": false,
+      "insensitive_dependencies": [
+        {
+          "step_id": 1,
+          "matched_proof_step_id": 1,
+          "premise_id": "P7",
+          "premise_text": "Stella is a bonkus",
+          "premise_type": "structural",
+          "phi_original": "is(stella, bunkus)",
+          "phi_semantic": "is(stella, bunkus)",
+          "phi_local": "subtype(bonkus, bunkus)",
+          "verdict_consistent": "INSENSITIVE"
+        }
+      ]
+    },
+    {
+      "problem_id": "p005",
+      "gt_answer": true,
+      "model_answer": true,
+      "answer_correct": true,
+      "n_insensitive_deps": 1,
+      "n_structural": 1,
+      "n_predicate": 0,
+      "self_consistency_perfect": true,
+      "insensitive_dependencies": [
+        {
+          "step_id": 1,
+          "matched_proof_step_id": 1,
+          "premise_id": "P6",
+          "premise_text": "Max is a boltus",
+          "premise_type": "structural",
+          "phi_original": "is(max, biltus)",
+          "phi_semantic": "is(max, biltus)",
+          "phi_local": null,
+          "verdict_consistent": "INSENSITIVE"
+        }
+      ]
+    },
+    {
+      "problem_id": "p006",
+      "gt_answer": false,
+      "model_answer": false,
+      "answer_correct": true,
+      "n_insensitive_deps": 1,
+      "n_structural": 1,
+      "n_predicate": 0,
+      "self_consistency_perfect": false,
+      "insensitive_dependencies": [
+        {
+          "step_id": 1,
+          "matched_proof_step_id": 1,
+          "premise_id": "P4",
+          "premise_text": "Zara is a blelpus",
+          "premise_type": "structural",
+          "phi_original": "is(zara, blolpus)",
+          "phi_semantic": "is(zara, blolpus)",
+          "phi_local": null,
+          "verdict_consistent": "INSENSITIVE"
+        }
+      ]
+    },
+    {
+      "problem_id": "p007",
+      "gt_answer": false,
+      "model_answer": false,
+      "answer_correct": true,
+      "n_insensitive_deps": 1,
+      "n_structural": 1,
+      "n_predicate": 0,
+      "self_consistency_perfect": true,
+      "insensitive_dependencies": [
+        {
+          "step_id": 1,
+          "matched_proof_step_id": 1,
+          "premise_id": "P5",
+          "premise_text": "Pip is a blurpus",
+          "premise_type": "structural",
+          "phi_original": "is(pip, blanpus)",
+          "phi_semantic": "is(pip, blanpus)",
+          "phi_local": "subtype(blurpus, blenpus)",
+          "verdict_consistent": "INSENSITIVE"
+        }
+      ]
+    },
+    {
+      "problem_id": "p009",
+      "gt_answer": false,
+      "model_answer": false,
+      "answer_correct": true,
+      "n_insensitive_deps": 1,
+      "n_structural": 1,
+      "n_predicate": 0,
+      "self_consistency_perfect": true,
+      "insensitive_dependencies": [
+        {
+          "step_id": 1,
+          "matched_proof_step_id": 1,
+          "premise_id": "P5",
+          "premise_text": "Sam is a blonkus",
+          "premise_type": "structural",
+          "phi_original": "is(sam, blunkus)",
+          "phi_semantic": "is(sam, blunkus)",
+          "phi_local": "subtype(blonkus, blankus)",
+          "verdict_consistent": "INSENSITIVE"
+        }
+      ]
+    },
+    {
+      "problem_id": "p010",
+      "gt_answer": true,
+      "model_answer": true,
+      "answer_correct": true,
+      "n_insensitive_deps": 1,
+      "n_structural": 1,
+      "n_predicate": 0,
+      "self_consistency_perfect": false,
+      "insensitive_dependencies": [
+        {
+          "step_id": 2,
+          "matched_proof_step_id": 1,
+          "premise_id": "P6",
+          "premise_text": "Eve is a blendus",
+          "premise_type": "structural",
+          "phi_original": "is(eve, bleltus)",
+          "phi_semantic": "is(eve, bleltus)",
+          "phi_local": null,
+          "verdict_consistent": "INSENSITIVE"
+        }
+      ]
+    },
+    {
+      "problem_id": "p017",
+      "gt_answer": true,
+      "model_answer": true,
+      "answer_correct": true,
+      "n_insensitive_deps": 1,
+      "n_structural": 1,
+      "n_predicate": 0,
+      "self_consistency_perfect": false,
+      "insensitive_dependencies": [
+        {
+          "step_id": 1,
+          "matched_proof_step_id": 1,
+          "premise_id": "P6",
+          "premise_text": "Juno is a chelnus",
+          "premise_type": "structural",
+          "phi_original": "is(juno, cholnus)",
+          "phi_semantic": "is(juno, cholnus)",
+          "phi_local": "subtype(chelnus, cholnus)",
+          "verdict_consistent": "INSENSITIVE"
+        }
+      ]
+    },
+    {
+      "problem_id": "p018",
+      "gt_answer": true,
+      "model_answer": true,
+      "answer_correct": true,
+      "n_insensitive_deps": 1,
+      "n_structural": 1,
+      "n_predicate": 0,
+      "self_consistency_perfect": false,
+      "insensitive_dependencies": [
+        {
+          "step_id": 1,
+          "matched_proof_step_id": 1,
+          "premise_id": "P7",
+          "premise_text": "Bolt is a chonkus",
+          "premise_type": "structural",
+          "phi_original": "is(bolt, chunkus)",
+          "phi_semantic": "is(bolt, chunkus)",
+          "phi_local": null,
+          "verdict_consistent": "INSENSITIVE"
+        }
+      ]
+    },
+    {
+      "problem_id": "p021",
+      "gt_answer": false,
+      "model_answer": false,
+      "answer_correct": true,
+      "n_insensitive_deps": 1,
+      "n_structural": 1,
+      "n_predicate": 0,
+      "self_consistency_perfect": false,
+      "insensitive_dependencies": [
+        {
+          "step_id": 1,
+          "matched_proof_step_id": 1,
+          "premise_id": "P5",
+          "premise_text": "Finn is a clanpus",
+          "premise_type": "structural",
+          "phi_original": "is(finn, clenpus)",
+          "phi_semantic": "is(finn, clenpus)",
+          "phi_local": "subtype(clanpus, clonpus)",
+          "verdict_consistent": "INSENSITIVE"
+        }
+      ]
+    },
+    {
+      "problem_id": "p022",
+      "gt_answer": true,
+      "model_answer": true,
+      "answer_correct": true,
+      "n_insensitive_deps": 1,
+      "n_structural": 1,
+      "n_predicate": 0,
+      "self_consistency_perfect": true,
+      "insensitive_dependencies": [
+        {
+          "step_id": 1,
+          "matched_proof_step_id": 1,
+          "premise_id": "P6",
+          "premise_text": "Gale is a clelvus",
+          "premise_type": "structural",
+          "phi_original": "is(gale, clolvus)",
+          "phi_semantic": "is(gale, clolvus)",
+          "phi_local": "subtype(clelvus, clinkus)",
+          "verdict_consistent": "INSENSITIVE"
+        }
+      ]
+    },
+    {
+      "problem_id": "p023",
+      "gt_answer": false,
+      "model_answer": false,
+      "answer_correct": true,
+      "n_insensitive_deps": 1,
+      "n_structural": 1,
+      "n_predicate": 0,
+      "self_consistency_perfect": true,
+      "insensitive_dependencies": [
+        {
+          "step_id": 1,
+          "matched_proof_step_id": 1,
+          "premise_id": "P4",
+          "premise_text": "Haze is a clondus",
+          "premise_type": "structural",
+          "phi_original": "is(haze, clindus)",
+          "phi_semantic": "is(haze, clindus)",
+          "phi_local": null,
+          "verdict_consistent": "INSENSITIVE"
+        }
+      ]
+    },
+    {
+      "problem_id": "p024",
+      "gt_answer": false,
+      "model_answer": false,
+      "answer_correct": true,
+      "n_insensitive_deps": 1,
+      "n_structural": 1,
+      "n_predicate": 0,
+      "self_consistency_perfect": false,
+      "insensitive_dependencies": [
+        {
+          "step_id": 1,
+          "matched_proof_step_id": 1,
+          "premise_id": "P7",
+          "premise_text": "Ivy is a cloltus",
+          "premise_type": "structural",
+          "phi_original": "is(ivy, cliltus)",
+          "phi_semantic": "is(ivy, cliltus)",
+          "phi_local": null,
+          "verdict_consistent": "INSENSITIVE"
+        }
+      ]
+    },
+    {
+      "problem_id": "p026",
+      "gt_answer": false,
+      "model_answer": false,
+      "answer_correct": true,
+      "n_insensitive_deps": 1,
+      "n_structural": 1,
+      "n_predicate": 0,
+      "self_consistency_perfect": false,
+      "insensitive_dependencies": [
+        {
+          "step_id": 1,
+          "matched_proof_step_id": 1,
+          "premise_id": "P6",
+          "premise_text": "Knox is a crunpus",
+          "premise_type": "structural",
+          "phi_original": "is(knox, crelnus)",
+          "phi_semantic": "is(knox, crelnus)",
+          "phi_local": null,
+          "verdict_consistent": "INSENSITIVE"
+        }
+      ]
+    },
+    {
+      "problem_id": "p027",
+      "gt_answer": false,
+      "model_answer": false,
+      "answer_correct": true,
+      "n_insensitive_deps": 1,
+      "n_structural": 1,
+      "n_predicate": 0,
+      "self_consistency_perfect": false,
+      "insensitive_dependencies": [
+        {
+          "step_id": 1,
+          "matched_proof_step_id": 1,
+          "premise_id": "P5",
+          "premise_text": "Lark is a crinkus",
+          "premise_type": "structural",
+          "phi_original": "is(lark, cronkus)",
+          "phi_semantic": "is(lark, cronkus)",
+          "phi_local": "subtype(crinkus, crunkus)",
+          "verdict_consistent": "INSENSITIVE"
+        }
+      ]
+    },
+    {
+      "problem_id": "p028",
+      "gt_answer": true,
+      "model_answer": true,
+      "answer_correct": true,
+      "n_insensitive_deps": 1,
+      "n_structural": 1,
+      "n_predicate": 0,
+      "self_consistency_perfect": true,
+      "insensitive_dependencies": [
+        {
+          "step_id": 1,
+          "matched_proof_step_id": 1,
+          "premise_id": "P4",
+          "premise_text": "Milo is a crandus",
+          "premise_type": "structural",
+          "phi_original": "is(milo, crendus)",
+          "phi_semantic": "is(milo, crendus)",
+          "phi_local": null,
+          "verdict_consistent": "INSENSITIVE"
+        }
+      ]
+    },
+    {
+      "problem_id": "p029",
+      "gt_answer": true,
+      "model_answer": true,
+      "answer_correct": true,
+      "n_insensitive_deps": 1,
+      "n_structural": 1,
+      "n_predicate": 0,
+      "self_consistency_perfect": true,
+      "insensitive_dependencies": [
+        {
+          "step_id": 1,
+          "matched_proof_step_id": 1,
+          "premise_id": "P8",
+          "premise_text": "Nyx is a dempus",
+          "premise_type": "structural",
+          "phi_original": "is(nyx, dimpus)",
+          "phi_semantic": "is(nyx, dimpus)",
+          "phi_local": "subtype(dempus, dimpus)",
+          "verdict_consistent": "INSENSITIVE"
+        }
+      ]
+    },
+    {
+      "problem_id": "p030",
+      "gt_answer": false,
+      "model_answer": false,
+      "answer_correct": true,
+      "n_insensitive_deps": 1,
+      "n_structural": 1,
+      "n_predicate": 0,
+      "self_consistency_perfect": false,
+      "insensitive_dependencies": [
+        {
+          "step_id": 1,
+          "matched_proof_step_id": 1,
+          "premise_id": "P7",
+          "premise_text": "Opal is a danpus",
+          "premise_type": "structural",
+          "phi_original": "is(opal, denpus)",
+          "phi_semantic": "is(opal, denpus)",
+          "phi_local": null,
+          "verdict_consistent": "INSENSITIVE"
+        }
+      ]
+    },
+    {
+      "problem_id": "p031",
+      "gt_answer": false,
+      "model_answer": false,
+      "answer_correct": true,
+      "n_insensitive_deps": 1,
+      "n_structural": 1,
+      "n_predicate": 0,
+      "self_consistency_perfect": true,
+      "insensitive_dependencies": [
+        {
+          "step_id": 1,
+          "matched_proof_step_id": 1,
+          "premise_id": "P7",
+          "premise_text": "Quinn is a dulvus",
+          "premise_type": "structural",
+          "phi_original": "is(quinn, dinkus)",
+          "phi_semantic": "is(quinn, dinkus)",
+          "phi_local": null,
+          "verdict_consistent": "INSENSITIVE"
+        }
+      ]
+    },
+    {
+      "problem_id": "p032",
+      "gt_answer": false,
+      "model_answer": false,
+      "answer_correct": true,
+      "n_insensitive_deps": 1,
+      "n_structural": 1,
+      "n_predicate": 0,
+      "self_consistency_perfect": false,
+      "insensitive_dependencies": [
+        {
+          "step_id": 1,
+          "matched_proof_step_id": 1,
+          "premise_id": "P6",
+          "premise_text": "Rune is a deltus",
+          "premise_type": "structural",
+          "phi_original": "is(rune, doltus)",
+          "phi_semantic": "is(rune, doltus)",
+          "phi_local": null,
+          "verdict_consistent": "INSENSITIVE"
+        }
+      ]
+    },
+    {
+      "problem_id": "p033",
+      "gt_answer": false,
+      "model_answer": false,
+      "answer_correct": true,
+      "n_insensitive_deps": 1,
+      "n_structural": 1,
+      "n_predicate": 0,
+      "self_consistency_perfect": true,
+      "insensitive_dependencies": [
+        {
+          "step_id": 1,
+          "matched_proof_step_id": 1,
+          "premise_id": "P4",
+          "premise_text": "Sage is a drelpus",
+          "premise_type": "structural",
+          "phi_original": "is(sage, drolpus)",
+          "phi_semantic": "is(sage, drolpus)",
+          "phi_local": "subtype(drelpus, drulpus)",
+          "verdict_consistent": "INSENSITIVE"
+        }
+      ]
+    },
+    {
+      "problem_id": "p034",
+      "gt_answer": false,
+      "model_answer": false,
+      "answer_correct": true,
+      "n_insensitive_deps": 1,
+      "n_structural": 1,
+      "n_predicate": 0,
+      "self_consistency_perfect": false,
+      "insensitive_dependencies": [
+        {
+          "step_id": 2,
+          "matched_proof_step_id": 1,
+          "premise_id": "P7",
+          "premise_text": "Tarn is a drurpus",
+          "premise_type": "structural",
+          "phi_original": "is(tarn, dranpus)",
+          "phi_semantic": "is(tarn, dranpus)",
+          "phi_local": null,
+          "verdict_consistent": "INSENSITIVE"
+        }
+      ]
+    },
+    {
+      "problem_id": "p035",
+      "gt_answer": true,
+      "model_answer": true,
+      "answer_correct": true,
+      "n_insensitive_deps": 1,
+      "n_structural": 1,
+      "n_predicate": 0,
+      "self_consistency_perfect": true,
+      "insensitive_dependencies": [
+        {
+          "step_id": 1,
+          "matched_proof_step_id": 1,
+          "premise_id": "P4",
+          "premise_text": "Uma is a drolvus",
+          "premise_type": "structural",
+          "phi_original": "is(uma, drilvus)",
+          "phi_semantic": "is(uma, drilvus)",
+          "phi_local": null,
+          "verdict_consistent": "INSENSITIVE"
+        }
+      ]
+    },
+    {
+      "problem_id": "p036",
+      "gt_answer": false,
+      "model_answer": false,
+      "answer_correct": true,
+      "n_insensitive_deps": 1,
+      "n_structural": 1,
+      "n_predicate": 0,
+      "self_consistency_perfect": true,
+      "insensitive_dependencies": [
+        {
+          "step_id": 1,
+          "matched_proof_step_id": 1,
+          "premise_id": "P4",
+          "premise_text": "Vale is a drankus",
+          "premise_type": "structural",
+          "phi_original": "is(vale, drenkus)",
+          "phi_semantic": "is(vale, drenkus)",
+          "phi_local": "subtype(drankus, drondus)",
+          "verdict_consistent": "INSENSITIVE"
+        }
+      ]
+    },
+    {
+      "problem_id": "p038",
+      "gt_answer": true,
+      "model_answer": true,
+      "answer_correct": true,
+      "n_insensitive_deps": 1,
+      "n_structural": 1,
+      "n_predicate": 0,
+      "self_consistency_perfect": false,
+      "insensitive_dependencies": [
+        {
+          "step_id": 1,
+          "matched_proof_step_id": 1,
+          "premise_id": "P6",
+          "premise_text": "Yuki is a fumpus",
+          "premise_type": "structural",
+          "phi_original": "is(yuki, falpus)",
+          "phi_semantic": "is(yuki, falpus)",
+          "phi_local": null,
+          "verdict_consistent": "INSENSITIVE"
+        }
+      ]
+    },
+    {
+      "problem_id": "p039",
+      "gt_answer": false,
+      "model_answer": false,
+      "answer_correct": true,
+      "n_insensitive_deps": 1,
+      "n_structural": 1,
+      "n_predicate": 0,
+      "self_consistency_perfect": false,
+      "insensitive_dependencies": [
+        {
+          "step_id": 1,
+          "matched_proof_step_id": 1,
+          "premise_id": "P6",
+          "premise_text": "Zion is a furpus",
+          "premise_type": "structural",
+          "phi_original": "is(zion, fanpus)",
+          "phi_semantic": "is(zion, fanpus)",
+          "phi_local": null,
+          "verdict_consistent": "INSENSITIVE"
+        }
+      ]
+    },
+    {
+      "problem_id": "p040",
+      "gt_answer": false,
+      "model_answer": false,
+      "answer_correct": true,
+      "n_insensitive_deps": 1,
+      "n_structural": 1,
+      "n_predicate": 0,
+      "self_consistency_perfect": false,
+      "insensitive_dependencies": [
+        {
+          "step_id": 1,
+          "matched_proof_step_id": 1,
+          "premise_id": "P7",
+          "premise_text": "Bree is a felvus",
+          "premise_type": "structural",
+          "phi_original": "is(bree, folvus)",
+          "phi_semantic": "is(bree, folvus)",
+          "phi_local": "subtype(felvus, finkus)",
+          "verdict_consistent": "INSENSITIVE"
+        }
+      ]
+    },
+    {
+      "problem_id": "p041",
+      "gt_answer": true,
+      "model_answer": true,
+      "answer_correct": true,
+      "n_insensitive_deps": 1,
+      "n_structural": 1,
+      "n_predicate": 0,
+      "self_consistency_perfect": false,
+      "insensitive_dependencies": [
+        {
+          "step_id": 1,
+          "matched_proof_step_id": 1,
+          "premise_id": "P7",
+          "premise_text": "Clay is a findus",
+          "premise_type": "structural",
+          "phi_original": "is(clay, fundus)",
+          "phi_semantic": "is(clay, fundus)",
+          "phi_local": "subtype(findus, fundus)",
+          "verdict_consistent": "INSENSITIVE"
+        }
+      ]
+    },
+    {
+      "problem_id": "p042",
+      "gt_answer": false,
+      "model_answer": false,
+      "answer_correct": true,
+      "n_insensitive_deps": 1,
+      "n_structural": 1,
+      "n_predicate": 0,
+      "self_consistency_perfect": false,
+      "insensitive_dependencies": [
+        {
+          "step_id": 1,
+          "matched_proof_step_id": 1,
+          "premise_id": "P6",
+          "premise_text": "Dove is a flompus",
+          "premise_type": "structural",
+          "phi_original": "is(dove, flumpus)",
+          "phi_semantic": "is(dove, flumpus)",
+          "phi_local": "subtype(flompus, flumpus)",
+          "verdict_consistent": "INSENSITIVE"
+        }
+      ]
+    },
+    {
+      "problem_id": "p043",
+      "gt_answer": true,
+      "model_answer": true,
+      "answer_correct": true,
+      "n_insensitive_deps": 1,
+      "n_structural": 1,
+      "n_predicate": 0,
+      "self_consistency_perfect": true,
+      "insensitive_dependencies": [
+        {
+          "step_id": 1,
+          "matched_proof_step_id": 1,
+          "premise_id": "P6",
+          "premise_text": "Elm is a florpus",
+          "premise_type": "structural",
+          "phi_original": "is(elm, flurpus)",
+          "phi_semantic": "is(elm, flurpus)",
+          "phi_local": "subtype(florpus, flanpus)",
+          "verdict_consistent": "INSENSITIVE"
+        }
+      ]
+    },
+    {
+      "problem_id": "p045",
+      "gt_answer": true,
+      "model_answer": true,
+      "answer_correct": true,
+      "n_insensitive_deps": 1,
+      "n_structural": 1,
+      "n_predicate": 0,
+      "self_consistency_perfect": false,
+      "insensitive_dependencies": [
+        {
+          "step_id": 1,
+          "matched_proof_step_id": 1,
+          "premise_id": "P5",
+          "premise_text": "Glen is a flondus",
+          "premise_type": "structural",
+          "phi_original": "is(glen, flindus)",
+          "phi_semantic": "is(glen, flindus)",
+          "phi_local": null,
+          "verdict_consistent": "INSENSITIVE"
+        }
+      ]
+    }
+  ]
+}

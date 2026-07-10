@@ -1,0 +1,40 @@
+{
+  "raw_response": "Step 1: Lark is a crinkus (given in premise 5).\nStep 2: Since crinkuses are cronkuses (premise 1), Lark is a cronkus.\nStep 3: Since every cronkus is a crunkus (premise 2), Lark is a crunkus.\nStep 4: Since crunkuses are not crankuses (premise 3), Lark is not a crankus.\n\nAnswer: False",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T05:00:00.495702+00:00",
+  "sha256": "3519a0ebe0c65aa7f9a0b0792eaaf054f39b3d50d1201ceac23ce0a31d20bd87",
+  "usage": {
+    "input_tokens": 143,
+    "output_tokens": 111
+  },
+  "problem_id": "p027",
+  "probe_type": "surface",
+  "target_premise": "P2",
+  "prompt": "Given the following premises:\n1. Crinkuses are cronkuses\n2. Every cronkus is a crunkus\n3. Crunkuses are not crankuses\n4. Crenkuses are cronduses\n5. Lark is a crinkus\n\nQuestion: Is Lark a crankus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Crinkuses are cronkuses"
+    },
+    {
+      "id": "P2",
+      "text": "Every cronkus is a crunkus"
+    },
+    {
+      "id": "P3",
+      "text": "Crunkuses are not crankuses"
+    },
+    {
+      "id": "P4",
+      "text": "Crenkuses are cronduses"
+    },
+    {
+      "id": "P5",
+      "text": "Lark is a crinkus"
+    }
+  ],
+  "substitution": null,
+  "original_text": "Cronkuses are crunkuses",
+  "rephrased_text": "Every cronkus is a crunkus"
+}

@@ -1,0 +1,29 @@
+{
+  "problem_id": "p023",
+  "model": "gpt-4o-2024-08-06",
+  "n_samples": 5,
+  "temperature": 0.7,
+  "step_verdicts": {
+    "1": {
+      "consistent": true,
+      "agreement": 1.0,
+      "majority_conclusion": "is(haze, clindus)",
+      "n_valid": 3,
+      "n_unique": 1
+    },
+    "2": {
+      "consistent": true,
+      "agreement": 1.0,
+      "majority_conclusion": "is(haze, clundus)",
+      "n_valid": 3,
+      "n_unique": 1
+    },
+    "3": {
+      "consistent": true,
+      "agreement": 1.0,
+      "majority_conclusion": "not_is(haze, clandus)",
+      "n_valid": 2,
+      "n_unique": 1
+    }
+  }
+}

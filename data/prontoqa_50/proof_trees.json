@@ -1,0 +1,1606 @@
+{
+  "p001": [
+    {
+      "step": 1,
+      "conclusion": "is(alex, bimpus)",
+      "depends_on": [
+        "P6",
+        "P1"
+      ]
+    },
+    {
+      "step": 2,
+      "conclusion": "is(alex, bompus)",
+      "depends_on": [
+        "S1",
+        "P2"
+      ]
+    },
+    {
+      "step": 3,
+      "conclusion": "is(alex, bumpus)",
+      "depends_on": [
+        "S2",
+        "P3"
+      ]
+    },
+    {
+      "step": 4,
+      "conclusion": "is(alex, balpus)",
+      "depends_on": [
+        "S3",
+        "P4"
+      ]
+    },
+    {
+      "step": 5,
+      "conclusion": "not_is(alex, belpus)",
+      "depends_on": [
+        "S4",
+        "P5"
+      ]
+    }
+  ],
+  "p002": [
+    {
+      "step": 1,
+      "conclusion": "is(fae, berpus)",
+      "depends_on": [
+        "P5",
+        "P1"
+      ]
+    },
+    {
+      "step": 2,
+      "conclusion": "is(fae, borpus)",
+      "depends_on": [
+        "S1",
+        "P2"
+      ]
+    },
+    {
+      "step": 3,
+      "conclusion": "is(fae, burpus)",
+      "depends_on": [
+        "S2",
+        "P3"
+      ]
+    },
+    {
+      "step": 4,
+      "conclusion": "is(fae, banpus)",
+      "depends_on": [
+        "S3",
+        "P4"
+      ]
+    }
+  ],
+  "p003": [
+    {
+      "step": 1,
+      "conclusion": "is(rex, belnus)",
+      "depends_on": [
+        "P7",
+        "P1"
+      ]
+    },
+    {
+      "step": 2,
+      "conclusion": "is(rex, bolnus)",
+      "depends_on": [
+        "S1",
+        "P2"
+      ]
+    },
+    {
+      "step": 3,
+      "conclusion": "is(rex, bilnus)",
+      "depends_on": [
+        "S2",
+        "P3"
+      ]
+    },
+    {
+      "step": 4,
+      "conclusion": "is(rex, balvus)",
+      "depends_on": [
+        "S3",
+        "P4"
+      ]
+    },
+    {
+      "step": 5,
+      "conclusion": "is(rex, belvus)",
+      "depends_on": [
+        "S4",
+        "P5"
+      ]
+    }
+  ],
+  "p004": [
+    {
+      "step": 1,
+      "conclusion": "is(stella, bunkus)",
+      "depends_on": [
+        "P7",
+        "P1"
+      ]
+    },
+    {
+      "step": 2,
+      "conclusion": "is(stella, bankus)",
+      "depends_on": [
+        "S1",
+        "P2"
+      ]
+    },
+    {
+      "step": 3,
+      "conclusion": "is(stella, benkus)",
+      "depends_on": [
+        "S2",
+        "P3"
+      ]
+    },
+    {
+      "step": 4,
+      "conclusion": "is(stella, bondus)",
+      "depends_on": [
+        "S3",
+        "P4"
+      ]
+    },
+    {
+      "step": 5,
+      "conclusion": "is(stella, bindus)",
+      "depends_on": [
+        "S4",
+        "P5"
+      ]
+    }
+  ],
+  "p005": [
+    {
+      "step": 1,
+      "conclusion": "is(max, biltus)",
+      "depends_on": [
+        "P6",
+        "P1"
+      ]
+    },
+    {
+      "step": 2,
+      "conclusion": "is(max, bultus)",
+      "depends_on": [
+        "S1",
+        "P2"
+      ]
+    },
+    {
+      "step": 3,
+      "conclusion": "is(max, blempus)",
+      "depends_on": [
+        "S2",
+        "P3"
+      ]
+    },
+    {
+      "step": 4,
+      "conclusion": "is(max, blimpus)",
+      "depends_on": [
+        "S3",
+        "P4"
+      ]
+    },
+    {
+      "step": 5,
+      "conclusion": "is(max, blompus)",
+      "depends_on": [
+        "S4",
+        "P5"
+      ]
+    }
+  ],
+  "p006": [
+    {
+      "step": 1,
+      "conclusion": "is(zara, blolpus)",
+      "depends_on": [
+        "P4",
+        "P1"
+      ]
+    },
+    {
+      "step": 2,
+      "conclusion": "is(zara, blulpus)",
+      "depends_on": [
+        "S1",
+        "P2"
+      ]
+    },
+    {
+      "step": 3,
+      "conclusion": "not_is(zara, blarpus)",
+      "depends_on": [
+        "S2",
+        "P3"
+      ]
+    }
+  ],
+  "p007": [
+    {
+      "step": 1,
+      "conclusion": "is(pip, blanpus)",
+      "depends_on": [
+        "P5",
+        "P1"
+      ]
+    },
+    {
+      "step": 2,
+      "conclusion": "is(pip, blenpus)",
+      "depends_on": [
+        "S1",
+        "P2"
+      ]
+    },
+    {
+      "step": 3,
+      "conclusion": "not_is(pip, blonpus)",
+      "depends_on": [
+        "S2",
+        "P3"
+      ]
+    }
+  ],
+  "p008": [
+    {
+      "step": 1,
+      "conclusion": "is(luna, blelvus)",
+      "depends_on": [
+        "P4",
+        "P1"
+      ]
+    },
+    {
+      "step": 2,
+      "conclusion": "is(luna, blolvus)",
+      "depends_on": [
+        "S1",
+        "P2"
+      ]
+    },
+    {
+      "step": 3,
+      "conclusion": "is(luna, blilvus)",
+      "depends_on": [
+        "S2",
+        "P3"
+      ]
+    }
+  ],
+  "p009": [
+    {
+      "step": 1,
+      "conclusion": "is(sam, blunkus)",
+      "depends_on": [
+        "P5",
+        "P1"
+      ]
+    },
+    {
+      "step": 2,
+      "conclusion": "is(sam, blankus)",
+      "depends_on": [
+        "S1",
+        "P2"
+      ]
+    },
+    {
+      "step": 3,
+      "conclusion": "not_is(sam, blenkus)",
+      "depends_on": [
+        "S2",
+        "P3"
+      ]
+    }
+  ],
+  "p010": [
+    {
+      "step": 1,
+      "conclusion": "is(eve, bleltus)",
+      "depends_on": [
+        "P6",
+        "P1"
+      ]
+    },
+    {
+      "step": 2,
+      "conclusion": "is(eve, bloltus)",
+      "depends_on": [
+        "S1",
+        "P2"
+      ]
+    },
+    {
+      "step": 3,
+      "conclusion": "is(eve, bliltus)",
+      "depends_on": [
+        "S2",
+        "P3"
+      ]
+    },
+    {
+      "step": 4,
+      "conclusion": "is(eve, blultus)",
+      "depends_on": [
+        "S3",
+        "P4"
+      ]
+    }
+  ],
+  "p011": [
+    {
+      "step": 1,
+      "conclusion": "is(kai, brelpus)",
+      "depends_on": [
+        "P5",
+        "P1"
+      ]
+    },
+    {
+      "step": 2,
+      "conclusion": "is(kai, brolpus)",
+      "depends_on": [
+        "S1",
+        "P2"
+      ]
+    },
+    {
+      "step": 3,
+      "conclusion": "is(kai, brulpus)",
+      "depends_on": [
+        "S2",
+        "P3"
+      ]
+    },
+    {
+      "step": 4,
+      "conclusion": "not_is(kai, brarpus)",
+      "depends_on": [
+        "S3",
+        "P4"
+      ]
+    }
+  ],
+  "p012": [
+    {
+      "step": 1,
+      "conclusion": "is(nova, branpus)",
+      "depends_on": [
+        "P6",
+        "P1"
+      ]
+    },
+    {
+      "step": 2,
+      "conclusion": "is(nova, brenpus)",
+      "depends_on": [
+        "S1",
+        "P2"
+      ]
+    },
+    {
+      "step": 3,
+      "conclusion": "is(nova, bronpus)",
+      "depends_on": [
+        "S2",
+        "P3"
+      ]
+    },
+    {
+      "step": 4,
+      "conclusion": "is(nova, brunpus)",
+      "depends_on": [
+        "S3",
+        "P4"
+      ]
+    }
+  ],
+  "p013": [
+    {
+      "step": 1,
+      "conclusion": "is(leo, brolvus)",
+      "depends_on": [
+        "P5",
+        "P1"
+      ]
+    },
+    {
+      "step": 2,
+      "conclusion": "is(leo, brilvus)",
+      "depends_on": [
+        "S1",
+        "P2"
+      ]
+    },
+    {
+      "step": 3,
+      "conclusion": "is(leo, brulvus)",
+      "depends_on": [
+        "S2",
+        "P3"
+      ]
+    }
+  ],
+  "p014": [
+    {
+      "step": 1,
+      "conclusion": "is(iris, brondus)",
+      "depends_on": [
+        "P6",
+        "P1"
+      ]
+    },
+    {
+      "step": 2,
+      "conclusion": "is(iris, brindus)",
+      "depends_on": [
+        "S1",
+        "P2"
+      ]
+    },
+    {
+      "step": 3,
+      "conclusion": "is(iris, brundus)",
+      "depends_on": [
+        "S2",
+        "P3"
+      ]
+    }
+  ],
+  "p015": [
+    {
+      "step": 1,
+      "conclusion": "is(ash, chimpus)",
+      "depends_on": [
+        "P6",
+        "P1"
+      ]
+    },
+    {
+      "step": 2,
+      "conclusion": "is(ash, chompus)",
+      "depends_on": [
+        "S1",
+        "P2"
+      ]
+    },
+    {
+      "step": 3,
+      "conclusion": "not_is(ash, chumpus)",
+      "depends_on": [
+        "S2",
+        "P3"
+      ]
+    }
+  ],
+  "p016": [
+    {
+      "step": 1,
+      "conclusion": "is(wren, churpus)",
+      "depends_on": [
+        "P4",
+        "P1"
+      ]
+    },
+    {
+      "step": 2,
+      "conclusion": "is(wren, chanpus)",
+      "depends_on": [
+        "S1",
+        "P2"
+      ]
+    },
+    {
+      "step": 3,
+      "conclusion": "not_is(wren, chenpus)",
+      "depends_on": [
+        "S2",
+        "P3"
+      ]
+    }
+  ],
+  "p017": [
+    {
+      "step": 1,
+      "conclusion": "is(juno, cholnus)",
+      "depends_on": [
+        "P6",
+        "P1"
+      ]
+    },
+    {
+      "step": 2,
+      "conclusion": "is(juno, chilnus)",
+      "depends_on": [
+        "S1",
+        "P2"
+      ]
+    },
+    {
+      "step": 3,
+      "conclusion": "is(juno, chalvus)",
+      "depends_on": [
+        "S2",
+        "P3"
+      ]
+    },
+    {
+      "step": 4,
+      "conclusion": "is(juno, chelvus)",
+      "depends_on": [
+        "S3",
+        "P4"
+      ]
+    }
+  ],
+  "p018": [
+    {
+      "step": 1,
+      "conclusion": "is(bolt, chunkus)",
+      "depends_on": [
+        "P7",
+        "P1"
+      ]
+    },
+    {
+      "step": 2,
+      "conclusion": "is(bolt, chankus)",
+      "depends_on": [
+        "S1",
+        "P2"
+      ]
+    },
+    {
+      "step": 3,
+      "conclusion": "is(bolt, chenkus)",
+      "depends_on": [
+        "S2",
+        "P3"
+      ]
+    },
+    {
+      "step": 4,
+      "conclusion": "is(bolt, chondus)",
+      "depends_on": [
+        "S3",
+        "P4"
+      ]
+    }
+  ],
+  "p019": [
+    {
+      "step": 1,
+      "conclusion": "is(cleo, chultus)",
+      "depends_on": [
+        "P5",
+        "P1"
+      ]
+    },
+    {
+      "step": 2,
+      "conclusion": "is(cleo, clempus)",
+      "depends_on": [
+        "S1",
+        "P2"
+      ]
+    },
+    {
+      "step": 3,
+      "conclusion": "not_is(cleo, climpus)",
+      "depends_on": [
+        "S2",
+        "P3"
+      ]
+    }
+  ],
+  "p020": [
+    {
+      "step": 1,
+      "conclusion": "is(drake, clulpus)",
+      "depends_on": [
+        "P4",
+        "P1"
+      ]
+    },
+    {
+      "step": 2,
+      "conclusion": "is(drake, clarpus)",
+      "depends_on": [
+        "S1",
+        "P2"
+      ]
+    },
+    {
+      "step": 3,
+      "conclusion": "is(drake, clerpus)",
+      "depends_on": [
+        "S2",
+        "P3"
+      ]
+    }
+  ],
+  "p021": [
+    {
+      "step": 1,
+      "conclusion": "is(finn, clenpus)",
+      "depends_on": [
+        "P5",
+        "P1"
+      ]
+    },
+    {
+      "step": 2,
+      "conclusion": "is(finn, clonpus)",
+      "depends_on": [
+        "S1",
+        "P2"
+      ]
+    },
+    {
+      "step": 3,
+      "conclusion": "not_is(finn, clunpus)",
+      "depends_on": [
+        "S2",
+        "P3"
+      ]
+    }
+  ],
+  "p022": [
+    {
+      "step": 1,
+      "conclusion": "is(gale, clolvus)",
+      "depends_on": [
+        "P6",
+        "P1"
+      ]
+    },
+    {
+      "step": 2,
+      "conclusion": "is(gale, clilvus)",
+      "depends_on": [
+        "S1",
+        "P2"
+      ]
+    },
+    {
+      "step": 3,
+      "conclusion": "is(gale, clulvus)",
+      "depends_on": [
+        "S2",
+        "P3"
+      ]
+    },
+    {
+      "step": 4,
+      "conclusion": "is(gale, clinkus)",
+      "depends_on": [
+        "S3",
+        "P4"
+      ]
+    }
+  ],
+  "p023": [
+    {
+      "step": 1,
+      "conclusion": "is(haze, clindus)",
+      "depends_on": [
+        "P4",
+        "P1"
+      ]
+    },
+    {
+      "step": 2,
+      "conclusion": "is(haze, clundus)",
+      "depends_on": [
+        "S1",
+        "P2"
+      ]
+    },
+    {
+      "step": 3,
+      "conclusion": "not_is(haze, clandus)",
+      "depends_on": [
+        "S2",
+        "P3"
+      ]
+    }
+  ],
+  "p024": [
+    {
+      "step": 1,
+      "conclusion": "is(ivy, cliltus)",
+      "depends_on": [
+        "P7",
+        "P1"
+      ]
+    },
+    {
+      "step": 2,
+      "conclusion": "is(ivy, clultus)",
+      "depends_on": [
+        "S1",
+        "P2"
+      ]
+    },
+    {
+      "step": 3,
+      "conclusion": "is(ivy, crempus)",
+      "depends_on": [
+        "S2",
+        "P3"
+      ]
+    },
+    {
+      "step": 4,
+      "conclusion": "is(ivy, crimpus)",
+      "depends_on": [
+        "S3",
+        "P4"
+      ]
+    },
+    {
+      "step": 5,
+      "conclusion": "not_is(ivy, crompus)",
+      "depends_on": [
+        "S4",
+        "P5"
+      ]
+    }
+  ],
+  "p025": [
+    {
+      "step": 1,
+      "conclusion": "is(jade, crarpus)",
+      "depends_on": [
+        "P5",
+        "P1"
+      ]
+    },
+    {
+      "step": 2,
+      "conclusion": "is(jade, crerpus)",
+      "depends_on": [
+        "S1",
+        "P2"
+      ]
+    },
+    {
+      "step": 3,
+      "conclusion": "not_is(jade, crorpus)",
+      "depends_on": [
+        "S2",
+        "P3"
+      ]
+    }
+  ],
+  "p026": [
+    {
+      "step": 1,
+      "conclusion": "is(knox, crelnus)",
+      "depends_on": [
+        "P6",
+        "P1"
+      ]
+    },
+    {
+      "step": 2,
+      "conclusion": "is(knox, crolnus)",
+      "depends_on": [
+        "S1",
+        "P2"
+      ]
+    },
+    {
+      "step": 3,
+      "conclusion": "is(knox, crilnus)",
+      "depends_on": [
+        "S2",
+        "P3"
+      ]
+    },
+    {
+      "step": 4,
+      "conclusion": "not_is(knox, cralvus)",
+      "depends_on": [
+        "S3",
+        "P4"
+      ]
+    }
+  ],
+  "p027": [
+    {
+      "step": 1,
+      "conclusion": "is(lark, cronkus)",
+      "depends_on": [
+        "P5",
+        "P1"
+      ]
+    },
+    {
+      "step": 2,
+      "conclusion": "is(lark, crunkus)",
+      "depends_on": [
+        "S1",
+        "P2"
+      ]
+    },
+    {
+      "step": 3,
+      "conclusion": "not_is(lark, crankus)",
+      "depends_on": [
+        "S2",
+        "P3"
+      ]
+    }
+  ],
+  "p028": [
+    {
+      "step": 1,
+      "conclusion": "is(milo, crendus)",
+      "depends_on": [
+        "P4",
+        "P1"
+      ]
+    },
+    {
+      "step": 2,
+      "conclusion": "is(milo, creltus)",
+      "depends_on": [
+        "S1",
+        "P2"
+      ]
+    },
+    {
+      "step": 3,
+      "conclusion": "is(milo, croltus)",
+      "depends_on": [
+        "S2",
+        "P3"
+      ]
+    }
+  ],
+  "p029": [
+    {
+      "step": 1,
+      "conclusion": "is(nyx, dimpus)",
+      "depends_on": [
+        "P8",
+        "P1"
+      ]
+    },
+    {
+      "step": 2,
+      "conclusion": "is(nyx, dompus)",
+      "depends_on": [
+        "S1",
+        "P2"
+      ]
+    },
+    {
+      "step": 3,
+      "conclusion": "is(nyx, dumpus)",
+      "depends_on": [
+        "S2",
+        "P3"
+      ]
+    },
+    {
+      "step": 4,
+      "conclusion": "is(nyx, dalpus)",
+      "depends_on": [
+        "S3",
+        "P4"
+      ]
+    },
+    {
+      "step": 5,
+      "conclusion": "is(nyx, delpus)",
+      "depends_on": [
+        "S4",
+        "P5"
+      ]
+    }
+  ],
+  "p030": [
+    {
+      "step": 1,
+      "conclusion": "is(opal, denpus)",
+      "depends_on": [
+        "P7",
+        "P1"
+      ]
+    },
+    {
+      "step": 2,
+      "conclusion": "is(opal, donpus)",
+      "depends_on": [
+        "S1",
+        "P2"
+      ]
+    },
+    {
+      "step": 3,
+      "conclusion": "is(opal, dunpus)",
+      "depends_on": [
+        "S2",
+        "P3"
+      ]
+    },
+    {
+      "step": 4,
+      "conclusion": "not_is(opal, delnus)",
+      "depends_on": [
+        "S3",
+        "P4"
+      ]
+    }
+  ],
+  "p031": [
+    {
+      "step": 1,
+      "conclusion": "is(quinn, dinkus)",
+      "depends_on": [
+        "P7",
+        "P1"
+      ]
+    },
+    {
+      "step": 2,
+      "conclusion": "is(quinn, donkus)",
+      "depends_on": [
+        "S1",
+        "P2"
+      ]
+    },
+    {
+      "step": 3,
+      "conclusion": "is(quinn, dunkus)",
+      "depends_on": [
+        "S2",
+        "P3"
+      ]
+    },
+    {
+      "step": 4,
+      "conclusion": "not_is(quinn, dankus)",
+      "depends_on": [
+        "S3",
+        "P4"
+      ]
+    }
+  ],
+  "p032": [
+    {
+      "step": 1,
+      "conclusion": "is(rune, doltus)",
+      "depends_on": [
+        "P6",
+        "P1"
+      ]
+    },
+    {
+      "step": 2,
+      "conclusion": "is(rune, diltus)",
+      "depends_on": [
+        "S1",
+        "P2"
+      ]
+    },
+    {
+      "step": 3,
+      "conclusion": "is(rune, dultus)",
+      "depends_on": [
+        "S2",
+        "P3"
+      ]
+    },
+    {
+      "step": 4,
+      "conclusion": "not_is(rune, drempus)",
+      "depends_on": [
+        "S3",
+        "P4"
+      ]
+    }
+  ],
+  "p033": [
+    {
+      "step": 1,
+      "conclusion": "is(sage, drolpus)",
+      "depends_on": [
+        "P4",
+        "P1"
+      ]
+    },
+    {
+      "step": 2,
+      "conclusion": "is(sage, drulpus)",
+      "depends_on": [
+        "S1",
+        "P2"
+      ]
+    },
+    {
+      "step": 3,
+      "conclusion": "not_is(sage, drarpus)",
+      "depends_on": [
+        "S2",
+        "P3"
+      ]
+    }
+  ],
+  "p034": [
+    {
+      "step": 1,
+      "conclusion": "is(tarn, dranpus)",
+      "depends_on": [
+        "P7",
+        "P1"
+      ]
+    },
+    {
+      "step": 2,
+      "conclusion": "is(tarn, drenpus)",
+      "depends_on": [
+        "S1",
+        "P2"
+      ]
+    },
+    {
+      "step": 3,
+      "conclusion": "is(tarn, dronpus)",
+      "depends_on": [
+        "S2",
+        "P3"
+      ]
+    },
+    {
+      "step": 4,
+      "conclusion": "is(tarn, drunpus)",
+      "depends_on": [
+        "S3",
+        "P4"
+      ]
+    },
+    {
+      "step": 5,
+      "conclusion": "not_is(tarn, drelnus)",
+      "depends_on": [
+        "S4",
+        "P5"
+      ]
+    }
+  ],
+  "p035": [
+    {
+      "step": 1,
+      "conclusion": "is(uma, drilvus)",
+      "depends_on": [
+        "P4",
+        "P1"
+      ]
+    },
+    {
+      "step": 2,
+      "conclusion": "is(uma, drulvus)",
+      "depends_on": [
+        "S1",
+        "P2"
+      ]
+    },
+    {
+      "step": 3,
+      "conclusion": "is(uma, drinkus)",
+      "depends_on": [
+        "S2",
+        "P3"
+      ]
+    }
+  ],
+  "p036": [
+    {
+      "step": 1,
+      "conclusion": "is(vale, drenkus)",
+      "depends_on": [
+        "P4",
+        "P1"
+      ]
+    },
+    {
+      "step": 2,
+      "conclusion": "is(vale, drondus)",
+      "depends_on": [
+        "S1",
+        "P2"
+      ]
+    },
+    {
+      "step": 3,
+      "conclusion": "not_is(vale, drindus)",
+      "depends_on": [
+        "S2",
+        "P3"
+      ]
+    }
+  ],
+  "p037": [
+    {
+      "step": 1,
+      "conclusion": "is(xara, dreltus)",
+      "depends_on": [
+        "P5",
+        "P1"
+      ]
+    },
+    {
+      "step": 2,
+      "conclusion": "is(xara, droltus)",
+      "depends_on": [
+        "S1",
+        "P2"
+      ]
+    },
+    {
+      "step": 3,
+      "conclusion": "not_is(xara, driltus)",
+      "depends_on": [
+        "S2",
+        "P3"
+      ]
+    }
+  ],
+  "p038": [
+    {
+      "step": 1,
+      "conclusion": "is(yuki, falpus)",
+      "depends_on": [
+        "P6",
+        "P1"
+      ]
+    },
+    {
+      "step": 2,
+      "conclusion": "is(yuki, felpus)",
+      "depends_on": [
+        "S1",
+        "P2"
+      ]
+    },
+    {
+      "step": 3,
+      "conclusion": "is(yuki, folpus)",
+      "depends_on": [
+        "S2",
+        "P3"
+      ]
+    },
+    {
+      "step": 4,
+      "conclusion": "is(yuki, fulpus)",
+      "depends_on": [
+        "S3",
+        "P4"
+      ]
+    },
+    {
+      "step": 5,
+      "conclusion": "is(yuki, farpus)",
+      "depends_on": [
+        "S4",
+        "P5"
+      ]
+    }
+  ],
+  "p039": [
+    {
+      "step": 1,
+      "conclusion": "is(zion, fanpus)",
+      "depends_on": [
+        "P6",
+        "P1"
+      ]
+    },
+    {
+      "step": 2,
+      "conclusion": "is(zion, fenpus)",
+      "depends_on": [
+        "S1",
+        "P2"
+      ]
+    },
+    {
+      "step": 3,
+      "conclusion": "is(zion, fonpus)",
+      "depends_on": [
+        "S2",
+        "P3"
+      ]
+    },
+    {
+      "step": 4,
+      "conclusion": "not_is(zion, funpus)",
+      "depends_on": [
+        "S3",
+        "P4"
+      ]
+    }
+  ],
+  "p040": [
+    {
+      "step": 1,
+      "conclusion": "is(bree, folvus)",
+      "depends_on": [
+        "P7",
+        "P1"
+      ]
+    },
+    {
+      "step": 2,
+      "conclusion": "is(bree, filvus)",
+      "depends_on": [
+        "S1",
+        "P2"
+      ]
+    },
+    {
+      "step": 3,
+      "conclusion": "is(bree, fulvus)",
+      "depends_on": [
+        "S2",
+        "P3"
+      ]
+    },
+    {
+      "step": 4,
+      "conclusion": "is(bree, finkus)",
+      "depends_on": [
+        "S3",
+        "P4"
+      ]
+    },
+    {
+      "step": 5,
+      "conclusion": "not_is(bree, fonkus)",
+      "depends_on": [
+        "S4",
+        "P5"
+      ]
+    }
+  ],
+  "p041": [
+    {
+      "step": 1,
+      "conclusion": "is(clay, fundus)",
+      "depends_on": [
+        "P7",
+        "P1"
+      ]
+    },
+    {
+      "step": 2,
+      "conclusion": "is(clay, fandus)",
+      "depends_on": [
+        "S1",
+        "P2"
+      ]
+    },
+    {
+      "step": 3,
+      "conclusion": "is(clay, fendus)",
+      "depends_on": [
+        "S2",
+        "P3"
+      ]
+    },
+    {
+      "step": 4,
+      "conclusion": "is(clay, feltus)",
+      "depends_on": [
+        "S3",
+        "P4"
+      ]
+    },
+    {
+      "step": 5,
+      "conclusion": "is(clay, foltus)",
+      "depends_on": [
+        "S4",
+        "P5"
+      ]
+    }
+  ],
+  "p042": [
+    {
+      "step": 1,
+      "conclusion": "is(dove, flumpus)",
+      "depends_on": [
+        "P6",
+        "P1"
+      ]
+    },
+    {
+      "step": 2,
+      "conclusion": "is(dove, flalpus)",
+      "depends_on": [
+        "S1",
+        "P2"
+      ]
+    },
+    {
+      "step": 3,
+      "conclusion": "is(dove, flelpus)",
+      "depends_on": [
+        "S2",
+        "P3"
+      ]
+    },
+    {
+      "step": 4,
+      "conclusion": "is(dove, flolpus)",
+      "depends_on": [
+        "S3",
+        "P4"
+      ]
+    },
+    {
+      "step": 5,
+      "conclusion": "not_is(dove, flulpus)",
+      "depends_on": [
+        "S4",
+        "P5"
+      ]
+    }
+  ],
+  "p043": [
+    {
+      "step": 1,
+      "conclusion": "is(elm, flurpus)",
+      "depends_on": [
+        "P6",
+        "P1"
+      ]
+    },
+    {
+      "step": 2,
+      "conclusion": "is(elm, flanpus)",
+      "depends_on": [
+        "S1",
+        "P2"
+      ]
+    },
+    {
+      "step": 3,
+      "conclusion": "is(elm, flenpus)",
+      "depends_on": [
+        "S2",
+        "P3"
+      ]
+    }
+  ],
+  "p044": [
+    {
+      "step": 1,
+      "conclusion": "is(fox, flolvus)",
+      "depends_on": [
+        "P6",
+        "P1"
+      ]
+    },
+    {
+      "step": 2,
+      "conclusion": "is(fox, flilvus)",
+      "depends_on": [
+        "S1",
+        "P2"
+      ]
+    },
+    {
+      "step": 3,
+      "conclusion": "is(fox, flulvus)",
+      "depends_on": [
+        "S2",
+        "P3"
+      ]
+    },
+    {
+      "step": 4,
+      "conclusion": "is(fox, flinkus)",
+      "depends_on": [
+        "S3",
+        "P4"
+      ]
+    }
+  ],
+  "p045": [
+    {
+      "step": 1,
+      "conclusion": "is(glen, flindus)",
+      "depends_on": [
+        "P5",
+        "P1"
+      ]
+    },
+    {
+      "step": 2,
+      "conclusion": "is(glen, flundus)",
+      "depends_on": [
+        "S1",
+        "P2"
+      ]
+    },
+    {
+      "step": 3,
+      "conclusion": "is(glen, flandus)",
+      "depends_on": [
+        "S2",
+        "P3"
+      ]
+    }
+  ],
+  "p046": [
+    {
+      "step": 1,
+      "conclusion": "is(hart, frempus)",
+      "depends_on": [
+        "P5",
+        "P1"
+      ]
+    },
+    {
+      "step": 2,
+      "conclusion": "is(hart, frimpus)",
+      "depends_on": [
+        "S1",
+        "P2"
+      ]
+    },
+    {
+      "step": 3,
+      "conclusion": "is(hart, frompus)",
+      "depends_on": [
+        "S2",
+        "P3"
+      ]
+    },
+    {
+      "step": 4,
+      "conclusion": "is(hart, frumpus)",
+      "depends_on": [
+        "S3",
+        "P4"
+      ]
+    }
+  ],
+  "p047": [
+    {
+      "step": 1,
+      "conclusion": "is(ink, frulpus)",
+      "depends_on": [
+        "P5",
+        "P1"
+      ]
+    },
+    {
+      "step": 2,
+      "conclusion": "is(ink, frarpus)",
+      "depends_on": [
+        "S1",
+        "P2"
+      ]
+    },
+    {
+      "step": 3,
+      "conclusion": "is(ink, frerpus)",
+      "depends_on": [
+        "S2",
+        "P3"
+      ]
+    },
+    {
+      "step": 4,
+      "conclusion": "is(ink, frorpus)",
+      "depends_on": [
+        "S3",
+        "P4"
+      ]
+    }
+  ],
+  "p048": [
+    {
+      "step": 1,
+      "conclusion": "is(jet, fronpus)",
+      "depends_on": [
+        "P7",
+        "P1"
+      ]
+    },
+    {
+      "step": 2,
+      "conclusion": "is(jet, frunpus)",
+      "depends_on": [
+        "S1",
+        "P2"
+      ]
+    },
+    {
+      "step": 3,
+      "conclusion": "is(jet, frelnus)",
+      "depends_on": [
+        "S2",
+        "P3"
+      ]
+    },
+    {
+      "step": 4,
+      "conclusion": "is(jet, frolnus)",
+      "depends_on": [
+        "S3",
+        "P4"
+      ]
+    }
+  ],
+  "p049": [
+    {
+      "step": 1,
+      "conclusion": "is(kit, fronkus)",
+      "depends_on": [
+        "P6",
+        "P1"
+      ]
+    },
+    {
+      "step": 2,
+      "conclusion": "is(kit, frunkus)",
+      "depends_on": [
+        "S1",
+        "P2"
+      ]
+    },
+    {
+      "step": 3,
+      "conclusion": "is(kit, frankus)",
+      "depends_on": [
+        "S2",
+        "P3"
+      ]
+    }
+  ],
+  "p050": [
+    {
+      "step": 1,
+      "conclusion": "is(lynx, froltus)",
+      "depends_on": [
+        "P5",
+        "P1"
+      ]
+    },
+    {
+      "step": 2,
+      "conclusion": "is(lynx, friltus)",
+      "depends_on": [
+        "S1",
+        "P2"
+      ]
+    },
+    {
+      "step": 3,
+      "conclusion": "not_is(lynx, frultus)",
+      "depends_on": [
+        "S2",
+        "P3"
+      ]
+    }
+  ]
+}

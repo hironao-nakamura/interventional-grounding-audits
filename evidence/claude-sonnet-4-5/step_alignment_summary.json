@@ -1,0 +1,758 @@
+{
+  "total_problems": 50,
+  "total_cot_steps": 238,
+  "total_proof_steps": 188,
+  "matched_cot_steps": 188,
+  "unmatched_cot_steps": 50,
+  "unmatched_proof_steps": 0,
+  "ambiguous_steps": 0,
+  "problems_with_unmatched_cot_steps": [
+    "p001",
+    "p002",
+    "p003",
+    "p004",
+    "p005",
+    "p006",
+    "p007",
+    "p008",
+    "p009",
+    "p010",
+    "p011",
+    "p012",
+    "p013",
+    "p014",
+    "p015",
+    "p016",
+    "p017",
+    "p018",
+    "p019",
+    "p020",
+    "p021",
+    "p022",
+    "p023",
+    "p024",
+    "p025",
+    "p026",
+    "p027",
+    "p028",
+    "p029",
+    "p030",
+    "p031",
+    "p032",
+    "p033",
+    "p034",
+    "p035",
+    "p036",
+    "p037",
+    "p038",
+    "p039",
+    "p040",
+    "p041",
+    "p042",
+    "p043",
+    "p044",
+    "p045",
+    "p046",
+    "p047",
+    "p048",
+    "p049",
+    "p050"
+  ],
+  "problems_with_unmatched_proof_steps": [],
+  "problems_with_ambiguous_alignment": [],
+  "primary_metric_excluded_problems": [],
+  "primary_metric_policy": "exclude_unmatched_cot_steps_and_ambiguous_problems",
+  "lower_bound_policy": "treat_unmatched_or_unparseable_gt_dependencies_as_false_negatives",
+  "requires_alignment_disclosure": false,
+  "requires_lower_bound_disclosure": false,
+  "per_problem": {
+    "p001": {
+      "cot_to_proof": {
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4,
+        "6": 5
+      },
+      "unmatched_cot_steps": [
+        1
+      ],
+      "unmatched_proof_steps": [],
+      "ambiguous_cot_steps": [],
+      "primary_metric_excluded_problem": false
+    },
+    "p002": {
+      "cot_to_proof": {
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4
+      },
+      "unmatched_cot_steps": [
+        1
+      ],
+      "unmatched_proof_steps": [],
+      "ambiguous_cot_steps": [],
+      "primary_metric_excluded_problem": false
+    },
+    "p003": {
+      "cot_to_proof": {
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4,
+        "6": 5
+      },
+      "unmatched_cot_steps": [
+        1
+      ],
+      "unmatched_proof_steps": [],
+      "ambiguous_cot_steps": [],
+      "primary_metric_excluded_problem": false
+    },
+    "p004": {
+      "cot_to_proof": {
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4,
+        "6": 5
+      },
+      "unmatched_cot_steps": [
+        1
+      ],
+      "unmatched_proof_steps": [],
+      "ambiguous_cot_steps": [],
+      "primary_metric_excluded_problem": false
+    },
+    "p005": {
+      "cot_to_proof": {
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4,
+        "6": 5
+      },
+      "unmatched_cot_steps": [
+        1
+      ],
+      "unmatched_proof_steps": [],
+      "ambiguous_cot_steps": [],
+      "primary_metric_excluded_problem": false
+    },
+    "p006": {
+      "cot_to_proof": {
+        "2": 1,
+        "3": 2,
+        "4": 3
+      },
+      "unmatched_cot_steps": [
+        1
+      ],
+      "unmatched_proof_steps": [],
+      "ambiguous_cot_steps": [],
+      "primary_metric_excluded_problem": false
+    },
+    "p007": {
+      "cot_to_proof": {
+        "2": 1,
+        "3": 2,
+        "4": 3
+      },
+      "unmatched_cot_steps": [
+        1
+      ],
+      "unmatched_proof_steps": [],
+      "ambiguous_cot_steps": [],
+      "primary_metric_excluded_problem": false
+    },
+    "p008": {
+      "cot_to_proof": {
+        "2": 1,
+        "3": 2,
+        "4": 3
+      },
+      "unmatched_cot_steps": [
+        1
+      ],
+      "unmatched_proof_steps": [],
+      "ambiguous_cot_steps": [],
+      "primary_metric_excluded_problem": false
+    },
+    "p009": {
+      "cot_to_proof": {
+        "2": 1,
+        "3": 2,
+        "4": 3
+      },
+      "unmatched_cot_steps": [
+        1
+      ],
+      "unmatched_proof_steps": [],
+      "ambiguous_cot_steps": [],
+      "primary_metric_excluded_problem": false
+    },
+    "p010": {
+      "cot_to_proof": {
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4
+      },
+      "unmatched_cot_steps": [
+        1
+      ],
+      "unmatched_proof_steps": [],
+      "ambiguous_cot_steps": [],
+      "primary_metric_excluded_problem": false
+    },
+    "p011": {
+      "cot_to_proof": {
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4
+      },
+      "unmatched_cot_steps": [
+        1
+      ],
+      "unmatched_proof_steps": [],
+      "ambiguous_cot_steps": [],
+      "primary_metric_excluded_problem": false
+    },
+    "p012": {
+      "cot_to_proof": {
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4
+      },
+      "unmatched_cot_steps": [
+        1
+      ],
+      "unmatched_proof_steps": [],
+      "ambiguous_cot_steps": [],
+      "primary_metric_excluded_problem": false
+    },
+    "p013": {
+      "cot_to_proof": {
+        "2": 1,
+        "3": 2,
+        "4": 3
+      },
+      "unmatched_cot_steps": [
+        1
+      ],
+      "unmatched_proof_steps": [],
+      "ambiguous_cot_steps": [],
+      "primary_metric_excluded_problem": false
+    },
+    "p014": {
+      "cot_to_proof": {
+        "2": 1,
+        "3": 2,
+        "4": 3
+      },
+      "unmatched_cot_steps": [
+        1
+      ],
+      "unmatched_proof_steps": [],
+      "ambiguous_cot_steps": [],
+      "primary_metric_excluded_problem": false
+    },
+    "p015": {
+      "cot_to_proof": {
+        "2": 1,
+        "3": 2,
+        "4": 3
+      },
+      "unmatched_cot_steps": [
+        1
+      ],
+      "unmatched_proof_steps": [],
+      "ambiguous_cot_steps": [],
+      "primary_metric_excluded_problem": false
+    },
+    "p016": {
+      "cot_to_proof": {
+        "2": 1,
+        "3": 2,
+        "4": 3
+      },
+      "unmatched_cot_steps": [
+        1
+      ],
+      "unmatched_proof_steps": [],
+      "ambiguous_cot_steps": [],
+      "primary_metric_excluded_problem": false
+    },
+    "p017": {
+      "cot_to_proof": {
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4
+      },
+      "unmatched_cot_steps": [
+        1
+      ],
+      "unmatched_proof_steps": [],
+      "ambiguous_cot_steps": [],
+      "primary_metric_excluded_problem": false
+    },
+    "p018": {
+      "cot_to_proof": {
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4
+      },
+      "unmatched_cot_steps": [
+        1
+      ],
+      "unmatched_proof_steps": [],
+      "ambiguous_cot_steps": [],
+      "primary_metric_excluded_problem": false
+    },
+    "p019": {
+      "cot_to_proof": {
+        "2": 1,
+        "3": 2,
+        "4": 3
+      },
+      "unmatched_cot_steps": [
+        1
+      ],
+      "unmatched_proof_steps": [],
+      "ambiguous_cot_steps": [],
+      "primary_metric_excluded_problem": false
+    },
+    "p020": {
+      "cot_to_proof": {
+        "2": 1,
+        "3": 2,
+        "4": 3
+      },
+      "unmatched_cot_steps": [
+        1
+      ],
+      "unmatched_proof_steps": [],
+      "ambiguous_cot_steps": [],
+      "primary_metric_excluded_problem": false
+    },
+    "p021": {
+      "cot_to_proof": {
+        "2": 1,
+        "3": 2,
+        "4": 3
+      },
+      "unmatched_cot_steps": [
+        1
+      ],
+      "unmatched_proof_steps": [],
+      "ambiguous_cot_steps": [],
+      "primary_metric_excluded_problem": false
+    },
+    "p022": {
+      "cot_to_proof": {
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4
+      },
+      "unmatched_cot_steps": [
+        1
+      ],
+      "unmatched_proof_steps": [],
+      "ambiguous_cot_steps": [],
+      "primary_metric_excluded_problem": false
+    },
+    "p023": {
+      "cot_to_proof": {
+        "2": 1,
+        "3": 2,
+        "4": 3
+      },
+      "unmatched_cot_steps": [
+        1
+      ],
+      "unmatched_proof_steps": [],
+      "ambiguous_cot_steps": [],
+      "primary_metric_excluded_problem": false
+    },
+    "p024": {
+      "cot_to_proof": {
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4,
+        "6": 5
+      },
+      "unmatched_cot_steps": [
+        1
+      ],
+      "unmatched_proof_steps": [],
+      "ambiguous_cot_steps": [],
+      "primary_metric_excluded_problem": false
+    },
+    "p025": {
+      "cot_to_proof": {
+        "2": 1,
+        "3": 2,
+        "4": 3
+      },
+      "unmatched_cot_steps": [
+        1
+      ],
+      "unmatched_proof_steps": [],
+      "ambiguous_cot_steps": [],
+      "primary_metric_excluded_problem": false
+    },
+    "p026": {
+      "cot_to_proof": {
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4
+      },
+      "unmatched_cot_steps": [
+        1
+      ],
+      "unmatched_proof_steps": [],
+      "ambiguous_cot_steps": [],
+      "primary_metric_excluded_problem": false
+    },
+    "p027": {
+      "cot_to_proof": {
+        "2": 1,
+        "3": 2,
+        "4": 3
+      },
+      "unmatched_cot_steps": [
+        1
+      ],
+      "unmatched_proof_steps": [],
+      "ambiguous_cot_steps": [],
+      "primary_metric_excluded_problem": false
+    },
+    "p028": {
+      "cot_to_proof": {
+        "2": 1,
+        "3": 2,
+        "4": 3
+      },
+      "unmatched_cot_steps": [
+        1
+      ],
+      "unmatched_proof_steps": [],
+      "ambiguous_cot_steps": [],
+      "primary_metric_excluded_problem": false
+    },
+    "p029": {
+      "cot_to_proof": {
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4,
+        "6": 5
+      },
+      "unmatched_cot_steps": [
+        1
+      ],
+      "unmatched_proof_steps": [],
+      "ambiguous_cot_steps": [],
+      "primary_metric_excluded_problem": false
+    },
+    "p030": {
+      "cot_to_proof": {
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4
+      },
+      "unmatched_cot_steps": [
+        1
+      ],
+      "unmatched_proof_steps": [],
+      "ambiguous_cot_steps": [],
+      "primary_metric_excluded_problem": false
+    },
+    "p031": {
+      "cot_to_proof": {
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4
+      },
+      "unmatched_cot_steps": [
+        1
+      ],
+      "unmatched_proof_steps": [],
+      "ambiguous_cot_steps": [],
+      "primary_metric_excluded_problem": false
+    },
+    "p032": {
+      "cot_to_proof": {
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4
+      },
+      "unmatched_cot_steps": [
+        1
+      ],
+      "unmatched_proof_steps": [],
+      "ambiguous_cot_steps": [],
+      "primary_metric_excluded_problem": false
+    },
+    "p033": {
+      "cot_to_proof": {
+        "2": 1,
+        "3": 2,
+        "4": 3
+      },
+      "unmatched_cot_steps": [
+        1
+      ],
+      "unmatched_proof_steps": [],
+      "ambiguous_cot_steps": [],
+      "primary_metric_excluded_problem": false
+    },
+    "p034": {
+      "cot_to_proof": {
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4,
+        "6": 5
+      },
+      "unmatched_cot_steps": [
+        1
+      ],
+      "unmatched_proof_steps": [],
+      "ambiguous_cot_steps": [],
+      "primary_metric_excluded_problem": false
+    },
+    "p035": {
+      "cot_to_proof": {
+        "2": 1,
+        "3": 2,
+        "4": 3
+      },
+      "unmatched_cot_steps": [
+        1
+      ],
+      "unmatched_proof_steps": [],
+      "ambiguous_cot_steps": [],
+      "primary_metric_excluded_problem": false
+    },
+    "p036": {
+      "cot_to_proof": {
+        "2": 1,
+        "3": 2,
+        "4": 3
+      },
+      "unmatched_cot_steps": [
+        1
+      ],
+      "unmatched_proof_steps": [],
+      "ambiguous_cot_steps": [],
+      "primary_metric_excluded_problem": false
+    },
+    "p037": {
+      "cot_to_proof": {
+        "2": 1,
+        "3": 2,
+        "4": 3
+      },
+      "unmatched_cot_steps": [
+        1
+      ],
+      "unmatched_proof_steps": [],
+      "ambiguous_cot_steps": [],
+      "primary_metric_excluded_problem": false
+    },
+    "p038": {
+      "cot_to_proof": {
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4,
+        "6": 5
+      },
+      "unmatched_cot_steps": [
+        1
+      ],
+      "unmatched_proof_steps": [],
+      "ambiguous_cot_steps": [],
+      "primary_metric_excluded_problem": false
+    },
+    "p039": {
+      "cot_to_proof": {
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4
+      },
+      "unmatched_cot_steps": [
+        1
+      ],
+      "unmatched_proof_steps": [],
+      "ambiguous_cot_steps": [],
+      "primary_metric_excluded_problem": false
+    },
+    "p040": {
+      "cot_to_proof": {
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4,
+        "6": 5
+      },
+      "unmatched_cot_steps": [
+        1
+      ],
+      "unmatched_proof_steps": [],
+      "ambiguous_cot_steps": [],
+      "primary_metric_excluded_problem": false
+    },
+    "p041": {
+      "cot_to_proof": {
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4,
+        "6": 5
+      },
+      "unmatched_cot_steps": [
+        1
+      ],
+      "unmatched_proof_steps": [],
+      "ambiguous_cot_steps": [],
+      "primary_metric_excluded_problem": false
+    },
+    "p042": {
+      "cot_to_proof": {
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4,
+        "6": 5
+      },
+      "unmatched_cot_steps": [
+        1
+      ],
+      "unmatched_proof_steps": [],
+      "ambiguous_cot_steps": [],
+      "primary_metric_excluded_problem": false
+    },
+    "p043": {
+      "cot_to_proof": {
+        "2": 1,
+        "3": 2,
+        "4": 3
+      },
+      "unmatched_cot_steps": [
+        1
+      ],
+      "unmatched_proof_steps": [],
+      "ambiguous_cot_steps": [],
+      "primary_metric_excluded_problem": false
+    },
+    "p044": {
+      "cot_to_proof": {
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4
+      },
+      "unmatched_cot_steps": [
+        1
+      ],
+      "unmatched_proof_steps": [],
+      "ambiguous_cot_steps": [],
+      "primary_metric_excluded_problem": false
+    },
+    "p045": {
+      "cot_to_proof": {
+        "2": 1,
+        "3": 2,
+        "4": 3
+      },
+      "unmatched_cot_steps": [
+        1
+      ],
+      "unmatched_proof_steps": [],
+      "ambiguous_cot_steps": [],
+      "primary_metric_excluded_problem": false
+    },
+    "p046": {
+      "cot_to_proof": {
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4
+      },
+      "unmatched_cot_steps": [
+        1
+      ],
+      "unmatched_proof_steps": [],
+      "ambiguous_cot_steps": [],
+      "primary_metric_excluded_problem": false
+    },
+    "p047": {
+      "cot_to_proof": {
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4
+      },
+      "unmatched_cot_steps": [
+        1
+      ],
+      "unmatched_proof_steps": [],
+      "ambiguous_cot_steps": [],
+      "primary_metric_excluded_problem": false
+    },
+    "p048": {
+      "cot_to_proof": {
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4
+      },
+      "unmatched_cot_steps": [
+        1
+      ],
+      "unmatched_proof_steps": [],
+      "ambiguous_cot_steps": [],
+      "primary_metric_excluded_problem": false
+    },
+    "p049": {
+      "cot_to_proof": {
+        "2": 1,
+        "3": 2,
+        "4": 3
+      },
+      "unmatched_cot_steps": [
+        1
+      ],
+      "unmatched_proof_steps": [],
+      "ambiguous_cot_steps": [],
+      "primary_metric_excluded_problem": false
+    },
+    "p050": {
+      "cot_to_proof": {
+        "2": 1,
+        "3": 2,
+        "4": 3
+      },
+      "unmatched_cot_steps": [
+        1
+      ],
+      "unmatched_proof_steps": [],
+      "ambiguous_cot_steps": [],
+      "primary_metric_excluded_problem": false
+    }
+  }
+}

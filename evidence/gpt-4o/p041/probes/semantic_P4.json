@@ -1,0 +1,51 @@
+{
+  "raw_response": "Step 1: Since Clay is a findus, and finduses are funduses, Clay is a fundus.\nStep 2: Since Clay is a fundus, and funduses are fanduses, Clay is a fandus.\nStep 3: Since Clay is a fandus, and fanduses are fenduses, Clay is a fendus.\nStep 4: Since Clay is a fendus, and fenduses are zqfeltuses, Clay is a zqfeltus.\nStep 5: Since Clay is a zqfeltus, and zqfeltuses are foltuses, Clay is a foltus.\n\nAnswer: True",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:45:06.644200+00:00",
+  "sha256": "c1e12e3871786f70f022daaad81acb7a5e0b202aa5bb90b8cb6fa4f2fb3501d8",
+  "usage": {
+    "prompt_tokens": 141,
+    "completion_tokens": 133,
+    "total_tokens": 274
+  },
+  "problem_id": "p041",
+  "probe_type": "semantic",
+  "target_premise": "P4",
+  "prompt": "Given the following premises:\n1. Finduses are funduses\n2. Funduses are fanduses\n3. Fanduses are fenduses\n4. Fenduses are zqfeltuses\n5. Zqfeltuses are foltuses\n6. Filtuses are fultuses\n7. Clay is a findus\n\nQuestion: Is Clay a foltus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Finduses are funduses"
+    },
+    {
+      "id": "P2",
+      "text": "Funduses are fanduses"
+    },
+    {
+      "id": "P3",
+      "text": "Fanduses are fenduses"
+    },
+    {
+      "id": "P4",
+      "text": "Fenduses are zqfeltuses"
+    },
+    {
+      "id": "P5",
+      "text": "Zqfeltuses are foltuses"
+    },
+    {
+      "id": "P6",
+      "text": "Filtuses are fultuses"
+    },
+    {
+      "id": "P7",
+      "text": "Clay is a findus"
+    }
+  ],
+  "substitution": {
+    "feltus": "zqfeltus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

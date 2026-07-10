@@ -1,0 +1,53 @@
+{
+  "raw_response": "Step 1: Since Nyx is a dempus, and all dempuses are dimpuses, Nyx is a dimpus.\nStep 2: Since Nyx is a dimpus, and all dimpuses are dompuses, Nyx is a dompus.\nStep 3: Since Nyx is a dompus, and every dompus is a dumpus, Nyx is a dumpus.\nStep 4: Since Nyx is a dumpus, and all dumpuses are dalpuses, Nyx is a dalpuse.\nStep 5: Since Nyx is a dalpuse, and all dalpuses are delpuses, Nyx is a delpuse.\n\nAnswer: True",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:44:07.377805+00:00",
+  "sha256": "78fe7b50fb1914883596d01fdb6f4e4f472ab8b97fdc84d9ff0b96850128bf53",
+  "usage": {
+    "prompt_tokens": 154,
+    "completion_tokens": 149,
+    "total_tokens": 303
+  },
+  "problem_id": "p029",
+  "probe_type": "surface",
+  "target_premise": "P3",
+  "prompt": "Given the following premises:\n1. Dempuses are dimpuses\n2. Dimpuses are dompuses\n3. Every dompus is a dumpus\n4. Dumpuses are dalpuses\n5. Dalpuses are delpuses\n6. Dolpuses are dulpuses\n7. Darpuses are derpuses\n8. Nyx is a dempus\n\nQuestion: Is Nyx a delpus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Dempuses are dimpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Dimpuses are dompuses"
+    },
+    {
+      "id": "P3",
+      "text": "Every dompus is a dumpus"
+    },
+    {
+      "id": "P4",
+      "text": "Dumpuses are dalpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Dalpuses are delpuses"
+    },
+    {
+      "id": "P6",
+      "text": "Dolpuses are dulpuses"
+    },
+    {
+      "id": "P7",
+      "text": "Darpuses are derpuses"
+    },
+    {
+      "id": "P8",
+      "text": "Nyx is a dempus"
+    }
+  ],
+  "substitution": null,
+  "original_text": "Dompuses are dumpuses",
+  "rephrased_text": "Every dompus is a dumpus"
+}

@@ -1,0 +1,40 @@
+{
+  "raw_response": "Step 1: Xara is a drendus (given in premise 5).\nStep 2: Since drenduses are dreltuses (premise 1), Xara is a dreltus.\nStep 3: Since dreltuses are droltuses (premise 2), Xara is a droltus.\nStep 4: Since droltuses are not driltuses (premise 3), Xara is not a driltus.\n\nAnswer: False",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T05:03:44.310708+00:00",
+  "sha256": "78b2dc1fb0b3eee73ebeac606cfa577d033d222698825314b1928f21e2e8643d",
+  "usage": {
+    "input_tokens": 143,
+    "output_tokens": 109
+  },
+  "problem_id": "p037",
+  "probe_type": "surface",
+  "target_premise": "P4",
+  "prompt": "Given the following premises:\n1. Drenduses are dreltuses\n2. Dreltuses are droltuses\n3. Droltuses are not driltuses\n4. Every drultus is a fempus\n5. Xara is a drendus\n\nQuestion: Is Xara a driltus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Drenduses are dreltuses"
+    },
+    {
+      "id": "P2",
+      "text": "Dreltuses are droltuses"
+    },
+    {
+      "id": "P3",
+      "text": "Droltuses are not driltuses"
+    },
+    {
+      "id": "P4",
+      "text": "Every drultus is a fempus"
+    },
+    {
+      "id": "P5",
+      "text": "Xara is a drendus"
+    }
+  ],
+  "substitution": null,
+  "original_text": "Drultuses are fempuses",
+  "rephrased_text": "Every drultus is a fempus"
+}

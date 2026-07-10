@@ -1,0 +1,43 @@
+{
+  "raw_response": "Step 1: Chiltuses are chultuses, so if something is a chiltus, it is also a chultus.\nStep 2: Chultuses are clempuses, so if something is a chultus, it is also a clempus.\nStep 3: Clempuses are not climpuses, so if something is a clempus, it cannot be a climpus.\nStep 4: Cleo is a zqchiltus, which implies Cleo is a chiltus.\nStep 5: Since Cleo is a chiltus, Cleo is also a chultus.\nStep 6: Since Cleo is a chultus, Cleo is also a clempus.\nStep 7: Since Cleo is a clempus, Cleo cannot be a climpus.\n\nAnswer: False",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:43:31.476543+00:00",
+  "sha256": "256cb3d8347fc48db51be5cfdb1870955d1bdb5603e6ff1ef3cadd1e575ca145",
+  "usage": {
+    "prompt_tokens": 130,
+    "completion_tokens": 181,
+    "total_tokens": 311
+  },
+  "problem_id": "p019",
+  "probe_type": "local_semantic",
+  "target_premise": "P5",
+  "prompt": "Given the following premises:\n1. Chiltuses are chultuses\n2. Chultuses are clempuses\n3. Clempuses are not climpuses\n4. Clompuses are clumpuses\n5. Cleo is a zqchiltus\n\nQuestion: Is Cleo a climpus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Chiltuses are chultuses"
+    },
+    {
+      "id": "P2",
+      "text": "Chultuses are clempuses"
+    },
+    {
+      "id": "P3",
+      "text": "Clempuses are not climpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Clompuses are clumpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Cleo is a zqchiltus"
+    }
+  ],
+  "substitution": {
+    "chiltus": "zqchiltus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

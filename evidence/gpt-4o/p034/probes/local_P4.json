@@ -1,0 +1,51 @@
+{
+  "raw_response": "Step 1: Tarn is a drurpus, and since all drurpuses are dranpuses, Tarn is a dranpus.\nStep 2: Since all dranpuses are drenpuses, Tarn is a drenpus.\nStep 3: Since all drenpuses are dronpuses, Tarn is a dronpus.\nStep 4: Since all dronpuses are zqdrunpuses, Tarn is a zqdrunpus.\nStep 5: There is no information connecting zqdrunpuses to drelnuses, but since drurpuses (and thus Tarn) are not explicitly stated to be drelnuses, and drunpuses are not drelnuses, Tarn is not a drelnus.\n\nAnswer: False",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:44:29.056589+00:00",
+  "sha256": "b410c61c1b08deb14e99032f5844a63e5ceb9a35608aa952abef8f5da6b82ace",
+  "usage": {
+    "prompt_tokens": 154,
+    "completion_tokens": 156,
+    "total_tokens": 310
+  },
+  "problem_id": "p034",
+  "probe_type": "local_semantic",
+  "target_premise": "P4",
+  "prompt": "Given the following premises:\n1. Drurpuses are dranpuses\n2. Dranpuses are drenpuses\n3. Drenpuses are dronpuses\n4. Dronpuses are zqdrunpuses\n5. Drunpuses are not drelnuses\n6. Drolnuses are drilnuses\n7. Tarn is a drurpus\n\nQuestion: Is Tarn a drelnus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Drurpuses are dranpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Dranpuses are drenpuses"
+    },
+    {
+      "id": "P3",
+      "text": "Drenpuses are dronpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Dronpuses are zqdrunpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Drunpuses are not drelnuses"
+    },
+    {
+      "id": "P6",
+      "text": "Drolnuses are drilnuses"
+    },
+    {
+      "id": "P7",
+      "text": "Tarn is a drurpus"
+    }
+  ],
+  "substitution": {
+    "drunpus": "zqdrunpus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

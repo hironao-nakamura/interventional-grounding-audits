@@ -1,0 +1,51 @@
+{
+  "raw_response": "Step 1: Since Rex is a bunpus, and bunpuses are belnuses, Rex is a belnuse.\nStep 2: Since Rex is a belnuse, and belnuses are zqbolnuses, Rex is a zqbolnuse.\nStep 3: The information about zqbolnuses does not directly relate to bilnuses, so we cannot conclude anything further from Step 2.\nStep 4: Since belnuses are not directly related to bilnuses, we need to find another path to determine if Rex is a belvus.\nStep 5: Since belnuses are not directly related to bilnuses, we cannot conclude that Rex is a bilnuse.\nStep 6: Since bilnuses are balvuses, and balvuses are belvuses, if Rex were a bilnuse, he would be a belvus, but we have no direct path from belnuses to bilnuses.\nStep 7: Since there is no direct or indirect path from bunpuses to belvuses through the given premises, we cannot conclude that Rex is a belvus.\n\nAnswer: False",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:42:13.451764+00:00",
+  "sha256": "75903dd1a198dd6127dd64ee7d1f065d816502e42dedc5ca9ef2bda6bdf989ef",
+  "usage": {
+    "prompt_tokens": 145,
+    "completion_tokens": 241,
+    "total_tokens": 386
+  },
+  "problem_id": "p003",
+  "probe_type": "local_semantic",
+  "target_premise": "P2",
+  "prompt": "Given the following premises:\n1. Bunpuses are belnuses\n2. Belnuses are zqbolnuses\n3. Bolnuses are bilnuses\n4. Bilnuses are balvuses\n5. Balvuses are belvuses\n6. Bolvuses are bilvuses\n7. Rex is a bunpus\n\nQuestion: Is Rex a belvus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Bunpuses are belnuses"
+    },
+    {
+      "id": "P2",
+      "text": "Belnuses are zqbolnuses"
+    },
+    {
+      "id": "P3",
+      "text": "Bolnuses are bilnuses"
+    },
+    {
+      "id": "P4",
+      "text": "Bilnuses are balvuses"
+    },
+    {
+      "id": "P5",
+      "text": "Balvuses are belvuses"
+    },
+    {
+      "id": "P6",
+      "text": "Bolvuses are bilvuses"
+    },
+    {
+      "id": "P7",
+      "text": "Rex is a bunpus"
+    }
+  ],
+  "substitution": {
+    "bolnus": "zqbolnus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

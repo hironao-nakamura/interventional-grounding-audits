@@ -1,0 +1,43 @@
+{
+  "raw_response": "Step 1: Since Freltuses are Froltuses and Lynx is a Freltus, Lynx is a Froltus.\nStep 2: Since Froltuses are Zqfriltuses and Lynx is a Froltus, Lynx is a Zqfriltus.\nStep 3: There is no information connecting Zqfriltuses to Frultuses.\nStep 4: Friltuses are not Frultuses, but there is no information connecting Lynx to Friltuses.\nStep 5: There is no information in the premises that directly or indirectly connects Lynx to being a Frultus.\n\nAnswer: False",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:45:39.324172+00:00",
+  "sha256": "0e5f427f405ebc26a5d5c6521afb9eb35878527ae256813526e4f0e9c0827809",
+  "usage": {
+    "prompt_tokens": 132,
+    "completion_tokens": 139,
+    "total_tokens": 271
+  },
+  "problem_id": "p050",
+  "probe_type": "local_semantic",
+  "target_premise": "P2",
+  "prompt": "Given the following premises:\n1. Freltuses are froltuses\n2. Froltuses are zqfriltuses\n3. Friltuses are not frultuses\n4. Gempuses are gimpuses\n5. Lynx is a freltus\n\nQuestion: Is Lynx a frultus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Freltuses are froltuses"
+    },
+    {
+      "id": "P2",
+      "text": "Froltuses are zqfriltuses"
+    },
+    {
+      "id": "P3",
+      "text": "Friltuses are not frultuses"
+    },
+    {
+      "id": "P4",
+      "text": "Gempuses are gimpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Lynx is a freltus"
+    }
+  ],
+  "substitution": {
+    "friltus": "zqfriltus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

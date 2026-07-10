@@ -1,0 +1,46 @@
+{
+  "raw_response": "Step 1: Nova is a brurpus (given in premise 6).\nStep 2: Since brurpuses are zqbranpuses (premise 1), Nova is a zqbranpus.\nStep 3: Since branpuses are brenpuses (premise 2), we need to determine if Nova is a branpus.\nStep 4: Premise 1 states brurpuses are zqbranpuses, but this doesn't establish that brurpuses are branpuses.\nStep 5: There is no chain of reasoning from brurpus to branpus to brenpuses to bronpuses to brunpuses.\nStep 6: The premises do not provide a logical path from Nova being a brurpus to Nova being a brunpus.\n\nAnswer: False",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:54:42.816329+00:00",
+  "sha256": "d8370ae29cf4acd5fcb74fb1606fce1bbd9aa289214f591a1feb9225712e164a",
+  "usage": {
+    "input_tokens": 154,
+    "output_tokens": 187
+  },
+  "problem_id": "p012",
+  "probe_type": "local_semantic",
+  "target_premise": "P1",
+  "prompt": "Given the following premises:\n1. Brurpuses are zqbranpuses\n2. Branpuses are brenpuses\n3. Brenpuses are bronpuses\n4. Bronpuses are brunpuses\n5. Brelnuses are brolnuses\n6. Nova is a brurpus\n\nQuestion: Is Nova a brunpus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Brurpuses are zqbranpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Branpuses are brenpuses"
+    },
+    {
+      "id": "P3",
+      "text": "Brenpuses are bronpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Bronpuses are brunpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Brelnuses are brolnuses"
+    },
+    {
+      "id": "P6",
+      "text": "Nova is a brurpus"
+    }
+  ],
+  "substitution": {
+    "branpus": "zqbranpus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

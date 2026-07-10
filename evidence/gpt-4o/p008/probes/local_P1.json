@@ -1,0 +1,39 @@
+{
+  "raw_response": "Step 1: Since Blalvuses are zqblelvuses and Luna is a blalvus, Luna is a zqblelvus.\nStep 2: Since Blelvuses are blolvuses, we need to determine if Luna is a blelvus to conclude she is a blolvus.\nStep 3: The premises do not provide information connecting zqblelvuses directly to blelvuses or blolvuses.\nStep 4: Since Blolvuses are blilvuses, we need to determine if Luna is a blolvus to conclude she is a blilvus.\nStep 5: The premises do not provide information connecting zqblelvuses directly to blilvuses.\nStep 6: Therefore, based on the given premises, we cannot conclude that Luna is a blilvus.\n\nAnswer: False",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:42:32.300725+00:00",
+  "sha256": "2e57588e0e77cca4bcc520676dbee014f441251612c31b7ed9e639ded39224c0",
+  "usage": {
+    "prompt_tokens": 119,
+    "completion_tokens": 174,
+    "total_tokens": 293
+  },
+  "problem_id": "p008",
+  "probe_type": "local_semantic",
+  "target_premise": "P1",
+  "prompt": "Given the following premises:\n1. Blalvuses are zqblelvuses\n2. Blelvuses are blolvuses\n3. Blolvuses are blilvuses\n4. Luna is a blalvus\n\nQuestion: Is Luna a blilvus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Blalvuses are zqblelvuses"
+    },
+    {
+      "id": "P2",
+      "text": "Blelvuses are blolvuses"
+    },
+    {
+      "id": "P3",
+      "text": "Blolvuses are blilvuses"
+    },
+    {
+      "id": "P4",
+      "text": "Luna is a blalvus"
+    }
+  ],
+  "substitution": {
+    "blelvus": "zqblelvus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

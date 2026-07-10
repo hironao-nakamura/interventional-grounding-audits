@@ -1,0 +1,46 @@
+{
+  "raw_response": "Step 1: Rune is a deltus (given in premise 6).\nStep 2: Since deltuses are zqdoltuses (premise 1), Rune is a zqdoltus.\nStep 3: Since doltuses are diltuses (premise 2), any doltus is a diltus.\nStep 4: Since diltuses are dultuses (premise 3), any diltus is a dultus.\nStep 5: Since dultuses are not drempuses (premise 4), any dultus is not a drempus.\nStep 6: To determine if Rune is a drempus, I need to check if Rune is a dultus.\nStep 7: From premise 1, deltuses are zqdoltuses, but this doesn't establish that deltuses are doltuses.\nStep 8: There is no chain of reasoning from \"deltus\" through \"doltus\" to \"diltus\" to \"dultus.\"\nStep 9: However, if we cannot establish that Rune is a dultus, we cannot use premise 4 to conclude anything.\nStep 10: Re-examining the premises, there is no connection established between deltuses (or zqdoltuses) and doltuses, diltuses, or dultuses.\nStep 11: Since we cannot establish that Rune is a dultus, and premise 4 only tells us dultuses are not drempuses, we cannot determine from the given premises whether Rune is or is not a drempus.\nStep 12: Given the lack of connection between the deltus category and the drempus category in the premises, and no positive evidence that Rune is a drempus, the answer is that Rune is not a drempus.\n\nAnswer: False",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T05:01:45.911208+00:00",
+  "sha256": "5f73cc8fb7c56d47e18ce3f5f2a6c44771bc5552ee6b5f2505395c4456c7243a",
+  "usage": {
+    "input_tokens": 152,
+    "output_tokens": 416
+  },
+  "problem_id": "p032",
+  "probe_type": "local_semantic",
+  "target_premise": "P1",
+  "prompt": "Given the following premises:\n1. Deltuses are zqdoltuses\n2. Doltuses are diltuses\n3. Diltuses are dultuses\n4. Dultuses are not drempuses\n5. Drimpuses are drompuses\n6. Rune is a deltus\n\nQuestion: Is Rune a drempus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Deltuses are zqdoltuses"
+    },
+    {
+      "id": "P2",
+      "text": "Doltuses are diltuses"
+    },
+    {
+      "id": "P3",
+      "text": "Diltuses are dultuses"
+    },
+    {
+      "id": "P4",
+      "text": "Dultuses are not drempuses"
+    },
+    {
+      "id": "P5",
+      "text": "Drimpuses are drompuses"
+    },
+    {
+      "id": "P6",
+      "text": "Rune is a deltus"
+    }
+  ],
+  "substitution": {
+    "doltus": "zqdoltus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

@@ -1,0 +1,42 @@
+{
+  "raw_response": "Step 1: Lynx is a freltus (given in premise 5).\nStep 2: Since freltuses are froltuses (premise 1), Lynx is a froltus.\nStep 3: Since froltuses are friltuses (premise 2), Lynx is a friltus.\nStep 4: The premises do not establish any connection between friltuses and frultuses.\nStep 5: There is no information in the premises that would make Lynx a frultus.\n\nAnswer: False",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T05:07:34.984884+00:00",
+  "sha256": "4fc27babd77753b552d4eb3bacb4bb04f7e87c44305672c155903b4879c90046",
+  "usage": {
+    "input_tokens": 144,
+    "output_tokens": 124
+  },
+  "problem_id": "p050",
+  "probe_type": "semantic",
+  "target_premise": "P3",
+  "prompt": "Given the following premises:\n1. Freltuses are froltuses\n2. Froltuses are friltuses\n3. Friltuses are not zqfrultuses\n4. Gempuses are gimpuses\n5. Lynx is a freltus\n\nQuestion: Is Lynx a frultus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Freltuses are froltuses"
+    },
+    {
+      "id": "P2",
+      "text": "Froltuses are friltuses"
+    },
+    {
+      "id": "P3",
+      "text": "Friltuses are not zqfrultuses"
+    },
+    {
+      "id": "P4",
+      "text": "Gempuses are gimpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Lynx is a freltus"
+    }
+  ],
+  "substitution": {
+    "frultus": "zqfrultus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

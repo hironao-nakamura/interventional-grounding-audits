@@ -1,0 +1,46 @@
+{
+  "raw_response": "Step 1: Ash is a chempus (given in premise 6).\nStep 2: Since chempuses are chimpuses (premise 1), Ash is a chimpus.\nStep 3: Since chimpuses are chompuses (premise 2), Ash is a chompus.\nStep 4: There is no premise that connects chompuses to chumpuses.\nStep 5: The premises about chalpuses, cholpuses, and chulpuses (premises 4 and 5) are not relevant to Ash.\nStep 6: Premise 3 states chompuses are not zqchumpuses, but this doesn't tell us about chumpuses.\nStep 7: There is no logical path from the given premises to conclude that Ash is a chumpus.\n\nAnswer: False",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:56:04.974329+00:00",
+  "sha256": "1200285bdf1a6e2c47d2d69244219dd20d54cc1e47cefe96204e56f518940c54",
+  "usage": {
+    "input_tokens": 154,
+    "output_tokens": 191
+  },
+  "problem_id": "p015",
+  "probe_type": "local_semantic",
+  "target_premise": "P3",
+  "prompt": "Given the following premises:\n1. Chempuses are chimpuses\n2. Chimpuses are chompuses\n3. Chompuses are not zqchumpuses\n4. Chalpuses are chelpuses\n5. Cholpuses are chulpuses\n6. Ash is a chempus\n\nQuestion: Is Ash a chumpus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Chempuses are chimpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Chimpuses are chompuses"
+    },
+    {
+      "id": "P3",
+      "text": "Chompuses are not zqchumpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Chalpuses are chelpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Cholpuses are chulpuses"
+    },
+    {
+      "id": "P6",
+      "text": "Ash is a chempus"
+    }
+  ],
+  "substitution": {
+    "chumpus": "zqchumpus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

@@ -1,0 +1,46 @@
+{
+  "raw_response": "Step 1: Kit is a frinkus (given in premise 6).\nStep 2: Since frinkuses are zqfronkuses (premise 1), Kit is a zqfronkus.\nStep 3: There is no premise connecting zqfronkuses to any other category.\nStep 4: There is no chain of reasoning that connects Kit being a frinkus to being a frankus.\n\nAnswer: False",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T05:07:17.235149+00:00",
+  "sha256": "37b1e9ccacefe5cbda13450f88d004b71d6d754cad7e4e7ce9850ae3bc214aca",
+  "usage": {
+    "input_tokens": 149,
+    "output_tokens": 101
+  },
+  "problem_id": "p049",
+  "probe_type": "local_semantic",
+  "target_premise": "P1",
+  "prompt": "Given the following premises:\n1. Frinkuses are zqfronkuses\n2. Fronkuses are frunkuses\n3. Frunkuses are frankuses\n4. Frenkuses are fronduses\n5. Frinduses are frunduses\n6. Kit is a frinkus\n\nQuestion: Is Kit a frankus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Frinkuses are zqfronkuses"
+    },
+    {
+      "id": "P2",
+      "text": "Fronkuses are frunkuses"
+    },
+    {
+      "id": "P3",
+      "text": "Frunkuses are frankuses"
+    },
+    {
+      "id": "P4",
+      "text": "Frenkuses are fronduses"
+    },
+    {
+      "id": "P5",
+      "text": "Frinduses are frunduses"
+    },
+    {
+      "id": "P6",
+      "text": "Kit is a frinkus"
+    }
+  ],
+  "substitution": {
+    "fronkus": "zqfronkus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

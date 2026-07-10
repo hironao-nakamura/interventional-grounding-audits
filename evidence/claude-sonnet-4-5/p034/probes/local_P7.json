@@ -1,0 +1,50 @@
+{
+  "raw_response": "Step 1: From premise 7, Tarn is a zqdrurpus, which means Tarn is a drurpus (ignoring the prefix \"zq\").\nStep 2: From premise 1, since drurpuses are dranpuses, Tarn is a dranpus.\nStep 3: From premise 2, since dranpuses are drenpuses, Tarn is a drenpus.\nStep 4: From premise 3, since drenpuses are dronpuses, Tarn is a dronpus.\nStep 5: From premise 4, since dronpuses are drunpuses, Tarn is a drunpus.\nStep 6: From premise 5, since drunpuses are not drelnuses, Tarn is not a drelnus.\n\nAnswer: False",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T05:03:00.392714+00:00",
+  "sha256": "1b85a711fd9df2b071f49b743a27c6d0cfceda706af6a3fd198b476a0ddcfcca",
+  "usage": {
+    "input_tokens": 176,
+    "output_tokens": 200
+  },
+  "problem_id": "p034",
+  "probe_type": "local_semantic",
+  "target_premise": "P7",
+  "prompt": "Given the following premises:\n1. Drurpuses are dranpuses\n2. Dranpuses are drenpuses\n3. Drenpuses are dronpuses\n4. Dronpuses are drunpuses\n5. Drunpuses are not drelnuses\n6. Drolnuses are drilnuses\n7. Tarn is a zqdrurpus\n\nQuestion: Is Tarn a drelnus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Drurpuses are dranpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Dranpuses are drenpuses"
+    },
+    {
+      "id": "P3",
+      "text": "Drenpuses are dronpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Dronpuses are drunpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Drunpuses are not drelnuses"
+    },
+    {
+      "id": "P6",
+      "text": "Drolnuses are drilnuses"
+    },
+    {
+      "id": "P7",
+      "text": "Tarn is a zqdrurpus"
+    }
+  ],
+  "substitution": {
+    "drurpus": "zqdrurpus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

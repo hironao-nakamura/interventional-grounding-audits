@@ -1,0 +1,40 @@
+{
+  "raw_response": "Step 1: Cleo is a chiltus (given in premise 5).\nStep 2: Since every chiltus is a chultus (premise 1), Cleo is a chultus.\nStep 3: Since chultuses are clempuses (premise 2), Cleo is a clempus.\nStep 4: Since clempuses are not climpuses (premise 3), Cleo is not a climpus.\n\nAnswer: False",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:57:07.243391+00:00",
+  "sha256": "4be837184b30301a9dddf89256121b5b558a9958b38dc2a0d6f1049dc6a148f0",
+  "usage": {
+    "input_tokens": 143,
+    "output_tokens": 111
+  },
+  "problem_id": "p019",
+  "probe_type": "surface",
+  "target_premise": "P1",
+  "prompt": "Given the following premises:\n1. Every chiltus is a chultus\n2. Chultuses are clempuses\n3. Clempuses are not climpuses\n4. Clompuses are clumpuses\n5. Cleo is a chiltus\n\nQuestion: Is Cleo a climpus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Every chiltus is a chultus"
+    },
+    {
+      "id": "P2",
+      "text": "Chultuses are clempuses"
+    },
+    {
+      "id": "P3",
+      "text": "Clempuses are not climpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Clompuses are clumpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Cleo is a chiltus"
+    }
+  ],
+  "substitution": null,
+  "original_text": "Chiltuses are chultuses",
+  "rephrased_text": "Every chiltus is a chultus"
+}

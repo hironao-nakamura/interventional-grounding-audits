@@ -1,0 +1,50 @@
+{
+  "raw_response": "Step 1: Tarn is a drurpus (given in premise 7).\nStep 2: Since drurpuses are zqdranpuses (premise 1), Tarn is a zqdranpus.\nStep 3: Since dranpuses are drenpuses (premise 2), we need to determine if Tarn is a dranpus.\nStep 4: Since drenpuses are dronpuses (premise 3), we need to determine if Tarn is a drenpus.\nStep 5: Since dronpuses are drunpuses (premise 4), we need to determine if Tarn is a dronpus.\nStep 6: Since drunpuses are not drelnuses (premise 5), we need to determine if Tarn is a drunpus.\nStep 7: Looking at the chain: if Tarn were a dranpus, then Tarn would be a drenpus (premise 2), then a dronpus (premise 3), then a drunpus (premise 4).\nStep 8: However, we only know Tarn is a drurpus, and premise 1 only tells us drurpuses are zqdranpuses, not dranpuses.\nStep 9: There is no chain connecting drurpus to dranpus, drenpus, dronpus, or drunpus.\nStep 10: There is no information connecting Tarn to being a drelnus or not being a drelnus through the given premises.\nStep 11: Premise 5 states drunpuses are not drelnuses, but we haven't established that Tarn is a drunpus.\nStep 12: Since we cannot establish any connection between Tarn being a drurpus and being a drelnus (or drunpus), we cannot determine from the given premises that Tarn is a drelnus.\n\nAnswer: False",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T05:01:55.641008+00:00",
+  "sha256": "667180fccbc87cf683629912e5461a93f9710809f355e2e11f6d372b7beb638f",
+  "usage": {
+    "input_tokens": 175,
+    "output_tokens": 453
+  },
+  "problem_id": "p034",
+  "probe_type": "local_semantic",
+  "target_premise": "P1",
+  "prompt": "Given the following premises:\n1. Drurpuses are zqdranpuses\n2. Dranpuses are drenpuses\n3. Drenpuses are dronpuses\n4. Dronpuses are drunpuses\n5. Drunpuses are not drelnuses\n6. Drolnuses are drilnuses\n7. Tarn is a drurpus\n\nQuestion: Is Tarn a drelnus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Drurpuses are zqdranpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Dranpuses are drenpuses"
+    },
+    {
+      "id": "P3",
+      "text": "Drenpuses are dronpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Dronpuses are drunpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Drunpuses are not drelnuses"
+    },
+    {
+      "id": "P6",
+      "text": "Drolnuses are drilnuses"
+    },
+    {
+      "id": "P7",
+      "text": "Tarn is a drurpus"
+    }
+  ],
+  "substitution": {
+    "dranpus": "zqdranpus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

@@ -1,0 +1,46 @@
+{
+  "raw_response": "Step 1: Alex is a zqbempus (given in premise 6).\nStep 2: Since zqbempuses are bimpuses (premise 1), Alex is a bimpus.\nStep 3: Since bimpuses are bompuses (premise 2), Alex is a bompus.\nStep 4: Since bompuses are bumpuses (premise 3), Alex is a bumpus.\nStep 5: Since bumpuses are balpuses (premise 4), Alex is a balpus.\nStep 6: Since balpuses are not belpuses (premise 5), Alex is not a belpus.\n\nAnswer: False",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:52:32.448991+00:00",
+  "sha256": "c437f2aaf505cc1ebff739152d7f526fd0b630703d08192a358a135141106a55",
+  "usage": {
+    "input_tokens": 153,
+    "output_tokens": 155
+  },
+  "problem_id": "p001",
+  "probe_type": "semantic",
+  "target_premise": "P6",
+  "prompt": "Given the following premises:\n1. Zqbempuses are bimpuses\n2. Bimpuses are bompuses\n3. Bompuses are bumpuses\n4. Bumpuses are balpuses\n5. Balpuses are not belpuses\n6. Alex is a zqbempus\n\nQuestion: Is Alex a belpus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Zqbempuses are bimpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Bimpuses are bompuses"
+    },
+    {
+      "id": "P3",
+      "text": "Bompuses are bumpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Bumpuses are balpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Balpuses are not belpuses"
+    },
+    {
+      "id": "P6",
+      "text": "Alex is a zqbempus"
+    }
+  ],
+  "substitution": {
+    "bempus": "zqbempus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

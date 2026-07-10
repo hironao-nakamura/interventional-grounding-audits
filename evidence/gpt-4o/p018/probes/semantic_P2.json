@@ -1,0 +1,51 @@
+{
+  "raw_response": "Step 1: Since chonkuses are chunkuses and Bolt is a chonkus, Bolt is a chunkus.\nStep 2: Since chunkuses are zqchankuses and Bolt is a chunkus, Bolt is a zqchankus.\nStep 3: Since zqchankuses are chenkuses and Bolt is a zqchankus, Bolt is a chenkus.\nStep 4: Since chenkuses are chonduses and Bolt is a chenkus, Bolt is a chondus.\nAnswer: True",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:43:10.983869+00:00",
+  "sha256": "6147892e365e00e2e139a7dc99e75c8552679b27394d51f7dfbaeb7807d89e41",
+  "usage": {
+    "prompt_tokens": 146,
+    "completion_tokens": 115,
+    "total_tokens": 261
+  },
+  "problem_id": "p018",
+  "probe_type": "semantic",
+  "target_premise": "P2",
+  "prompt": "Given the following premises:\n1. Chonkuses are chunkuses\n2. Chunkuses are zqchankuses\n3. Zqchankuses are chenkuses\n4. Chenkuses are chonduses\n5. Chinduses are chunduses\n6. Chanduses are chenduses\n7. Bolt is a chonkus\n\nQuestion: Is Bolt a chondus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Chonkuses are chunkuses"
+    },
+    {
+      "id": "P2",
+      "text": "Chunkuses are zqchankuses"
+    },
+    {
+      "id": "P3",
+      "text": "Zqchankuses are chenkuses"
+    },
+    {
+      "id": "P4",
+      "text": "Chenkuses are chonduses"
+    },
+    {
+      "id": "P5",
+      "text": "Chinduses are chunduses"
+    },
+    {
+      "id": "P6",
+      "text": "Chanduses are chenduses"
+    },
+    {
+      "id": "P7",
+      "text": "Bolt is a chonkus"
+    }
+  ],
+  "substitution": {
+    "chankus": "zqchankus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

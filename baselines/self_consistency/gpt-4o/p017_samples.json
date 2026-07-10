@@ -1,0 +1,64 @@
+{
+  "problem_id": "p017",
+  "model": "gpt-4o-2024-08-06",
+  "n_samples": 5,
+  "temperature": 0.7,
+  "step_verdicts": {
+    "1": {
+      "consistent": false,
+      "agreement": 0.6,
+      "majority_conclusion": "is(juno, cholnus)",
+      "n_valid": 5,
+      "n_unique": 3
+    },
+    "2": {
+      "consistent": false,
+      "agreement": 0.6,
+      "majority_conclusion": "is(juno, chilnus)",
+      "n_valid": 5,
+      "n_unique": 2
+    },
+    "3": {
+      "consistent": false,
+      "agreement": 0.6,
+      "majority_conclusion": "is(juno, chalvus)",
+      "n_valid": 5,
+      "n_unique": 3
+    },
+    "4": {
+      "consistent": false,
+      "agreement": 0.6,
+      "majority_conclusion": "is(juno, chelvus)",
+      "n_valid": 5,
+      "n_unique": 3
+    },
+    "5": {
+      "consistent": false,
+      "agreement": 0.5,
+      "majority_conclusion": "is(juno, chelvus)",
+      "n_valid": 2,
+      "n_unique": 2
+    },
+    "6": {
+      "consistent": true,
+      "agreement": 1.0,
+      "majority_conclusion": "is(juno, chalvus)",
+      "n_valid": 1,
+      "n_unique": 1
+    },
+    "7": {
+      "consistent": true,
+      "agreement": 1.0,
+      "majority_conclusion": "subtype(chalvus, chelvus)",
+      "n_valid": 1,
+      "n_unique": 1
+    },
+    "8": {
+      "consistent": true,
+      "agreement": 1.0,
+      "majority_conclusion": "is(juno, chelvus)",
+      "n_valid": 1,
+      "n_unique": 1
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "raw_response": "Step 1: Ink is a frolpus (given in premise 5).\nStep 2: Since frolpuses are frulpuses (premise 1), Ink is a frulpus.\nStep 3: Since frulpuses are frarpuses (premise 2), Ink is a frarpus.\nStep 4: Since frarpuses are frerpuses (premise 3), Ink is a frerpus.\nStep 5: Since every frerpus is a frorpus (premise 4), Ink is a frorpus.\n\nAnswer: True",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T05:07:00.920695+00:00",
+  "sha256": "76c9e23ab7db82a1af9552716173ad52246ceb1bbcafbadd466ad10c85a05ae8",
+  "usage": {
+    "input_tokens": 146,
+    "output_tokens": 138
+  },
+  "problem_id": "p047",
+  "probe_type": "surface",
+  "target_premise": "P4",
+  "prompt": "Given the following premises:\n1. Frolpuses are frulpuses\n2. Frulpuses are frarpuses\n3. Frarpuses are frerpuses\n4. Every frerpus is a frorpus\n5. Ink is a frolpus\n\nQuestion: Is Ink a frorpus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Frolpuses are frulpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Frulpuses are frarpuses"
+    },
+    {
+      "id": "P3",
+      "text": "Frarpuses are frerpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Every frerpus is a frorpus"
+    },
+    {
+      "id": "P5",
+      "text": "Ink is a frolpus"
+    }
+  ],
+  "substitution": null,
+  "original_text": "Frerpuses are frorpuses",
+  "rephrased_text": "Every frerpus is a frorpus"
+}

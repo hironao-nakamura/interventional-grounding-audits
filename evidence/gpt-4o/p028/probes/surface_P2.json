@@ -1,0 +1,37 @@
+{
+  "raw_response": "Step 1: Since Cranduses are crenduses and Milo is a crandus, Milo is a crendus.\nStep 2: Since every crendus is a creltus and Milo is a crendus, Milo is a creltus.\nStep 3: Since creltuses are croltuses and Milo is a creltus, Milo is a croltus.\n\nAnswer: True",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:43:56.247424+00:00",
+  "sha256": "eabc3a6839ea7d513699b88d245c3a6799c3ed446ed5b39018442f2c9f43e663",
+  "usage": {
+    "prompt_tokens": 117,
+    "completion_tokens": 84,
+    "total_tokens": 201
+  },
+  "problem_id": "p028",
+  "probe_type": "surface",
+  "target_premise": "P2",
+  "prompt": "Given the following premises:\n1. Cranduses are crenduses\n2. Every crendus is a creltus\n3. Creltuses are croltuses\n4. Milo is a crandus\n\nQuestion: Is Milo a croltus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Cranduses are crenduses"
+    },
+    {
+      "id": "P2",
+      "text": "Every crendus is a creltus"
+    },
+    {
+      "id": "P3",
+      "text": "Creltuses are croltuses"
+    },
+    {
+      "id": "P4",
+      "text": "Milo is a crandus"
+    }
+  ],
+  "substitution": null,
+  "original_text": "Crenduses are creltuses",
+  "rephrased_text": "Every crendus is a creltus"
+}

@@ -1,0 +1,38 @@
+{
+  "raw_response": "Step 1: Uma is a drolvus (given in premise 4).\nStep 2: Since drolvuses are drilvuses (premise 1), Uma is a drilvus.\nStep 3: Since drilvuses are drulvuses (premise 2), Uma is a drulvus.\nStep 4: Since drulvuses are zqdrinkuses (premise 3), Uma is a zqdrinkus.\nStep 5: The question asks if Uma is a \"drinkus,\" but we've established Uma is a \"zqdrinkus,\" which is not the same as \"drinkus.\"\n\nAnswer: False",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T05:02:46.732134+00:00",
+  "sha256": "bccd7427ce2ded5bf016e5de3d2dedb9de25ffc862a11ca0e1953dc9a5e4c98e",
+  "usage": {
+    "input_tokens": 130,
+    "output_tokens": 148
+  },
+  "problem_id": "p035",
+  "probe_type": "local_semantic",
+  "target_premise": "P3",
+  "prompt": "Given the following premises:\n1. Drolvuses are drilvuses\n2. Drilvuses are drulvuses\n3. Drulvuses are zqdrinkuses\n4. Uma is a drolvus\n\nQuestion: Is Uma a drinkus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Drolvuses are drilvuses"
+    },
+    {
+      "id": "P2",
+      "text": "Drilvuses are drulvuses"
+    },
+    {
+      "id": "P3",
+      "text": "Drulvuses are zqdrinkuses"
+    },
+    {
+      "id": "P4",
+      "text": "Uma is a drolvus"
+    }
+  ],
+  "substitution": {
+    "drinkus": "zqdrinkus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

@@ -1,0 +1,46 @@
+{
+  "raw_response": "Step 1: Knox is a crunpus (given in premise 6).\nStep 2: Since crunpuses are crelnuses (premise 1), Knox is a crelnuse.\nStep 3: Since crelnuses are zqcrolnuses (premise 2), Knox is a zqcrolnuse.\nStep 4: Since zqcrolnuses are crilnuses (premise 3), Knox is a crilnuse.\nStep 5: Since crilnuses are not cralvuses (premise 4), Knox is not a cralvus.\n\nAnswer: False",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:59:17.419878+00:00",
+  "sha256": "d6aab64927fecd05f900b840f97e42e3e2b96a8ba17edd755cfb69ed37f3eb49",
+  "usage": {
+    "input_tokens": 161,
+    "output_tokens": 142
+  },
+  "problem_id": "p026",
+  "probe_type": "semantic",
+  "target_premise": "P2",
+  "prompt": "Given the following premises:\n1. Crunpuses are crelnuses\n2. Crelnuses are zqcrolnuses\n3. Zqcrolnuses are crilnuses\n4. Crilnuses are not cralvuses\n5. Crelvuses are crolvuses\n6. Knox is a crunpus\n\nQuestion: Is Knox a cralvus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Crunpuses are crelnuses"
+    },
+    {
+      "id": "P2",
+      "text": "Crelnuses are zqcrolnuses"
+    },
+    {
+      "id": "P3",
+      "text": "Zqcrolnuses are crilnuses"
+    },
+    {
+      "id": "P4",
+      "text": "Crilnuses are not cralvuses"
+    },
+    {
+      "id": "P5",
+      "text": "Crelvuses are crolvuses"
+    },
+    {
+      "id": "P6",
+      "text": "Knox is a crunpus"
+    }
+  ],
+  "substitution": {
+    "crolnus": "zqcrolnus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

@@ -1,0 +1,61 @@
+{
+  "problem_id": "p047",
+  "premises": [
+    {
+      "id": "P1",
+      "text": "Frolpuses are frulpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Frulpuses are frarpuses"
+    },
+    {
+      "id": "P3",
+      "text": "Frarpuses are frerpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Frerpuses are frorpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Ink is a frolpus"
+    }
+  ],
+  "question": "Is Ink a frorpus?",
+  "answer": true,
+  "proof_tree": [
+    {
+      "step": 1,
+      "conclusion": "is(ink, frulpus)",
+      "depends_on": [
+        "P5",
+        "P1"
+      ]
+    },
+    {
+      "step": 2,
+      "conclusion": "is(ink, frarpus)",
+      "depends_on": [
+        "S1",
+        "P2"
+      ]
+    },
+    {
+      "step": 3,
+      "conclusion": "is(ink, frerpus)",
+      "depends_on": [
+        "S2",
+        "P3"
+      ]
+    },
+    {
+      "step": 4,
+      "conclusion": "is(ink, frorpus)",
+      "depends_on": [
+        "S3",
+        "P4"
+      ]
+    }
+  ]
+}

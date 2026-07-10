@@ -1,0 +1,44 @@
+{
+  "raw_response": "Step 1: Kit is a frinkus (given in premise 6).\nStep 2: Since frinkuses are fronkuses (premise 1), Kit is a fronkus.\nStep 3: Since every fronkus is a frunkus (premise 2), Kit is a frunkus.\nStep 4: Since frunkuses are frankuses (premise 3), Kit is a frankus.\n\nAnswer: True",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T05:07:33.297347+00:00",
+  "sha256": "74cad490270e5826ac8194acfb4f3a321bd76a2d35a7f4bbe6ddff48411809db",
+  "usage": {
+    "input_tokens": 147,
+    "output_tokens": 99
+  },
+  "problem_id": "p049",
+  "probe_type": "surface",
+  "target_premise": "P2",
+  "prompt": "Given the following premises:\n1. Frinkuses are fronkuses\n2. Every fronkus is a frunkus\n3. Frunkuses are frankuses\n4. Frenkuses are fronduses\n5. Frinduses are frunduses\n6. Kit is a frinkus\n\nQuestion: Is Kit a frankus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Frinkuses are fronkuses"
+    },
+    {
+      "id": "P2",
+      "text": "Every fronkus is a frunkus"
+    },
+    {
+      "id": "P3",
+      "text": "Frunkuses are frankuses"
+    },
+    {
+      "id": "P4",
+      "text": "Frenkuses are fronduses"
+    },
+    {
+      "id": "P5",
+      "text": "Frinduses are frunduses"
+    },
+    {
+      "id": "P6",
+      "text": "Kit is a frinkus"
+    }
+  ],
+  "substitution": null,
+  "original_text": "Fronkuses are frunkuses",
+  "rephrased_text": "Every fronkus is a frunkus"
+}

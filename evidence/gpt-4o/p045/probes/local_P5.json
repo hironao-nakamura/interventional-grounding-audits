@@ -1,0 +1,43 @@
+{
+  "raw_response": "Step 1: Flonduses are flinduses, so if something is a flondus, it is also a flindus.\nStep 2: Flinduses are flunduses, so if something is a flindus, it is also a flundus.\nStep 3: Flunduses are flanduses, so if something is a flundus, it is also a flandus.\nStep 4: Glen is a zqflondus, but there is no information connecting zqflonduses to flonduses or any other category.\nStep 5: Without a connection between zqflonduses and flonduses, we cannot conclude that Glen is a flondus, flindus, flundus, or flandus.\n\nAnswer: False",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:45:32.336088+00:00",
+  "sha256": "eb0c47e0cdae5d1857e38916105cadc507bd77b41b1b4bbd58c38b4350fdaed2",
+  "usage": {
+    "prompt_tokens": 126,
+    "completion_tokens": 163,
+    "total_tokens": 289
+  },
+  "problem_id": "p045",
+  "probe_type": "local_semantic",
+  "target_premise": "P5",
+  "prompt": "Given the following premises:\n1. Flonduses are flinduses\n2. Flinduses are flunduses\n3. Flunduses are flanduses\n4. Flenduses are fleltuses\n5. Glen is a zqflondus\n\nQuestion: Is Glen a flandus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Flonduses are flinduses"
+    },
+    {
+      "id": "P2",
+      "text": "Flinduses are flunduses"
+    },
+    {
+      "id": "P3",
+      "text": "Flunduses are flanduses"
+    },
+    {
+      "id": "P4",
+      "text": "Flenduses are fleltuses"
+    },
+    {
+      "id": "P5",
+      "text": "Glen is a zqflondus"
+    }
+  ],
+  "substitution": {
+    "flondus": "zqflondus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

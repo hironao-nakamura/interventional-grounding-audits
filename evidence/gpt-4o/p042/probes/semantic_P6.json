@@ -1,0 +1,47 @@
+{
+  "raw_response": "Step 1: Since Zqflompuses are flumpuses and Dove is a zqflompus, Dove is a flumpus.\nStep 2: Since Flumpuses are flalpuses and Dove is a flumpus, Dove is a flalpuse.\nStep 3: Since Flalpuses are flelpuses and Dove is a flalpuse, Dove is a flelpuse.\nStep 4: Since Flelpsuses are flolpuses and Dove is a flelpuse, Dove is a flolpuse.\nStep 5: Since Flolpuses are not flulpuses and Dove is a flolpuse, Dove is not a flulpus.\n\nAnswer: False",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:45:19.632325+00:00",
+  "sha256": "c00fae62b1fa4da6a6ce2ba9663f08893832940994903e27e9ff0ad66fde6ffd",
+  "usage": {
+    "prompt_tokens": 142,
+    "completion_tokens": 149,
+    "total_tokens": 291
+  },
+  "problem_id": "p042",
+  "probe_type": "semantic",
+  "target_premise": "P6",
+  "prompt": "Given the following premises:\n1. Zqflompuses are flumpuses\n2. Flumpuses are flalpuses\n3. Flalpuses are flelpuses\n4. Flelpuses are flolpuses\n5. Flolpuses are not flulpuses\n6. Dove is a zqflompus\n\nQuestion: Is Dove a flulpus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Zqflompuses are flumpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Flumpuses are flalpuses"
+    },
+    {
+      "id": "P3",
+      "text": "Flalpuses are flelpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Flelpuses are flolpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Flolpuses are not flulpuses"
+    },
+    {
+      "id": "P6",
+      "text": "Dove is a zqflompus"
+    }
+  ],
+  "substitution": {
+    "flompus": "zqflompus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

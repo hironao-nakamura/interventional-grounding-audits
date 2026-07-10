@@ -1,0 +1,39 @@
+{
+  "raw_response": "Step 1: Since clolpuses are zqclulpuses, Drake, being a clolpus, is a zqclulpus.\nStep 2: Since zqclulpuses are clarpuses, Drake, being a zqclulpus, is a clarpus.\nStep 3: Since clarpuses are clerpuses, Drake, being a clarpus, is a clerpus.\n\nAnswer: True",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:43:12.717603+00:00",
+  "sha256": "3d8269c6989de149ca0bd1570fb8115806c4db381e7ee3c8125f397a86d84b75",
+  "usage": {
+    "prompt_tokens": 119,
+    "completion_tokens": 90,
+    "total_tokens": 209
+  },
+  "problem_id": "p020",
+  "probe_type": "semantic",
+  "target_premise": "P1",
+  "prompt": "Given the following premises:\n1. Clolpuses are zqclulpuses\n2. Zqclulpuses are clarpuses\n3. Clarpuses are clerpuses\n4. Drake is a clolpus\n\nQuestion: Is Drake a clerpus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Clolpuses are zqclulpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Zqclulpuses are clarpuses"
+    },
+    {
+      "id": "P3",
+      "text": "Clarpuses are clerpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Drake is a clolpus"
+    }
+  ],
+  "substitution": {
+    "clulpus": "zqclulpus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

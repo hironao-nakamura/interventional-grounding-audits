@@ -1,0 +1,43 @@
+{
+  "raw_response": "Step 1: Xara is a drendus, and since all drenduses are dreltuses, Xara is a dreltus.\nStep 2: Since all dreltuses are zqdroltuses, Xara is a zqdroltus.\nStep 3: Since zqdroltuses are not driltuses, Xara is not a driltus.\n\nAnswer: False",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:44:38.840329+00:00",
+  "sha256": "85adab207906f6b1895a9fa5816d670c8c8fd95b288e75d0fd18820cb61e6f48",
+  "usage": {
+    "prompt_tokens": 131,
+    "completion_tokens": 84,
+    "total_tokens": 215
+  },
+  "problem_id": "p037",
+  "probe_type": "semantic",
+  "target_premise": "P2",
+  "prompt": "Given the following premises:\n1. Drenduses are dreltuses\n2. Dreltuses are zqdroltuses\n3. Zqdroltuses are not driltuses\n4. Drultuses are fempuses\n5. Xara is a drendus\n\nQuestion: Is Xara a driltus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Drenduses are dreltuses"
+    },
+    {
+      "id": "P2",
+      "text": "Dreltuses are zqdroltuses"
+    },
+    {
+      "id": "P3",
+      "text": "Zqdroltuses are not driltuses"
+    },
+    {
+      "id": "P4",
+      "text": "Drultuses are fempuses"
+    },
+    {
+      "id": "P5",
+      "text": "Xara is a drendus"
+    }
+  ],
+  "substitution": {
+    "droltus": "zqdroltus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

@@ -1,0 +1,44 @@
+{
+  "raw_response": "Step 1: Iris is a brenkus (given in premise 6).\nStep 2: Since brenkuses are bronduses (premise 1), Iris is a brondus.\nStep 3: Since every brondus is a brindus (premise 2), Iris is a brindus.\nStep 4: Since brinduses are brunduses (premise 3), Iris is a brundus.\n\nAnswer: True",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:55:48.588436+00:00",
+  "sha256": "791b0938f295142aa8d8b3a0ee8b62cc27af4ba210853e9b5b4d13755cf3f443",
+  "usage": {
+    "input_tokens": 149,
+    "output_tokens": 105
+  },
+  "problem_id": "p014",
+  "probe_type": "surface",
+  "target_premise": "P2",
+  "prompt": "Given the following premises:\n1. Brenkuses are bronduses\n2. Every brondus is a brindus\n3. Brinduses are brunduses\n4. Branduses are brenduses\n5. Breltuses are broltuses\n6. Iris is a brenkus\n\nQuestion: Is Iris a brundus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Brenkuses are bronduses"
+    },
+    {
+      "id": "P2",
+      "text": "Every brondus is a brindus"
+    },
+    {
+      "id": "P3",
+      "text": "Brinduses are brunduses"
+    },
+    {
+      "id": "P4",
+      "text": "Branduses are brenduses"
+    },
+    {
+      "id": "P5",
+      "text": "Breltuses are broltuses"
+    },
+    {
+      "id": "P6",
+      "text": "Iris is a brenkus"
+    }
+  ],
+  "substitution": null,
+  "original_text": "Bronduses are brinduses",
+  "rephrased_text": "Every brondus is a brindus"
+}

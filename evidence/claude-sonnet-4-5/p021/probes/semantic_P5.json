@@ -1,0 +1,42 @@
+{
+  "raw_response": "Step 1: Finn is a zqclanpus (given in premise 5).\nStep 2: Since zqclanpuses are clenpuses (premise 1), Finn is a clenpus.\nStep 3: Since clenpuses are clonpuses (premise 2), Finn is a clonpus.\nStep 4: Since clonpuses are not clunpuses (premise 3), Finn is not a clunpus.\n\nAnswer: False",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:58:25.156996+00:00",
+  "sha256": "63036252b9bf819bc44ddffc73d2c542c2be9dc98238ebafdeaa472c1d4f2017",
+  "usage": {
+    "input_tokens": 151,
+    "output_tokens": 116
+  },
+  "problem_id": "p021",
+  "probe_type": "semantic",
+  "target_premise": "P5",
+  "prompt": "Given the following premises:\n1. Zqclanpuses are clenpuses\n2. Clenpuses are clonpuses\n3. Clonpuses are not clunpuses\n4. Clelnuses are clolnuses\n5. Finn is a zqclanpus\n\nQuestion: Is Finn a clunpus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Zqclanpuses are clenpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Clenpuses are clonpuses"
+    },
+    {
+      "id": "P3",
+      "text": "Clonpuses are not clunpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Clelnuses are clolnuses"
+    },
+    {
+      "id": "P5",
+      "text": "Finn is a zqclanpus"
+    }
+  ],
+  "substitution": {
+    "clanpus": "zqclanpus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

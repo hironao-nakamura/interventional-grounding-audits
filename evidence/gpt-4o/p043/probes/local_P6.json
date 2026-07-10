@@ -1,0 +1,47 @@
+{
+  "raw_response": "Step 1: Florpuses are flurpuses, and flurpuses are flanpuses, so florpuses are flanpuses.\nStep 2: Flanpuses are flenpuses, so florpuses are flenpuses.\nStep 3: Elm is a zqflorpus, but there is no information connecting zqflorpuses to florpuses or flenpuses.\nStep 4: Without a connection between zqflorpuses and flenpuses, we cannot conclude that Elm is a flenpus.\n\nAnswer: False",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:45:21.867331+00:00",
+  "sha256": "1848028dcca108b6840f5be0f36db6373741f72f9a90c5597d00c71287bc559d",
+  "usage": {
+    "prompt_tokens": 141,
+    "completion_tokens": 122,
+    "total_tokens": 263
+  },
+  "problem_id": "p043",
+  "probe_type": "local_semantic",
+  "target_premise": "P6",
+  "prompt": "Given the following premises:\n1. Florpuses are flurpuses\n2. Flurpuses are flanpuses\n3. Flanpuses are flenpuses\n4. Flonpuses are flunpuses\n5. Flelnuses are flolnuses\n6. Elm is a zqflorpus\n\nQuestion: Is Elm a flenpus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Florpuses are flurpuses"
+    },
+    {
+      "id": "P2",
+      "text": "Flurpuses are flanpuses"
+    },
+    {
+      "id": "P3",
+      "text": "Flanpuses are flenpuses"
+    },
+    {
+      "id": "P4",
+      "text": "Flonpuses are flunpuses"
+    },
+    {
+      "id": "P5",
+      "text": "Flelnuses are flolnuses"
+    },
+    {
+      "id": "P6",
+      "text": "Elm is a zqflorpus"
+    }
+  ],
+  "substitution": {
+    "florpus": "zqflorpus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

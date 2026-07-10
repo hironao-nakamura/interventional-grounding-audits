@@ -1,0 +1,42 @@
+{
+  "raw_response": "Step 1: Lark is a crinkus (given in premise 5).\nStep 2: Since crinkuses are cronkuses (premise 1), Lark is a cronkus.\nStep 3: Since cronkuses are zqcrunkuses (premise 2), Lark is a zqcrunkus.\nStep 4: The premises tell us that crunkuses are not crankuses (premise 3), but we need to determine if Lark being a zqcrunkus makes Lark a crunkus.\nStep 5: A zqcrunkus is not stated to be the same as a crunkus, so we cannot conclude that Lark is a crunkus.\nStep 6: Since we cannot establish that Lark is a crunkus, we cannot use premise 3 to determine if Lark is a crankus.\nStep 7: There is no chain of reasoning from the given premises that establishes Lark as a crankus.\n\nAnswer: False",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:59:58.121358+00:00",
+  "sha256": "a0576a95e613daf95c2fbb9ea13e674b7946d89811b5d5e250d3434b52209370",
+  "usage": {
+    "input_tokens": 144,
+    "output_tokens": 235
+  },
+  "problem_id": "p027",
+  "probe_type": "local_semantic",
+  "target_premise": "P2",
+  "prompt": "Given the following premises:\n1. Crinkuses are cronkuses\n2. Cronkuses are zqcrunkuses\n3. Crunkuses are not crankuses\n4. Crenkuses are cronduses\n5. Lark is a crinkus\n\nQuestion: Is Lark a crankus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Crinkuses are cronkuses"
+    },
+    {
+      "id": "P2",
+      "text": "Cronkuses are zqcrunkuses"
+    },
+    {
+      "id": "P3",
+      "text": "Crunkuses are not crankuses"
+    },
+    {
+      "id": "P4",
+      "text": "Crenkuses are cronduses"
+    },
+    {
+      "id": "P5",
+      "text": "Lark is a crinkus"
+    }
+  ],
+  "substitution": {
+    "crunkus": "zqcrunkus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

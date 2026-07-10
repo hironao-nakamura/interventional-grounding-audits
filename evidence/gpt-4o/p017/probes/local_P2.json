@@ -1,0 +1,47 @@
+{
+  "raw_response": "Step 1: Since Chelnuses are Cholnuses and Juno is a Chelnus, Juno is a Cholnus.\nStep 2: Since Cholnuses are Zqchilnuses and Juno is a Cholnus, Juno is a Zqchilnus.\nStep 3: Since Chilnuses are Chalvuses, we need to establish if Juno is a Chilnus, but we don't have a direct link from Zqchilnuses to Chilnuses.\nStep 4: Since Chalvuses are Chelvuses, we need to establish if Juno is a Chalvus, but we don't have a direct link from Zqchilnuses to Chalvuses.\nStep 5: Since Cholvuses are Chilnuses, we need to establish if Juno is a Cholvus, but we don't have a direct link from Zqchilnuses to Cholvuses.\nStep 6: There is no direct or indirect link provided that connects Zqchilnuses to Chelvuses.\n\nAnswer: False",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:43:17.336634+00:00",
+  "sha256": "fbedc1adfb457413f8407226f6f7baae113b59d2ce656f57e571d28a41d47e8e",
+  "usage": {
+    "prompt_tokens": 139,
+    "completion_tokens": 215,
+    "total_tokens": 354
+  },
+  "problem_id": "p017",
+  "probe_type": "local_semantic",
+  "target_premise": "P2",
+  "prompt": "Given the following premises:\n1. Chelnuses are cholnuses\n2. Cholnuses are zqchilnuses\n3. Chilnuses are chalvuses\n4. Chalvuses are chelvuses\n5. Cholvuses are chilvuses\n6. Juno is a chelnus\n\nQuestion: Is Juno a chelvus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Chelnuses are cholnuses"
+    },
+    {
+      "id": "P2",
+      "text": "Cholnuses are zqchilnuses"
+    },
+    {
+      "id": "P3",
+      "text": "Chilnuses are chalvuses"
+    },
+    {
+      "id": "P4",
+      "text": "Chalvuses are chelvuses"
+    },
+    {
+      "id": "P5",
+      "text": "Cholvuses are chilvuses"
+    },
+    {
+      "id": "P6",
+      "text": "Juno is a chelnus"
+    }
+  ],
+  "substitution": {
+    "chilnus": "zqchilnus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

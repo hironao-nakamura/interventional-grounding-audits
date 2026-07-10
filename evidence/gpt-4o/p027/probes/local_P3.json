@@ -1,0 +1,43 @@
+{
+  "raw_response": "Step 1: Lark is a crinkus, and since all crinkuses are cronkuses, Lark is a cronkus.\nStep 2: Since all cronkuses are crunkuses, Lark is a crunkus.\nStep 3: Crunkuses are not zqcrankuses, but this does not provide information about whether crunkuses are crankuses.\nStep 4: There is no information given about the relationship between crunkuses and crankuses.\nStep 5: Therefore, we cannot conclude that Lark is a crankus based on the given premises.\n\nAnswer: False",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:43:53.867876+00:00",
+  "sha256": "1f44620f6e7d085a7ce38ec935bba98697118e492c6ae00f0589d94871cbeae5",
+  "usage": {
+    "prompt_tokens": 130,
+    "completion_tokens": 128,
+    "total_tokens": 258
+  },
+  "problem_id": "p027",
+  "probe_type": "local_semantic",
+  "target_premise": "P3",
+  "prompt": "Given the following premises:\n1. Crinkuses are cronkuses\n2. Cronkuses are crunkuses\n3. Crunkuses are not zqcrankuses\n4. Crenkuses are cronduses\n5. Lark is a crinkus\n\nQuestion: Is Lark a crankus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Crinkuses are cronkuses"
+    },
+    {
+      "id": "P2",
+      "text": "Cronkuses are crunkuses"
+    },
+    {
+      "id": "P3",
+      "text": "Crunkuses are not zqcrankuses"
+    },
+    {
+      "id": "P4",
+      "text": "Crenkuses are cronduses"
+    },
+    {
+      "id": "P5",
+      "text": "Lark is a crinkus"
+    }
+  ],
+  "substitution": {
+    "crankus": "zqcrankus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}

@@ -1,0 +1,48 @@
+{
+  "raw_response": "Step 1: Stella is a bonkus (given in premise 7).\nStep 2: Since every bonkus is a bunkus (premise 1), Stella is a bunkus.\nStep 3: Since bunkuses are bankuses (premise 2), Stella is a bankus.\nStep 4: Since bankuses are benkuses (premise 3), Stella is a benkus.\nStep 5: Since benkuses are bonduses (premise 4), Stella is a bondus.\nStep 6: Since bonduses are binduses (premise 5), Stella is a bindus.\n\nAnswer: True",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T04:52:47.600489+00:00",
+  "sha256": "8911148d3a708a8d1ecbfd9207fe9d170fa643b94ca55decf99fcba7e4c33e67",
+  "usage": {
+    "input_tokens": 154,
+    "output_tokens": 149
+  },
+  "problem_id": "p004",
+  "probe_type": "surface",
+  "target_premise": "P1",
+  "prompt": "Given the following premises:\n1. Every bonkus is a bunkus\n2. Bunkuses are bankuses\n3. Bankuses are benkuses\n4. Benkuses are bonduses\n5. Bonduses are binduses\n6. Bunduses are banduses\n7. Stella is a bonkus\n\nQuestion: Is Stella a bindus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Every bonkus is a bunkus"
+    },
+    {
+      "id": "P2",
+      "text": "Bunkuses are bankuses"
+    },
+    {
+      "id": "P3",
+      "text": "Bankuses are benkuses"
+    },
+    {
+      "id": "P4",
+      "text": "Benkuses are bonduses"
+    },
+    {
+      "id": "P5",
+      "text": "Bonduses are binduses"
+    },
+    {
+      "id": "P6",
+      "text": "Bunduses are banduses"
+    },
+    {
+      "id": "P7",
+      "text": "Stella is a bonkus"
+    }
+  ],
+  "substitution": null,
+  "original_text": "Bonkuses are bunkuses",
+  "rephrased_text": "Every bonkus is a bunkus"
+}

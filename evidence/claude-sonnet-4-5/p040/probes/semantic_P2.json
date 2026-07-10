@@ -1,0 +1,50 @@
+{
+  "raw_response": "Step 1: Bree is a felvus (given in premise 7).\nStep 2: Since felvuses are folvuses (premise 1), Bree is a folvus.\nStep 3: Since folvuses are zqfilvuses (premise 2), Bree is a zqfilvus.\nStep 4: Since zqfilvuses are fulvuses (premise 3), Bree is a fulvus.\nStep 5: Since fulvuses are finkuses (premise 4), Bree is a finkus.\nStep 6: Since finkuses are not fonkuses (premise 5), Bree is not a fonkus.\n\nAnswer: False",
+  "model": "claude-sonnet-4-5-20250929",
+  "temperature": 0,
+  "timestamp": "2026-07-10T05:04:13.152563+00:00",
+  "sha256": "a39764a5853d9e3d09b867caa3d729731d71fb1547f44cc96f23aa1221548468",
+  "usage": {
+    "input_tokens": 167,
+    "output_tokens": 169
+  },
+  "problem_id": "p040",
+  "probe_type": "semantic",
+  "target_premise": "P2",
+  "prompt": "Given the following premises:\n1. Felvuses are folvuses\n2. Folvuses are zqfilvuses\n3. Zqfilvuses are fulvuses\n4. Fulvuses are finkuses\n5. Finkuses are not fonkuses\n6. Funkuses are fankuses\n7. Bree is a felvus\n\nQuestion: Is Bree a fonkus?\n\nSolve step by step. For each step, write EXACTLY in this format:\nStep 1: [Your conclusion in one sentence].\nStep 2: [Your conclusion in one sentence].\n...\n\nAfter all steps, write exactly:\nAnswer: True\nor\nAnswer: False",
+  "modified_premises": [
+    {
+      "id": "P1",
+      "text": "Felvuses are folvuses"
+    },
+    {
+      "id": "P2",
+      "text": "Folvuses are zqfilvuses"
+    },
+    {
+      "id": "P3",
+      "text": "Zqfilvuses are fulvuses"
+    },
+    {
+      "id": "P4",
+      "text": "Fulvuses are finkuses"
+    },
+    {
+      "id": "P5",
+      "text": "Finkuses are not fonkuses"
+    },
+    {
+      "id": "P6",
+      "text": "Funkuses are fankuses"
+    },
+    {
+      "id": "P7",
+      "text": "Bree is a felvus"
+    }
+  ],
+  "substitution": {
+    "filvus": "zqfilvus"
+  },
+  "original_text": null,
+  "rephrased_text": null
+}
