@@ -27,6 +27,8 @@ the paper, plus the exact pipeline code that produced them.
 - Workshop-accepted artifact: [`workshop-accepted`](https://github.com/hironao-nakamura/interventional-grounding-audits/releases/tag/workshop-accepted)
 - Corrected arXiv artifact (this tree): [`arxiv-v1.0`](https://github.com/hironao-nakamura/interventional-grounding-audits/releases/tag/arxiv-v1.0)
 
+**License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) (same as the arXiv version). See `LICENSE`.
+
 ---
 
 ## Quick Start (5 minutes)
